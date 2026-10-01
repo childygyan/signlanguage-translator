@@ -32,11 +32,10 @@
 - https://signlanguage-translator.com/signs/<slug>/ — individual sign pages
 - https://signlanguage-translator.com/alphabet/ — A–Z and 0–10 reference
 - https://signlanguage-translator.com/about/ — about, methodology, limitations
-- https://signlanguage-translator.com/contact/ — email and phone
+- https://signlanguage-translator.com/contact/ — email
 - https://signlanguage-translator.com/privacy-policy/
 - https://signlanguage-translator.com/terms-of-service/
 
 ## Contact
 
 - Email: fkdigitalmedia@gmail.com
-- Phone: +91 70305 01069
