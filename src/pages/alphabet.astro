@@ -3,24 +3,41 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import type { AlphabetEntry, NumberEntry } from "../lib/types";
 import alphabetData from "../data/alphabet.json";
 import numbersData from "../data/numbers.json";
+import bslAlphabetData from "../data/bsl-alphabet.json";
+import bslNumbersData from "../data/bsl-numbers.json";
 
 const letters = alphabetData as AlphabetEntry[];
 const numbers = numbersData as NumberEntry[];
+const bslLetters = bslAlphabetData as AlphabetEntry[];
+const bslNumbers = bslNumbersData as NumberEntry[];
+
+/**
+ * BSL letters with a small movement (research-backed): H slides off the base
+ * palm, J traces middle-finger → wrist → thumb. The JSON keeps motion:false
+ * per its schema; the movement is described in each handshape text and flagged
+ * here for the UI badge.
+ */
+const BSL_MOTION_LETTERS = new Set(["H", "J"]);
 ---
 
 <BaseLayout
-  title="ASL Alphabet & Numbers | Sign Language Translator"
-  description="The complete ASL fingerspelling reference: A–Z handshapes with motion notes, plus numbers 0–10."
+  title="ASL & BSL Alphabets | Sign Language Translator"
+  description="Fingerspelling references for ASL (one-handed A–Z, numbers 0–10) and BSL (two-handed A–Z, numbers 1–5) with handshape images and motion notes."
 >
   <div class="mx-auto max-w-6xl px-4 py-14 sm:px-6">
-    <h1 class="text-4xl font-extrabold text-slate-900">ASL Alphabet &amp; Numbers</h1>
+    <h1 class="text-4xl font-extrabold text-slate-900">Sign Language Alphabets</h1>
     <p class="mt-4 max-w-3xl text-lg text-slate-600">
-      The fingerspelling reference every ASL learner starts with. Letters marked
-      as <strong>motion letters</strong> are signed with movement, not a static
-      handshape.
+      Fingerspelling references for two different languages. ASL uses a
+      one-handed alphabet; BSL uses a two-handed alphabet where your
+      non-dominant hand acts as the base. The handshapes are completely
+      different — they cannot be swapped between languages.
     </p>
 
-    <h2 class="mt-12 text-2xl font-bold text-slate-900">Letters A–Z</h2>
+    <h2 class="mt-12 text-2xl font-bold text-slate-900">ASL Letters A–Z</h2>
+    <p class="mt-2 text-slate-600">
+      One-handed. Letters marked as <strong>motion letters</strong> are signed
+      with movement, not a static handshape.
+    </p>
     <ul class="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
       {letters.map((l) => (
         <li
@@ -47,7 +64,7 @@ const numbers = numbersData as NumberEntry[];
       ))}
     </ul>
 
-    <h2 class="mt-12 text-2xl font-bold text-slate-900">Numbers 0–10</h2>
+    <h2 class="mt-12 text-2xl font-bold text-slate-900">ASL Numbers 0–10</h2>
     <ul class="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
       {numbers.map((n) => (
         <li class="rounded-2xl border border-slate-200 bg-white p-5">
@@ -65,6 +82,84 @@ const numbers = numbersData as NumberEntry[];
       ))}
     </ul>
 
+    <h2 class="mt-16 text-2xl font-bold text-slate-900">BSL Letters A–Z</h2>
+    <p class="mt-2 max-w-3xl text-slate-600">
+      Two-handed — your non-dominant hand is the base. In the BSL alphabet the
+      vowels live on the base hand: <strong>A</strong> thumb,{" "}
+      <strong>E</strong> index, <strong>I</strong> middle, <strong>O</strong>{" "}
+      ring, <strong>U</strong> little finger. <strong>H</strong> and{" "}
+      <strong>J</strong> use a small movement; the image shows the starting
+      position.
+    </p>
+    <ul class="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+      {bslLetters.map((l) => {
+        const motion = BSL_MOTION_LETTERS.has(l.letter);
+        return (
+          <li
+            class={`rounded-2xl border p-5 ${motion ? "border-amber-400 bg-amber-50" : "border-slate-200 bg-white"}`}
+          >
+            <img
+              src={`/bsl-alphabet/${l.letter.toLowerCase()}.svg`}
+              alt={`BSL two-handed handshape for the letter ${l.letter}`}
+              class="mx-auto h-40 w-auto"
+              loading="lazy"
+            />
+            <div class="mt-3 flex items-center justify-between">
+              <span class="text-2xl font-extrabold text-slate-900" aria-label={`Letter ${l.letter}`}>
+                {l.letter}
+              </span>
+              {motion && (
+                <span class="rounded-full bg-amber-400 px-3 py-1 text-sm font-bold text-slate-900">
+                  Small movement
+                </span>
+              )}
+            </div>
+            <p class="mt-2 text-slate-700">{l.handshape}</p>
+          </li>
+        );
+      })}
+    </ul>
+    <p class="mt-4 text-sm text-slate-500">
+      BSL alphabet illustrations by{" "}
+      <a
+        class="underline underline-offset-2"
+        href="https://commons.wikimedia.org/wiki/User:Coloringbuddymike"
+      >
+        Coloringbuddymike
+      </a>
+      , via Wikimedia Commons, licensed{" "}
+      <a
+        class="underline underline-offset-2"
+        href="https://creativecommons.org/licenses/by-sa/3.0/"
+      >
+        CC BY-SA 3.0
+      </a>
+      .
+    </p>
+
+    <h2 class="mt-12 text-2xl font-bold text-slate-900">BSL Numbers 1–5</h2>
+    <p class="mt-2 max-w-3xl text-slate-600">
+      BSL numbers have their own signs and regional variation — these are the
+      widely taught adult one-handed forms. 0 and 6–10 vary by region and are
+      not covered yet.
+    </p>
+    <ul class="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+      {bslNumbers.map((n) => (
+        <li class="rounded-2xl border border-slate-200 bg-white p-5">
+          <span
+            class="mx-auto flex h-40 items-center justify-center text-7xl font-extrabold text-slate-800"
+            aria-hidden="true"
+          >
+            {n.digit}
+          </span>
+          <span class="mt-3 block text-2xl font-extrabold text-slate-900" aria-label={`Number ${n.digit}`}>
+            {n.digit}
+          </span>
+          <p class="mt-2 text-slate-700">{n.handshape}</p>
+        </li>
+      ))}
+    </ul>
+
     <div
       role="note"
       class="mt-10 rounded-xl border border-slate-200 bg-slate-50 px-5 py-4 text-slate-700"
@@ -72,9 +167,9 @@ const numbers = numbersData as NumberEntry[];
       <p class="font-semibold text-slate-900">Practice note</p>
       <p class="mt-1">
         Fingerspelling is for names and terms with no established sign — most
-        everyday ASL uses word-level signs. Learn these handshapes, then explore
-        the <a class="font-semibold text-indigo-700 underline" href="/dictionary/">sign dictionary</a> for
-        real vocabulary.
+        everyday signing uses word-level signs. Learn these handshapes, then
+        explore the <a class="font-semibold text-indigo-700 underline" href="/dictionary/">sign dictionary</a> for
+        real vocabulary in ASL and BSL.
       </p>
     </div>
   </div>

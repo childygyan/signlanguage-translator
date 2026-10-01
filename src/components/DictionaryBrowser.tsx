@@ -4,13 +4,15 @@ import type { Category, SignEntry } from "../lib/types";
 interface Props {
   signs: SignEntry[];
   categories: Category[];
+  /** Link prefix for sign pages, e.g. "/signs" or "/bsl-signs". */
+  basePath?: string;
 }
 
 function categoryName(categories: Category[], slug: string): string {
   return categories.find((c) => c.slug === slug)?.name ?? slug;
 }
 
-export default function DictionaryBrowser({ signs, categories }: Props) {
+export default function DictionaryBrowser({ signs, categories, basePath = "/signs" }: Props) {
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState("all");
 
@@ -79,7 +81,7 @@ export default function DictionaryBrowser({ signs, categories }: Props) {
               {filtered.map((s) => (
                 <li key={s.slug}>
                   <a
-                    href={`/signs/${s.slug}/`}
+                    href={`${basePath}/${s.slug}/`}
                     className="block h-full rounded-xl border border-slate-200 bg-white p-5 hover:border-indigo-700 hover:shadow-sm"
                   >
                     <p className="text-xl font-bold text-slate-900">{s.word}</p>

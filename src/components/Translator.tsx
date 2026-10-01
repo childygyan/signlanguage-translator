@@ -1,14 +1,19 @@
 import { useEffect, useRef, useState } from "react";
 import {
+  fingerspellAlt,
+  fingerspellImageSrc,
   fingerspellLetters,
+  isBslPending,
   isMotionLetter,
   translateText,
+  type SignLanguage,
   type TranslationToken,
 } from "../lib/signMatcher";
 
 const MIN_SPEED_MS = 600;
 const MAX_SPEED_MS = 3000;
 const DEFAULT_SPEED_MS = 1400;
+const LANG_STORAGE_KEY = "slt-lang";
 
 interface SpeechRecognitionInstance {
   lang: string;
@@ -29,15 +34,78 @@ function getSpeechRecognitionCtor(): SpeechRecognitionCtor | null {
   return (ctor as SpeechRecognitionCtor | undefined) ?? null;
 }
 
-function FingerspellCard({ word }: { word: string }) {
+function readStoredLang(): SignLanguage {
+  if (typeof window === "undefined") return "asl";
+  try {
+    return window.localStorage.getItem(LANG_STORAGE_KEY) === "bsl" ? "bsl" : "asl";
+  } catch {
+    return "asl";
+  }
+}
+
+function LanguageToggle({
+  lang,
+  onChange,
+}: {
+  lang: SignLanguage;
+  onChange: (lang: SignLanguage) => void;
+}) {
+  const options: { value: SignLanguage; label: string; hint: string }[] = [
+    { value: "asl", label: "ASL", hint: "American Sign Language" },
+    { value: "bsl", label: "BSL", hint: "British Sign Language" },
+  ];
+  return (
+    <div
+      role="group"
+      aria-label="Sign language"
+      className="inline-flex rounded-xl border-2 border-slate-300 bg-slate-50 p-1"
+    >
+      {options.map((opt) => {
+        const active = lang === opt.value;
+        return (
+          <button
+            key={opt.value}
+            type="button"
+            aria-pressed={active}
+            title={opt.hint}
+            onClick={() => onChange(opt.value)}
+            className={`rounded-lg px-6 py-2 text-lg font-bold transition-colors ${
+              active
+                ? "bg-indigo-700 text-white shadow-sm"
+                : "text-slate-600 hover:text-indigo-700"
+            }`}
+          >
+            {opt.label}
+          </button>
+        );
+      })}
+    </div>
+  );
+}
+
+function FingerspellCard({
+  word,
+  lang,
+}: {
+  word: string;
+  lang: SignLanguage;
+}) {
   const letters = fingerspellLetters(word);
-  const hasMotion = letters.some(isMotionLetter);
+  const hasMotion = letters.some((ch) => isMotionLetter(ch, lang));
+  const pending = lang === "bsl" && isBslPending(word);
   return (
     <div>
       <p className="text-sm font-semibold uppercase tracking-wide text-slate-500">
-        Fingerspelled
+        Fingerspelled{lang === "bsl" ? " (BSL)" : ""}
       </p>
       <p className="mt-1 text-2xl font-bold text-slate-900">{word}</p>
+      {pending && (
+        <p className="mt-3 rounded-lg bg-sky-50 px-3 py-2 text-sm text-sky-900">
+          We haven&apos;t researched the BSL sign for{" "}
+          <strong>{word}</strong> yet, so it&apos;s fingerspelled for now —
+          never substituted with an ASL sign.
+        </p>
+      )}
       {letters.length > 0 ? (
         <div
           className="mt-4 flex flex-wrap gap-2"
@@ -45,27 +113,34 @@ function FingerspellCard({ word }: { word: string }) {
           aria-label={`Fingerspelling for ${word}`}
         >
           {letters.map((ch, i) => {
-            const isDigit = /[0-9]/.test(ch);
-            const src = isDigit
-              ? `/numbers/${ch}.svg`
-              : `/alphabet/${ch.toLowerCase()}.svg`;
+            const src = fingerspellImageSrc(ch, lang);
+            const motion = isMotionLetter(ch, lang);
             return (
               <span
                 key={`${ch}-${i}`}
                 role="listitem"
                 aria-label={ch}
                 className={`flex h-28 w-24 items-center justify-center rounded-lg border-2 p-1.5 ${
-                  isMotionLetter(ch)
+                  motion
                     ? "border-amber-500 bg-amber-50"
                     : "border-slate-300 bg-slate-50"
                 }`}
               >
-                <img
-                  src={src}
-                  alt={`ASL handshape for ${isDigit ? "number" : "letter"} ${ch}`}
-                  className="h-full w-auto"
-                  loading="lazy"
-                />
+                {src ? (
+                  <img
+                    src={src}
+                    alt={fingerspellAlt(ch, lang)}
+                    className="h-full w-auto"
+                    loading="lazy"
+                  />
+                ) : (
+                  <span
+                    className="text-4xl font-extrabold text-slate-700"
+                    aria-hidden="true"
+                  >
+                    {ch}
+                  </span>
+                )}
               </span>
             );
           })}
@@ -75,22 +150,33 @@ function FingerspellCard({ word }: { word: string }) {
           No letters or digits to fingerspell in this word.
         </p>
       )}
-      {hasMotion && (
+      {hasMotion && lang === "asl" && (
         <p className="mt-3 rounded-lg bg-amber-50 px-3 py-2 text-sm text-amber-900">
           Note: <strong>J</strong> and <strong>Z</strong> are signed with motion,
           not a static handshape.
+        </p>
+      )}
+      {hasMotion && lang === "bsl" && (
+        <p className="mt-3 rounded-lg bg-amber-50 px-3 py-2 text-sm text-amber-900">
+          Note: <strong>H</strong> and <strong>J</strong> use a small movement
+          in BSL fingerspelling — the handshape shown is the starting position.
         </p>
       )}
     </div>
   );
 }
 
-function SignCard({ token }: { token: Extract<TranslationToken, { kind: "sign" }> }) {
-  const { entry } = token;
+function SignCard({
+  token,
+}: {
+  token: Extract<TranslationToken, { kind: "sign" }>;
+}) {
+  const { entry, lang } = token;
+  const language = lang === "bsl" ? "BSL" : "ASL";
   return (
     <div>
       <p className="inline-block rounded-full bg-indigo-100 px-3 py-1 text-sm font-semibold text-indigo-800">
-        Dictionary sign
+        {language} dictionary sign
       </p>
       <p className="mt-2 text-2xl font-bold text-slate-900">{entry.word}</p>
       <ol className="mt-4 list-decimal space-y-2 pl-6 text-slate-800">
@@ -108,6 +194,7 @@ function SignCard({ token }: { token: Extract<TranslationToken, { kind: "sign" }
 }
 
 export default function Translator() {
+  const [lang, setLang] = useState<SignLanguage>(readStoredLang);
   const [input, setInput] = useState("");
   const [tokens, setTokens] = useState<TranslationToken[]>([]);
   const [index, setIndex] = useState(0);
@@ -136,8 +223,23 @@ export default function Translator() {
     return () => window.clearTimeout(id);
   }, [autoplay, index, speed, tokens.length]);
 
+  const handleLangChange = (next: SignLanguage) => {
+    setLang(next);
+    try {
+      window.localStorage.setItem(LANG_STORAGE_KEY, next);
+    } catch {
+      /* private mode — choice simply won't persist */
+    }
+    if (input.trim()) {
+      const result = translateText(input, next);
+      setTokens(result);
+      setIndex(0);
+      setAutoplay(false);
+    }
+  };
+
   const handleTranslate = () => {
-    const result = translateText(input);
+    const result = translateText(input, lang);
     setTokens(result);
     setIndex(0);
     setAutoplay(false);
@@ -182,8 +284,20 @@ export default function Translator() {
     window.speechSynthesis.speak(utterance);
   };
 
+  const languageName =
+    lang === "bsl" ? "British Sign Language" : "American Sign Language";
+
   return (
     <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
+      <div className="mb-6 flex flex-wrap items-center justify-between gap-4">
+        <LanguageToggle lang={lang} onChange={handleLangChange} />
+        <p className="text-sm text-slate-500">
+          {lang === "bsl"
+            ? "Two-handed alphabet · separate language from ASL"
+            : "One-handed alphabet · US & parts of Canada"}
+        </p>
+      </div>
+
       <div
         role="note"
         aria-label="Honest limitations"
@@ -191,8 +305,8 @@ export default function Translator() {
       >
         <p className="font-semibold">A learning aid — please read</p>
         <p className="mt-1">
-          ASL has its own grammar — word order differs from English. This is a
-          learning aid, not a substitute for a qualified interpreter.
+          {languageName} has its own grammar — word order differs from English.
+          This is a learning aid, not a substitute for a qualified interpreter.
         </p>
       </div>
 
@@ -207,7 +321,11 @@ export default function Translator() {
         rows={4}
         value={input}
         onChange={(e) => setInput(e.target.value)}
-        placeholder="Type an English sentence, for example: good morning"
+        placeholder={
+          lang === "bsl"
+            ? "Type an English sentence, for example: thank you"
+            : "Type an English sentence, for example: good morning"
+        }
         className="mt-2 w-full rounded-xl border border-slate-300 px-4 py-3 text-lg text-slate-900 placeholder:text-slate-400 focus:border-indigo-700"
       />
 
@@ -255,7 +373,8 @@ export default function Translator() {
           <div className="rounded-xl border border-dashed border-slate-300 bg-slate-50 px-6 py-10 text-center text-slate-600">
             <p className="text-lg font-medium">Your signs will appear here</p>
             <p className="mt-1">
-              Type some text above and press Translate to step through it sign by sign.
+              Type some text above and press Translate to step through it sign by
+              sign.
             </p>
           </div>
         ) : (
@@ -269,7 +388,7 @@ export default function Translator() {
               {token.kind === "sign" ? (
                 <SignCard token={token} />
               ) : (
-                <FingerspellCard word={token.word} />
+                <FingerspellCard word={token.word} lang={token.lang} />
               )}
             </div>
 

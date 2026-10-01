@@ -17,7 +17,11 @@ const faqs = [
   },
   {
     q: "Is sign language the same in every country?",
-    a: "No. American Sign Language is used in the United States and parts of Canada, but Britain uses British Sign Language (BSL), India uses Indian Sign Language (ISL), and so on. These are distinct languages, not dialects of one another. Everything on this site is ASL.",
+    a: "No. American Sign Language is used in the United States and parts of Canada, but Britain uses British Sign Language (BSL), India uses Indian Sign Language (ISL), and so on. These are distinct languages, not dialects of one another. This site covers both ASL and BSL — switch between them in the translator.",
+  },
+  {
+    q: "What is the difference between ASL and BSL?",
+    a: "They are completely separate languages. BSL uses a two-handed fingerspelling alphabet while ASL uses a one-handed one, and their word-level signs, grammar, and facial expressions differ too — knowing one does not mean knowing the other. On this site each language has its own independently researched dictionary, and the translator never substitutes an ASL sign where a BSL one belongs.",
   },
   {
     q: "Can this website replace a qualified ASL interpreter or teacher?",
@@ -31,19 +35,20 @@ const faqs = [
 ---
 
 <BaseLayout
-  title="Sign Language Translator | Text to ASL Signs"
-  description="Free learning aid that converts English text into American Sign Language sign sequences, with a word-level ASL dictionary and alphabet reference."
+  title="Sign Language Translator | Text to ASL & BSL Signs"
+  description="Free learning aid that converts English text into American Sign Language or British Sign Language sign sequences, with word-level ASL and BSL dictionaries and alphabet references."
 >
   <!-- Hero -->
   <section class="bg-gradient-to-b from-indigo-50 to-white">
     <div class="mx-auto max-w-6xl px-4 py-16 text-center sm:px-6 sm:py-20">
       <h1 class="mx-auto max-w-3xl text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl">
-        Translate Text into American Sign Language
+        Translate Text into ASL &amp; BSL
       </h1>
       <p class="mx-auto mt-6 max-w-2xl text-xl text-slate-600">
-        Type any sentence and step through it sign by sign. Words covered by our
-        dictionary show full ASL signs; everything else is fingerspelled letter
-        by letter. Free, private, and runs entirely in your browser.
+        Type any sentence and step through it sign by sign — in American Sign
+        Language or British Sign Language. Words covered by our dictionaries show
+        full signs; everything else is fingerspelled letter by letter. Free,
+        private, and runs entirely in your browser.
       </p>
       <div class="mt-8 flex flex-wrap justify-center gap-4">
         <a
@@ -65,11 +70,12 @@ const faqs = [
   <!-- Translator -->
   <section id="translator" aria-labelledby="translator-heading" class="mx-auto max-w-4xl scroll-mt-20 px-4 py-12 sm:px-6">
     <h2 id="translator-heading" class="text-3xl font-bold text-slate-900">
-      ASL Translator
+      ASL / BSL Translator
     </h2>
     <p class="mt-2 text-lg text-slate-600">
-      Enter English text below. The translator matches whole words and phrases
-      against the ASL dictionary first, then fingerspells anything not yet covered.
+      Pick a language above the translator, then enter English text. The
+      translator matches whole words and phrases against that language's
+      dictionary first, then fingerspells anything not yet covered.
     </p>
     <div class="mt-6">
       <Translator client:load />
@@ -82,10 +88,11 @@ const faqs = [
       <p class="font-semibold text-slate-900">How our sign descriptions are written</p>
       <p class="mt-1">
         Our dictionary entries are text-based, step-by-step guides researched from
-        established ASL references (Lifeprint, university and public-health
-        materials) and rewritten in original words. Signer-created photos and
-        videos are a planned future upgrade — no AI-generated hand images are used
-        anywhere on this site.
+        established references and rewritten in original words — ASL entries from
+        Lifeprint, university and public-health materials; BSL entries from BSL
+        SignBank, BDA-adjacent teaching materials and BSL dictionaries.
+        Signer-created photos and videos are a planned future upgrade — no
+        AI-generated hand images are used anywhere on this site.
       </p>
     </div>
   </section>
@@ -130,11 +137,11 @@ const faqs = [
     <div class="flex flex-wrap items-end justify-between gap-4">
       <div>
         <h2 id="dict-heading" class="text-3xl font-bold text-slate-900">
-          ASL signs dictionary
+          ASL &amp; BSL signs dictionaries
         </h2>
         <p class="mt-2 max-w-2xl text-lg text-slate-600">
-          Real word-level signs with step-by-step instructions — the way ASL is
-          actually signed, not letter by letter.
+          Real word-level signs with step-by-step instructions — the way each
+          language is actually signed, not letter by letter.
         </p>
       </div>
       <a
@@ -171,11 +178,12 @@ const faqs = [
   <section aria-labelledby="alpha-heading" class="border-y border-slate-200 bg-indigo-700">
     <div class="mx-auto max-w-6xl px-4 py-14 text-center sm:px-6">
       <h2 id="alpha-heading" class="text-3xl font-bold text-white">
-        Master the ASL alphabet
+        Master the ASL &amp; BSL alphabets
       </h2>
       <p class="mx-auto mt-3 max-w-2xl text-lg text-indigo-100">
-        The A–Z and 0–9 fingerspelling reference — the foundation every ASL learner
-        starts with, including which letters use motion.
+        The one-handed ASL A–Z and 0–9 reference plus the two-handed BSL A–Z —
+        the foundations every learner starts with, including which letters use
+        motion.
       </p>
       <a
         href="/alphabet/"
@@ -207,7 +215,7 @@ const faqs = [
   <section aria-labelledby="cta-heading" class="mx-auto max-w-6xl px-4 pb-16 sm:px-6">
     <div class="rounded-3xl bg-slate-900 px-6 py-14 text-center sm:px-12">
       <h2 id="cta-heading" class="text-3xl font-bold text-white">
-        Start learning ASL today
+        Start learning sign language today
       </h2>
       <p class="mx-auto mt-3 max-w-xl text-lg text-slate-300">
         Free forever. No account, no tracking — just type and start signing.

@@ -1,0 +1,659 @@
+[
+  {
+    "category": "greetings",
+    "related": [
+      "goodbye"
+    ],
+    "slug": "hello",
+    "steps": [
+      "Hold your dominant hand up near the side of your head.",
+      "Wave it gently from side to side with your palm facing outward.",
+      "Keep eye contact and smile while you wave."
+    ],
+    "tip": "The same wave is also used for 'hi' and 'bye' in BSL.",
+    "word": "Hello"
+  },
+  {
+    "category": "greetings",
+    "related": [
+      "hello"
+    ],
+    "slug": "goodbye",
+    "steps": [
+      "Raise your dominant hand near the side of your head, palm facing outward.",
+      "Wave it gently from side to side.",
+      "Hold eye contact briefly, then turn away naturally."
+    ],
+    "tip": "'Bye' uses the same wave; keep the movement relaxed, not exaggerated.",
+    "word": "Goodbye"
+  },
+  {
+    "category": "greetings",
+    "related": [
+      "please",
+      "sorry"
+    ],
+    "slug": "thank-you",
+    "steps": [
+      "Touch the fingertips of your flat dominant hand to your chin.",
+      "Move your hand down and away from your face in one smooth motion.",
+      "Mouth the words 'thank you' silently as you sign."
+    ],
+    "tip": "A small, quick movement is all you need in everyday conversation.",
+    "word": "Thank you"
+  },
+  {
+    "category": "greetings",
+    "related": [
+      "thank-you",
+      "sorry"
+    ],
+    "slug": "please",
+    "steps": [
+      "Touch the fingertips of your flat dominant hand to your chin.",
+      "Move your hand slightly forward and away from your face.",
+      "Mouth the word 'please' silently as you sign, since this is what distinguishes it from 'thank you'."
+    ],
+    "tip": "'Please' and 'thank you' share the same manual sign in BSL; the mouth pattern carries the meaning.",
+    "word": "Please"
+  },
+  {
+    "category": "greetings",
+    "related": [
+      "please"
+    ],
+    "slug": "sorry",
+    "steps": [
+      "Close your dominant hand into a fist.",
+      "Hold the fist against the centre of your chest.",
+      "Move it in small circles against your chest."
+    ],
+    "tip": "Mouth 'sorry' silently while signing to make it unmistakable.",
+    "word": "Sorry"
+  },
+  {
+    "category": "basics",
+    "related": [
+      "no"
+    ],
+    "slug": "yes",
+    "steps": [
+      "Close your hand into a fist.",
+      "Nod the fist up and down, like a head nodding.",
+      "Repeat the nodding motion a couple of times."
+    ],
+    "tip": "Pair the fist nod with an affirmative facial expression.",
+    "word": "Yes"
+  },
+  {
+    "category": "basics",
+    "related": [
+      "yes"
+    ],
+    "slug": "no",
+    "steps": [
+      "Extend your index and middle fingers.",
+      "Tap them against your thumb, like a mouth opening and closing as it says 'no'.",
+      "Add a slight head shake for emphasis if you like."
+    ],
+    "tip": "The tapping fingers look like lips mouthing the word 'no' — that visual link makes it easy to remember.",
+    "word": "No"
+  },
+  {
+    "category": "basics",
+    "related": [
+      "please"
+    ],
+    "slug": "help",
+    "steps": [
+      "Hold your non-dominant hand flat with the palm facing up.",
+      "Rest your dominant closed hand, thumb up, on top of that flat palm.",
+      "Keep the position steady, or lift it slightly."
+    ],
+    "tip": "The thumbs-up resting on the open palm reads visually as 'lifting someone up'.",
+    "word": "Help"
+  },
+  {
+    "category": "basics",
+    "related": [
+      "no"
+    ],
+    "slug": "stop",
+    "steps": [
+      "Raise your dominant hand, palm facing outward, fingers together.",
+      "Push it firmly forward toward the person or thing you want to stop.",
+      "Keep your expression serious to match a 'halt' command."
+    ],
+    "tip": "BSL has no single all-purpose 'stop': this is the halt command. For 'stop an activity', BSL signs more like CEASE/FINISH.",
+    "word": "Stop"
+  },
+  {
+    "category": "basics",
+    "related": [],
+    "slug": "come",
+    "steps": [
+      "Bend the index finger of your dominant hand into a hook.",
+      "Start with the hand in front of your body.",
+      "Pull the bent finger toward yourself, like beckoning."
+    ],
+    "tip": "Repeat the pull for emphasis, e.g. calling someone from a distance.",
+    "word": "Come"
+  },
+  {
+    "category": "basics",
+    "related": [
+      "need",
+      "like"
+    ],
+    "slug": "want",
+    "steps": [
+      "Hold your dominant hand flat, palm facing your chest.",
+      "Slide it down your chest, then twist your wrist so the palm turns outward."
+    ],
+    "tip": "Add a slight forward lean and a wanting expression on your face to sell the meaning.",
+    "word": "Want"
+  },
+  {
+    "category": "basics",
+    "related": [
+      "want"
+    ],
+    "slug": "need",
+    "steps": [
+      "BSL uses the same sign for NEED as for WANT.",
+      "Hold your dominant hand flat, palm facing your chest.",
+      "Slide it down your chest, finishing with a small outward twist of the wrist."
+    ],
+    "tip": "Since NEED shares its sign with WANT, sign extra context around it so your meaning is clear.",
+    "word": "Need"
+  },
+  {
+    "category": "basics",
+    "related": [
+      "want",
+      "love"
+    ],
+    "slug": "like",
+    "steps": [
+      "Hold your dominant hand flat with fingers together, thumb folded across (a closed flat hand).",
+      "Tap your chest with it once or twice."
+    ],
+    "tip": "Mouth the English word 'like' silently as you tap — mouthing is normal and expected in BSL.",
+    "word": "Like"
+  },
+  {
+    "category": "basics",
+    "related": [
+      "dont-know"
+    ],
+    "slug": "know",
+    "steps": [
+      "Make a fist with your thumb sticking out.",
+      "Tap the side of your head with your thumb, repeating the tap."
+    ],
+    "tip": "Make the thumb tap land visibly on the head — a vague wave near the face will not read clearly.",
+    "word": "Know"
+  },
+  {
+    "category": "basics",
+    "related": [
+      "know"
+    ],
+    "slug": "dont-know",
+    "steps": [
+      "Make the KNOW sign: fist with thumb out, tapping the side of your head.",
+      "While signing, shake your head side to side with a slight frown.",
+      "In BSL the headshake itself carries the negation — it happens during the sign, not after it."
+    ],
+    "tip": "Practise the headshake as part of the sign from day one; BSL negation is simultaneous, not sequential.",
+    "word": "Don't know"
+  },
+  {
+    "category": "family",
+    "related": [
+      "father",
+      "baby"
+    ],
+    "slug": "mother",
+    "steps": [
+      "Form the BSL letter M with your dominant hand.",
+      "Tap it against your open non-dominant palm twice."
+    ],
+    "tip": "Practise the two-handed BSL M shape on its own first, so the double tap lands cleanly on the palm.",
+    "word": "Mother"
+  },
+  {
+    "category": "family",
+    "related": [
+      "mother",
+      "baby"
+    ],
+    "slug": "father",
+    "steps": [
+      "Hold out your non-dominant hand with just the index and middle fingers extended.",
+      "Tap those two fingers twice with the index and middle fingers of your dominant hand — this is the BSL letter F signed twice."
+    ],
+    "tip": "Keep the two taps on the same fingertips and crisp; sloppy contact can look like a different sign.",
+    "word": "Father"
+  },
+  {
+    "category": "family",
+    "related": [
+      "mother",
+      "father"
+    ],
+    "slug": "baby",
+    "steps": [
+      "Hold both hands in front of your body, one resting over the other, arms bent as if cradling something.",
+      "Rock your hands gently from side to side, like holding a baby."
+    ],
+    "tip": "Slow the rocking right down when learning — the cradling mime reads best at half speed.",
+    "word": "Baby"
+  },
+  {
+    "category": "family",
+    "related": [
+      "hello"
+    ],
+    "slug": "friend",
+    "steps": [
+      "Clasp your non-dominant hand with your dominant hand in front of your body.",
+      "Make a small up-and-down bobbing movement with the clasped hands."
+    ],
+    "tip": "Keep the bob small and gentle — a big shake looks like washing your hands.",
+    "word": "Friend"
+  },
+  {
+    "category": "family",
+    "related": [
+      "girl",
+      "father"
+    ],
+    "slug": "boy",
+    "steps": [
+      "Extend only the index finger of your dominant hand.",
+      "Brush it along your chin, moving from your dominant side toward the other side."
+    ],
+    "tip": "Use the chin, not the cheek — BOY and GIRL live on different parts of the face.",
+    "word": "Boy"
+  },
+  {
+    "category": "family",
+    "related": [
+      "boy",
+      "mother"
+    ],
+    "slug": "girl",
+    "steps": [
+      "Make a closed fist with your index finger pointing up.",
+      "Brush the finger down your cheek twice."
+    ],
+    "tip": "Practise BOY then GIRL back to back — cheek versus chin — to lock in the difference.",
+    "word": "Girl"
+  },
+  {
+    "category": "food",
+    "related": [
+      "drink",
+      "hungry"
+    ],
+    "slug": "eat",
+    "steps": [
+      "Bring your fingertips and thumb together into a bunched shape.",
+      "Tap the bunched fingers against your mouth twice."
+    ],
+    "tip": "Make the double tap rhythmic, like taking two bites — the timing makes it instantly readable.",
+    "word": "Eat"
+  },
+  {
+    "category": "food",
+    "related": [
+      "eat",
+      "water"
+    ],
+    "slug": "drink",
+    "steps": [
+      "Curve your dominant hand into a loose C shape, as if holding a cup.",
+      "Lift the hand up to your mouth.",
+      "Tip your wrist toward your face, as though taking a drink from the cup."
+    ],
+    "tip": "Keep the motion small and repeat it once or twice; mouthing the word 'drink' helps hearing learners remember it.",
+    "word": "Drink"
+  },
+  {
+    "category": "food",
+    "related": [
+      "drink",
+      "thirsty"
+    ],
+    "slug": "water",
+    "steps": [
+      "Hold your dominant hand flat, fingers together and palm facing down.",
+      "Place the hand at the front of your throat.",
+      "Make two short downward movements against the throat."
+    ],
+    "tip": "The contact is light — a gentle tap against the throat, not a squeeze.",
+    "word": "Water"
+  },
+  {
+    "category": "food",
+    "related": [
+      "eat",
+      "thirsty"
+    ],
+    "slug": "hungry",
+    "steps": [
+      "Place your dominant hand flat on your stomach.",
+      "Rub the stomach in a small circular motion a few times.",
+      "Add a hungry facial expression to reinforce the meaning."
+    ],
+    "tip": "A small circle is enough — big sweeping movements look exaggerated rather than natural.",
+    "word": "Hungry"
+  },
+  {
+    "category": "food",
+    "related": [
+      "water",
+      "hungry"
+    ],
+    "slug": "thirsty",
+    "steps": [
+      "Bring your dominant hand, held flat, up to your throat.",
+      "Sweep the hand downward across the throat.",
+      "Repeat the downward movement once more for emphasis."
+    ],
+    "tip": "Keep the fingers together and the sweep short; the throat location is what carries the meaning.",
+    "word": "Thirsty"
+  },
+  {
+    "category": "food",
+    "related": [
+      "eat"
+    ],
+    "slug": "more",
+    "steps": [
+      "Hold both hands in a closed flat shape, fingertips touching thumbs.",
+      "Place your dominant hand just in front of the other at chest height.",
+      "Tap the dominant hand against the non-dominant hand repeatedly."
+    ],
+    "tip": "Two or three taps in a steady rhythm reads most naturally; mouthing 'more' helps beginners.",
+    "word": "More"
+  },
+  {
+    "category": "feelings",
+    "related": [
+      "sad",
+      "love"
+    ],
+    "slug": "happy",
+    "steps": [
+      "Open both hands, palms facing each other.",
+      "Tap the palm of your dominant hand against the palm of your non-dominant hand.",
+      "Repeat the tap twice with a bright, happy facial expression."
+    ],
+    "tip": "The facial expression does half the work — smile while you sign it, or it reads flat.",
+    "word": "Happy"
+  },
+  {
+    "category": "feelings",
+    "related": [
+      "happy"
+    ],
+    "slug": "sad",
+    "steps": [
+      "Hold your dominant hand flat and vertical in front of your face, thumb tucked in.",
+      "Drag the hand downward from nose level to chin level.",
+      "Wear a sad expression while you sign."
+    ],
+    "tip": "Let your face droop slightly — in BSL the expression carries the emotion, not just the hands.",
+    "word": "Sad"
+  },
+  {
+    "category": "feelings",
+    "related": [
+      "sad",
+      "happy"
+    ],
+    "slug": "angry",
+    "steps": [
+      "Curl both hands into claw shapes, fingertips bent.",
+      "Place the claws on your chest.",
+      "Drag both hands upward and outward, away from your body, with an angry face."
+    ],
+    "tip": "Keep the movement firm and decisive — a weak, slow movement reads as frustration rather than anger.",
+    "word": "Angry"
+  },
+  {
+    "category": "feelings",
+    "related": [
+      "sick"
+    ],
+    "slug": "tired",
+    "steps": [
+      "Place both hands in closed flat shapes on your chest, thumbs touching the chest.",
+      "Twist both hands downward until the palms rest flat against your chest.",
+      "Let your shoulders and head droop slightly with a weary expression."
+    ],
+    "tip": "Exaggerate the droop of the shoulders — the sinking body language is what makes 'tired' readable.",
+    "word": "Tired"
+  },
+  {
+    "category": "feelings",
+    "related": [
+      "pain"
+    ],
+    "slug": "sick",
+    "steps": [
+      "Extend the little finger of each hand, keeping the other fingers closed.",
+      "Rest the edges of both little fingers on your chest.",
+      "Brush both little fingers downward along your body, then repeat the movement once."
+    ],
+    "tip": "Think of the little fingers as sickness draining downward out of the body — that image fixes the movement in memory.",
+    "word": "Sick"
+  },
+  {
+    "category": "feelings",
+    "related": [
+      "sick"
+    ],
+    "slug": "pain",
+    "steps": [
+      "Hold both hands open in front of your body, palms facing toward you.",
+      "Move the hands alternately up and down.",
+      "Add a grimace that matches the severity of the pain."
+    ],
+    "tip": "Bigger alternating movements and a stronger grimace read as worse pain — scale the expression to the meaning.",
+    "word": "Pain"
+  },
+  {
+    "category": "feelings",
+    "related": [
+      "sad"
+    ],
+    "slug": "scared",
+    "steps": [
+      "Curl both hands into claw shapes.",
+      "Tap both claws against your chest repeatedly.",
+      "Widen your eyes with a frightened expression."
+    ],
+    "tip": "Tap quickly for a startled 'scared'; tap more slowly for a lingering sense of fear.",
+    "word": "Scared"
+  },
+  {
+    "category": "feelings",
+    "related": [
+      "like",
+      "i-love-you"
+    ],
+    "slug": "love",
+    "steps": [
+      "Flatten both hands, palms facing inward.",
+      "Cross both hands over your chest on the left side.",
+      "Give a small warm press inward with a gentle smile."
+    ],
+    "tip": "Think of pressing something precious to your heart — that is the image the sign is built on.",
+    "word": "Love"
+  },
+  {
+    "category": "time",
+    "related": [
+      "night"
+    ],
+    "slug": "morning",
+    "steps": [
+      "Bend the fingers of your dominant hand so the fingertips point downward.",
+      "Tap your fingertips against the far side of your chest.",
+      "Then tap them against the near side of your chest."
+    ],
+    "tip": "Tap lightly with the fingertips, not the whole hand, and keep your elbow relaxed.",
+    "word": "Morning"
+  },
+  {
+    "category": "time",
+    "related": [
+      "morning"
+    ],
+    "slug": "night",
+    "steps": [
+      "Hold both hands open in front of your body with palms facing inward.",
+      "Move both hands downward together until they finish flat and horizontal."
+    ],
+    "tip": "The same sign also covers 'dark' — lower the hands smoothly, as if night is falling.",
+    "word": "Night"
+  },
+  {
+    "category": "time",
+    "related": [
+      "time"
+    ],
+    "slug": "now",
+    "steps": [
+      "Hold both hands out in front of you, palms facing up, fingers together and flat.",
+      "Bounce both hands up and down together in unison, repeating the motion."
+    ],
+    "tip": "Keep both hands moving together at the same speed — the repetition marks 'right now'.",
+    "word": "Now"
+  },
+  {
+    "category": "time",
+    "related": [
+      "now"
+    ],
+    "slug": "time",
+    "steps": [
+      "Hold your non-dominant arm in front of you with the wrist facing up.",
+      "Tap the top of that wrist twice with your dominant index finger."
+    ],
+    "tip": "Tap where a watch would sit — the sign points at the wrist as if checking the time.",
+    "word": "Time"
+  },
+  {
+    "category": "questions",
+    "related": [
+      "what-is-your-name"
+    ],
+    "slug": "what",
+    "steps": [
+      "Hold your dominant index finger up in front of your body.",
+      "Wiggle your hand in short side-to-side movements.",
+      "Keep a questioning expression on your face while you sign."
+    ],
+    "tip": "The facial expression is part of the sign — raise your eyebrows to mark it as a question.",
+    "word": "What"
+  },
+  {
+    "category": "health",
+    "related": [
+      "pain"
+    ],
+    "slug": "hospital",
+    "steps": [
+      "Hold your non-dominant arm out in front of you.",
+      "With your dominant thumb, draw a small cross on top of your opposite forearm."
+    ],
+    "tip": "Only one written BSL source was found for this sign, and hospital signs vary regionally — confirm the local variant with a Deaf signer.",
+    "word": "Hospital"
+  },
+  {
+    "category": "everyday",
+    "related": [
+      "house"
+    ],
+    "slug": "bathroom",
+    "steps": [
+      "Hold your non-dominant hand out flat, palm facing up.",
+      "Tap the inside edge of that palm twice with your dominant index finger."
+    ],
+    "tip": "BSL uses the TOILET sign for 'bathroom' — the dictionary has no separate bathroom sign.",
+    "word": "Bathroom"
+  },
+  {
+    "category": "everyday",
+    "related": [
+      "house"
+    ],
+    "slug": "car",
+    "steps": [
+      "Hold both hands up in front of you with fingers closed, as if gripping a steering wheel.",
+      "Move both hands up and down in opposite directions, like turning the wheel."
+    ],
+    "tip": "Keep the movements small and alternating — it mimes turning a steering wheel.",
+    "word": "Car"
+  },
+  {
+    "category": "everyday",
+    "related": [
+      "school",
+      "car"
+    ],
+    "slug": "house",
+    "steps": [
+      "Hold both flat hands up at an angle in front of you, fingertips pointing up.",
+      "Bring the fingertips together so your hands form the shape of a roof."
+    ],
+    "tip": "The same sign also covers 'home'.",
+    "word": "House"
+  },
+  {
+    "category": "everyday",
+    "related": [
+      "house"
+    ],
+    "slug": "school",
+    "steps": [
+      "Hold your dominant hand up with index and middle fingers extended together.",
+      "Bend your wrist side to side while moving your hand downward."
+    ],
+    "tip": "Keep the two fingers pressed together as your hand travels down.",
+    "word": "School"
+  },
+  {
+    "category": "phrases",
+    "related": [
+      "love"
+    ],
+    "slug": "i-love-you",
+    "steps": [
+      "Point to yourself over your heart to sign 'I'.",
+      "Flatten both hands and cross them gently over your chest, as if pressing something into your heart, to sign 'love'.",
+      "Point at the other person to sign 'you'."
+    ],
+    "tip": "Sign the three parts as one smooth, flowing sequence with a warm expression.",
+    "word": "I love you"
+  },
+  {
+    "category": "phrases",
+    "related": [
+      "what",
+      "hello"
+    ],
+    "slug": "what-is-your-name",
+    "steps": [
+      "Hold your dominant index finger up and wiggle it side to side with a questioning look, to sign 'what'.",
+      "Point your index finger at the person you are asking, to sign 'your'.",
+      "Touch your forehead with your index and middle fingers held together, then twist your wrist so the fingertips point forward, to sign 'name'."
+    ],
+    "tip": "In BSL the topic comes first, so fluent signers often order the signs 'name' then 'what'.",
+    "word": "What is your name"
+  }
+]

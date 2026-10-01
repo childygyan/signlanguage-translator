@@ -4,7 +4,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
 <BaseLayout
   title="About | Sign Language Translator"
-  description="About SignLanguage-Translator.com — a free American Sign Language learning aid built by Firoz Khan of FK Digital Media."
+  description="About SignLanguage-Translator.com — a free American Sign Language and British Sign Language learning aid built by Firoz Khan of FK Digital Media."
 >
   <div class="mx-auto max-w-3xl px-4 py-14 sm:px-6">
     <h1 class="text-4xl font-extrabold text-slate-900">About</h1>
@@ -12,22 +12,29 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     <div class="prose-lg mt-6 space-y-5 text-slate-700">
       <p>
         <strong>SignLanguage-Translator.com</strong> is a free learning aid for
-        American Sign Language (ASL). Type English text and see it broken into
-        ASL signs — word-level signs from our dictionary where available, and
-        fingerspelling for everything else.
+        American Sign Language (ASL) and British Sign Language (BSL). Type
+        English text and see it broken into signs — word-level signs from our
+        dictionaries where available, and fingerspelling for everything else.
+      </p>
+      <p>
+        ASL and BSL are completely separate languages — different signs,
+        different grammar, different fingerspelling alphabets (one-handed vs
+        two-handed). Each dictionary on this site was researched independently,
+        and the translator never substitutes a sign from one language into the
+        other.
       </p>
       <p>
         The site is built and maintained by <strong>Firoz Khan</strong> of{" "}
         <strong>FK Digital Media</strong>, with one goal: make the first steps
-        of learning ASL accessible to anyone with a browser.
+        of learning sign language accessible to anyone with a browser.
       </p>
 
       <h2 class="pt-4 text-2xl font-bold text-slate-900">What this site is</h2>
       <ul class="list-disc space-y-2 pl-6">
-        <li>A vocabulary learning aid for ASL beginners</li>
-        <li>A text-to-sign sequence translator with playback controls</li>
-        <li>A growing dictionary of common ASL words and phrases</li>
-        <li>An A–Z and 0–9 fingerspelling reference</li>
+        <li>A vocabulary learning aid for ASL and BSL beginners</li>
+        <li>A text-to-sign sequence translator with playback controls and an ASL/BSL toggle</li>
+        <li>Growing dictionaries of common ASL (57) and BSL (47) words and phrases</li>
+        <li>Fingerspelling references: one-handed ASL A–Z + 0–9, two-handed BSL A–Z + 1–5</li>
       </ul>
 
       <h2 class="pt-4 text-2xl font-bold text-slate-900">What this site is not</h2>
@@ -35,12 +42,13 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         <li>
           <strong>Not a substitute for a qualified interpreter.</strong> For
           medical, legal, emergency, or other important communication, always
-          use a certified ASL interpreter.
+          use a certified interpreter.
         </li>
         <li>
-          <strong>Not a grammar teacher.</strong> ASL has its own grammar and
-          word order, which differs from English. This tool shows vocabulary
-          sign by sign; it does not rearrange sentences into ASL grammar.
+          <strong>Not a grammar teacher.</strong> ASL and BSL each have their own
+          grammar and word order, which differ from English. This tool shows
+          vocabulary sign by sign; it does not rearrange sentences into either
+          language's grammar.
         </li>
         <li>
           <strong>Not a certification.</strong> Text descriptions are a starting
@@ -100,12 +108,15 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       <h2 class="pt-4 text-2xl font-bold text-slate-900">How sign descriptions are written</h2>
       <p>
         Every dictionary entry is a text-based, step-by-step guide researched from
-        established ASL references — including Lifeprint, university teaching
-        materials, and public-health resources — and rewritten in our own original
-        words. We deliberately do not use AI-generated hand images: a wrong or
-        distorted handshape could teach a sign incorrectly. Commissioned photos
-        and videos from qualified signers are the planned next upgrade for this
-        dictionary.
+        established references and rewritten in our own original words. ASL
+        entries draw on Lifeprint, university teaching materials, and
+        public-health resources; BSL entries on BSL SignBank, BDA-adjacent
+        teaching materials, and BSL dictionaries. We deliberately do not use
+        AI-generated hand images: a wrong or distorted handshape could teach a
+        sign incorrectly. The BSL alphabet illustrations on this site are by
+        Coloringbuddymike via Wikimedia Commons (CC BY-SA 3.0). Commissioned
+        photos and videos from qualified signers are the planned next upgrade
+        for these dictionaries.
       </p>
     </div>
   </div>

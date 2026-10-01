@@ -3,37 +3,100 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import DictionaryBrowser from "../components/DictionaryBrowser";
 import type { Category, SignEntry } from "../lib/types";
 import signsData from "../data/signs.json";
+import bslSignsData from "../data/bsl-signs.json";
 import categoriesData from "../data/categories.json";
 
 const signs = signsData as SignEntry[];
+const bslSigns = bslSignsData as SignEntry[];
 const categories = categoriesData as Category[];
 ---
 
 <BaseLayout
-  title="ASL Signs Dictionary | Sign Language Translator"
-  description="Browse the ASL signs dictionary: common words and phrases in American Sign Language with step-by-step instructions. Search or filter by category."
+  title="Signs Dictionary — ASL & BSL | Sign Language Translator"
+  description="Browse the ASL and BSL signs dictionaries: common words and phrases in American and British Sign Language with step-by-step instructions. Search or filter by category."
 >
   <div class="mx-auto max-w-6xl px-4 py-14 sm:px-6">
-    <h1 class="text-4xl font-extrabold text-slate-900">ASL Signs Dictionary</h1>
+    <h1 class="text-4xl font-extrabold text-slate-900">Signs Dictionary</h1>
     <p class="mt-4 max-w-3xl text-lg text-slate-600">
-      {signs.length} common words and phrases with real ASL signs — each with
-      step-by-step instructions and a practice tip. Search below or filter by
-      category.
+      Real word-level signs with step-by-step instructions and practice tips —
+      in two separate languages. ASL and BSL are distinct languages, not
+      dialects of each other, so each dictionary was researched independently.
     </p>
-    <div class="mt-8">
-      <DictionaryBrowser client:load signs={signs} categories={categories} />
+
+    <div class="mt-8" role="tablist" aria-label="Dictionary language">
+      <div class="inline-flex rounded-xl border-2 border-slate-300 bg-slate-50 p-1">
+        <button
+          type="button"
+          role="tab"
+          id="tab-asl"
+          aria-selected="true"
+          aria-controls="panel-asl"
+          data-tab="panel-asl"
+          class="rounded-lg px-6 py-2 text-lg font-bold bg-indigo-700 text-white"
+        >
+          ASL · {signs.length} signs
+        </button>
+        <button
+          type="button"
+          role="tab"
+          id="tab-bsl"
+          aria-selected="false"
+          aria-controls="panel-bsl"
+          data-tab="panel-bsl"
+          class="rounded-lg px-6 py-2 text-lg font-bold text-slate-600 hover:text-indigo-700"
+        >
+          BSL · {bslSigns.length} signs
+        </button>
+      </div>
     </div>
+
+    <div id="panel-asl" role="tabpanel" aria-labelledby="tab-asl" class="mt-8">
+      <h2 class="sr-only">American Sign Language dictionary</h2>
+      <DictionaryBrowser client:load signs={signs} categories={categories} basePath="/signs" />
+    </div>
+
+    <div id="panel-bsl" role="tabpanel" aria-labelledby="tab-bsl" class="mt-8" hidden>
+      <h2 class="sr-only">British Sign Language dictionary</h2>
+      <p class="mb-6 max-w-3xl rounded-xl border-l-4 border-sky-500 bg-sky-50 px-4 py-3 text-slate-800">
+        The BSL dictionary is growing — {bslSigns.length} signs researched so
+        far from BSL-specific references. Signs not yet covered are
+        fingerspelled using the two-handed BSL alphabet.
+      </p>
+      <DictionaryBrowser client:load signs={bslSigns} categories={categories} basePath="/bsl-signs" />
+    </div>
+
     <div
       role="note"
       class="mt-10 rounded-xl border border-slate-200 bg-slate-50 px-5 py-4 text-slate-700"
     >
       <p class="font-semibold text-slate-900">About these descriptions</p>
       <p class="mt-1">
-        Text-based, step-by-step guides researched from established ASL references
-        (Lifeprint, university and public-health materials) and rewritten in
-        original words. Signer-created photos and videos are a planned future
-        upgrade.
+        Text-based, step-by-step guides researched from established references
+        and rewritten in original words — ASL entries from Lifeprint, university
+        and public-health materials; BSL entries from BSL SignBank, BDA-adjacent
+        teaching materials and BSL dictionaries. Signer-created photos and
+        videos are a planned future upgrade.
       </p>
     </div>
   </div>
+
+  <script>
+    const tabs = Array.from(document.querySelectorAll('[role="tab"]'));
+    const ACTIVE = ["bg-indigo-700", "text-white"];
+    const IDLE = ["text-slate-600"];
+    function select(tab) {
+      tabs.forEach((t) => {
+        const active = t === tab;
+        t.setAttribute("aria-selected", String(active));
+        const panel = document.getElementById(t.getAttribute("data-tab"));
+        if (panel) {
+          if (active) panel.removeAttribute("hidden");
+          else panel.setAttribute("hidden", "");
+        }
+        t.classList.remove(...ACTIVE, ...IDLE, "hover:text-indigo-700");
+        t.classList.add(...(active ? ACTIVE : [...IDLE, "hover:text-indigo-700"]));
+      });
+    }
+    tabs.forEach((t) => t.addEventListener("click", () => select(t)));
+  </script>
 </BaseLayout>

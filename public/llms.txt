@@ -1,36 +1,48 @@
 # Sign Language Translator — llms.txt
 
 > Free learning aid that converts English text into American Sign Language
-> sign sequences. Built and maintained by Firoz Khan of FK Digital Media.
+> or British Sign Language sign sequences. Built and maintained by Firoz Khan
+> of FK Digital Media.
 
 ## What this site does
 
-- Text-to-ASL translator: type English text and step through it sign by sign.
-  Whole words and phrases are matched against the ASL dictionary first;
-  unmatched words are fingerspelled letter by letter (A–Z, 0–9).
-- ASL signs dictionary: common words and phrases with step-by-step,
-  text-based sign descriptions and practice tips. Searchable, filterable by
-  category.
+- Text-to-sign translator with an ASL/BSL toggle: type English text and step
+  through it sign by sign. Whole words and phrases are matched against the
+  selected language's dictionary first; unmatched words are fingerspelled
+  letter by letter (ASL: one-handed A–Z, 0–9; BSL: two-handed A–Z).
+- ASL signs dictionary (57 signs) and BSL signs dictionary (47 signs): common
+  words and phrases with step-by-step, text-based sign descriptions and
+  practice tips. Searchable, filterable by category. Each language was
+  researched independently — BSL is a separate language from ASL, not a
+  dialect, and signs are never swapped between languages.
 - ASL alphabet & numbers reference: A–Z handshapes (J and Z are motion
   letters) and numbers 0–10.
+- BSL alphabet & numbers reference: two-handed A–Z handshapes (H and J use a
+  small movement) and numbers 1–5.
 
 ## Honest limitations (stated on the site itself)
 
-- ASL has its own grammar — word order differs from English. The translator
-  shows vocabulary sign by sign; it does not rearrange sentences into ASL grammar.
+- ASL and BSL each have their own grammar — word order differs from English.
+  The translator shows vocabulary sign by sign; it does not rearrange
+  sentences into either language's grammar.
 - This is a learning aid, not a substitute for a qualified interpreter.
   For medical, legal, or emergency communication, use a certified interpreter.
 - Sign descriptions are text-based step-by-step guides researched from
-  established ASL references (Lifeprint, university and public-health
-  materials) and rewritten in original words. Signer-created photos and videos
-  are a planned future upgrade. No AI-generated hand images are used.
+  established references (ASL: Lifeprint, university and public-health
+  materials; BSL: BSL SignBank, BDA-adjacent teaching materials, BSL
+  dictionaries) and rewritten in original words. Signer-created photos and
+  videos are a planned future upgrade. No AI-generated hand images are used.
+- BSL coverage is growing: words without a researched BSL sign are
+  fingerspelled with an honest "not yet researched" note, never substituted
+  with the ASL sign.
 
 ## Pages
 
 - https://signlanguage-translator.com/ — translator, how-it-works, FAQ
-- https://signlanguage-translator.com/dictionary/ — full sign dictionary
-- https://signlanguage-translator.com/signs/<slug>/ — individual sign pages
-- https://signlanguage-translator.com/alphabet/ — A–Z and 0–10 reference
+- https://signlanguage-translator.com/dictionary/ — full sign dictionaries (ASL/BSL tabs)
+- https://signlanguage-translator.com/signs/<slug>/ — individual ASL sign pages
+- https://signlanguage-translator.com/bsl-signs/<slug>/ — individual BSL sign pages
+- https://signlanguage-translator.com/alphabet/ — ASL & BSL alphabet references
 - https://signlanguage-translator.com/about/ — about, methodology, limitations
 - https://signlanguage-translator.com/contact/ — email
 - https://signlanguage-translator.com/privacy-policy/
