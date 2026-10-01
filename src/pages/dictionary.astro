@@ -1,0 +1,39 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import DictionaryBrowser from "../components/DictionaryBrowser";
+import type { Category, SignEntry } from "../lib/types";
+import signsData from "../data/signs.json";
+import categoriesData from "../data/categories.json";
+
+const signs = signsData as SignEntry[];
+const categories = categoriesData as Category[];
+---
+
+<BaseLayout
+  title="ASL Signs Dictionary | Sign Language Translator"
+  description="Browse the ASL signs dictionary: common words and phrases in American Sign Language with step-by-step instructions. Search or filter by category."
+>
+  <div class="mx-auto max-w-6xl px-4 py-14 sm:px-6">
+    <h1 class="text-4xl font-extrabold text-slate-900">ASL Signs Dictionary</h1>
+    <p class="mt-4 max-w-3xl text-lg text-slate-600">
+      {signs.length} common words and phrases with real ASL signs — each with
+      step-by-step instructions and a practice tip. Search below or filter by
+      category.
+    </p>
+    <div class="mt-8">
+      <DictionaryBrowser client:load signs={signs} categories={categories} />
+    </div>
+    <div
+      role="note"
+      class="mt-10 rounded-xl border border-slate-200 bg-slate-50 px-5 py-4 text-slate-700"
+    >
+      <p class="font-semibold text-slate-900">About these descriptions</p>
+      <p class="mt-1">
+        Text-based, step-by-step guides researched from established ASL references
+        (Lifeprint, university and public-health materials) and rewritten in
+        original words. Signer-created photos and videos are a planned future
+        upgrade.
+      </p>
+    </div>
+  </div>
+</BaseLayout>

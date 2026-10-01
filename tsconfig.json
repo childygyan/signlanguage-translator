@@ -1,0 +1,1 @@
+{"compilerOptions":{"jsx":"react-jsx","jsxImportSource":"react","noUncheckedIndexedAccess":true,"strict":true},"extends":"astro/tsconfigs/strict","include":["src","astro.config.mjs"]}

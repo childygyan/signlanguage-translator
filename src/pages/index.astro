@@ -1,0 +1,223 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Translator from "../components/Translator";
+import type { Category } from "../lib/types";
+import categoriesData from "../data/categories.json";
+
+const categories = categoriesData as Category[];
+
+const faqs = [
+  {
+    q: "Is fingerspelling enough to communicate in ASL?",
+    a: "No. Fingerspelling is mainly used for proper names and technical terms that have no established sign. Everyday ASL uses distinct signs for words, plus facial expressions and body language that carry grammatical meaning. This site shows word-level signs wherever our dictionary covers them and fingerspells the rest — a bridge toward learning, not fluency itself.",
+  },
+  {
+    q: "Does ASL use the same word order as English?",
+    a: "No. ASL is a complete, independent language with its own grammar. For example, it often uses a topic–comment structure rather than English subject–verb–object order. Our translator shows vocabulary sign by sign; it does not rearrange your sentence into ASL grammar, so treat the output as a vocabulary aid.",
+  },
+  {
+    q: "Is sign language the same in every country?",
+    a: "No. American Sign Language is used in the United States and parts of Canada, but Britain uses British Sign Language (BSL), India uses Indian Sign Language (ISL), and so on. These are distinct languages, not dialects of one another. Everything on this site is ASL.",
+  },
+  {
+    q: "Can this website replace a qualified ASL interpreter or teacher?",
+    a: "No. It is a learning aid. Certified interpreters train for years, and things like facial grammar, regional variation, and Deaf culture cannot be learned from text descriptions alone. For anything important — medical, legal, or emergency situations — always use a qualified interpreter.",
+  },
+  {
+    q: "What is the best way to practice what I learn here?",
+    a: "Practice in a mirror, replay signs slowly, and — most importantly — learn from Deaf creators and qualified teachers. Watching fluent signers (receptive practice) matters as much as producing signs yourself, and joining local Deaf community events will teach you what no website can.",
+  },
+];
+---
+
+<BaseLayout
+  title="Sign Language Translator | Text to ASL Signs"
+  description="Free learning aid that converts English text into American Sign Language sign sequences, with a word-level ASL dictionary and alphabet reference."
+>
+  <!-- Hero -->
+  <section class="bg-gradient-to-b from-indigo-50 to-white">
+    <div class="mx-auto max-w-6xl px-4 py-16 text-center sm:px-6 sm:py-20">
+      <h1 class="mx-auto max-w-3xl text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl">
+        Translate Text into American Sign Language
+      </h1>
+      <p class="mx-auto mt-6 max-w-2xl text-xl text-slate-600">
+        Type any sentence and step through it sign by sign. Words covered by our
+        dictionary show full ASL signs; everything else is fingerspelled letter
+        by letter. Free, private, and runs entirely in your browser.
+      </p>
+      <div class="mt-8 flex flex-wrap justify-center gap-4">
+        <a
+          href="#translator"
+          class="rounded-xl bg-indigo-700 px-8 py-4 text-lg font-semibold text-white hover:bg-indigo-800"
+        >
+          Try the translator
+        </a>
+        <a
+          href="/dictionary/"
+          class="rounded-xl border-2 border-slate-300 bg-white px-8 py-4 text-lg font-semibold text-slate-700 hover:border-indigo-700 hover:text-indigo-700"
+        >
+          Browse the dictionary
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Translator -->
+  <section id="translator" aria-labelledby="translator-heading" class="mx-auto max-w-4xl scroll-mt-20 px-4 py-12 sm:px-6">
+    <h2 id="translator-heading" class="text-3xl font-bold text-slate-900">
+      ASL Translator
+    </h2>
+    <p class="mt-2 text-lg text-slate-600">
+      Enter English text below. The translator matches whole words and phrases
+      against the ASL dictionary first, then fingerspells anything not yet covered.
+    </p>
+    <div class="mt-6">
+      <Translator client:load />
+    </div>
+    <div
+      role="note"
+      aria-label="How our sign descriptions are written"
+      class="mt-6 rounded-xl border border-slate-200 bg-slate-50 px-5 py-4 text-slate-700"
+    >
+      <p class="font-semibold text-slate-900">How our sign descriptions are written</p>
+      <p class="mt-1">
+        Our dictionary entries are text-based, step-by-step guides researched from
+        established ASL references (Lifeprint, university and public-health
+        materials) and rewritten in original words. Signer-created photos and
+        videos are a planned future upgrade — no AI-generated hand images are used
+        anywhere on this site.
+      </p>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section aria-labelledby="how-heading" class="border-y border-slate-200 bg-slate-50">
+    <div class="mx-auto max-w-6xl px-4 py-14 sm:px-6">
+      <h2 id="how-heading" class="text-center text-3xl font-bold text-slate-900">
+        How it works
+      </h2>
+      <ol class="mt-10 grid gap-6 md:grid-cols-3">
+        <li class="rounded-2xl border border-slate-200 bg-white p-6">
+          <p class="flex h-10 w-10 items-center justify-center rounded-full bg-indigo-700 text-lg font-bold text-white" aria-hidden="true">1</p>
+          <h3 class="mt-4 text-xl font-bold text-slate-900">Type or speak</h3>
+          <p class="mt-2 text-slate-600">
+            Enter any English text, or use voice input in supported browsers. Nothing
+            you type ever leaves your device.
+          </p>
+        </li>
+        <li class="rounded-2xl border border-slate-200 bg-white p-6">
+          <p class="flex h-10 w-10 items-center justify-center rounded-full bg-indigo-700 text-lg font-bold text-white" aria-hidden="true">2</p>
+          <h3 class="mt-4 text-xl font-bold text-slate-900">Step through the signs</h3>
+          <p className="mt-2 text-slate-600">
+            Review each word's sign with previous/next controls, autoplay, and an
+            adjustable playback speed. Listen to the text aloud while you practice.
+          </p>
+        </li>
+        <li class="rounded-2xl border border-slate-200 bg-white p-6">
+          <p class="flex h-10 w-10 items-center justify-center rounded-full bg-indigo-700 text-lg font-bold text-white" aria-hidden="true">3</p>
+          <h3 class="mt-4 text-xl font-bold text-slate-900">Practice and learn</h3>
+          <p class="mt-2 text-slate-600">
+            Replay signs in the mirror, explore the dictionary for common words, and
+            learn the alphabet reference for fingerspelling.
+          </p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Dictionary preview -->
+  <section aria-labelledby="dict-heading" class="mx-auto max-w-6xl px-4 py-14 sm:px-6">
+    <div class="flex flex-wrap items-end justify-between gap-4">
+      <div>
+        <h2 id="dict-heading" class="text-3xl font-bold text-slate-900">
+          ASL signs dictionary
+        </h2>
+        <p class="mt-2 max-w-2xl text-lg text-slate-600">
+          Real word-level signs with step-by-step instructions — the way ASL is
+          actually signed, not letter by letter.
+        </p>
+      </div>
+      <a
+        href="/dictionary/"
+        class="rounded-xl border-2 border-indigo-700 px-6 py-3 font-semibold text-indigo-700 hover:bg-indigo-700 hover:text-white"
+      >
+        Open full dictionary
+      </a>
+    </div>
+    <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {categories.length === 0 ? (
+        <div class="rounded-2xl border border-dashed border-slate-300 bg-slate-50 p-8 text-center sm:col-span-2 lg:col-span-3">
+          <p class="text-xl font-semibold text-slate-900">Word collections coming soon</p>
+          <p class="mx-auto mt-2 max-w-xl text-slate-600">
+            Our illustrated ASL dictionary is being researched and written sign by
+            sign. The first word collections will appear here.
+          </p>
+        </div>
+      ) : (
+        categories.slice(0, 6).map((c) => (
+          <a
+            href="/dictionary/"
+            class="rounded-2xl border border-slate-200 bg-white p-6 hover:border-indigo-700"
+          >
+            <h3 class="text-xl font-bold text-slate-900">{c.name}</h3>
+            <p class="mt-2 text-slate-600">{c.description}</p>
+          </a>
+        ))
+      )}
+    </div>
+  </section>
+
+  <!-- Alphabet teaser -->
+  <section aria-labelledby="alpha-heading" class="border-y border-slate-200 bg-indigo-700">
+    <div class="mx-auto max-w-6xl px-4 py-14 text-center sm:px-6">
+      <h2 id="alpha-heading" class="text-3xl font-bold text-white">
+        Master the ASL alphabet
+      </h2>
+      <p class="mx-auto mt-3 max-w-2xl text-lg text-indigo-100">
+        The A–Z and 0–9 fingerspelling reference — the foundation every ASL learner
+        starts with, including which letters use motion.
+      </p>
+      <a
+        href="/alphabet/"
+        class="mt-6 inline-block rounded-xl bg-white px-8 py-4 text-lg font-semibold text-indigo-700 hover:bg-indigo-50"
+      >
+        View alphabet &amp; numbers
+      </a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section aria-labelledby="faq-heading" class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
+    <h2 id="faq-heading" class="text-center text-3xl font-bold text-slate-900">
+      Honest answers about learning ASL
+    </h2>
+    <div class="mt-8 space-y-4">
+      {faqs.map((f) => (
+        <details class="rounded-2xl border border-slate-200 bg-white px-6 py-4 open:shadow-sm">
+          <summary class="cursor-pointer text-lg font-semibold text-slate-900">
+            {f.q}
+          </summary>
+          <p class="mt-3 text-slate-600">{f.a}</p>
+        </details>
+      ))}
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section aria-labelledby="cta-heading" class="mx-auto max-w-6xl px-4 pb-16 sm:px-6">
+    <div class="rounded-3xl bg-slate-900 px-6 py-14 text-center sm:px-12">
+      <h2 id="cta-heading" class="text-3xl font-bold text-white">
+        Start learning ASL today
+      </h2>
+      <p class="mx-auto mt-3 max-w-xl text-lg text-slate-300">
+        Free forever. No account, no tracking — just type and start signing.
+      </p>
+      <a
+        href="#translator"
+        class="mt-8 inline-block rounded-xl bg-amber-400 px-8 py-4 text-lg font-bold text-slate-900 hover:bg-amber-300"
+      >
+        Translate your first sentence
+      </a>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,30 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Page not found | Sign Language Translator"
+  description="The page you were looking for doesn't exist. Try the translator or the ASL dictionary instead."
+>
+  <div class="mx-auto max-w-2xl px-4 py-24 text-center sm:px-6">
+    <p class="text-7xl font-extrabold text-indigo-700" aria-hidden="true">404</p>
+    <h1 class="mt-4 text-3xl font-bold text-slate-900">Page not found</h1>
+    <p class="mt-3 text-lg text-slate-600">
+      The page you're looking for doesn't exist or has moved.
+    </p>
+    <div class="mt-8 flex flex-wrap justify-center gap-4">
+      <a
+        href="/"
+        class="rounded-xl bg-indigo-700 px-6 py-3 font-semibold text-white hover:bg-indigo-800"
+      >
+        Go home
+      </a>
+      <a
+        href="/dictionary/"
+        class="rounded-xl border-2 border-slate-300 px-6 py-3 font-semibold text-slate-700 hover:border-indigo-700 hover:text-indigo-700"
+      >
+        Browse the dictionary
+      </a>
+    </div>
+  </div>
+</BaseLayout>
