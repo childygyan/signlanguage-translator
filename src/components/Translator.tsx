@@ -44,20 +44,31 @@ function FingerspellCard({ word }: { word: string }) {
           role="list"
           aria-label={`Fingerspelling for ${word}`}
         >
-          {letters.map((ch, i) => (
-            <span
-              key={`${ch}-${i}`}
-              role="listitem"
-              aria-label={ch}
-              className={`flex h-12 w-12 items-center justify-center rounded-lg border-2 text-xl font-bold ${
-                isMotionLetter(ch)
-                  ? "border-amber-500 bg-amber-50 text-amber-900"
-                  : "border-slate-300 bg-slate-50 text-slate-900"
-              }`}
-            >
-              {ch}
-            </span>
-          ))}
+          {letters.map((ch, i) => {
+            const isDigit = /[0-9]/.test(ch);
+            const src = isDigit
+              ? `/numbers/${ch}.svg`
+              : `/alphabet/${ch.toLowerCase()}.svg`;
+            return (
+              <span
+                key={`${ch}-${i}`}
+                role="listitem"
+                aria-label={ch}
+                className={`flex h-28 w-24 items-center justify-center rounded-lg border-2 p-1.5 ${
+                  isMotionLetter(ch)
+                    ? "border-amber-500 bg-amber-50"
+                    : "border-slate-300 bg-slate-50"
+                }`}
+              >
+                <img
+                  src={src}
+                  alt={`ASL handshape for ${isDigit ? "number" : "letter"} ${ch}`}
+                  className="h-full w-auto"
+                  loading="lazy"
+                />
+              </span>
+            );
+          })}
         </div>
       ) : (
         <p className="mt-4 text-slate-600">
