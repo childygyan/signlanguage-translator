@@ -1,0 +1,290 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+
+const title = "Your First 30 Days Learning ASL: A Beginner Roadmap";
+const description =
+  "A practical 30-day plan for ASL beginners: what to learn each week, which signs first, how to practise daily, and when to find a Deaf instructor.";
+const datePublished = "2026-10-21";
+const slug = "asl-beginner-learning-roadmap";
+const pageUrl = `https://signlanguage-translator.com/learn/${slug}/`;
+
+const faqs = [
+  {
+    q: "How much time should I practise each day?",
+    a: "About 10–15 minutes of focused daily practice beats an hour once a week. Short, regular sessions build muscle memory for handshapes and help you remember signs — consistency matters far more than marathon sessions.",
+  },
+  {
+    q: "Should I learn the alphabet before learning signs?",
+    a: "Yes — the alphabet comes first. Fingerspelling your name is the most useful single skill you can start with, and knowing your letters lets you spell any word you don't know the sign for yet. Start with the alphabet in week 1, then layer in word-level signs.",
+  },
+  {
+    q: "How many signs should a beginner learn in 30 days?",
+    a: "Aim for a solid, usable core rather than a big number: the alphabet, a dozen or two everyday signs, and basic greetings and introductions. Deeply learning 15–20 signs you can actually use in conversation beats half-knowing 100.",
+  },
+  {
+    q: "When should I start learning from a Deaf instructor?",
+    a: "As early as you can — ideally within your first month or two. Online guides get you started, but a Deaf instructor catches mistakes you can't see yourself, teaches natural rhythm and facial expression, and connects you with the Deaf community.",
+  },
+  {
+    q: "Can I become fluent in ASL in 30 days?",
+    a: "No — and no honest plan will claim that. Thirty days of daily practice gets you the alphabet, essential signs and basic introductions: a real, working foundation. Fluency takes months to years of regular use, ideally with Deaf signers.",
+  },
+  {
+    q: "Is it okay to learn ASL and BSL at the same time?",
+    a: "Not as a beginner. ASL and BSL are mutually unintelligible, separate languages — learning both at once doubles the confusion. Pick the language used by the Deaf community where you'll actually be signing and give it your full attention.",
+  },
+  {
+    q: "How do I find a Deaf instructor near me?",
+    a: "Start with your local Deaf association or community centre — many run beginner signing classes taught by Deaf instructors. Community colleges and adult-education programmes often offer them too, and there are online group classes if nothing is available locally. Prioritise instructors who are Deaf themselves, since they teach the language as it's actually used.",
+  },
+  {
+    q: "What if I need BSL instead of ASL?",
+    a: "Then start with BSL from day one — don't learn ASL first as a stepping stone. This site covers both: begin with our guide to fingerspelling your name in BSL and the two-handed BSL alphabet, then build the same weekly structure around BSL signs and greetings.",
+  },
+  {
+    q: "Is ASL hard to learn?",
+    a: "It's moderately difficult — comparable to learning any new language. The good news: there's no spelling or pronunciation to wrestle with, and the alphabet gives you a usable skill in week one. The challenge is that ASL grammar works differently from English, so the key is consistent daily practice rather than raw talent.",
+  },
+  {
+    q: "How long does it take to learn ASL?",
+    a: "There's no fixed timeline, but realistic expectations help: a few months of regular study gets most learners through basic conversation — introductions, everyday signs, simple exchanges. Comfortable fluency typically takes a year or more of ongoing practice, especially with Deaf signers. Anyone promising fluency in weeks is selling something.",
+  },
+  {
+    q: "What are the best free resources to learn ASL?",
+    a: "Start with free online sign dictionaries that show video demos of each sign (like this site's dictionary), an alphabet reference for fingerspelling, and structured beginner guides like this roadmap. For feedback you can't get from a screen, look for community classes taught by Deaf instructors — many are free or low-cost.",
+  },
+  {
+    q: "Should I learn ASL online or take an in-person class?",
+    a: "Online resources are the best way to start — they're free, always available, and let you drill the alphabet and basic signs at your own pace. An in-person class with a Deaf instructor is the best way to continue: it gives you live feedback, real conversation practice, and a connection to the Deaf community. Do both if you can.",
+  },
+];
+
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: title,
+  description,
+  datePublished,
+  author: { "@type": "Person", name: "Firoz Khan" },
+  publisher: {
+    "@type": "Organization",
+    name: "SignLanguage-Translator.com",
+  },
+  mainEntityOfPage: pageUrl,
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+---
+
+<BaseLayout title={`${title} | Sign Language Translator`} description={description}>
+  <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+
+  <div class="mx-auto max-w-3xl px-4 py-14 sm:px-6">
+    <nav aria-label="Breadcrumb">
+      <ol class="flex flex-wrap items-center gap-2 text-sm text-slate-500">
+        <li><a class="underline-offset-2 hover:underline" href="/">Home</a></li>
+        <li aria-hidden="true">/</li>
+        <li><a class="underline-offset-2 hover:underline" href="/learn/">Learn</a></li>
+        <li aria-hidden="true">/</li>
+        <li aria-current="page" class="font-semibold text-slate-900">{title}</li>
+      </ol>
+    </nav>
+
+    <h1 class="mt-6 text-4xl font-extrabold text-slate-900">{title}</h1>
+    <p class="mt-3 text-sm text-slate-500">
+      <time datetime={datePublished}>{datePublished}</time> · By Firoz Khan · 7 min read
+    </p>
+
+    <article class="prose-lg mt-6 space-y-5 text-slate-700">
+      <p>
+        Learning ASL can feel overwhelming — where do you even start, the
+        alphabet or actual signs? This 30-day plan gives you a simple order:
+        alphabet first, then essential signs, then greetings and
+        introductions, then the finer points that make your signing look
+        natural. Just 10–15 minutes a day. You won't be fluent in a month, but
+        you'll have a genuine working foundation.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Week 1: The alphabet — fingerspell your name</h2>
+      <p>
+        Start with the one-handed ASL manual alphabet. Learn each letter's
+        handshape, then put them together to spell your name — it's the single
+        most useful skill for a beginner, and knowing the letters means you can
+        spell any word you don't know the sign for yet.
+      </p>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>Learn the alphabet in chunks (A–G, H–N, O–U, V–Z) using our{" "}
+          <a class="font-semibold text-indigo-700 underline" href="/alphabet/">alphabet reference</a>.</li>
+        <li>Follow the step-by-step guide to{" "}
+          <a class="font-semibold text-indigo-700 underline" href="/learn/how-to-fingerspell-your-name-in-asl/">fingerspell your name in ASL</a>{" "}
+          — including the J and Z motion letters.</li>
+        <li>Practise spelling real words, not random letter strings — your brain learns patterns faster.</li>
+      </ul>
+
+      <figure class="my-6 text-center">
+        <div class="flex items-start justify-center gap-8">
+          <div>
+            <img src="/alphabet/a.svg" alt="ASL handshape for the letter A" loading="lazy" class="mx-auto h-40 w-auto" />
+            <figcaption class="mt-2 text-sm text-slate-500">A</figcaption>
+          </div>
+          <div>
+            <img src="/alphabet/b.svg" alt="ASL handshape for the letter B" loading="lazy" class="mx-auto h-40 w-auto" />
+            <figcaption class="mt-2 text-sm text-slate-500">B</figcaption>
+          </div>
+          <div>
+            <img src="/alphabet/c.svg" alt="ASL handshape for the letter C" loading="lazy" class="mx-auto h-40 w-auto" />
+            <figcaption class="mt-2 text-sm text-slate-500">C</figcaption>
+          </div>
+        </div>
+        <figcaption class="mt-2 text-sm text-slate-500">
+          Learn the handshapes a few letters at a time — A, B, C first, then keep going through the alphabet.
+        </figcaption>
+      </figure>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Week 2: Your first 15 essential signs</h2>
+      <p>
+        Now move from letters to word-level signs — actual vocabulary you can
+        use. Focus on high-frequency words you'll reach for constantly:{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/signs/hello/">hello</a>,{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/signs/thank-you/">thank you</a>,{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/signs/please/">please</a>,{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/signs/sorry/">sorry</a>,{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/signs/yes/">yes</a>,{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/signs/no/">no</a> and{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/signs/goodbye/">goodbye</a>.
+        Fifteen signs you know cold beats fifty you half-remember.
+      </p>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>Work through our guide to{" "}
+          <a class="font-semibold text-indigo-700 underline" href="/learn/essential-asl-signs-for-beginners/">essential ASL signs for beginners</a>.</li>
+        <li>Look up and drill each sign in the{" "}
+          <a class="font-semibold text-indigo-700 underline" href="/dictionary/">ASL dictionary</a>{" "}
+          until you can produce it without thinking.</li>
+        <li>Say a simple sentence's worth of signs in sequence — stringing signs together is a new skill.</li>
+      </ul>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Week 3: Greetings and introductions</h2>
+      <p>
+        Week 3 is about your first real conversations: greeting someone and
+        introducing yourself. Learn the standard greetings — including{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/signs/good-morning/">good morning</a>{" "}
+        — and practise a short self-introduction: your name (fingerspelled,
+        from week 1), where you're from, that you're learning ASL.
+      </p>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>Study{" "}
+          <a class="font-semibold text-indigo-700 underline" href="/learn/common-asl-greetings/">common ASL greetings</a>{" "}
+          and rehearse them as exchanges, not isolated signs.</li>
+        <li>Build your introduction with our guide to{" "}
+          <a class="font-semibold text-indigo-700 underline" href="/learn/introduce-yourself-in-asl/">introducing yourself in ASL</a>.</li>
+        <li>Practise the whole greeting-and-introduction flow out loud (silently) until it's smooth.</li>
+      </ul>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Week 4: Motion letters, facial expressions, and your daily routine</h2>
+      <p>
+        The final week polishes what makes signing look natural rather than
+        robotic. Review the{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/learn/motion-letters-in-asl-and-bsl/">motion letters</a>{" "}
+        (J and Z are the ones beginners most often sign wrong), add{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/learn/facial-expressions-in-sign-language/">facial expressions</a>{" "}
+        — which are grammar in sign language, not decoration — and lock in a
+        sustainable daily routine with our{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/learn/fingerspelling-tips-for-beginners/">fingerspelling practice tips</a>.
+      </p>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>10–15 minutes daily: 5 minutes fingerspelling drills, 5 minutes new signs, 5 minutes review.</li>
+        <li>Film yourself signing and compare with the dictionary — a mirror or camera catches what you can't feel.</li>
+        <li>Revisit everything from weeks 1–3: spaced repetition beats cramming.</li>
+      </ul>
+
+      <figure class="my-6 text-center">
+        <div class="flex items-start justify-center gap-8">
+          <div>
+            <img src="/alphabet/j.svg" alt="ASL handshape for the letter J (starting position — J is signed with movement)" loading="lazy" class="mx-auto h-40 w-auto" />
+            <figcaption class="mt-2 text-sm text-slate-500">J is signed with movement — the image shows the starting handshape.</figcaption>
+          </div>
+          <div>
+            <img src="/alphabet/z.svg" alt="ASL handshape for the letter Z (starting position — Z is signed with movement)" loading="lazy" class="mx-auto h-40 w-auto" />
+            <figcaption class="mt-2 text-sm text-slate-500">Z is signed with movement — the image shows the starting handshape.</figcaption>
+          </div>
+        </div>
+        <figcaption class="mt-2 text-sm text-slate-500">
+          The two ASL motion letters: trace a J with your pinky, a Z with your index finger.
+        </figcaption>
+      </figure>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Daily practice tips that actually work</h2>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>Same time every day — a habit beats motivation.</li>
+        <li>Receptive practice matters too: watch signers and try to read their signs, not just produce your own.</li>
+        <li>Learn signs in context (greetings together, polite words together) rather than at random.</li>
+        <li>Keep a short list of "signs I'm shaky on" and review it first each session.</li>
+      </ul>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">What comes after day 30</h2>
+      <p>
+        Be honest with yourself: thirty days gives you a real foundation — the
+        alphabet, essential signs, greetings and introductions — but not
+        fluency. Fluency takes months to years of regular use. The most
+        important next step is finding a Deaf instructor or a local Deaf
+        community to learn with: they catch the mistakes you can't see
+        yourself, teach you natural rhythm and expression, and turn practice
+        into real conversation.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Frequently asked questions</h2>
+      <dl class="space-y-4">
+        {faqs.map((f) => (
+          <div class="rounded-xl border border-slate-200 bg-white p-5">
+            <dt class="font-bold text-slate-900">{f.q}</dt>
+            <dd class="mt-2 text-slate-700">{f.a}</dd>
+          </div>
+        ))}
+      </dl>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Keep learning</h2>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/learn/how-to-fingerspell-your-name-in-asl/">How to fingerspell your name in ASL</a>{" "}
+          — your week 1 starting point.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/learn/essential-asl-signs-for-beginners/">Essential ASL signs for beginners</a>{" "}
+          — your week 2 vocabulary list.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/learn/how-to-sign-how-are-you-everyday-phrases/">How to sign "How are you?" + 10 everyday ASL &amp; BSL phrases</a>{" "}
+          — everyday phrases for your first real conversations.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/learn/asl-numbers-0-to-10/">ASL numbers 0–10</a>{" "}
+          — count on your fingers, a core beginner skill.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/dictionary/">ASL &amp; BSL signs dictionaries</a>{" "}
+          — look up and drill every sign in this plan.
+        </li>
+      </ul>
+    </article>
+
+    <div
+      role="note"
+      class="mt-10 rounded-xl border border-slate-200 bg-slate-50 px-5 py-4 text-sm text-slate-700"
+    >
+      <p>
+        A learning aid, not a certified interpreter. This roadmap gets you
+        started — real fluency comes from learning with Deaf instructors and
+        the Deaf community.
+      </p>
+    </div>
+  </div>
+</BaseLayout>

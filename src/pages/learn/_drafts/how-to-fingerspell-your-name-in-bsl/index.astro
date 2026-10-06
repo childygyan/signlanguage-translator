@@ -1,0 +1,253 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+
+const title = "How to Fingerspell Your Name in BSL";
+const description =
+  "Spell your name with the two-handed BSL alphabet: how the base hand works, the vowel positions, the H and J movements, and practice tips for clear fingerspelling.";
+const datePublished = "2026-10-08";
+const slug = "how-to-fingerspell-your-name-in-bsl";
+const pageUrl = `https://signlanguage-translator.com/learn/${slug}/`;
+
+const faqs = [
+  {
+    q: "Which hand is the base hand in BSL fingerspelling?",
+    a: "Your non-dominant hand is the base: hold it open, palm facing toward you, and keep it steady. Your dominant hand does the moving — touching the base hand's fingers, palm, and thumb to form each letter.",
+  },
+  {
+    q: "How do I remember where the vowels go?",
+    a: "The five vowels sit in order across the base hand, from thumb to little finger: A on the thumb, E on the index finger, I on the middle finger, O on the ring finger, and U on the little finger. Touch the base fingertip with your dominant index fingertip for each.",
+  },
+  {
+    q: "Which BSL letters use movement? How do you sign H and J?",
+    a: "Only H and J. For H, lay your dominant four fingers flat on the base hand's palm, then slide them down off the base hand's fingertips in one small movement. For J, start your dominant index fingertip at the tip of the base hand's middle finger, trace down toward the wrist, then move up to the tip of the base hand's thumb. Every other BSL letter is a static contact.",
+  },
+  {
+    q: "Does BSL use one hand or two for fingerspelling?",
+    a: "Two. The non-dominant hand acts as a base — held open, palm facing toward you — and the dominant hand forms each letter against it. The only exception is C, which is made with the dominant hand alone.",
+  },
+  {
+    q: "Which hand is dominant in BSL fingerspelling?",
+    a: "The dominant hand — the hand you write with — does the moving, touching the base hand to form each letter. The non-dominant hand is the steady base and stays as still as possible.",
+  },
+  {
+    q: "How do you sign Z in BSL?",
+    a: "Z is a static contact, not a motion letter: hold the fingers of your dominant hand together and place them on the base hand so the dominant hand sticks up at a right angle to it. Only H and J involve movement.",
+  },
+  {
+    q: "Should you mouth the letters or the whole word when fingerspelling?",
+    a: "Mouth the whole word. Mouthing each letter separately breaks the word up and looks unnatural — in BSL, fingerspelling is normally accompanied by the silently mouthed English word, just like word-level signs.",
+  },
+  {
+    q: "Is BSL fingerspelling the same as ASL fingerspelling?",
+    a: "No. BSL uses a two-handed alphabet built around the base hand, while ASL uses a one-handed alphabet. The handshapes are completely different systems — our ASL fingerspelling guide covers the one-handed version.",
+  },
+  {
+    q: "Should my base hand move while I spell?",
+    a: "Try to keep it still. The base hand is an anchor — the reader watches the dominant hand move against it. A wobbling base hand makes every letter harder to read.",
+  },
+  {
+    q: "What is the most common beginner mistake?",
+    a: "Rushing. New learners speed up to look fluent and end up making vague, half-formed contacts. Slow down, make each touch on the base hand clear and deliberate, and let speed develop on its own.",
+  },
+];
+
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: title,
+  description,
+  datePublished,
+  author: { "@type": "Person", name: "Firoz Khan" },
+  publisher: {
+    "@type": "Organization",
+    name: "SignLanguage-Translator.com",
+  },
+  mainEntityOfPage: pageUrl,
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+---
+
+<BaseLayout title={`${title} | Sign Language Translator`} description={description}>
+  <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+
+  <div class="mx-auto max-w-3xl px-4 py-14 sm:px-6">
+    <nav aria-label="Breadcrumb">
+      <ol class="flex flex-wrap items-center gap-2 text-sm text-slate-500">
+        <li><a class="underline-offset-2 hover:underline" href="/">Home</a></li>
+        <li aria-hidden="true">/</li>
+        <li><a class="underline-offset-2 hover:underline" href="/learn/">Learn</a></li>
+        <li aria-hidden="true">/</li>
+        <li aria-current="page" class="font-semibold text-slate-900">{title}</li>
+      </ol>
+    </nav>
+
+    <h1 class="mt-6 text-4xl font-extrabold text-slate-900">{title}</h1>
+    <p class="mt-3 text-sm text-slate-500">
+      <time datetime={datePublished}>{datePublished}</time> · By Firoz Khan · 6 min read
+    </p>
+
+    <article class="prose-lg mt-6 space-y-5 text-slate-700">
+      <p>
+        BSL fingerspelling is a two-handed system, and that surprises most
+        beginners. Unlike the one-handed ASL alphabet, BSL builds every letter
+        (almost — there is one exception) around a base hand. Get the base hand
+        right and the rest of the alphabet falls into place. This guide walks
+        you through spelling your name clearly, letter by letter.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Step 1: Learn the letters and the vowel positions</h2>
+      <p>
+        Before spelling your name, learn the individual letters. Our{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/alphabet/">BSL alphabet reference</a>{" "}
+        shows all 26 handshapes. Start with the vowels, because they give you
+        the map of the whole system: the five vowels sit in order across the
+        fingers of the base hand, thumb to little finger. Touch your dominant
+        index fingertip to the tip of the base hand's thumb for <strong>A</strong>,
+        the base index finger for <strong>E</strong>, the base middle finger
+        for <strong>I</strong>, the base ring finger for <strong>O</strong>, and
+        the base little finger for <strong>U</strong>. Learn those five first,
+        then add the consonants.
+      </p>
+      <figure class="my-6 text-center">
+        <div class="flex items-end justify-center gap-4">
+          <div>
+            <img class="mx-auto h-32 w-auto" loading="lazy" src="/bsl-alphabet/a.svg" alt="BSL handshape for the vowel A — dominant index fingertip on the base hand's thumb" />
+            <figcaption class="mt-2 text-sm text-slate-500">A — thumb</figcaption>
+          </div>
+          <div>
+            <img class="mx-auto h-32 w-auto" loading="lazy" src="/bsl-alphabet/e.svg" alt="BSL handshape for the vowel E — dominant index fingertip on the base hand's index finger" />
+            <figcaption class="mt-2 text-sm text-slate-500">E — index</figcaption>
+          </div>
+          <div>
+            <img class="mx-auto h-32 w-auto" loading="lazy" src="/bsl-alphabet/i.svg" alt="BSL handshape for the vowel I — dominant index fingertip on the base hand's middle finger" />
+            <figcaption class="mt-2 text-sm text-slate-500">I — middle</figcaption>
+          </div>
+          <div>
+            <img class="mx-auto h-32 w-auto" loading="lazy" src="/bsl-alphabet/o.svg" alt="BSL handshape for the vowel O — dominant index fingertip on the base hand's ring finger" />
+            <figcaption class="mt-2 text-sm text-slate-500">O — ring</figcaption>
+          </div>
+          <div>
+            <img class="mx-auto h-32 w-auto" loading="lazy" src="/bsl-alphabet/u.svg" alt="BSL handshape for the vowel U — dominant index fingertip on the base hand's little finger" />
+            <figcaption class="mt-2 text-sm text-slate-500">U — little</figcaption>
+          </div>
+        </div>
+        <figcaption class="mt-3 text-sm text-slate-500">The five BSL vowels: your dominant index fingertip touches the base hand's fingers in order, thumb to little finger.</figcaption>
+      </figure>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Step 2: Set up your base hand</h2>
+      <p>
+        Hold your non-dominant hand open in front of you, palm facing toward
+        you, fingers relaxed but not curled. This is the base for nearly every
+        letter. Keep it steady and at a comfortable height — around chest level
+        works well. A shaky or drifting base hand forces the reader to track
+        two moving targets, so practise holding it still while your dominant
+        hand moves against it.
+      </p>
+      <p>
+        One letter breaks the pattern: <strong>C</strong> is the only BSL
+        letter formed with a single hand — make an open C shape with your
+        dominant hand, like cupping a can, with no base hand involved.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Step 3: Spell with a steady rhythm</h2>
+      <p>
+        Form each letter of your name in order, making each contact with the
+        base hand clear and deliberate. Flow smoothly from one letter to the
+        next without long pauses between them, and keep an even rhythm. Hold
+        the final letter slightly longer — that tiny hold marks the end of the
+        word for the reader. Clarity always beats speed: Deaf signers read
+        fingerspelling by overall word shape, which only works when each letter
+        is distinct.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Step 4: Handle the moving letters — H and J</h2>
+      <p>
+        Two BSL letters need movement against the base hand:
+      </p>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>
+          <strong>H:</strong> lay the four fingers of your dominant hand flat
+          on the base hand's palm, then slide them downward off the base
+          hand's fingertips in one small movement.
+        </li>
+        <li>
+          <strong>J:</strong> start with your dominant index fingertip at the
+          tip of the base hand's middle finger, trace down toward the wrist,
+          then move up to the tip of the base hand's thumb.
+        </li>
+      </ul>
+      <p>
+        If your name contains H or J, practise the movement on its own until
+        it feels smooth, then fold it into the rhythm of the full name.
+      </p>
+      <figure class="my-6 text-center">
+        <div class="flex items-end justify-center gap-8">
+          <div>
+            <img class="mx-auto h-40 w-auto" loading="lazy" src="/bsl-alphabet/h.svg" alt="BSL handshape for the letter H (starting position — dominant fingers slide down off the base fingertips)" />
+            <figcaption class="mt-2 text-sm text-slate-500">H is signed with movement — the image shows the starting handshape.</figcaption>
+          </div>
+          <div>
+            <img class="mx-auto h-40 w-auto" loading="lazy" src="/bsl-alphabet/j.svg" alt="BSL handshape for the letter J (starting position — index fingertip traces from the base middle finger down toward the wrist, then up to the thumb)" />
+            <figcaption class="mt-2 text-sm text-slate-500">J is signed with movement — the image shows the starting handshape.</figcaption>
+          </div>
+        </div>
+      </figure>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Step 5: Practise the right way</h2>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>Spell your name in front of a mirror and check that every contact on the base hand is crisp.</li>
+        <li>Learn the vowels first, then add consonants in small groups (D–G, K–P, Q–W, X–Z).</li>
+        <li>Spell real words, not random letter strings — your hands learn patterns faster.</li>
+        <li>Keep the base hand still; all the motion belongs to the dominant hand.</li>
+        <li>Read fingerspelling as well as produce it — have a friend spell words at you.</li>
+      </ul>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Frequently asked questions</h2>
+      <dl class="space-y-4">
+        {faqs.map((f) => (
+          <div class="rounded-xl border border-slate-200 bg-white p-5">
+            <dt class="font-bold text-slate-900">{f.q}</dt>
+            <dd class="mt-2 text-slate-700">{f.a}</dd>
+          </div>
+        ))}
+      </dl>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Keep learning</h2>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/alphabet/">ASL &amp; BSL alphabet reference</a>{" "}
+          — every handshape for both systems, side by side.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/learn/how-to-fingerspell-your-name-in-asl/">How to fingerspell your name in ASL</a>{" "}
+          — the one-handed American alphabet, for comparison.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/dictionary/">ASL &amp; BSL signs dictionaries</a>{" "}
+          — move beyond letters to real word-level signs.
+        </li>
+      </ul>
+    </article>
+
+    <div
+      role="note"
+      class="mt-10 rounded-xl border border-slate-200 bg-slate-50 px-5 py-4 text-sm text-slate-700"
+    >
+      <p>
+        A learning aid, not a certified interpreter. Fingerspelling guides are a
+        starting point — real fluency comes from learning with Deaf instructors
+        and the Deaf community.
+      </p>
+    </div>
+  </div>
+</BaseLayout>

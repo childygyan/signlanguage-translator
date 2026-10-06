@@ -1,0 +1,215 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+
+const title = "Is Sign Language Universal? ASL, BSL and 300+ Sign Languages";
+const description =
+  "No — there is no single universal sign language. How ASL, BSL and 300+ other sign languages relate, why they differ, and what that means for learners.";
+const datePublished = "2026-10-19";
+const slug = "is-sign-language-universal";
+const pageUrl = `https://signlanguage-translator.com/learn/${slug}/`;
+
+const faqs = [
+  {
+    q: "How many sign languages are there in the world?",
+    a: "Linguists recognise over 300 distinct sign languages used by Deaf communities around the world — each with its own vocabulary, grammar and history. There is no single universal sign language.",
+  },
+  {
+    q: "Can ASL and BSL signers understand each other?",
+    a: "No — ASL and BSL are mutually unintelligible. They belong to completely different language families: ASL comes from the French Sign Language family, while BSL belongs to the BANZSL family. Even their alphabets work differently (ASL is one-handed, BSL is two-handed).",
+  },
+  {
+    q: "Why is ASL related to French Sign Language instead of BSL?",
+    a: "Sign languages don't develop from spoken languages — they develop inside Deaf communities. ASL descends from French Sign Language, brought to the US in the early 1800s, while BSL evolved separately in Britain. Sharing a spoken language does not mean sharing a sign language — which is why ASL has more in common historically with French Sign Language than with BSL.",
+  },
+  {
+    q: "What are some other major sign languages?",
+    a: "Beyond ASL and BSL there are hundreds more, including Indian Sign Language (ISL), Australian Sign Language (Auslan) and New Zealand Sign Language (NZSL). Each grew out of its own Deaf community and has its own signs and grammar.",
+  },
+  {
+    q: "Which sign language should I learn first?",
+    a: "Learn the sign language used by the Deaf community where you live or where you'll be communicating — most learners in the US learn ASL, while learners in the UK learn BSL. Trying to learn several at once as a beginner usually slows you down.",
+  },
+  {
+    q: "Can learning one sign language help me learn another?",
+    a: "It can help with the general skills of signing — handshape control, facial expression, reading signs — but not the vocabulary itself. The actual signs differ from language to language, so you'll still need to learn a new lexicon.",
+  },
+  {
+    q: "What about International Sign — isn't that a universal sign language?",
+    a: "International Sign is a real thing, but it's not a universal language. It's a contact variety — a simplified, negotiated signing system used at international Deaf events like conferences — and it varies from situation to situation. It doesn't replace national sign languages, and it's not something you learn as your first language.",
+  },
+  {
+    q: "Can Deaf people from different countries understand each other?",
+    a: "Not automatically — no more than hearing people who speak different spoken languages can. Two Deaf signers from different countries may find some signs similar or guess meaning from context and gesture, but real conversation needs a shared sign language, just like spoken conversation needs a shared spoken language.",
+  },
+  {
+    q: "Is ASL based on English?",
+    a: "No. ASL is a complete, separate language with its own grammar and vocabulary — it is not signed English. English letters appear only in fingerspelling (for names and words with no sign). Historically, ASL is related to French Sign Language, not to English.",
+  },
+];
+
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: title,
+  description,
+  datePublished,
+  author: { "@type": "Person", name: "Firoz Khan" },
+  publisher: {
+    "@type": "Organization",
+    name: "SignLanguage-Translator.com",
+  },
+  mainEntityOfPage: pageUrl,
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+---
+
+<BaseLayout title={`${title} | Sign Language Translator`} description={description}>
+  <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+
+  <div class="mx-auto max-w-3xl px-4 py-14 sm:px-6">
+    <nav aria-label="Breadcrumb">
+      <ol class="flex flex-wrap items-center gap-2 text-sm text-slate-500">
+        <li><a class="underline-offset-2 hover:underline" href="/">Home</a></li>
+        <li aria-hidden="true">/</li>
+        <li><a class="underline-offset-2 hover:underline" href="/learn/">Learn</a></li>
+        <li aria-hidden="true">/</li>
+        <li aria-current="page" class="font-semibold text-slate-900">{title}</li>
+      </ol>
+    </nav>
+
+    <h1 class="mt-6 text-4xl font-extrabold text-slate-900">{title}</h1>
+    <p class="mt-3 text-sm text-slate-500">
+      <time datetime={datePublished}>{datePublished}</time> · By Firoz Khan · 6 min read
+    </p>
+
+    <article class="prose-lg mt-6 space-y-5 text-slate-700">
+      <p>
+        The short answer is no: there is no single universal sign language.
+        Linguists recognise over 300 distinct sign languages used by Deaf
+        communities around the world — and the two most talked-about in English,
+        American Sign Language (ASL) and British Sign Language (BSL), are
+        mutually unintelligible. A fluent ASL signer and a fluent BSL signer
+        cannot hold a conversation with each other.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">ASL and BSL are separate languages from separate families</h2>
+      <p>
+        This surprises many beginners, since the US and UK share a spoken
+        language. But ASL and BSL belong to entirely different language
+        families: ASL descends from the French Sign Language family, while BSL
+        belongs to the BANZSL family (which also includes Auslan and NZSL).
+        Their vocabularies, grammar and even alphabets are completely
+        different — ASL uses a one-handed alphabet, BSL a two-handed one. Our
+        guide to{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/learn/asl-vs-bsl-key-differences/">the key differences between ASL and BSL</a>{" "}
+        walks through this in more detail.
+      </p>
+
+      <figure class="my-6 text-center">
+        <div class="flex items-start justify-center gap-8">
+          <div>
+            <img src="/alphabet/a.svg" alt="ASL handshape for the letter A" loading="lazy" class="mx-auto h-40 w-auto" />
+            <figcaption class="mt-2 text-sm text-slate-500">ASL "A" — one-handed</figcaption>
+          </div>
+          <div>
+            <img src="/bsl-alphabet/a.svg" alt="BSL two-handed handshape for the letter A" loading="lazy" class="mx-auto h-40 w-auto" />
+            <figcaption class="mt-2 text-sm text-slate-500">BSL "A" — two-handed</figcaption>
+          </div>
+        </div>
+        <figcaption class="mt-2 text-sm text-slate-500">
+          Same letter, completely different handshapes — ASL and BSL don't share an alphabet.
+        </figcaption>
+      </figure>
+
+      <figure class="my-6 text-center">
+        <div class="flex items-start justify-center gap-8">
+          <div>
+            <img src="/alphabet/h.svg" alt="ASL handshape for the letter H" loading="lazy" class="mx-auto h-40 w-auto" />
+            <figcaption class="mt-2 text-sm text-slate-500">ASL "H" — one-handed</figcaption>
+          </div>
+          <div>
+            <img src="/bsl-alphabet/h.svg" alt="BSL two-handed handshape for the letter H (starting position — H uses a sliding movement)" loading="lazy" class="mx-auto h-40 w-auto" />
+            <figcaption class="mt-2 text-sm text-slate-500">BSL "H" — two-handed, signed with a sliding movement; the image shows the starting position</figcaption>
+          </div>
+        </div>
+      </figure>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Why sign languages differ so much</h2>
+      <p>
+        Sign languages don't evolve from spoken languages — they evolve inside
+        Deaf communities, passed from person to person over generations. That's
+        why sharing a spoken language doesn't produce a shared sign language:
+        the communities, schools and histories that shaped ASL and BSL were
+        different. Most of the world's sign languages grew up the same way,
+        independently, which is how we ended up with over 300 of them.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Other major sign languages</h2>
+      <p>
+        Beyond ASL and BSL, there are hundreds of others, including Indian
+        Sign Language (ISL), Australian Sign Language (Auslan) and New Zealand
+        Sign Language (NZSL) — each with its own signs, grammar and history,
+        shaped by its own Deaf community.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">What this means for you as a learner</h2>
+      <p>
+        Pick one language and start there — ideally the sign language used by
+        the Deaf community where you live or where you'll actually be signing.
+        Learning ASL if you'll be communicating with British Deaf signers (or
+        vice versa) is like learning Spanish for a trip to Italy: some general
+        skills transfer, but the words don't. Trying to learn two sign
+        languages at once as a beginner usually just slows you down. Once
+        you're comfortable in one, adding another is a separate project, not
+        a shortcut.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Frequently asked questions</h2>
+      <dl class="space-y-4">
+        {faqs.map((f) => (
+          <div class="rounded-xl border border-slate-200 bg-white p-5">
+            <dt class="font-bold text-slate-900">{f.q}</dt>
+            <dd class="mt-2 text-slate-700">{f.a}</dd>
+          </div>
+        ))}
+      </dl>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Keep learning</h2>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/learn/asl-vs-bsl-key-differences/">ASL vs BSL: key differences</a>{" "}
+          — how the two languages differ, from alphabets to grammar.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/dictionary/">ASL &amp; BSL signs dictionaries</a>{" "}
+          — browse real word-level signs in both languages.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/about/">About this site</a>{" "}
+          — a learning aid built for sign language beginners.
+        </li>
+      </ul>
+    </article>
+
+    <div
+      role="note"
+      class="mt-10 rounded-xl border border-slate-200 bg-slate-50 px-5 py-4 text-sm text-slate-700"
+    >
+      <p>
+        A learning aid, not a certified interpreter. This article covers general
+        background about sign languages — for real fluency, learn with Deaf
+        instructors and the Deaf community in the language you'll actually use.
+      </p>
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,198 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+
+const title = "How to Fingerspell Your Name in ASL: A Step-by-Step Practice Guide";
+const description =
+  "Learn to spell your name with the one-handed ASL alphabet: letter-by-letter steps, the J and Z motion letters, and practice tips for smooth, readable fingerspelling.";
+const datePublished = "2026-10-07";
+const slug = "how-to-fingerspell-your-name-in-asl";
+const pageUrl = `https://signlanguage-translator.com/learn/${slug}/`;
+
+const faqs = [
+  {
+    q: "Which hand do I fingerspell with in ASL?",
+    a: "Use your dominant hand — the hand you write with. Keep it up near your shoulder, palm facing outward (toward the person reading your signing), and keep it fairly still while your fingers form each letter.",
+  },
+  {
+    q: "Which ASL letters use movement? How do you sign J and Z?",
+    a: "Only J and Z. For J, make the I handshape (pinky up) and trace the shape of a J in the air with your pinky. For Z, point your index finger and trace the shape of a Z in the air. All 24 other ASL letters are static handshapes — signing J or Z without the movement is one of the most common beginner mistakes.",
+  },
+  {
+    q: "Should I fingerspell fast to look fluent?",
+    a: "No — readability beats speed. Beginners who rush produce blurry, unreadable letters. Aim for clear, evenly spaced letters first; speed comes naturally with practice. Deaf signers read fingerspelling by overall word shape, which only works when each letter is distinct.",
+  },
+  {
+    q: "Do I need to pause between letters?",
+    a: "Don't pause fully between letters — that breaks the word into pieces. Instead, flow smoothly from one handshape to the next with a steady rhythm, holding the final letter of a word slightly longer to mark the word boundary.",
+  },
+  {
+    q: "When should I fingerspell instead of using a sign?",
+    a: "Fingerspell proper names (people, places, brands), technical terms with no established sign, and words you don't know the sign for yet. Most everyday conversation uses word-level signs — fingerspelling everything is slow and tiring to read.",
+  },
+  {
+    q: "Can I give myself a name sign?",
+    a: "No — name signs are given to you by Deaf people who know you, never invented by yourself. Until you receive one, fingerspell your name. Inventing your own name sign is considered disrespectful in Deaf culture.",
+  },
+  {
+    q: "Is the ASL alphabet the same as the BSL alphabet?",
+    a: "No. ASL uses a one-handed alphabet; BSL uses a two-handed alphabet where the non-dominant hand acts as a base. The handshapes are completely different — our alphabet page covers both systems side by side.",
+  },
+];
+
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: title,
+  description,
+  datePublished,
+  author: { "@type": "Person", name: "Firoz Khan" },
+  publisher: {
+    "@type": "Organization",
+    name: "SignLanguage-Translator.com",
+  },
+  mainEntityOfPage: pageUrl,
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+---
+
+<BaseLayout title={`${title} | Sign Language Translator`} description={description}>
+  <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+
+  <div class="mx-auto max-w-3xl px-4 py-14 sm:px-6">
+    <nav aria-label="Breadcrumb">
+      <ol class="flex flex-wrap items-center gap-2 text-sm text-slate-500">
+        <li><a class="underline-offset-2 hover:underline" href="/">Home</a></li>
+        <li aria-hidden="true">/</li>
+        <li><a class="underline-offset-2 hover:underline" href="/learn/">Learn</a></li>
+        <li aria-hidden="true">/</li>
+        <li aria-current="page" class="font-semibold text-slate-900">{title}</li>
+      </ol>
+    </nav>
+
+    <h1 class="mt-6 text-4xl font-extrabold text-slate-900">{title}</h1>
+    <p class="mt-3 text-sm text-slate-500">
+      <time datetime={datePublished}>{datePublished}</time> · By Firoz Khan · 6 min read
+    </p>
+
+    <article class="prose-lg mt-6 space-y-5 text-slate-700">
+      <p>
+        Fingerspelling your name is the first thing most ASL learners learn —
+        and the first thing they get wrong. The ASL manual alphabet is
+        one-handed: 26 handshapes made with your dominant hand, 24 of them
+        static and 2 made with movement. This guide walks you through spelling
+        any name clearly, letter by letter.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Step 1: Learn each letter's handshape</h2>
+      <p>
+        Before spelling your name, learn the individual letters. Our{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/alphabet/">ASL alphabet reference</a>{" "}
+        shows every A–Z handshape. Go through the alphabet slowly and form each
+        letter until the handshapes feel familiar — don't try to spell words
+        until the letters themselves are comfortable.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Step 2: Position your hand correctly</h2>
+      <p>
+        Hold your dominant hand up near your shoulder or cheek, palm facing
+        outward toward the person reading. Keep your wrist fairly steady — the
+        movement happens in your fingers, not your arm. Dropping your hand to
+        waist level is the most common beginner mistake; it forces the reader
+        to look down and breaks eye contact, which matters in signed conversation.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Step 3: Spell with a steady rhythm</h2>
+      <p>
+        Form each letter of your name in order, flowing smoothly from one
+        handshape to the next without full pauses between letters. Keep a steady
+        rhythm — imagine a metronome, not a strobe light. Hold the final letter
+        of your name slightly longer; that tiny hold tells the reader where the
+        word ends.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Step 4: Handle the motion letters — J and Z</h2>
+      <p>
+        Two ASL letters need movement:
+      </p>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>
+          <strong>J:</strong> make the I handshape (pinky up) and trace the
+          shape of a J in the air with your pinky.
+        </li>
+        <li>
+          <strong>Z:</strong> point your index finger and trace the shape of a
+          Z in the air.
+        </li>
+      </ul>
+      <p>
+        If your name contains J or Z, practise the tracing motion separately
+        until it's smooth, then fold it into the rhythm of the full name.
+      </p>
+      <figure class="my-6 text-center">
+        <div class="flex items-end justify-center gap-8">
+          <div>
+            <img class="mx-auto h-40 w-auto" loading="lazy" src="/alphabet/j.svg" alt="ASL handshape for the letter J (starting position — J is traced in the air)" />
+            <figcaption class="mt-2 text-sm text-slate-500">J is signed with movement — the image shows the starting handshape.</figcaption>
+          </div>
+          <div>
+            <img class="mx-auto h-40 w-auto" loading="lazy" src="/alphabet/z.svg" alt="ASL handshape for the letter Z (starting position — Z is traced in the air)" />
+            <figcaption class="mt-2 text-sm text-slate-500">Z is signed with movement — the image shows the starting handshape.</figcaption>
+          </div>
+        </div>
+      </figure>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Step 5: Practise the right way</h2>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>Spell your name in front of a mirror and watch for clarity, not speed.</li>
+        <li>Practise receptive fingerspelling too — try reading words in our{" "}
+          <a class="font-semibold text-indigo-700 underline" href="/#translator">translator</a>,
+          which fingerspells any word letter by letter.</li>
+        <li>Learn the manual alphabet in chunks (A–G, H–N, O–U, V–Z) rather than all 26 at once.</li>
+        <li>Spell real words, not random letter strings — your brain learns patterns faster.</li>
+      </ul>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Frequently asked questions</h2>
+      <dl class="space-y-4">
+        {faqs.map((f) => (
+          <div class="rounded-xl border border-slate-200 bg-white p-5">
+            <dt class="font-bold text-slate-900">{f.q}</dt>
+            <dd class="mt-2 text-slate-700">{f.a}</dd>
+          </div>
+        ))}
+      </dl>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Keep learning</h2>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/alphabet/">ASL &amp; BSL alphabet reference</a>{" "}
+          — every handshape, including the motion letters and the two-handed BSL alphabet.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/dictionary/">ASL &amp; BSL signs dictionaries</a>{" "}
+          — move beyond letters to real word-level signs.
+        </li>
+      </ul>
+    </article>
+
+    <div
+      role="note"
+      class="mt-10 rounded-xl border border-slate-200 bg-slate-50 px-5 py-4 text-sm text-slate-700"
+    >
+      <p>
+        A learning aid, not a certified interpreter. Fingerspelling guides are a
+        starting point — real fluency comes from learning with Deaf instructors
+        and the Deaf community.
+      </p>
+    </div>
+  </div>
+</BaseLayout>

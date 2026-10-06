@@ -1,0 +1,233 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+
+const title = "BSL Numbers 1 to 5: How to Count on Your Fingers";
+const description =
+  "Learn the BSL number signs 1–5 with clear handshape descriptions, how they differ from ASL numbers, and why 0 and 6–10 vary by region.";
+const datePublished = "2026-10-14";
+const slug = "bsl-numbers-1-to-5";
+const pageUrl = `https://signlanguage-translator.com/learn/${slug}/`;
+
+const faqs = [
+  {
+    q: "Are BSL numbers one-handed or two-handed?",
+    a: "One-handed. Like most BSL counting, numbers 1 to 5 are signed with the dominant hand alone. The two-handed alphabet is used for letters, not for these number signs.",
+  },
+  {
+    q: "Do BSL numbers look like ASL numbers?",
+    a: "Not quite. ASL numbers are also one-handed, but the handshapes and palm orientations differ — for example, BSL 1 points the index finger up with the palm facing inward, while ASL 1 holds the index finger with the palm facing the signer. Check the alphabet page, which shows both systems side by side.",
+  },
+  {
+    q: "Why doesn't this guide cover 0 and 6–10?",
+    a: "Because they vary by region. BSL number signs above 5 (and zero) differ between parts of the UK, so describing one version as 'the' BSL sign would be misleading. This site covers the stable, widely agreed forms: 1 to 5.",
+  },
+  {
+    q: "Which hand do I count with?",
+    a: "Your dominant hand — the hand you write with. Keep it up in front of your body where the other person can see it clearly.",
+  },
+  {
+    q: "How do I practise BSL numbers without looking like I'm guessing?",
+    a: "Count real things: items on your desk, stairs as you climb them, minutes on a timer. Counting in context cements the handshapes far faster than drilling the numbers in sequence alone.",
+  },
+  {
+    q: "Can I learn BSL numbers from ASL resources?",
+    a: "No — don't cross the streams. The systems look similar at a glance but differ in real details like palm orientation and finger selection. Learn BSL numbers from BSL sources and ASL numbers from ASL sources.",
+  },
+  {
+    q: "How do you count to 10 in BSL?",
+    a: "This site covers the stable, widely agreed signs: 1 to 5. The signs for 0 and 6–10 vary by region across the UK, so we don't describe a single version as 'the' BSL sign. Learn higher numbers from a Deaf instructor or a regional BSL resource.",
+  },
+  {
+    q: "How do you sign your age in BSL?",
+    a: "Honestly: signing an age needs the number signs for the specific number, and since this site covers BSL 1–5 only, ages above 5 aren't covered here. Learn the full 1–31 range from a Deaf instructor or a regional BSL resource before signing ages.",
+  },
+  {
+    q: "How do you sign phone numbers in BSL?",
+    a: "Phone numbers need digit signs beyond 5, which vary by region — and phone-digit conventions aren't something to guess at from text descriptions. This site doesn't cover them; a Deaf instructor or regional BSL course is the honest route.",
+  },
+];
+
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: title,
+  description,
+  datePublished,
+  author: { "@type": "Person", name: "Firoz Khan" },
+  publisher: {
+    "@type": "Organization",
+    name: "SignLanguage-Translator.com",
+  },
+  mainEntityOfPage: pageUrl,
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+---
+
+<BaseLayout title={`${title} | Sign Language Translator`} description={description}>
+  <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+
+  <div class="mx-auto max-w-3xl px-4 py-14 sm:px-6">
+    <nav aria-label="Breadcrumb">
+      <ol class="flex flex-wrap items-center gap-2 text-sm text-slate-500">
+        <li><a class="underline-offset-2 hover:underline" href="/">Home</a></li>
+        <li aria-hidden="true">/</li>
+        <li><a class="underline-offset-2 hover:underline" href="/learn/">Learn</a></li>
+        <li aria-hidden="true">/</li>
+        <li aria-current="page" class="font-semibold text-slate-900">{title}</li>
+      </ol>
+    </nav>
+
+    <h1 class="mt-6 text-4xl font-extrabold text-slate-900">{title}</h1>
+    <p class="mt-3 text-sm text-slate-500">
+      <time datetime={datePublished}>{datePublished}</time> · By Firoz Khan · 5 min read
+    </p>
+
+    <article class="prose-lg mt-6 space-y-5 text-slate-700">
+      <p>
+        Counting is one of the first practical skills in any sign language —
+        and BSL numbers 1 to 5 are the perfect place to start, because they
+        are the most stable, widely agreed number signs in BSL. Each is
+        one-handed and signed with the dominant hand. Here they are, one number
+        at a time.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">1 — index finger up</h2>
+      <div class="flex justify-center" aria-hidden="true">
+        <span class="text-7xl font-extrabold text-indigo-700">1</span>
+      </div>
+      <p>
+        With your dominant hand, raise just the index finger and fold the
+        remaining fingers into a fist, with your palm facing inward toward
+        you. Think of it as pointing straight up.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">2 — two fingers in a V</h2>
+      <div class="flex justify-center" aria-hidden="true">
+        <span class="text-7xl font-extrabold text-indigo-700">2</span>
+      </div>
+      <p>
+        Raise your index and middle fingers together in a V shape, keeping the
+        rest folded down. If you've seen the ASL 2, note the difference in
+        palm orientation when you compare the two systems.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">3 — three fingers up</h2>
+      <div class="flex justify-center" aria-hidden="true">
+        <span class="text-7xl font-extrabold text-indigo-700">3</span>
+      </div>
+      <p>
+        Raise your index, middle, and ring fingers, folding the thumb and
+        pinky down. Keep the three raised fingers straight and slightly apart
+        so the number reads clearly at a glance.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">4 — four fingers, thumb tucked</h2>
+      <div class="flex justify-center" aria-hidden="true">
+        <span class="text-7xl font-extrabold text-indigo-700">4</span>
+      </div>
+      <p>
+        Point all four fingers upward and hold the thumb down against your
+        palm. The thumb is the distinguishing feature here — tucked in means 4,
+        out and extended with the rest means 5.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">5 — the full hand</h2>
+      <div class="flex justify-center" aria-hidden="true">
+        <span class="text-7xl font-extrabold text-indigo-700">5</span>
+      </div>
+      <p>
+        Extend all five fingers and hold them up in front of your body, spread
+        naturally. This is the most distinctive number in the set — nothing
+        else in BSL counting uses the full open hand this way.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">How BSL numbers differ from ASL numbers</h2>
+      <p>
+        ASL numbers 1–5 are also one-handed, which is why beginners confuse the
+        two systems. But the details differ — palm orientation, which fingers
+        are used for which numbers, and thumb placement all vary. Our{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/alphabet/">alphabet page</a>{" "}
+        shows the ASL and BSL systems side by side, so you can compare directly
+        instead of mixing them up.
+      </p>
+
+      <figure class="my-6 text-center">
+        <div class="flex items-end justify-center gap-3">
+          <img class="h-32 w-auto" loading="lazy" src="/numbers/1.svg" alt="ASL number handshape for 1" />
+          <img class="h-32 w-auto" loading="lazy" src="/numbers/2.svg" alt="ASL number handshape for 2" />
+          <img class="h-32 w-auto" loading="lazy" src="/numbers/3.svg" alt="ASL number handshape for 3" />
+          <img class="h-32 w-auto" loading="lazy" src="/numbers/4.svg" alt="ASL number handshape for 4" />
+          <img class="h-32 w-auto" loading="lazy" src="/numbers/5.svg" alt="ASL number handshape for 5" />
+        </div>
+        <figcaption class="mt-2 text-sm text-slate-500">
+          ASL number handshapes 1–5 (one-handed, palm facing the signer) — compare with the BSL forms above and spot the differences.
+        </figcaption>
+      </figure>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">An honest note on 0 and 6–10</h2>
+      <p>
+        This guide deliberately stops at 5. BSL number signs for 0 and 6–10
+        vary by region across the UK, and describing one regional version as
+        "the" BSL sign would be misleading. This site covers the stable,
+        widely agreed forms — numbers 1 to 5 — and doesn't guess at the rest.
+        When you're ready for higher numbers, learn them from a Deaf instructor
+        or a regional BSL resource.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Counting practice tips</h2>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>Count real things — items on your desk, stairs as you climb, minutes on a timer — rather than drilling 1–5 in sequence alone.</li>
+        <li>Keep your hand up in front of your body where a conversation partner could see it; dropping it to waist level is hard to read.</li>
+        <li>Practise the thumb transition between 4 (thumb tucked) and 5 (thumb out) until it's clean — that's the trickiest boundary in the set.</li>
+        <li>Say the number aloud as you sign it at first; drop the voice once the handshapes are automatic.</li>
+      </ul>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Frequently asked questions</h2>
+      <dl class="space-y-4">
+        {faqs.map((f) => (
+          <div class="rounded-xl border border-slate-200 bg-white p-5">
+            <dt class="font-bold text-slate-900">{f.q}</dt>
+            <dd class="mt-2 text-slate-700">{f.a}</dd>
+          </div>
+        ))}
+      </dl>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Keep learning</h2>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/learn/asl-vs-bsl-key-differences/">ASL vs BSL: key differences</a>{" "}
+          — why the two systems are completely separate languages.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/learn/how-to-fingerspell-your-name-in-bsl/">How to fingerspell your name in BSL</a>{" "}
+          — the two-handed BSL alphabet, numbers' close companion.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/alphabet/">ASL &amp; BSL alphabet reference</a>{" "}
+          — compare both systems side by side.
+        </li>
+      </ul>
+    </article>
+
+    <div
+      role="note"
+      class="mt-10 rounded-xl border border-slate-200 bg-slate-50 px-5 py-4 text-sm text-slate-700"
+    >
+      <p>
+        A learning aid, not a certified interpreter. Number signs are a
+        starting point — real fluency comes from learning with Deaf instructors
+        and the Deaf community.
+      </p>
+    </div>
+  </div>
+</BaseLayout>

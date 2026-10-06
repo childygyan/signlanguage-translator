@@ -1,0 +1,291 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+
+const title = "15 Essential BSL Signs for Beginners";
+const description =
+  "The first signs every BSL learner should know — greetings, manners, and everyday words — each linking to a step-by-step sign guide with practice tips.";
+const datePublished = "2026-10-11";
+const slug = "essential-bsl-signs-for-beginners";
+const pageUrl = `https://signlanguage-translator.com/learn/${slug}/`;
+
+const faqs = [
+  {
+    q: "How many signs should a beginner learn first?",
+    a: "Start with 15–20 high-frequency signs like the ones in this article — greetings, manners, and everyday words. That is enough for simple interactions. From there, expand into the topics you use in daily life: family, food, work, hobbies.",
+  },
+  {
+    q: "What is mouthing, and do I really need to do it?",
+    a: "Mouthing is silently shaping English words with your mouth while you sign. In BSL it is a normal, expected part of the language — it can even distinguish signs that are identical on the hands, like 'please' and 'thank you'. Start doing it early and it will feel natural.",
+  },
+  {
+    q: "Should I learn the two-handed alphabet as well?",
+    a: "Yes. Fingerspelling carries more of the conversational load in BSL than in ASL, because many words have no established sign. Our BSL fingerspelling guide covers the two-handed alphabet — learn it alongside the word signs below.",
+  },
+  {
+    q: "Are these signs the same in other sign languages?",
+    a: "No. These are British Sign Language signs; ASL, for example, uses completely different signs for the same words. Check the sign in the dictionary for the language you are actually learning.",
+  },
+  {
+    q: "How do I make sure my signs look right?",
+    a: "Practise in front of a mirror, keep your movements clear and at a readable height, and mouth the word as you sign. Then get your signs checked by Deaf BSL instructors or signers in your local community.",
+  },
+  {
+    q: "How do you say hello and thank you in BSL?",
+    a: "Hello: hold your dominant hand up near the side of your head and wave it gently side to side, palm facing outward. Thank you: touch your chin with the fingertips of your flat dominant hand, then move it down and away from your face in one smooth motion — mouthing 'thank you' silently as you sign.",
+  },
+  {
+    q: "How do I start learning BSL?",
+    a: "Start with greetings and manners like the signs in this article, learn the two-handed alphabet alongside them (fingerspelling carries more of the conversational load in BSL than in ASL), and build simple two- or three-sign sentences early. Then get your signs checked by Deaf BSL instructors or signers in your local community.",
+  },
+  {
+    q: "Is BSL hard to learn?",
+    a: "No more than any new language. The two-handed alphabet takes extra coordination at first, and mouthing alongside signing feels strange until it becomes habit. But the vocabulary is visual and intuitive, and both hurdles fall quickly with daily short practice sessions.",
+  },
+  {
+    q: "How do you sign 'my name is' in BSL?",
+    a: "Fingerspell your name. BSL has no word-sign for most personal names — sign MY (the context is usually clear), then spell your name with the two-handed alphabet. And don't invent yourself a 'name sign': name signs are given by Deaf people who know you, never self-assigned.",
+  },
+  {
+    q: "How long does it take to learn these 15 signs?",
+    a: "Most beginners can perform all 15 within a few focused practice sessions. Smooth recall in conversation takes a week or two of daily practice — short, daily sessions beat occasional long ones.",
+  },
+];
+
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: title,
+  description,
+  datePublished,
+  author: { "@type": "Person", name: "Firoz Khan" },
+  publisher: {
+    "@type": "Organization",
+    name: "SignLanguage-Translator.com",
+  },
+  mainEntityOfPage: pageUrl,
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+---
+
+<BaseLayout title={`${title} | Sign Language Translator`} description={description}>
+  <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+
+  <div class="mx-auto max-w-3xl px-4 py-14 sm:px-6">
+    <nav aria-label="Breadcrumb">
+      <ol class="flex flex-wrap items-center gap-2 text-sm text-slate-500">
+        <li><a class="underline-offset-2 hover:underline" href="/">Home</a></li>
+        <li aria-hidden="true">/</li>
+        <li><a class="underline-offset-2 hover:underline" href="/learn/">Learn</a></li>
+        <li aria-hidden="true">/</li>
+        <li aria-current="page" class="font-semibold text-slate-900">{title}</li>
+      </ol>
+    </nav>
+
+    <h1 class="mt-6 text-4xl font-extrabold text-slate-900">{title}</h1>
+    <p class="mt-3 text-sm text-slate-500">
+      <time datetime={datePublished}>{datePublished}</time> · By Firoz Khan · 6 min read
+    </p>
+
+    <article class="prose-lg mt-6 space-y-5 text-slate-700">
+      <p>
+        The fastest way into BSL is a small set of high-frequency signs:
+        greetings, manners, and everyday words you will actually use. Master
+        these 15 first and you can handle simple interactions while you keep
+        learning. Each sign below links to a step-by-step guide with practice
+        tips — and remember to mouth the English word silently as you sign,
+        since mouthing is a normal part of BSL.
+      </p>
+      <figure class="my-6 text-center">
+        <div class="flex items-end justify-center gap-3">
+          <img class="h-28 w-auto" loading="lazy" src="/bsl-alphabet/h.svg" alt="BSL handshape for the letter H" />
+          <img class="h-28 w-auto" loading="lazy" src="/bsl-alphabet/e.svg" alt="BSL handshape for the vowel E" />
+          <img class="h-28 w-auto" loading="lazy" src="/bsl-alphabet/l.svg" alt="BSL handshape for the letter L" />
+          <img class="h-28 w-auto" loading="lazy" src="/bsl-alphabet/l.svg" alt="BSL handshape for the letter L" />
+          <img class="h-28 w-auto" loading="lazy" src="/bsl-alphabet/o.svg" alt="BSL handshape for the vowel O" />
+        </div>
+        <figcaption class="mt-2 text-sm text-slate-500">"Hello" spelled with the two-handed BSL alphabet — the word behind your first sign.</figcaption>
+      </figure>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Greetings</h2>
+
+      <h3 class="pt-2 text-xl font-bold text-slate-900">Hello</h3>
+      <p>
+        Hold your dominant hand up near the side of your head and wave it
+        gently from side to side, palm facing outward — keep eye contact and
+        smile.{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/bsl-signs/hello/">Step-by-step guide to Hello</a>
+      </p>
+
+      <h3 class="pt-2 text-xl font-bold text-slate-900">Goodbye</h3>
+      <p>
+        Raise your dominant hand near the side of your head, palm outward,
+        and wave gently side to side. "Bye" uses the same wave — keep the
+        movement relaxed, not exaggerated.{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/bsl-signs/goodbye/">Step-by-step guide to Goodbye</a>
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Manners</h2>
+
+      <h3 class="pt-2 text-xl font-bold text-slate-900">Thank you</h3>
+      <p>
+        Touch your chin with the fingertips of your flat dominant hand, then
+        move it down and away from your face in one smooth motion — and mouth
+        "thank you" silently as you sign.{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/bsl-signs/thank-you/">Step-by-step guide to Thank you</a>
+      </p>
+
+      <h3 class="pt-2 text-xl font-bold text-slate-900">Please</h3>
+      <p>
+        "Please" and "thank you" share the same manual sign in BSL — the
+        mouth pattern carries the meaning, so mouth "please" clearly as you
+        sign.{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/bsl-signs/please/">Step-by-step guide to Please</a>
+      </p>
+
+      <h3 class="pt-2 text-xl font-bold text-slate-900">Sorry</h3>
+      <p>
+        Close your dominant hand into a fist, hold it against the centre of
+        your chest, and move it in small circles — mouthing "sorry" silently
+        makes it unmistakable.{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/bsl-signs/sorry/">Step-by-step guide to Sorry</a>
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Yes, no, and help</h2>
+
+      <h3 class="pt-2 text-xl font-bold text-slate-900">Yes</h3>
+      <p>
+        Close your hand into a fist and nod it up and down a couple of
+        times, like a head nodding — pair it with an affirmative facial
+        expression.{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/bsl-signs/yes/">Step-by-step guide to Yes</a>
+      </p>
+
+      <h3 class="pt-2 text-xl font-bold text-slate-900">No</h3>
+      <p>
+        Extend your index and middle fingers and tap them against your
+        thumb, like a mouth opening and closing as it says "no" — that visual
+        link makes it easy to remember. Add a slight head shake for
+        emphasis.{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/bsl-signs/no/">Step-by-step guide to No</a>
+      </p>
+
+      <h3 class="pt-2 text-xl font-bold text-slate-900">Help</h3>
+      <p>
+        Hold your non-dominant hand flat, palm up, and rest your dominant
+        closed hand (thumb up) on top — it reads visually as lifting someone
+        up. Keep it steady, or lift it slightly.{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/bsl-signs/help/">Step-by-step guide to Help</a>
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Want, need, like, know</h2>
+
+      <h3 class="pt-2 text-xl font-bold text-slate-900">Want</h3>
+      <p>
+        Hold your dominant hand flat against your chest, palm facing you,
+        slide it down your chest, then twist your wrist so the palm turns
+        outward — add a wanting expression on your face to sell it.{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/bsl-signs/want/">Step-by-step guide to Want</a>
+      </p>
+
+      <h3 class="pt-2 text-xl font-bold text-slate-900">Need</h3>
+      <p>
+        BSL uses the same sign for NEED as for WANT — so sign extra context
+        around it to make your meaning clear.{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/bsl-signs/need/">Step-by-step guide to Need</a>
+      </p>
+
+      <h3 class="pt-2 text-xl font-bold text-slate-900">Like</h3>
+      <p>
+        Hold your dominant hand flat with fingers together, thumb folded
+        across, and tap your chest once or twice — mouth the English word
+        "like" silently as you tap.{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/bsl-signs/like/">Step-by-step guide to Like</a>
+      </p>
+
+      <h3 class="pt-2 text-xl font-bold text-slate-900">Know</h3>
+      <p>
+        Make a fist with your thumb sticking out and tap the side of your
+        head with your thumb, repeating the tap — make the tap land visibly,
+        not as a vague wave near the face.{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/bsl-signs/know/">Step-by-step guide to Know</a>
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">People, feelings, everyday words</h2>
+
+      <h3 class="pt-2 text-xl font-bold text-slate-900">Love</h3>
+      <p>
+        Flatten both hands, palms inward, cross them over your chest on the
+        left side, and give a small warm press inward with a gentle smile —
+        like pressing something precious to your heart.{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/bsl-signs/love/">Step-by-step guide to Love</a>
+      </p>
+
+      <h3 class="pt-2 text-xl font-bold text-slate-900">Eat</h3>
+      <p>
+        Bring your fingertips and thumb together into a bunched shape and
+        tap them against your mouth twice — keep the double tap rhythmic,
+        like taking two bites.{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/bsl-signs/eat/">Step-by-step guide to Eat</a>
+      </p>
+
+      <h3 class="pt-2 text-xl font-bold text-slate-900">Drink</h3>
+      <p>
+        Curve your dominant hand into a loose C, as if holding a cup, lift
+        it to your mouth, and tip your wrist toward your face — keep the
+        motion small and repeat it once or twice.{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/bsl-signs/drink/">Step-by-step guide to Drink</a>
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Frequently asked questions</h2>
+      <dl class="space-y-4">
+        {faqs.map((f) => (
+          <div class="rounded-xl border border-slate-200 bg-white p-5">
+            <dt class="font-bold text-slate-900">{f.q}</dt>
+            <dd class="mt-2 text-slate-700">{f.a}</dd>
+          </div>
+        ))}
+      </dl>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Keep learning</h2>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/dictionary/">ASL &amp; BSL signs dictionaries</a>{" "}
+          — keep building your vocabulary, word by word.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/learn/how-to-fingerspell-your-name-in-bsl/">How to fingerspell your name in BSL</a>{" "}
+          — the two-handed alphabet for names and new words.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/learn/asl-vs-bsl-key-differences/">ASL vs BSL: 7 key differences</a>{" "}
+          — why these signs are specific to British Sign Language.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/learn/essential-asl-signs-for-beginners/">15 essential ASL signs for beginners</a>{" "}
+          — the American counterparts, for comparison.
+        </li>
+      </ul>
+    </article>
+
+    <div
+      role="note"
+      class="mt-10 rounded-xl border border-slate-200 bg-slate-50 px-5 py-4 text-sm text-slate-700"
+    >
+      <p>
+        A learning aid, not a certified interpreter. Sign guides are a
+        starting point — real fluency comes from learning with Deaf instructors
+        and the Deaf community.
+      </p>
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,300 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+
+const title = "Facial Expressions in Sign Language: Your Face Is Grammar (ASL & BSL)";
+const description =
+  "In ASL and BSL your face carries meaning — questions, negation, and intensity all live in facial expressions. What beginners must learn beyond the hands.";
+const datePublished = "2026-10-16";
+const slug = "facial-expressions-in-sign-language";
+const pageUrl = `https://signlanguage-translator.com/learn/${slug}/`;
+
+const faqs = [
+  {
+    q: "Are facial expressions part of sign language?",
+    a: "Yes — and not as decoration. Eyebrows mark question types, headshakes mark negation, and mouth and cheek shapes adjust degree and manner. These are grammatical features, which is why fluent signers watch each other's faces as much as their hands.",
+  },
+  {
+    q: "What are non-manual markers?",
+    a: "Non-manual markers are the meaningful signals made with everything except the hands: eyebrows, eyes, head movements, mouth shapes, and body posture. In ASL and BSL they carry grammatical jobs — questions, negation, conditionals — the way word order and punctuation do in speech.",
+  },
+  {
+    q: "How do eyebrows mark questions?",
+    a: "Raised eyebrows held through the sentence mark a yes/no question; furrowed eyebrows (lowered and drawn together) mark a wh-question (who, what, where, when, why, how). The brow pattern is the grammatical signal — without it, a question can read as a statement.",
+  },
+  {
+    q: "What's the difference between emotional and grammatical facial expressions?",
+    a: "Grammatical expressions follow rules and change meaning: raised brows make a question, a headshake makes a negation. Emotional expressions (smiling when happy) ride on top of that grammar. Beginners should learn the grammatical layer first — it's what makes signing understandable, not just friendly.",
+  },
+  {
+    q: "What are mouth morphemes?",
+    a: "Mouth morphemes are mouth and cheek shapes that add meaning to a sign — for example, mouth shapes that adjust the size or intensity of an adjective. In BSL, mouthing (silently shaping the spoken word) is additionally part of many signs and can disambiguate meaning, as with BSL PLEASE and THANK YOU.",
+  },
+  {
+    q: "How is negation shown on the face?",
+    a: "With a headshake that co-occurs with the negative part of the sentence — it's part of the grammar, not emphasis. Don't shake your head through the whole sentence; that looks unnatural. Pair the headshake with the negative sign and let the rest of the sentence stay still.",
+  },
+  {
+    q: "Do ASL and BSL use the same facial grammar?",
+    a: "Non-manual features are grammatical in both languages, and the broad patterns (brow movements for questions, headshakes for negation) are shared. But ASL and BSL are separate languages — learn the patterns within the language you are studying rather than assuming every detail transfers.",
+  },
+];
+
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: title,
+  description,
+  datePublished,
+  author: { "@type": "Person", name: "Firoz Khan" },
+  publisher: {
+    "@type": "Organization",
+    name: "SignLanguage-Translator.com",
+  },
+  mainEntityOfPage: pageUrl,
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+---
+
+<BaseLayout title={`${title} | Sign Language Translator`} description={description}>
+  <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+
+  <div class="mx-auto max-w-3xl px-4 py-14 sm:px-6">
+    <nav aria-label="Breadcrumb">
+      <ol class="flex flex-wrap items-center gap-2 text-sm text-slate-500">
+        <li><a class="underline-offset-2 hover:underline" href="/">Home</a></li>
+        <li aria-hidden="true">/</li>
+        <li><a class="underline-offset-2 hover:underline" href="/learn/">Learn</a></li>
+        <li aria-hidden="true">/</li>
+        <li aria-current="page" class="font-semibold text-slate-900">{title}</li>
+      </ol>
+    </nav>
+
+    <h1 class="mt-6 text-4xl font-extrabold text-slate-900">{title}</h1>
+    <p class="mt-3 text-sm text-slate-500">
+      <time datetime={datePublished}>{datePublished}</time> · By Firoz Khan · 6 min read
+    </p>
+
+    <article class="prose-lg mt-6 space-y-5 text-slate-700">
+      <p>
+        Yes — and they're grammar, not decoration. In ASL and BSL, your
+        eyebrows mark question type (raised = yes/no question, furrowed =
+        wh-question), a headshake co-occurring with a negative sign marks
+        negation, and mouth and cheek shapes add degree and manner to
+        signs. Linguists call these <strong>non-manual features</strong>:
+        without the right face, a signed sentence can be ungrammatical.
+      </p>
+      <p>
+        This is not about acting emotional. It's a small set of learnable
+        rules — the same kind of rules as word order in speech. Here are
+        the ones every beginner should learn first, plus how to practise
+        them without overdoing it.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Yes/no questions: eyebrows raised</h2>
+      <p>
+        When you ask a yes/no question — the kind answered with yes or no —
+        raise your eyebrows and hold them up through the question. A slight
+        forward tilt of the head often comes with it. The raised brows are
+        the grammatical marker of the question. Sign the words of "Are you
+        coming?" with a neutral face, and many signers will read it as a
+        statement, not a question.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Wh-questions: eyebrows furrowed</h2>
+      <p>
+        Questions with who, what, where, when, why, and how use the
+        opposite brow pattern: furrow your eyebrows — lower them and draw
+        them together — and hold that through the question. The contrast
+        is the point. Yes/no questions raise the brows; wh-questions
+        furrow them. Practise the two patterns side by side until the
+        switch feels natural, because mixing them up confuses the reader
+        about what kind of question you asked.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Negation: the headshake belongs to the grammar</h2>
+      <p>
+        Negation in sign language is not just the negative sign — a
+        headshake co-occurs with it as part of the grammar. Shake your
+        head alongside the negated part of the sentence, not as an
+        afterthought and not for emphasis. Two cautions for beginners:
+        don't shake your head through the whole sentence (unnecessary
+        movement that looks unnatural), and don't substitute nodding for
+        the headshake — head movements have their own grammatical jobs,
+        so use each one where it belongs.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Intensity and degree: mouth and cheek expressions</h2>
+      <p>
+        Your mouth and cheeks add adverbial meaning — they modify the
+        sign the way adverbs modify verbs and adjectives in speech.
+        Tightening the mouth, puffing or hollowing the cheeks, and other
+        mouth shapes adjust the degree of an adjective or the manner of
+        an action: they are how you sign that something is very big, a
+        little small, or done carefully. This is one of the reasons
+        fluent signers watch each other's faces as much as their hands —
+        the face is carrying real information, not decoration.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">The same rules apply in ASL and BSL</h2>
+      <p>
+        Non-manual features are grammatical in both languages. ASL and BSL
+        have completely different signs and different manual alphabets,
+        but both use brow movements, head movements, and mouth patterns
+        as grammar. The broad patterns — brows for questions, headshakes
+        for negation — hold in both. That said, the two are separate
+        languages, so don't assume every facial detail transfers. Learn
+        the patterns within the language you are studying.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Non-manual grammar in BSL: what to know</h2>
+      <p>
+        BSL uses non-manual markers grammatically, just like ASL: brow
+        movements mark question types and headshakes co-occur with
+        negation. Where BSL stands out is the role of the mouth. In BSL,
+        <strong>mouthing</strong> — silently shaping the spoken English
+        word as you sign — is part of many signs and can carry meaning on
+        its own. The clearest example: BSL PLEASE and THANK YOU share one
+        manual form, and the mouthed word is what tells them apart. BSL
+        learners should therefore practise the mouth pattern as part of
+        the sign, not as an optional extra.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Mirror drills for facial grammar</h2>
+      <p>
+        Facial grammar is a motor skill — reading about it doesn't build
+        it. Run these drills in front of a mirror, where you can see
+        exactly what a conversation partner would see:
+      </p>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>
+          <strong>The question switch.</strong> Ask yourself the same
+          sentence as a yes/no question (brows raised, held) and then as
+          a wh-question (brows furrowed, held). Watch that the expression
+          lasts through the whole sentence, not just the first second.
+        </li>
+        <li>
+          <strong>The negation hold.</strong> Sign a simple negative
+          sentence and pair the headshake with the negative part only.
+          Check the mirror: is your head still everywhere else?
+        </li>
+        <li>
+          <strong>The intensity ladder.</strong> Sign an adjective like
+          BIG three times, changing only your mouth and cheeks each time
+          — neutral, then a little tightened, then strongly tightened.
+          This trains the degree scale your face controls.
+        </li>
+        <li>
+          <strong>The BSL mouthing drill.</strong> Sign BSL PLEASE and
+          THANK YOU back to back, keeping the hand identical and changing
+          only the mouthed word. If a watcher can't tell them apart,
+          your mouthing needs to be clearer.
+        </li>
+        <li>
+          <strong>The playback check.</strong> Film yourself signing a
+          short exchange with a question and a negation. Watch it back at
+          half attention — if the question brows and headshake jump out
+          at you, a real reader will catch them too.
+        </li>
+      </ul>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">How to practise facial grammar</h2>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>
+          <strong>Work in a mirror.</strong> Ask yourself yes/no questions
+          and wh-questions, and watch whether your brows actually hold the
+          pattern through the whole sentence. Beginners often flash the
+          expression for a split second and drop it.
+        </li>
+        <li>
+          <strong>Don't exaggerate unnaturally.</strong> Facial grammar is
+          real and visible, but it is not theatre. Over-acting draws
+          attention to the face and distracts from the signs. Aim for the
+          natural range you see on fluent signers.
+        </li>
+        <li>
+          <strong>Watch Deaf signers' faces.</strong> The fastest way to
+          internalise non-manual grammar is to watch fluent signers and
+          study what their brows, heads, and mouths are doing — then
+          imitate it. Hands-first learning leaves the grammar out.
+        </li>
+        <li>
+          <strong>Practise one marker at a time.</strong> Layer the
+          patterns gradually: questions first, then negation, then
+          adverbial mouth expressions. Trying to add everything at once
+          leads to muddled signing.
+        </li>
+      </ul>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Watch the face and the hands together</h2>
+      <p>
+        Facial grammar never happens in isolation — your face has to hold
+        its expression <em>through</em> the hand movement. This is hardest
+        on signs with movement of their own, like the ASL motion letters
+        J and Z, which are traced in the air rather than held as static
+        handshapes. A common beginner error is dropping the brow pattern
+        halfway through a long sign or question. Practise keeping the
+        question brows or the headshake steady from the first letter to
+        the last.
+      </p>
+      <figure class="my-6 text-center">
+        <div class="flex items-end justify-center gap-8">
+          <div>
+            <img class="mx-auto h-40 w-auto" loading="lazy" src="/alphabet/j.svg" alt="ASL handshape for the letter J (starting position — J is traced in the air)" />
+            <figcaption class="mt-2 text-sm text-slate-500">J is signed with movement — the image shows the starting handshape.</figcaption>
+          </div>
+          <div>
+            <img class="mx-auto h-40 w-auto" loading="lazy" src="/alphabet/z.svg" alt="ASL handshape for the letter Z (starting position — Z is traced in the air)" />
+            <figcaption class="mt-2 text-sm text-slate-500">Z is signed with movement — the image shows the starting handshape.</figcaption>
+          </div>
+        </div>
+      </figure>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Frequently asked questions</h2>
+      <dl class="space-y-4">
+        {faqs.map((f) => (
+          <div class="rounded-xl border border-slate-200 bg-white p-5">
+            <dt class="font-bold text-slate-900">{f.q}</dt>
+            <dd class="mt-2 text-slate-700">{f.a}</dd>
+          </div>
+        ))}
+      </dl>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Keep learning</h2>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/learn/asl-vs-bsl-key-differences/">ASL vs BSL: key differences</a>{" "}
+          — how the two languages differ in hands, grammar, and structure.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/learn/how-to-sign-how-are-you-everyday-phrases/">How to sign "How are you?" + 10 everyday ASL &amp; BSL phrases</a>{" "}
+          — where question brows and polite signs meet real conversation.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/dictionary/">ASL &amp; BSL signs dictionaries</a>{" "}
+          — build your vocabulary of word-level signs to pair with your new facial grammar.
+        </li>
+      </ul>
+    </article>
+
+    <div
+      role="note"
+      class="mt-10 rounded-xl border border-slate-200 bg-slate-50 px-5 py-4 text-sm text-slate-700"
+    >
+      <p>
+        A learning aid, not a certified interpreter. Facial grammar guides are a
+        starting point — real fluency comes from learning with Deaf instructors
+        and the Deaf community.
+      </p>
+    </div>
+  </div>
+</BaseLayout>

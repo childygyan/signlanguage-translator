@@ -1,0 +1,240 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+
+const title = "How to Introduce Yourself in ASL";
+const description =
+  "A complete beginner's introduction in ASL: signing your name, where you're from, and the classic 'what is your name' exchange — phrase by phrase.";
+const datePublished = "2026-10-13";
+const slug = "introduce-yourself-in-asl";
+const pageUrl = `https://signlanguage-translator.com/learn/${slug}/`;
+
+const faqs = [
+  {
+    q: "How do you say 'my name is' in ASL?",
+    a: "The standard pattern is simple: sign HELLO, then fingerspell your name letter by letter with the one-handed ASL alphabet. There's no dedicated MY-NAME word sign in this site's dictionary — the greeting plus fingerspelled name is the correct, complete introduction.",
+  },
+  {
+    q: "How do you fingerspell names in ASL?",
+    a: "Use your dominant hand, held near your shoulder with the palm facing outward, and form each letter in a smooth, steady rhythm — no full pauses between letters. Hold the final letter of the name slightly longer to mark the word boundary. Clarity beats speed every time.",
+  },
+  {
+    q: "How do you sign 'nice to meet you' in ASL?",
+    a: "Honestly: this site's dictionary doesn't carry that phrase as a single sign. The safe approach is to fingerspell it letter by letter — fingerspelling is always correct when you don't have an established sign.",
+  },
+  {
+    q: "How do Deaf people introduce themselves?",
+    a: "The same way this guide teaches: a greeting, then a name — fingerspelled, or signed with an established sign name if they have one — and often where they're from. Many Deaf people have sign names given by the Deaf community; those are never self-assigned, so beginners always fingerspell.",
+  },
+  {
+    q: "How can I teach my child to introduce themselves in ASL?",
+    a: "Start with the two-step pattern: HELLO plus their fingerspelled name. Have them learn the alphabet handshapes first, then practice the full introduction facing a mirror or a partner — face-to-face practice is what makes it stick. Learn alongside them; children pick it up fast when the adult is signing too.",
+  },
+  {
+    q: "Is it rude to fingerspell my name instead of signing it?",
+    a: "Not at all — it's expected. Everyone fingerspells their name in introductions; sign names are earned over time within the Deaf community and are not self-assigned. Fingerspelling your name is correct, respectful, and universal.",
+  },
+];
+
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: title,
+  description,
+  datePublished,
+  author: { "@type": "Person", name: "Firoz Khan" },
+  publisher: {
+    "@type": "Organization",
+    name: "SignLanguage-Translator.com",
+  },
+  mainEntityOfPage: pageUrl,
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+---
+
+<BaseLayout title={`${title} | Sign Language Translator`} description={description}>
+  <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+
+  <div class="mx-auto max-w-3xl px-4 py-14 sm:px-6">
+    <nav aria-label="Breadcrumb">
+      <ol class="flex flex-wrap items-center gap-2 text-sm text-slate-500">
+        <li><a class="underline-offset-2 hover:underline" href="/">Home</a></li>
+        <li aria-hidden="true">/</li>
+        <li><a class="underline-offset-2 hover:underline" href="/learn/">Learn</a></li>
+        <li aria-hidden="true">/</li>
+        <li aria-current="page" class="font-semibold text-slate-900">{title}</li>
+      </ol>
+    </nav>
+
+    <h1 class="mt-6 text-4xl font-extrabold text-slate-900">{title}</h1>
+    <p class="mt-3 text-sm text-slate-500">
+      <time datetime={datePublished}>{datePublished}</time> · By Firoz Khan · 6 min read
+    </p>
+
+    <article class="prose-lg mt-6 space-y-5 text-slate-700">
+      <p>
+        A complete ASL introduction needs just four pieces: <strong>HELLO</strong>,
+        your <strong>fingerspelled name</strong>, the question{" "}
+        <strong>WHAT YOUR NAME</strong> to ask theirs, and a polite closer —
+        <strong>THANK YOU</strong> plus <strong>GOODBYE</strong>. No other
+        vocabulary required. This guide builds that exchange phrase by phrase.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Step 1: Sign HELLO</h2>
+      <p>
+        Open with <a class="font-semibold text-indigo-700 underline" href="/signs/hello/">hello</a>:
+        raise your dominant hand to your forehead, palm facing outward, fingers
+        together pointing up, and move it away from your forehead in a small
+        salute-like motion. Keep your face warm and engaged — a greeting signed
+        with a flat expression can read as abrupt.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Step 2: Fingerspell your name</h2>
+      <p>
+        Right after hello, fingerspell your name with the one-handed ASL
+        alphabet — hold your dominant hand near your shoulder, palm facing
+        outward, and form each letter in a smooth rhythm. Names are always
+        fingerspelled in ASL; there is no need for a word-level sign for your
+        name. If you need a refresher, our guide to{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/learn/how-to-fingerspell-your-name-in-asl/">fingerspelling your name in ASL</a>{" "}
+        covers the letters, the J and Z motion letters, and practice tips.
+      </p>
+
+      <figure class="my-6 text-center">
+        <div class="flex items-end justify-center gap-4">
+          <img class="h-32 w-auto" loading="lazy" src="/alphabet/a.svg" alt="ASL handshape for the letter A" />
+          <img class="h-32 w-auto" loading="lazy" src="/alphabet/n.svg" alt="ASL handshape for the letter N" />
+          <img class="h-32 w-auto" loading="lazy" src="/alphabet/a.svg" alt="ASL handshape for the letter A" />
+        </div>
+        <figcaption class="mt-2 text-sm text-slate-500">
+          The letters of A-N-A, signed in order — form each letter smoothly and hold the final letter slightly longer.
+        </figcaption>
+      </figure>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Step 3: Ask their name — WHAT YOUR NAME</h2>
+      <p>
+        To ask someone their name, use this sequence:
+      </p>
+      <ol class="list-decimal space-y-2 pl-6">
+        <li>
+          Sign WHAT with a palms-up shrug.
+        </li>
+        <li>
+          Point an open palm toward the person — that's YOUR.
+        </li>
+        <li>
+          Sign NAME by tapping your dominant index and middle fingers across
+          the same two fingers of your other hand.
+        </li>
+      </ol>
+      <p>
+        Together that's <a class="font-semibold text-indigo-700 underline" href="/signs/what-is-your-name/">WHAT YOUR NAME</a>.
+        Notice the order: topic first (NAME), question word early — the standard
+        teaching pattern for ASL, rather than English's "what is your name" order.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">A note on ASL word order</h2>
+      <p>
+        ASL is not signed English. The standard teaching pattern puts the topic
+        first and the comment after — NAME YOUR WHAT, rather than "what is your
+        name." Don't try to memorize grammar rules yet; the safe approach is to
+        learn common phrases as complete patterns, the way this guide presents
+        them. You'll absorb the rhythm naturally as your vocabulary grows.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Step 4: Close politely</h2>
+      <p>
+        End the exchange with a thank-you and goodbye. Sign{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/signs/thank-you/">thank you</a>{" "}
+        by touching your chin with the fingertips of your flat hand, palm facing
+        you, then moving your hand forward and slightly down, ending with your
+        palm angled upward. Then sign{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/signs/goodbye/">goodbye</a>{" "}
+        — raise your open hand, palm facing outward, and wave it side to side.
+        A smile and steady eye contact close the introduction well.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">For parents and teachers</h2>
+      <p>
+        Teaching a child to introduce themselves in ASL works best in small,
+        repeated doses. Start with the two-step pattern — HELLO plus their
+        fingerspelled name — and drill just that until it's automatic. Have
+        them practice facing you so they learn the eye contact habit from the
+        start, not as a correction later. Learn the alphabet alongside them:
+        children mirror the adult, so your own clear fingerspelling becomes
+        their model. Five minutes of face-to-face practice a day beats an
+        occasional long session.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Common beginner mistakes</h2>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>
+          <strong>Making up a sign for your name.</strong> Sign names are
+          earned over time within the Deaf community and are never
+          self-assigned. Fingerspell your name — it's correct and respectful.
+        </li>
+        <li>
+          <strong>Signing English word order.</strong> "What is your name" in
+          English order sounds as wrong in ASL as it does translated literally
+          into any other language. Use the topic-first pattern: NAME YOUR WHAT.
+        </li>
+        <li>
+          <strong>Skipping the thank-you.</strong> Beginners often end with
+          goodbye alone. Adding THANK YOU takes two seconds and reads as much
+          more polished.
+        </li>
+        <li>
+          <strong>Rushing the fingerspelling.</strong> Your name is the part of
+          the introduction the other person most needs to read. Clear, evenly
+          spaced letters beat fast, blurry ones every time.
+        </li>
+      </ul>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Frequently asked questions</h2>
+      <dl class="space-y-4">
+        {faqs.map((f) => (
+          <div class="rounded-xl border border-slate-200 bg-white p-5">
+            <dt class="font-bold text-slate-900">{f.q}</dt>
+            <dd class="mt-2 text-slate-700">{f.a}</dd>
+          </div>
+        ))}
+      </dl>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Keep learning</h2>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/learn/common-asl-greetings/">Common ASL greetings</a>{" "}
+          — hello, goodbye, good morning, and good night, with when to use each.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/learn/how-to-fingerspell-your-name-in-asl/">How to fingerspell your name in ASL</a>{" "}
+          — the alphabet, the motion letters, and practice tips.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/learn/essential-asl-signs-for-beginners/">Essential ASL signs for beginners</a>{" "}
+          — the next words to add after you can introduce yourself.
+        </li>
+      </ul>
+    </article>
+
+    <div
+      role="note"
+      class="mt-10 rounded-xl border border-slate-200 bg-slate-50 px-5 py-4 text-sm text-slate-700"
+    >
+      <p>
+        A learning aid, not a certified interpreter. Introduction patterns are
+        a starting point — real fluency comes from learning with Deaf
+        instructors and the Deaf community.
+      </p>
+    </div>
+  </div>
+</BaseLayout>

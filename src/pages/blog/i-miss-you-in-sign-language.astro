@@ -1,0 +1,203 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const title = "I Miss You in Sign Language: How to Sign It in ASL & BSL";
+const description =
+  "Learn to sign \u2018I miss you\u2019 in American Sign Language: the I-MISS-YOU construction step by step, what to do in BSL, and common mistakes to avoid.";
+const datePublished = "2026-10-06";
+const slug = "i-miss-you-in-sign-language";
+const pageUrl = `https://signlanguage-translator.com/blog/${slug}/`;
+
+const faqs = [
+  {
+    q: "How do you sign \u2018I miss you\u2019 in ASL?",
+    a: "Sign it as three parts: point your index finger to yourself (I), then the MISS sign \u2014 a sad, wistful expression while you poke your straight index finger into the cleft of your chin \u2014 then point your index finger toward the person (YOU).",
+  },
+  {
+    q: "What is the sign for \u2018miss\u2019 in ASL?",
+    a: "For \u2018miss\u2019 as in missing someone: put a sad, wistful look on your face and poke your straight index finger into the cleft of your chin. This is the form taught in Dr. Bill Vicars\u2019 ASL University (Lifeprint) Q&A materials.",
+  },
+  {
+    q: "How do you sign \u2018I miss you\u2019 in BSL?",
+    a: "Honestly: our BSL dictionary doesn\u2019t have a researched MISS sign yet, so don\u2019t guess one. Fingerspell M-I-S-S clearly with the two-handed BSL alphabet, or check BSL SignBank for the regional sign. Never substitute the ASL sign and call it BSL.",
+  },
+  {
+    q: "Is there a difference between signing \u2018I miss you\u2019 and \u2018I missed you\u2019?",
+    a: "The MISS sign itself stays the same; tense comes from context \u2014 the rest of your sentence or the situation makes clear whether you mean now or in the past. ASL doesn\u2019t change the verb form the way English adds \u2018-ed\u2019.",
+  },
+  {
+    q: "Can I just fingerspell \u2018I miss you\u2019 instead of signing it?",
+    a: "Yes \u2014 fingerspelling M-I-S-S (with I and YOU as points, or fully fingerspelled) is always acceptable and always understood. It\u2019s slower than the sign, but it\u2019s never wrong.",
+  },
+  {
+    q: "What\u2019s the difference between \u2018I miss you\u2019 and \u2018I love you\u2019 in ASL?",
+    a: "They\u2019re completely different signs. \u2018I love you\u2019 combines I, LOVE and YOU (and has its own famous one-handed sign), while \u2018I miss you\u2019 uses the chin-poke MISS sign. Don\u2019t mix them up \u2014 see our step-by-step guide for \u2018I love you\u2019 in the dictionary.",
+  },
+];
+
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: title,
+  description,
+  datePublished,
+  author: { "@type": "Person", name: "Firoz Khan" },
+  publisher: { "@type": "Organization", name: "SignLanguage-Translator.com" },
+  mainEntityOfPage: pageUrl,
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+---
+
+<BaseLayout title={`${title} | Sign Language Translator`} description={description}>
+  <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+
+  <div class="mx-auto max-w-3xl px-4 py-14 sm:px-6">
+    <nav aria-label="Breadcrumb">
+      <ol class="flex flex-wrap items-center gap-2 text-sm text-slate-500">
+        <li><a class="underline-offset-2 hover:underline" href="/">Home</a></li>
+        <li aria-hidden="true">/</li>
+        <li><a class="underline-offset-2 hover:underline" href="/blog/">Blog</a></li>
+        <li aria-hidden="true">/</li>
+        <li aria-current="page" class="font-semibold text-slate-900">I miss you in sign language</li>
+      </ol>
+    </nav>
+
+    <h1 class="mt-6 text-4xl font-extrabold text-slate-900">
+      I Miss You in Sign Language
+    </h1>
+    <p class="mt-3 text-sm text-slate-500">
+      <time datetime={datePublished}>{datePublished}</time> · By Firoz Khan · 4 min read
+    </p>
+
+    <article class="prose-lg mt-6 space-y-5 text-slate-700">
+      <p>
+        In American Sign Language, <strong>&ldquo;I miss you&rdquo;</strong> is
+        signed as three parts: <strong>I &rarr; MISS &rarr; YOU</strong>. Point
+        to yourself, make the MISS sign, then point to the person. Here&rsquo;s
+        each step.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Step 1: I &mdash; point to yourself</h2>
+      <p>
+        Touch your index finger to your chest, pointing at yourself. Simple,
+        natural &mdash; just like pointing at yourself in any conversation.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Step 2: MISS &mdash; the chin poke</h2>
+      <p>
+        This is the key sign. Put a sad, wistful look on your face &mdash; the
+        expression is part of the sign, not decoration &mdash; and poke your
+        straight index finger into the cleft of your chin. (Researched from Dr.
+        Bill Vicars&rsquo; ASL University Q&amp;A materials at Lifeprint.com,
+        rewritten in our own words.)
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Step 3: YOU &mdash; point to them</h2>
+      <p>
+        Point your index finger directly toward the person you&rsquo;re signing
+        to. If they&rsquo;re not present, point toward the space where
+        you&rsquo;ve &ldquo;placed&rdquo; them in the conversation.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">No MISS sign handy? Fingerspell it</h2>
+      <p>
+        Fingerspelling M-I-S-S is always acceptable and always understood. Keep
+        each letter clear and evenly spaced:
+      </p>
+      <div class="flex flex-wrap gap-2" role="list" aria-label="Fingerspelling M-I-S-S in ASL">
+        <span role="listitem" class="flex h-28 w-24 items-center justify-center rounded-lg border-2 border-slate-300 bg-slate-50 p-1.5">
+          <img src="/alphabet/m.svg" alt="ASL handshape for the letter M" class="h-full w-auto" loading="lazy" />
+        </span>
+        <span role="listitem" class="flex h-28 w-24 items-center justify-center rounded-lg border-2 border-slate-300 bg-slate-50 p-1.5">
+          <img src="/alphabet/i.svg" alt="ASL handshape for the letter I" class="h-full w-auto" loading="lazy" />
+        </span>
+        <span role="listitem" class="flex h-28 w-24 items-center justify-center rounded-lg border-2 border-slate-300 bg-slate-50 p-1.5">
+          <img src="/alphabet/s.svg" alt="ASL handshape for the letter S" class="h-full w-auto" loading="lazy" />
+        </span>
+        <span role="listitem" class="flex h-28 w-24 items-center justify-center rounded-lg border-2 border-slate-300 bg-slate-50 p-1.5">
+          <img src="/alphabet/s.svg" alt="ASL handshape for the letter S (second S in MISS)" class="h-full w-auto" loading="lazy" />
+        </span>
+      </div>
+      <p class="text-base">
+        Our <a class="font-semibold text-indigo-700 underline" href="/#translator">translator</a> fingerspells
+        any word like this, letter by letter.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">What about BSL?</h2>
+      <p>
+        An honest note: our BSL dictionary doesn&rsquo;t have a researched MISS
+        sign yet, and BSL signs are never interchangeable with ASL. For now,
+        fingerspell M-I-S-S with the{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/alphabet/">two-handed BSL alphabet</a>,
+        or look it up in BSL SignBank for your region&rsquo;s sign.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Variations</h2>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>
+          <strong>&ldquo;I miss you so much&rdquo;:</strong> sign I-MISS-YOU with
+          a stronger, more emotional facial expression and slightly larger
+          movement &mdash; intensity in sign language lives in the face and the
+          size of the movement.
+        </li>
+        <li>
+          <strong>&ldquo;I missed you&rdquo; (past):</strong> same signs;
+          context carries the tense. You can add a sign like FINISH or
+          YESTERDAY before it if the timing matters.
+        </li>
+      </ul>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Frequently asked questions</h2>
+      <dl class="space-y-4">
+        {faqs.map((f) => (
+          <div class="rounded-xl border border-slate-200 bg-white p-5">
+            <dt class="font-bold text-slate-900">{f.q}</dt>
+            <dd class="mt-2 text-slate-700">{f.a}</dd>
+          </div>
+        ))}
+      </dl>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Keep learning</h2>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/signs/i-love-you/">How to sign &ldquo;I love you&rdquo; in ASL</a>{" "}
+          &mdash; a related phrase with its own famous sign.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/bsl-signs/i-love-you/">How to sign &ldquo;I love you&rdquo; in BSL</a>{" "}
+          &mdash; the British version.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/signs/love/">How to sign &ldquo;love&rdquo; in ASL</a>{" "}
+          and <a class="font-semibold text-indigo-700 underline" href="/signs/sad/">how to sign &ldquo;sad&rdquo;</a>.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/learn/">Learn sign language</a>{" "}
+          &mdash; our daily step-by-step article series.
+        </li>
+      </ul>
+    </article>
+
+    <div
+      role="note"
+      class="mt-10 rounded-xl border border-slate-200 bg-slate-50 px-5 py-4 text-sm text-slate-700"
+    >
+      <p>
+        A learning aid, not a certified interpreter. The ASL MISS description
+        above is researched from Dr. Bill Vicars&rsquo; ASL University
+        (Lifeprint.com) materials and rewritten in our own words. Real fluency
+        comes from learning with Deaf instructors and the Deaf community.
+      </p>
+    </div>
+  </div>
+</BaseLayout>

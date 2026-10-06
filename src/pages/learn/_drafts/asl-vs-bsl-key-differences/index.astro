@@ -1,0 +1,254 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+
+const title = "ASL vs BSL: 7 Key Differences Every Beginner Should Know";
+const description =
+  "American and British Sign Language are separate languages, not dialects. The seven differences that matter most: alphabets, vocabulary, grammar, numbers, mouthing, fingerspelling use, and learning paths.";
+const datePublished = "2026-10-09";
+const slug = "asl-vs-bsl-key-differences";
+const pageUrl = `https://signlanguage-translator.com/learn/${slug}/`;
+
+const faqs = [
+  {
+    q: "Is BSL a dialect of ASL?",
+    a: "No. They are separate languages with separate histories. They do not share an alphabet, their vocabularies overlap very little, and they developed independently on different continents.",
+  },
+  {
+    q: "Are ASL and BSL mutually intelligible?",
+    a: "No. A fluent signer of one cannot automatically follow the other — much like a French speaker and a Spanish speaker share a few clues but not a conversation. Shared roots help slightly, but that is all.",
+  },
+  {
+    q: "Is ASL one-handed and BSL two-handed?",
+    a: "For fingerspelling, yes — ASL uses a one-handed alphabet, BSL a two-handed one built around a base hand. But the languages differ far beyond fingerspelling: separate vocabularies, grammars, and number systems too.",
+  },
+  {
+    q: "Do ASL and BSL share an alphabet?",
+    a: "No. They use completely separate manual alphabets — one-handed in ASL, two-handed in BSL — with different handshapes for every letter. Knowing one alphabet gives you no head start on the other.",
+  },
+  {
+    q: "Which should I learn first, ASL or BSL?",
+    a: "Learn the one used by the Deaf community around you. If you live in the United States or Canada, ASL; in the United Kingdom, BSL. Signing the 'wrong' one for your region means nobody local can understand you, so local use beats everything else.",
+  },
+  {
+    q: "Is sign language universal?",
+    a: "No. There are hundreds of distinct sign languages worldwide. ASL is used mainly in the US and much of Canada, BSL in the UK, and dozens of others — Auslan, LSF, DGS, and more — each with its own grammar and vocabulary.",
+  },
+  {
+    q: "Do ASL and BSL share any signs at all?",
+    a: "Some everyday gestures, like a friendly wave for hello, may look similar simply because they mirror natural human gestures. But you should never assume a sign is shared — check the sign in the dictionary for the language you are learning.",
+  },
+  {
+    q: "Is one of them easier to learn?",
+    a: "Neither is objectively easier. ASL's one-handed alphabet is quicker to pick up for fingerspelling, while BSL's two-handed alphabet takes more coordination at first. Real difficulty comes from grammar and fluency, and both languages demand the same effort there.",
+  },
+];
+
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: title,
+  description,
+  datePublished,
+  author: { "@type": "Person", name: "Firoz Khan" },
+  publisher: {
+    "@type": "Organization",
+    name: "SignLanguage-Translator.com",
+  },
+  mainEntityOfPage: pageUrl,
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+---
+
+<BaseLayout title={`${title} | Sign Language Translator`} description={description}>
+  <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+
+  <div class="mx-auto max-w-3xl px-4 py-14 sm:px-6">
+    <nav aria-label="Breadcrumb">
+      <ol class="flex flex-wrap items-center gap-2 text-sm text-slate-500">
+        <li><a class="underline-offset-2 hover:underline" href="/">Home</a></li>
+        <li aria-hidden="true">/</li>
+        <li><a class="underline-offset-2 hover:underline" href="/learn/">Learn</a></li>
+        <li aria-hidden="true">/</li>
+        <li aria-current="page" class="font-semibold text-slate-900">{title}</li>
+      </ol>
+    </nav>
+
+    <h1 class="mt-6 text-4xl font-extrabold text-slate-900">{title}</h1>
+    <p class="mt-3 text-sm text-slate-500">
+      <time datetime={datePublished}>{datePublished}</time> · By Firoz Khan · 7 min read
+    </p>
+
+    <article class="prose-lg mt-6 space-y-5 text-slate-700">
+      <p>
+        The single most important thing to know about American Sign Language
+        and British Sign Language is that they are <em>separate languages</em>,
+        not dialects of one "sign language." A fluent ASL signer and a fluent
+        BSL signer cannot understand each other without study. Here are the
+        seven differences that matter most for a beginner.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">1. One-handed vs two-handed alphabets</h2>
+      <p>
+        The most visible difference. ASL fingerspells with one hand — 26
+        handshapes made with the dominant hand. BSL fingerspells with two hands,
+        using the non-dominant hand as a steady base that the dominant hand
+        touches to form each letter. The handshapes are entirely different
+        systems, so fingerspelling knowledge does not transfer between them.
+        See our guides to{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/learn/how-to-fingerspell-your-name-in-asl/">fingerspelling in ASL</a>{" "}
+        and{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/learn/how-to-fingerspell-your-name-in-bsl/">fingerspelling in BSL</a>{" "}
+        for the full breakdown of each.
+      </p>
+      <figure class="my-6 text-center">
+        <div class="flex items-end justify-center gap-8">
+          <div>
+            <img class="mx-auto h-40 w-auto" loading="lazy" src="/alphabet/a.svg" alt="ASL handshape for the letter A — one-handed American alphabet" />
+            <figcaption class="mt-2 text-sm text-slate-500">ASL "A" — one hand</figcaption>
+          </div>
+          <div>
+            <img class="mx-auto h-40 w-auto" loading="lazy" src="/bsl-alphabet/a.svg" alt="BSL handshape for the letter A — two-handed British alphabet with the base hand" />
+            <figcaption class="mt-2 text-sm text-slate-500">BSL "A" — two hands</figcaption>
+          </div>
+        </div>
+        <figcaption class="mt-3 text-sm text-slate-500">The same letter in two completely separate alphabets.</figcaption>
+      </figure>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">2. Separate vocabularies</h2>
+      <p>
+        Everyday words use completely different signs. Compare{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/signs/hello/">hello in ASL</a>{" "}
+        with{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/bsl-signs/hello/">hello in BSL</a>{" "}
+        — the signs look nothing alike, and the same is true for thank-you,
+        please, sorry, and most of the core vocabulary. Assume no sign is
+        shared until you have checked both dictionaries.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Same word, two languages: side-by-side demos</h2>
+      <p>
+        Nothing makes the difference clearer than seeing one word signed in
+        both languages. Pick a word and compare the step-by-step guides:
+      </p>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>
+          <strong>Mother</strong> —{" "}
+          <a class="font-semibold text-indigo-700 underline" href="/signs/mother/">ASL mother</a>{" "}
+          vs{" "}
+          <a class="font-semibold text-indigo-700 underline" href="/bsl-signs/mother/">BSL mother</a>
+        </li>
+        <li>
+          <strong>Thank you</strong> —{" "}
+          <a class="font-semibold text-indigo-700 underline" href="/signs/thank-you/">ASL thank-you</a>{" "}
+          vs{" "}
+          <a class="font-semibold text-indigo-700 underline" href="/bsl-signs/thank-you/">BSL thank-you</a>
+        </li>
+        <li>
+          <strong>Name</strong> — names have no word sign in either language;
+          they are fingerspelled. Compare{" "}
+          <a class="font-semibold text-indigo-700 underline" href="/learn/how-to-fingerspell-your-name-in-asl/">fingerspelling your name in ASL</a>{" "}
+          with{" "}
+          <a class="font-semibold text-indigo-700 underline" href="/learn/how-to-fingerspell-your-name-in-bsl/">fingerspelling your name in BSL</a>
+        </li>
+      </ul>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">3. Separate grammars</h2>
+      <p>
+        Each language has its own grammar, and neither one maps onto English
+        word order. Both use space, facial expression, and sentence structure
+        in ways that English speakers have to learn from scratch — so do not
+        expect that learning the vocabulary is enough, or that grammar
+        knowledge transfers between the two.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">4. Different number systems</h2>
+      <p>
+        The manual number systems differ too. On this site, the dictionary
+        covers ASL numbers 0–10 alongside the core BSL numbers 1–5; beyond the
+        basics, BSL numbers vary regionally across the UK, so learners should
+        check what their local Deaf community uses. Either way, counting is one
+        more thing you have to learn separately for each language.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">5. Mouthing plays a bigger role in BSL</h2>
+      <p>
+        In BSL, mouthing English words silently while signing is a normal,
+        expected part of the language — it often carries real meaning, and can
+        even distinguish signs that are identical on the hands (in BSL,
+        "please" and "thank you" share the same manual sign; the mouth pattern
+        tells them apart). ASL uses mouth movements too, but English-like
+        mouthing is far less central.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">6. Fingerspelling is used more in BSL</h2>
+      <p>
+        Because BSL lacks an established sign for many words, fingerspelling
+        carries more of the conversational load in BSL than in ASL — names,
+        places, and technical terms get spelled out constantly. This is one
+        reason strong two-handed fingerspelling is considered an essential BSL
+        skill rather than a backup tool.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">7. Different language families</h2>
+      <p>
+        The two languages come from entirely different roots. ASL descends from
+        the French Sign Language family, brought to America in the 19th
+        century. BSL belongs to the BANZSL family — the sign-language family
+        shared by Britain, Australia, and New Zealand. That is why two
+        countries that speak the same spoken language ended up with
+        completely different sign languages.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Frequently asked questions</h2>
+      <dl class="space-y-4">
+        {faqs.map((f) => (
+          <div class="rounded-xl border border-slate-200 bg-white p-5">
+            <dt class="font-bold text-slate-900">{f.q}</dt>
+            <dd class="mt-2 text-slate-700">{f.a}</dd>
+          </div>
+        ))}
+      </dl>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Keep learning</h2>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/alphabet/">ASL &amp; BSL alphabet reference</a>{" "}
+          — both alphabets, side by side.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/learn/how-to-fingerspell-your-name-in-asl/">How to fingerspell your name in ASL</a>{" "}
+          — the one-handed system in detail.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/learn/how-to-fingerspell-your-name-in-bsl/">How to fingerspell your name in BSL</a>{" "}
+          — the two-handed system in detail.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/dictionary/">ASL &amp; BSL signs dictionaries</a>{" "}
+          — start building vocabulary in whichever language you choose.
+        </li>
+      </ul>
+    </article>
+
+    <div
+      role="note"
+      class="mt-10 rounded-xl border border-slate-200 bg-slate-50 px-5 py-4 text-sm text-slate-700"
+    >
+      <p>
+        A learning aid, not a certified interpreter. Language guides are a
+        starting point — real fluency comes from learning with Deaf instructors
+        and the Deaf community.
+      </p>
+    </div>
+  </div>
+</BaseLayout>

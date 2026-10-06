@@ -1,0 +1,313 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+
+const title = "How to Sign Thank You, Sorry and Please (ASL & BSL)";
+const description =
+  "The three politeness signs every learner needs in both ASL and BSL — step-by-step instructions, the shared BSL please/thank-you form, and when to use each.";
+const datePublished = "2026-10-17";
+const slug = "how-to-sign-thank-you-sorry-please";
+const pageUrl = `https://signlanguage-translator.com/learn/${slug}/`;
+
+const faqs = [
+  {
+    q: "Are PLEASE and SORRY the same sign in ASL?",
+    a: "No — and this is the classic beginner mix-up. ASL PLEASE uses a flat open hand circled on the chest; ASL SORRY uses a loose fist circled on the chest. Same location, same circular motion — the handshape is the whole difference. Learn them as a pair so you never confuse an apology with a request.",
+  },
+  {
+    q: "How do you sign 'you're welcome' in ASL?",
+    a: "'You're welcome' is its own separate sign — not a variation of PLEASE or THANK YOU. This guide covers thanks, apologies, and requests only; look up 'you're welcome' as a standalone entry in the dictionary and learn it the same step-by-step way.",
+  },
+  {
+    q: "How do you sign 'thank you very much'?",
+    a: "Intensify rather than invent: sign THANK YOU with a slightly larger, more deliberate movement and a warm, sincere expression. In general, sign languages mark degree through movement size and facial intensity — you don't need a different sign for 'very much'.",
+  },
+  {
+    q: "How do you respond when someone thanks you in sign language?",
+    a: "Acknowledge it warmly — a nod, a smile, and the sign for 'you're welcome' in whichever language you're using. Culturally, brushing off thanks the way some spoken conversations do ('oh, it was nothing') isn't the norm; accept the thanks graciously.",
+  },
+  {
+    q: "Why do PLEASE and THANK YOU look the same in BSL?",
+    a: "In BSL they share one manual form — fingertips to the chin, then the hand moves away from the face. The meaning comes from mouthing: silently mouth 'please' or 'thank you' as you sign. This is normal BSL grammar, not sloppiness; the mouth pattern is part of the sign.",
+  },
+  {
+    q: "Should I sign SORRY when I bump into someone?",
+    a: "For a light bump, most signers use EXCUSE ME instead — it carries 'oops, my fault, passing through' better. Reserve SORRY for genuine apologies: mistakes, misunderstandings, lateness. Using the apology sign for every minor bump dilutes it.",
+  },
+  {
+    q: "Can I use the ASL signs with BSL signers and vice versa?",
+    a: "No. ASL and BSL are separate languages with different vocabularies — a BSL signer will not recognise the ASL signs above, and the reverse. Learn the set for the language you are studying; this guide covers both so you can compare them side by side.",
+  },
+];
+
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: title,
+  description,
+  datePublished,
+  author: { "@type": "Person", name: "Firoz Khan" },
+  publisher: {
+    "@type": "Organization",
+    name: "SignLanguage-Translator.com",
+  },
+  mainEntityOfPage: pageUrl,
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+---
+
+<BaseLayout title={`${title} | Sign Language Translator`} description={description}>
+  <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+
+  <div class="mx-auto max-w-3xl px-4 py-14 sm:px-6">
+    <nav aria-label="Breadcrumb">
+      <ol class="flex flex-wrap items-center gap-2 text-sm text-slate-500">
+        <li><a class="underline-offset-2 hover:underline" href="/">Home</a></li>
+        <li aria-hidden="true">/</li>
+        <li><a class="underline-offset-2 hover:underline" href="/learn/">Learn</a></li>
+        <li aria-hidden="true">/</li>
+        <li aria-current="page" class="font-semibold text-slate-900">{title}</li>
+      </ol>
+    </nav>
+
+    <h1 class="mt-6 text-4xl font-extrabold text-slate-900">{title}</h1>
+    <p class="mt-3 text-sm text-slate-500">
+      <time datetime={datePublished}>{datePublished}</time> · By Firoz Khan · 6 min read
+    </p>
+
+    <article class="prose-lg mt-6 space-y-5 text-slate-700">
+      <p>
+        The short answer: ASL signs THANK YOU from the chin outward, PLEASE
+        with a flat hand circling the chest, and SORRY with a fist circling
+        the chest. In BSL, THANK YOU and PLEASE share one manual form —
+        fingertips to the chin, hand moving away — and mouthing tells them
+        apart ("please" vs "thank you"), while SORRY is a fist circling the
+        chest with "sorry" mouthed.
+      </p>
+      <p>
+        ASL and BSL are separate languages, so learn the set for the one
+        you're studying. Below are step-by-step instructions for all six
+        signs, plus when to use each word and the mix-ups to avoid.
+      </p>
+      <figure class="my-6 text-center">
+        <div class="flex items-end justify-center gap-8">
+          <div>
+            <img class="mx-auto h-40 w-auto" loading="lazy" src="/alphabet/t.svg" alt="ASL handshape for the letter T — the initial of thank-you" />
+            <p class="mt-2 text-sm font-semibold text-slate-700">ASL T</p>
+          </div>
+          <div>
+            <img class="mx-auto h-40 w-auto" loading="lazy" src="/bsl-alphabet/t.svg" alt="BSL handshape for the letter T — the initial of thank-you" />
+            <p class="mt-2 text-sm font-semibold text-slate-700">BSL T</p>
+          </div>
+          <div>
+            <img class="mx-auto h-40 w-auto" loading="lazy" src="/alphabet/p.svg" alt="ASL handshape for the letter P — the initial of please" />
+            <p class="mt-2 text-sm font-semibold text-slate-700">ASL P</p>
+          </div>
+          <div>
+            <img class="mx-auto h-40 w-auto" loading="lazy" src="/bsl-alphabet/p.svg" alt="BSL handshape for the letter P — the initial of please" />
+            <p class="mt-2 text-sm font-semibold text-slate-700">BSL P</p>
+          </div>
+        </div>
+        <figcaption class="mt-3 text-sm text-slate-500">
+          The initials of thank-you and please in the two different alphabets — a reminder that ASL and BSL share no handshapes.
+        </figcaption>
+      </figure>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">ASL: Thank you</h2>
+      <p>
+        Touch the fingertips of your flat dominant hand to your chin,
+        palm facing toward you. Then move the hand forward and slightly
+        downward, ending with the palm angled upward — as if sending
+        gratitude forward to the other person. One smooth motion; no
+        need to repeat it. See the full reference on our{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/signs/thank-you/">THANK YOU sign page</a>.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">ASL: Please</h2>
+      <p>
+        Place your flat dominant hand on your chest, palm down, and rub
+        it in a small clockwise circle. Picture a flat hand circling the
+        heart. Note the contrast with SORRY below: PLEASE is a{" "}
+        <strong>flat hand</strong>, SORRY is a <strong>fist</strong> —
+        same location, same circular motion, different handshape. Mixing
+        these up is the classic beginner error, so learn them as a pair.{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/signs/please/">PLEASE sign page</a>.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">ASL: Sorry</h2>
+      <p>
+        Make a loose fist with your palm facing your chest, and rub it
+        in small circles over your heart. Hold the apologetic intent —
+        this sign reads as a genuine apology, so pair it with a sincere
+        expression rather than a casual brush-off. For light, incidental
+        bumps, signers often use EXCUSE ME instead.{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/signs/sorry/">SORRY sign page</a>.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">BSL: Thank you</h2>
+      <p>
+        Touch the fingertips of your flat dominant hand to your chin,
+        then move the hand down and away from your face in one smooth
+        motion. Mouth the words "thank you" silently as you sign — in
+        BSL, mouthing is part of many signs and helps make meaning
+        unmistakable. A small, quick movement is all you need in everyday
+        conversation.{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/bsl-signs/thank-you/">THANK YOU sign page (BSL)</a>.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">BSL: Please — the same sign, mouthing decides</h2>
+      <p>
+        Here is the twist. Touch the fingertips of your flat dominant
+        hand to your chin and move the hand slightly forward and away
+        from your face — exactly the same manual form as THANK YOU. What
+        distinguishes the two is the mouth: silently mouth "please"
+        while you sign. This is not a shortcut or a mistake; in BSL the
+        mouth pattern carries meaning and is a legitimate part of the
+        sign. Practise both with a mirror and watch yourself switch
+        meaning with your mouth alone.{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/bsl-signs/please/">PLEASE sign page (BSL)</a>.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">BSL: Sorry</h2>
+      <p>
+        Close your dominant hand into a fist, hold it against the centre
+        of your chest, and move it in small circles against your chest.
+        Mouth "sorry" silently while signing to make it unmistakable.{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/bsl-signs/sorry/">SORRY sign page (BSL)</a>.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">ASL vs BSL: the three signs side by side</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full border-collapse text-left text-slate-700">
+          <thead>
+            <tr class="border-b-2 border-slate-300">
+              <th class="py-2 pr-4 font-bold text-slate-900">Sign</th>
+              <th class="py-2 pr-4 font-bold text-slate-900">ASL</th>
+              <th class="py-2 font-bold text-slate-900">BSL</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-200">
+              <td class="py-2 pr-4 font-semibold">THANK YOU</td>
+              <td class="py-2 pr-4">Fingertips to chin, hand moves forward and down</td>
+              <td class="py-2">Fingertips to chin, hand moves down and away — mouthing "thank you"</td>
+            </tr>
+            <tr class="border-b border-slate-200">
+              <td class="py-2 pr-4 font-semibold">PLEASE</td>
+              <td class="py-2 pr-4">Flat hand circling the chest</td>
+              <td class="py-2">Same manual form as BSL THANK YOU — mouthing "please" decides the meaning</td>
+            </tr>
+            <tr>
+              <td class="py-2 pr-4 font-semibold">SORRY</td>
+              <td class="py-2 pr-4">Fist circling the chest</td>
+              <td class="py-2">Fist circling the chest — mouthing "sorry"</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">When to use each one</h2>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>
+          <strong>Thank you:</strong> the universal gratitude sign — for
+          help, gifts, compliments, or when someone holds a door. Works
+          anywhere, in both languages.
+        </li>
+        <li>
+          <strong>Please:</strong> softens requests — "please help me,"
+          "please repeat that." Use it the way you would in speech: in
+          requests, not in every sentence.
+        </li>
+        <li>
+          <strong>Sorry:</strong> genuine apologies — mistakes,
+          misunderstandings, lateness. Don't dilute it by using it for
+          every minor bump; EXCUSE ME exists for those.
+        </li>
+        <li>
+          <strong>Across languages:</strong> learn the set for the
+          language you're studying. An ASL sign won't be recognised by a
+          BSL signer, and the BSL mouthing system won't carry meaning
+          for an ASL signer.
+        </li>
+      </ul>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Common mistakes to avoid</h2>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>
+          <strong>Mixing up ASL PLEASE and SORRY.</strong> Same spot, same
+          circular motion — the only difference is flat hand (PLEASE) vs
+          fist (SORRY). Drill them as a pair until the handshape is
+          automatic.
+        </li>
+        <li>
+          <strong>Signing BSL PLEASE/THANK YOU without mouthing.</strong>
+          The manual form is identical, so skipping the mouth pattern
+          removes the only thing telling them apart. Mouth the word every
+          time.
+        </li>
+        <li>
+          <strong>Using SORRY for every bump.</strong> A genuine apology
+          sign for a light accidental bump is overkill — EXCUSE ME is the
+          right tool for "oops, passing through."
+        </li>
+        <li>
+          <strong>Smiling through SORRY.</strong> Your face should match
+          the sign's intent. A grin undercuts the apology and can read as
+          insincere.
+        </li>
+        <li>
+          <strong>Using ASL signs with BSL signers (or vice versa).</strong>
+          These are separate languages. A BSL signer won't recognise the
+          ASL PLEASE, and the BSL mouthing system won't carry meaning for
+          an ASL signer.
+        </li>
+      </ul>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Frequently asked questions</h2>
+      <dl class="space-y-4">
+        {faqs.map((f) => (
+          <div class="rounded-xl border border-slate-200 bg-white p-5">
+            <dt class="font-bold text-slate-900">{f.q}</dt>
+            <dd class="mt-2 text-slate-700">{f.a}</dd>
+          </div>
+        ))}
+      </dl>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Keep learning</h2>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/learn/common-asl-greetings/">Common ASL greetings</a>{" "}
+          — hello, goodbye, and morning-to-night greetings to open conversations.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/learn/essential-bsl-signs-for-beginners/">Essential BSL signs for beginners</a>{" "}
+          — the core BSL vocabulary to build on after politeness.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/learn/asl-vs-bsl-key-differences/">ASL vs BSL: key differences</a>{" "}
+          — why the two languages share almost no vocabulary.
+        </li>
+      </ul>
+    </article>
+
+    <div
+      role="note"
+      class="mt-10 rounded-xl border border-slate-200 bg-slate-50 px-5 py-4 text-sm text-slate-700"
+    >
+      <p>
+        A learning aid, not a certified interpreter. Sign guides are a
+        starting point — real fluency comes from learning with Deaf instructors
+        and the Deaf community.
+      </p>
+    </div>
+  </div>
+</BaseLayout>

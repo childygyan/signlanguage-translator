@@ -1,0 +1,258 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+
+const title = "How to Sign ‘How Are You?’ + 10 Everyday ASL & BSL Phrases";
+const description =
+  "Learn to sign ‘How are you?’ in ASL and BSL, plus 10 everyday phrases for greetings, politeness and small talk — each linked to step-by-step sign guides.";
+const datePublished = "2026-10-15";
+const slug = "how-to-sign-how-are-you-everyday-phrases";
+const pageUrl = `https://signlanguage-translator.com/learn/${slug}/`;
+
+const faqs = [
+  {
+    q: "How do you say 'how are you' in sign language?",
+    a: "Honestly: our ASL and BSL dictionaries don't include a dedicated 'how are you' sign, so don't invent one. Signers commonly fingerspell the question — H-O-W A-R-E Y-O-U — with raised eyebrows, which mark a yes/no question in both ASL and BSL. Fingerspelling it is always correct.",
+  },
+  {
+    q: "Is there a universal way to ask 'how are you' in sign language?",
+    a: "No — ASL and BSL are separate languages with different alphabets and signs, so there's no single universal version. In both systems, though, the honest answer is the same: fingerspell the question with a raised-eyebrow question face rather than guessing at a sign.",
+  },
+  {
+    q: "What are the most useful everyday ASL phrases for beginners?",
+    a: "Start with hello, goodbye, good morning, good night, thank you, please, sorry, excuse me, help, and I love you. Each has a word-level sign in our dictionary — learn those first, and fingerspell everything else until you know the sign.",
+  },
+  {
+    q: "How do you respond when someone asks how you are in ASL?",
+    a: "Keep it simple: fingerspell your answer, like F-I-N-E or G-O-O-D. Fingerspelling the answer is never wrong — and if you know a dictionary sign for the word, use that instead.",
+  },
+  {
+    q: "How do you say please and thank you in ASL?",
+    a: "For please, place your flat dominant hand on your chest, palm down, and rub it in a small clockwise circle. For thank you, touch your chin with the fingertips of your flat hand, palm facing you, then move your hand forward and slightly down. Both have step-by-step pages in our dictionary.",
+  },
+  {
+    q: "Do I need to learn ASL and BSL phrases separately?",
+    a: "Yes — they're completely separate languages, not dialects of one sign language. The handshapes, signs, and even alphabets differ. Learn ASL phrases from ASL sources and BSL phrases from BSL sources, and don't mix the two systems.",
+  },
+];
+
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: title,
+  description,
+  datePublished,
+  author: { "@type": "Person", name: "Firoz Khan" },
+  publisher: {
+    "@type": "Organization",
+    name: "SignLanguage-Translator.com",
+  },
+  mainEntityOfPage: pageUrl,
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+---
+
+<BaseLayout title={`${title} | Sign Language Translator`} description={description}>
+  <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+
+  <div class="mx-auto max-w-3xl px-4 py-14 sm:px-6">
+    <nav aria-label="Breadcrumb">
+      <ol class="flex flex-wrap items-center gap-2 text-sm text-slate-500">
+        <li><a class="underline-offset-2 hover:underline" href="/">Home</a></li>
+        <li aria-hidden="true">/</li>
+        <li><a class="underline-offset-2 hover:underline" href="/learn/">Learn</a></li>
+        <li aria-hidden="true">/</li>
+        <li aria-current="page" class="font-semibold text-slate-900">{title}</li>
+      </ol>
+    </nav>
+
+    <h1 class="mt-6 text-4xl font-extrabold text-slate-900">{title}</h1>
+    <p class="mt-3 text-sm text-slate-500">
+      <time datetime={datePublished}>{datePublished}</time> · By Firoz Khan · 7 min read
+    </p>
+
+    <article class="prose-lg mt-6 space-y-5 text-slate-700">
+      <p>
+        "How are you?" is the phrase every beginner wants first — and it
+        deserves an honest answer: <strong>there is no dedicated "how are you"
+        sign in our ASL or BSL dictionaries</strong>, so the correct way to
+        sign it is to <strong>fingerspell H-O-W A-R-E Y-O-U</strong> with
+        raised eyebrows. Below is exactly how to do that, plus{" "}
+        <strong>10 everyday phrases</strong> — each linked to a step-by-step
+        sign guide in ASL and BSL.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">How to sign "how are you" — the honest way</h2>
+      <p>
+        Don't invent a sign for this phrase. Neither our ASL nor our BSL
+        dictionary includes a dedicated HOW-ARE-YOU sign, and guessing at one
+        teaches you — and anyone copying you — a wrong sign. Do this instead:
+      </p>
+      <ol class="list-decimal space-y-2 pl-6">
+        <li>
+          <strong>Fingerspell the question.</strong> Spell H-O-W A-R-E Y-O-U
+          letter by letter with your system's alphabet — one-handed for ASL,
+          two-handed for BSL. Keep your hand near your shoulder and hold each
+          word's final letter a beat longer.
+        </li>
+        <li>
+          <strong>Raise your eyebrows.</strong> In both ASL and BSL, raised
+          eyebrows mark a yes/no question. The eyebrows do the grammar; the
+          fingers do the words.
+        </li>
+        <li>
+          <strong>Keep eye contact.</strong> You're asking a real question to a
+          real person — look at them while you fingerspell, not at your own hand.
+        </li>
+      </ol>
+
+      <figure class="my-6 text-center">
+        <div class="flex items-end justify-center gap-4">
+          <img class="h-32 w-auto" loading="lazy" src="/alphabet/h.svg" alt="ASL handshape for the letter H" />
+          <img class="h-32 w-auto" loading="lazy" src="/alphabet/o.svg" alt="ASL handshape for the letter O" />
+          <img class="h-32 w-auto" loading="lazy" src="/alphabet/w.svg" alt="ASL handshape for the letter W" />
+        </div>
+        <figcaption class="mt-2 text-sm text-slate-500">
+          The fingerspelled start of "how" — spell H-O-W A-R-E Y-O-U in order, with raised eyebrows.
+        </figcaption>
+      </figure>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">10 everyday phrases with sign guides</h2>
+      <p>
+        Every phrase below has a real, verified dictionary sign. Each links to
+        the step-by-step ASL guide and, where the BSL sign exists on this site,
+        the BSL guide too.
+      </p>
+      <ol class="list-decimal space-y-4 pl-6">
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/signs/hello/">Hello</a>{" "}
+          (<a class="font-semibold text-indigo-700 underline" href="/bsl-signs/hello/">BSL</a>) —
+          the salute-like motion at the forehead. Your all-purpose greeting.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/signs/goodbye/">Goodbye</a>{" "}
+          (<a class="font-semibold text-indigo-700 underline" href="/bsl-signs/goodbye/">BSL</a>) —
+          open hand raised, palm out, waved side to side. Use when parting.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/signs/good-morning/">Good morning</a>{" "}
+          (<a class="font-semibold text-indigo-700 underline" href="/bsl-signs/morning/">BSL</a>) —
+          GOOD plus MORNING (fingertips in the crook of your other arm, lifted
+          like a sunrise). For the start of the day.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/signs/good-night/">Good night</a>{" "}
+          (<a class="font-semibold text-indigo-700 underline" href="/bsl-signs/night/">BSL</a>) —
+          GOOD plus NIGHT (fingertips in the crook of your other arm, moved
+          downward like a sunset). A parting sign for the evening.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/signs/thank-you/">Thank you</a>{" "}
+          (<a class="font-semibold text-indigo-700 underline" href="/bsl-signs/thank-you/">BSL</a>) —
+          flat-hand fingertips to the chin, then forward and slightly down.
+          Use it as often as in English.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/signs/please/">Please</a>{" "}
+          (<a class="font-semibold text-indigo-700 underline" href="/bsl-signs/please/">BSL</a>) —
+          flat dominant hand on the chest, palm down, rubbed in a small
+          clockwise circle. Add it to requests.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/signs/sorry/">Sorry</a>{" "}
+          (<a class="font-semibold text-indigo-700 underline" href="/bsl-signs/sorry/">BSL</a>) —
+          loose fist, palm toward your chest, rubbed in small circles over your
+          heart. Match your face to the apology.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/signs/excuse-me/">Excuse me</a> —
+          open hand at the chest, fingers together, fingertips brushed upward
+          against the chest twice. For getting attention politely. (ASL guide;
+          check the BSL dictionary for its BSL equivalent.)
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/signs/help/">Help</a>{" "}
+          (<a class="font-semibold text-indigo-700 underline" href="/bsl-signs/help/">BSL</a>) —
+          dominant fist resting on your other open palm, both hands lifted
+          upward together. The sign to learn before you need it.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/signs/i-love-you/">I love you</a>{" "}
+          (<a class="font-semibold text-indigo-700 underline" href="/bsl-signs/i-love-you/">BSL</a>) —
+          thumb, index, and pinky raised together, other fingers curled, hand
+          held up. For friends and family.
+        </li>
+      </ol>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Common beginner mistakes</h2>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>
+          <strong>Inventing a sign for "how are you."</strong> If it's not in
+          the dictionary, don't make one up. Fingerspelling is the honest,
+          correct choice.
+        </li>
+        <li>
+          <strong>Forgetting the eyebrows.</strong> Fingerspelling "how are
+          you" with a flat face reads like a statement, not a question. Raise
+          those eyebrows.
+        </li>
+        <li>
+          <strong>Mixing ASL and BSL signs.</strong> The two systems are
+          separate languages — learn each phrase in the system you're studying
+          and don't cross the streams.
+        </li>
+        <li>
+          <strong>Fingerspelling words that have signs.</strong> Fingerspell
+          only what you can't sign: all 10 phrases above have word-level signs,
+          so use them.
+        </li>
+      </ul>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Frequently asked questions</h2>
+      <dl class="space-y-4">
+        {faqs.map((f) => (
+          <div class="rounded-xl border border-slate-200 bg-white p-5">
+            <dt class="font-bold text-slate-900">{f.q}</dt>
+            <dd class="mt-2 text-slate-700">{f.a}</dd>
+          </div>
+        ))}
+      </dl>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Keep learning</h2>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/learn/common-asl-greetings/">ASL greetings: 10+ ways to say hello, goodbye and more</a>{" "}
+          — the full greetings list with when-to-use guidance.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/learn/introduce-yourself-in-asl/">How to introduce yourself in ASL</a>{" "}
+          — greeting plus your fingerspelled name, phrase by phrase.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/learn/asl-vs-bsl-key-differences/">ASL vs BSL: key differences</a>{" "}
+          — why the two systems are completely separate languages.
+        </li>
+      </ul>
+    </article>
+
+    <div
+      role="note"
+      class="mt-10 rounded-xl border border-slate-200 bg-slate-50 px-5 py-4 text-sm text-slate-700"
+    >
+      <p>
+        A learning aid, not a certified interpreter. Everyday phrases are a
+        starting point — real fluency comes from learning with Deaf instructors
+        and the Deaf community.
+      </p>
+    </div>
+  </div>
+</BaseLayout>

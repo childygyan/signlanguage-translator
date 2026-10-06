@@ -1,0 +1,223 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+
+const title = "ASL Numbers 0–10: How to Count on Your Fingers";
+const description =
+  "Learn ASL numbers 0 to 10 with clear handshape descriptions and images: how to count on your fingers, how ASL numbers differ from BSL, and practice tips.";
+const datePublished = "2026-10-20";
+const slug = "asl-numbers-0-to-10";
+const pageUrl = `https://signlanguage-translator.com/learn/${slug}/`;
+
+const faqs = [
+  {
+    q: "How do you count to 10 in ASL?",
+    a: "ASL numbers are one-handed. For 1–5, hold your palm facing you and raise the matching fingers (1 = index finger, 5 = all five spread wide). For 6–9, turn your palm away and tuck one finger under your thumb. 0 is a circle made by touching your thumb to your middle fingertip, and 10 is a fist with the thumb pointing up, given a small shake.",
+  },
+  {
+    q: "Are ASL numbers signed with one hand?",
+    a: "Yes — ASL numbers 0–10 are all one-handed, signed with your dominant hand. This is one of the clear differences from BSL, which handles numbers differently.",
+  },
+  {
+    q: "How do you sign 0 in ASL?",
+    a: "Curve your fingers and touch your thumb to your middle fingertip, forming a circle. It's a distinct handshape — not just a closed fist.",
+  },
+  {
+    q: "How do you sign 10 in ASL?",
+    a: "Make a fist with your thumb pointing straight up, then give it a small shake. The shake is part of the sign — a still fist doesn't read as 10.",
+  },
+  {
+    q: "Why do 1–5 and 6–9 face different directions?",
+    a: "In ASL, 1–5 are signed with the palm facing you and 6–9 with the palm facing away. This palm flip is part of the standard forms — signing 6–9 with the palm toward you is a common beginner mistake that makes the numbers hard to read.",
+  },
+  {
+    q: "How are ASL numbers different from BSL numbers?",
+    a: "ASL and BSL use different handshapes for numbers, just as they use different alphabets. Our guide to BSL numbers 1 to 5 walks through the BSL system and how it compares.",
+  },
+  {
+    q: "What's the best way to practise ASL numbers?",
+    a: "Count real things through your day — stairs, items on a shelf, the time on a clock. Drill 0–10 in order until smooth, then practise in random order so you're producing each number on demand, not just reciting a sequence.",
+  },
+  {
+    q: "How do you sign your age in ASL?",
+    a: "Sign the number for your age the same way you'd sign any number. The handshapes on this page are exactly what you need — a Deaf instructor can show you the natural phrasing that goes around the number in conversation.",
+  },
+];
+
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: title,
+  description,
+  datePublished,
+  author: { "@type": "Person", name: "Firoz Khan" },
+  publisher: {
+    "@type": "Organization",
+    name: "SignLanguage-Translator.com",
+  },
+  mainEntityOfPage: pageUrl,
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+---
+
+<BaseLayout title={`${title} | Sign Language Translator`} description={description}>
+  <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+
+  <div class="mx-auto max-w-3xl px-4 py-14 sm:px-6">
+    <nav aria-label="Breadcrumb">
+      <ol class="flex flex-wrap items-center gap-2 text-sm text-slate-500">
+        <li><a class="underline-offset-2 hover:underline" href="/">Home</a></li>
+        <li aria-hidden="true">/</li>
+        <li><a class="underline-offset-2 hover:underline" href="/learn/">Learn</a></li>
+        <li aria-hidden="true">/</li>
+        <li aria-current="page" class="font-semibold text-slate-900">{title}</li>
+      </ol>
+    </nav>
+
+    <h1 class="mt-6 text-4xl font-extrabold text-slate-900">{title}</h1>
+    <p class="mt-3 text-sm text-slate-500">
+      <time datetime={datePublished}>{datePublished}</time> · By Firoz Khan · 6 min read
+    </p>
+
+    <article class="prose-lg mt-6 space-y-5 text-slate-700">
+      <p>
+        ASL numbers 0–10 are all signed one-handed with your dominant hand,
+        and they follow one pattern worth learning upfront: 1–5 are signed
+        with your palm facing <em>you</em>, 6–9 with your palm facing
+        <em> away</em>. 0 is a circle made with your thumb and middle finger,
+        and 10 is a fist with the thumb up and a small shake. Learn that
+        pattern and the individual handshapes below, and you can count on
+        your fingers in ASL.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">ASL numbers 0–9: the handshape chart</h2>
+      <figure class="my-6 text-center">
+        <div class="grid grid-cols-2 gap-6 sm:grid-cols-3">
+          <div>
+            <img src="/numbers/0.svg" alt="ASL handshape for the number 0" loading="lazy" class="mx-auto h-32 w-auto" />
+            <figcaption class="mt-2 text-sm font-semibold text-slate-700">0</figcaption>
+          </div>
+          <div>
+            <img src="/numbers/1.svg" alt="ASL handshape for the number 1" loading="lazy" class="mx-auto h-32 w-auto" />
+            <figcaption class="mt-2 text-sm font-semibold text-slate-700">1</figcaption>
+          </div>
+          <div>
+            <img src="/numbers/2.svg" alt="ASL handshape for the number 2" loading="lazy" class="mx-auto h-32 w-auto" />
+            <figcaption class="mt-2 text-sm font-semibold text-slate-700">2</figcaption>
+          </div>
+          <div>
+            <img src="/numbers/3.svg" alt="ASL handshape for the number 3" loading="lazy" class="mx-auto h-32 w-auto" />
+            <figcaption class="mt-2 text-sm font-semibold text-slate-700">3</figcaption>
+          </div>
+          <div>
+            <img src="/numbers/4.svg" alt="ASL handshape for the number 4" loading="lazy" class="mx-auto h-32 w-auto" />
+            <figcaption class="mt-2 text-sm font-semibold text-slate-700">4</figcaption>
+          </div>
+          <div>
+            <img src="/numbers/5.svg" alt="ASL handshape for the number 5" loading="lazy" class="mx-auto h-32 w-auto" />
+            <figcaption class="mt-2 text-sm font-semibold text-slate-700">5</figcaption>
+          </div>
+          <div>
+            <img src="/numbers/6.svg" alt="ASL handshape for the number 6" loading="lazy" class="mx-auto h-32 w-auto" />
+            <figcaption class="mt-2 text-sm font-semibold text-slate-700">6</figcaption>
+          </div>
+          <div>
+            <img src="/numbers/7.svg" alt="ASL handshape for the number 7" loading="lazy" class="mx-auto h-32 w-auto" />
+            <figcaption class="mt-2 text-sm font-semibold text-slate-700">7</figcaption>
+          </div>
+          <div>
+            <img src="/numbers/8.svg" alt="ASL handshape for the number 8" loading="lazy" class="mx-auto h-32 w-auto" />
+            <figcaption class="mt-2 text-sm font-semibold text-slate-700">8</figcaption>
+          </div>
+          <div>
+            <img src="/numbers/9.svg" alt="ASL handshape for the number 9" loading="lazy" class="mx-auto h-32 w-auto" />
+            <figcaption class="mt-2 text-sm font-semibold text-slate-700">9</figcaption>
+          </div>
+        </div>
+        <figcaption class="mt-3 text-sm text-slate-500">
+          ASL number handshapes 0–9. Note the palm flip: 1–5 face you, 6–9 face away.
+        </figcaption>
+      </figure>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Each number, described</h2>
+      <ul class="list-disc space-y-2 pl-6">
+        <li><strong>0:</strong> touch your thumb to your middle fingertip, curving the fingers into a circle.</li>
+        <li><strong>1:</strong> raise just your index finger, palm facing you.</li>
+        <li><strong>2:</strong> raise your index and middle fingers together, palm facing you.</li>
+        <li><strong>3:</strong> raise your thumb, index, and middle fingers, palm facing you.</li>
+        <li><strong>4:</strong> raise all four fingers with your thumb tucked in, palm facing you.</li>
+        <li><strong>5:</strong> spread all five fingers wide, palm facing you.</li>
+        <li><strong>6:</strong> tuck your pinky under your thumb and hold the other three fingers up, palm facing away from you.</li>
+        <li><strong>7:</strong> tuck your ring finger under your thumb, other fingers up, palm facing away.</li>
+        <li><strong>8:</strong> tuck your middle finger under your thumb, other fingers up, palm facing away.</li>
+        <li><strong>9:</strong> tuck your index finger under your thumb, other fingers up, palm facing away.</li>
+        <li><strong>10:</strong> make a fist with your thumb pointing up, then give it a small shake — the shake is part of the sign.</li>
+      </ul>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">ASL vs BSL numbers</h2>
+      <p>
+        ASL and BSL don't share number handshapes — just as their alphabets
+        are completely different, their number systems are too. ASL numbers
+        0–10 are one-handed, as shown above. BSL uses its own set of number
+        signs, which we cover in our guide to{" "}
+        <a class="font-semibold text-indigo-700 underline" href="/learn/bsl-numbers-1-to-5/">BSL numbers 1 to 5</a>
+        {" "}— including how they differ from the ASL forms on this page. Learn
+        the system used by the Deaf community you'll actually be signing with.
+      </p>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Practice tips</h2>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>Count 0–10 in order until the handshapes feel automatic, then drill in random order — real conversation never goes in sequence.</li>
+        <li>Count real things during your day: stairs, items on a shelf, minutes on a clock.</li>
+        <li>Watch the palm orientation: 1–5 face you, 6–9 face away. Getting this wrong is the most common beginner mistake.</li>
+        <li>Practise in a mirror and check each handshape against the chart above.</li>
+      </ul>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Frequently asked questions</h2>
+      <dl class="space-y-4">
+        {faqs.map((f) => (
+          <div class="rounded-xl border border-slate-200 bg-white p-5">
+            <dt class="font-bold text-slate-900">{f.q}</dt>
+            <dd class="mt-2 text-slate-700">{f.a}</dd>
+          </div>
+        ))}
+      </dl>
+
+      <h2 class="pt-4 text-2xl font-bold text-slate-900">Keep learning</h2>
+      <ul class="list-disc space-y-2 pl-6">
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/learn/bsl-numbers-1-to-5/">BSL numbers 1 to 5</a>{" "}
+          — the BSL number system and how it differs from ASL.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/alphabet/">ASL &amp; BSL alphabet reference</a>{" "}
+          — every letter handshape for fingerspelling practice.
+        </li>
+        <li>
+          <a class="font-semibold text-indigo-700 underline" href="/dictionary/">ASL &amp; BSL signs dictionaries</a>{" "}
+          — move from numbers to word-level signs.
+        </li>
+      </ul>
+    </article>
+
+    <div
+      role="note"
+      class="mt-10 rounded-xl border border-slate-200 bg-slate-50 px-5 py-4 text-sm text-slate-700"
+    >
+      <p>
+        A learning aid, not a certified interpreter. Number handshapes are a
+        starting point — real fluency comes from learning with Deaf instructors
+        and the Deaf community.
+      </p>
+    </div>
+  </div>
+</BaseLayout>
