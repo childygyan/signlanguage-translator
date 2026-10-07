@@ -13,4 +13,5 @@ export interface LearnArticle {
 
 export const ARTICLES: LearnArticle[] = [
   // PUBLISH QUEUE ANCHOR — publisher appends new entries below this line.
+  { slug: 'how-to-fingerspell-your-name-in-asl', title: 'How to Fingerspell Your Name in ASL: A Step-by-Step Practice Guide', description: 'Learn to spell your name with the one-handed ASL alphabet: letter-by-letter steps, the J and Z motion letters, and practice tips for smooth, readable fingerspelling.', datePublished: '2026-10-07' },
 ];
