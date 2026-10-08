@@ -24,12 +24,12 @@
  *     Take { slug, title, description, datePublished } from QUEUE[0].
  *  4. Move the draft into place (run from the repo root):
  *       mv src/pages/learn/_drafts/<slug> src/pages/learn/<slug>/
- *  5. Fix import depth in the moved file (drafts sit 3 levels deep under
- *     _drafts, published pages only 2 under src/pages/learn): in
- *     src/pages/learn/<slug>/index.astro replace every `../../../layouts/`
- *     with `../../layouts/` (and `../../../components/` → `../../components/`,
- *     `../../../lib/` → `../../lib/` if present). This is the ONLY
- *     content-file change allowed.
+ *  5. Do NOT change import depth: both drafts
+ *     (src/pages/learn/_drafts/<slug>/index.astro) and published pages
+ *     (src/pages/learn/<slug>/index.astro) sit 3 directories deep under
+ *     src/pages, so `../../../layouts/` (and `../../../components/`,
+ *     `../../../lib/`) are already correct — matches the live published
+ *     articles. No content-file change is allowed here.
  *  6. Register it — two file edits:
  *     - src/pages/learn/articles.ts: append
  *         { slug: '<slug>', title: '<title>', description: '<description>',
@@ -76,13 +76,6 @@ export interface QueuedArticle {
 }
 
 export const QUEUE: QueuedArticle[] = [
-  {
-    slug: "how-to-fingerspell-your-name-in-bsl",
-    title: "How to Fingerspell Your Name in BSL",
-    description:
-      "Spell your name with the two-handed BSL alphabet: how the base hand works, the vowel positions, the H and J movements, and practice tips for clear fingerspelling.",
-    datePublished: "2026-10-08",
-  },
   {
     slug: "asl-vs-bsl-key-differences",
     title: "ASL vs BSL: 7 Key Differences Every Beginner Should Know",
