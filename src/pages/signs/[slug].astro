@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import FingerspellStrip from "../../components/FingerspellStrip.astro";
 import type { Category, SignEntry } from "../../lib/types";
 import signsData from "../../data/signs.json";
 import bslSignsData from "../../data/bsl-signs.json";
@@ -111,6 +112,8 @@ const breadcrumbs = {
         </div>
       )}
     </section>
+
+    <FingerspellStrip word={entry.word} lang="asl" />
 
     <div
       role="note"

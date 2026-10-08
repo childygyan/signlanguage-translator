@@ -1,0 +1,94 @@
+---
+/**
+ * FingerspellStrip — a visual, letter-by-letter fingerspelling reference for a
+ * dictionary word, using the site's verified alphabet SVGs (one-handed ASL or
+ * two-handed BSL). Clearly labeled as a supplement: it is NOT the word's sign.
+ */
+import {
+  fingerspellAlt,
+  fingerspellImageSrc,
+  fingerspellLetters,
+  isMotionLetter,
+  type SignLanguage,
+} from "../lib/signMatcher";
+
+interface Props {
+  word: string;
+  lang: SignLanguage;
+}
+
+const { word, lang } = Astro.props;
+const letters = fingerspellLetters(word);
+const hasMotion = letters.some((ch) => isMotionLetter(ch, lang));
+const langName = lang === "bsl" ? "BSL" : "ASL";
+---
+
+{letters.length > 0 && (
+  <section
+    aria-label={`Fingerspelling for ${word}`}
+    class="mt-8 rounded-2xl border border-slate-200 bg-white p-6 sm:p-8"
+  >
+    <h2 class="text-2xl font-bold text-slate-900">
+      Fingerspell &ldquo;{word}&rdquo;
+    </h2>
+    <p class="mt-2 text-slate-600">
+      Letter by letter{lang === "bsl" ? " with the two-handed BSL alphabet" : ""}{" "}
+      &mdash; a handy backup if you forget the sign above. This is{" "}
+      <strong>not</strong> the sign itself.
+    </p>
+    <div
+      class="mt-4 flex flex-wrap gap-2"
+      role="list"
+      aria-label={`Fingerspelling for ${word}`}
+    >
+      {letters.map((ch, i) => {
+        const src = fingerspellImageSrc(ch, lang);
+        const motion = isMotionLetter(ch, lang);
+        return (
+          <span
+            role="listitem"
+            aria-label={ch}
+            class={`flex h-28 w-24 items-center justify-center rounded-lg border-2 p-1.5 ${
+              motion
+                ? "border-amber-500 bg-amber-50"
+                : "border-slate-300 bg-slate-50"
+            }`}
+          >
+            {src ? (
+              <img
+                src={src}
+                alt={fingerspellAlt(ch, lang)}
+                class="h-full w-auto"
+                loading="lazy"
+              />
+            ) : (
+              <span
+                class="text-4xl font-extrabold text-slate-700"
+                aria-hidden="true"
+              >
+                {ch}
+              </span>
+            )}
+          </span>
+        );
+      })}
+    </div>
+    {hasMotion && lang === "asl" && (
+      <p class="mt-3 rounded-lg bg-amber-50 px-3 py-2 text-sm text-amber-900">
+        Note: <strong>J</strong> and <strong>Z</strong> are signed with motion,
+        not a static handshape.
+      </p>
+    )}
+    {hasMotion && lang === "bsl" && (
+      <p class="mt-3 rounded-lg bg-amber-50 px-3 py-2 text-sm text-amber-900">
+        Note: <strong>H</strong> and <strong>J</strong> use a small movement in
+        BSL fingerspelling &mdash; each image shows the starting position.
+      </p>
+    )}
+    <p class="mt-3 text-sm text-slate-500">
+      <a class="font-semibold text-indigo-700 underline" href="/alphabet/">
+        See all {langName} handshapes in the alphabet reference
+      </a>
+    </p>
+  </section>
+)}
