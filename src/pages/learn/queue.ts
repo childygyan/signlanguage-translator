@@ -77,13 +77,6 @@ export interface QueuedArticle {
 
 export const QUEUE: QueuedArticle[] = [
   {
-    slug: "asl-vs-bsl-key-differences",
-    title: "ASL vs BSL: 7 Key Differences Every Beginner Should Know",
-    description:
-      "American and British Sign Language are separate languages, not dialects. The seven differences that matter most: alphabets, vocabulary, grammar, numbers, mouthing, fingerspelling use, and learning paths.",
-    datePublished: "2026-10-09",
-  },
-  {
     slug: "essential-asl-signs-for-beginners",
     title: "15 Essential ASL Signs for Beginners",
     description:
