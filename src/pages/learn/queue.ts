@@ -77,13 +77,6 @@ export interface QueuedArticle {
 
 export const QUEUE: QueuedArticle[] = [
   {
-    slug: "essential-asl-signs-for-beginners",
-    title: "15 Essential ASL Signs for Beginners",
-    description:
-      "The first signs every ASL learner should know — greetings, manners, and everyday words — each linking to a step-by-step sign guide with practice tips.",
-    datePublished: "2026-10-10",
-  },
-  {
     slug: "essential-bsl-signs-for-beginners",
     title: "15 Essential BSL Signs for Beginners",
     description:
