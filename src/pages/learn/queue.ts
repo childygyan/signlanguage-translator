@@ -77,13 +77,6 @@ export interface QueuedArticle {
 
 export const QUEUE: QueuedArticle[] = [
   {
-    slug: "common-asl-greetings",
-    title: "ASL Greetings: 10+ Ways to Say Hello, Goodbye and More",
-    description:
-      "10+ ASL greetings every beginner should know: hello, goodbye, good morning, good night, how are you, nice to meet you and more — with the signs, when to use each, and common beginner mistakes.",
-    datePublished: "2026-10-12",
-  },
-  {
     slug: "introduce-yourself-in-asl",
     title: "How to Introduce Yourself in ASL",
     description:
