@@ -1,0 +1,138 @@
+[
+ {
+  "category": "everyday",
+  "related": [
+   "home",
+   "feel"
+  ],
+  "slug": "cold",
+  "steps": [
+   "Close both of your hands into loose fists in front of your body.",
+   "Shake the fists in small, quick movements from side to side.",
+   "Keep the trembling motion tight and close to your torso.",
+   "Hunch your shoulders up toward your ears while the hands shake.",
+   "Pull your chin in with a bracing expression, as if winter air is hitting you."
+  ],
+  "tip": "The same sign doubles for 'freezing' — a shivering body is the whole picture.",
+  "word": "Cold"
+ },
+ {
+  "category": "everyday",
+  "related": [
+   "house",
+   "family"
+  ],
+  "slug": "home",
+  "steps": [
+   "Hold both hands open and flat in front of your chest.",
+   "Angle the hands so the fingertips meet above the middle.",
+   "Touch the fingertips together to form the shape of a roof.",
+   "Keep the fingertips joined briefly, then gently release the shape.",
+   "Hold your arms steady with a calm, settled expression throughout."
+  ],
+  "tip": "BSL uses the HOUSE sign for 'home' too — one roof-shaped sign covers both words.",
+  "word": "Home"
+ },
+ {
+  "category": "everyday",
+  "related": [
+   "play",
+   "happy"
+  ],
+  "slug": "music",
+  "steps": [
+   "Open both hands in front of your body at chest height.",
+   "Touch the tip of each index finger to the tip of its thumb.",
+   "Hold both rounded shapes up, palms facing down and out.",
+   "Move the hands side to side in small, smooth arcs.",
+   "Keep the arcs gentle and rhythmic, as if conducting an orchestra."
+  ],
+  "tip": "Picture a conductor's hands — the flicking arcs are the rhythm of the music.",
+  "word": "Music"
+ },
+ {
+  "category": "everyday",
+  "related": [
+   "next",
+   "today"
+  ],
+  "slug": "last",
+  "steps": [
+   "Hold your non-dominant hand up with only the little finger extended.",
+   "Open your dominant hand flat in front of your body.",
+   "Move the open dominant hand forwards until it touches the little finger.",
+   "Make one clean contact, then stop the movement crisply and completely.",
+   "Keep a neutral, settled expression as the dominant hand lands."
+  ],
+  "tip": "The little finger is the end of the line — touching it marks the last one.",
+  "word": "Last"
+ },
+ {
+  "category": "everyday",
+  "related": [
+   "last",
+   "soon"
+  ],
+  "slug": "next",
+  "steps": [
+   "Hold your dominant hand in front of your body, palm sideways.",
+   "Extend only your thumb upward, with the fingers loosely closed.",
+   "Twist the hand once at the wrist in a small, neat flick.",
+   "Keep the motion short — one twist, not a repeated shake.",
+   "Mouth the word 'next' clearly as the thumb flicks over."
+  ],
+  "tip": "The same sign is taught for 'neighbour' — the flicked thumb points to whoever is next to you.",
+  "word": "Next"
+ },
+ {
+  "category": "everyday",
+  "related": [
+   "what-is-your-name",
+   "person"
+  ],
+  "slug": "name",
+  "steps": [
+   "Extend the index and middle fingers of your dominant hand together.",
+   "Press the tips of the two fingers lightly against your forehead.",
+   "Twist the hand forwards at the wrist in one smooth turn.",
+   "Finish with the fingertips pointing forwards, in front of your face.",
+   "Keep the elbow relaxed and mouth the word 'name' as you twist."
+  ],
+  "tip": "The two-finger 'N' touches the forehead — names live in the head, then come forward.",
+  "word": "Name"
+ },
+ {
+  "category": "everyday",
+  "related": [
+   "i-love-you",
+   "what-is-your-name"
+  ],
+  "slug": "me",
+  "steps": [
+   "Close your dominant hand into a fist with the index finger extended.",
+   "Turn the pointing finger back toward your own chest centre.",
+   "Aim the fingertip at the centre of your chest, holding it briefly.",
+   "Keep the palm turned sideways; the direction of the point is what matters.",
+   "Stay still and look at the viewer as you hold the point."
+  ],
+  "tip": "One sign does 'me' and 'I' — pointing at yourself always means the speaker.",
+  "word": "Me"
+ },
+ {
+  "category": "everyday",
+  "related": [
+   "number",
+   "hour"
+  ],
+  "slug": "two",
+  "steps": [
+   "Hold your dominant hand up in front of your body at chest height.",
+   "Extend the index and middle fingers straight up together in a V.",
+   "Hold the hand steady so the two fingers are clearly separate.",
+   "Let the fingers point straight upward without twisting the wrist.",
+   "Mouth the word 'two' as you hold the handshape steady."
+  ],
+  "tip": "BSL numbers 1 to 5 are one-handed — two upright fingers is all 'two' needs.",
+  "word": "Two"
+ }
+]

@@ -196,3 +196,50 @@ Do NOT add these to the dictionary without resolving the noted issue.
 | cool | bsl | SignBSL has "cool" videos only; all written handshape descriptions found were ASL (cool-in-temperature and cool-as-in-trendy variants). No reputable written BSL description. Needs video review. | 2026-10-13 |
 | mountain | bsl | No reputable written BSL handshape description found (SignBSL video only). Needs video review. | 2026-10-13 |
 | forest | bsl | SignBSL lists "forest"/"woodland" with video only; no reputable written BSL handshape description found. Needs video review. | 2026-10-13 |
+| tools | asl | Lifeprint states there is no widely accepted sign for TOOL — the concept is fingerspelled. No verified standalone production for the plural. | 2026-10-13 |
+| reply | asl | Lifeprint has only an empty placeholder page for REPLY; the concept is conveyed via ANSWER/respond or fingerspelling. No dedicated verified production. | 2026-10-13 |
+| customer | asl | Lifeprint has only an empty placeholder page for CUSTOMER. No dedicated sign page with a verifiable production. | 2026-10-13 |
+| movies | asl | Base MOVIE sign exists on Lifeprint, but the plural production (MOVIES) was not verified from a reputable source. Per batch rules, plurals need verified production. | 2026-10-13 |
+| include | asl | Lifeprint documents INCLUDE/involve/among as video-only; no text production could be retrieved or cross-checked. Not guessed. | 2026-10-13 |
+| value | asl | Lifeprint has only an empty placeholder page for VALUE. No verifiable standalone production. | 2026-10-13 |
+| jobs | asl | Plural of JOB; JOB itself is a lexicalized fingerspelling (#JOB) shown video-only on Lifeprint with no verifiable text production. Plural production unverified. | 2026-10-13 |
+| provide | asl | Lifeprint has only an empty placeholder page for PROVIDE. No dedicated sign page with a verifiable production. | 2026-10-13 |
+| source | asl | Lifeprint has only an empty placeholder page for SOURCE. No dedicated sign page with a verifiable production. | 2026-10-13 |
+| author | asl | Lifeprint has only an empty placeholder page for AUTHOR. No dedicated sign page with a verifiable production. | 2026-10-13 |
+| press | asl | Lifeprint has only an empty placeholder page for PRESS; the word is also ambiguous (media vs push-button). No verifiable production. | 2026-10-13 |
+| sale | asl | Lifeprint has only an empty placeholder page for SALE. No dedicated sign page with a verifiable production. | 2026-10-13 |
+| course | asl | Lifeprint has only an empty placeholder page for COURSE; the concept is conveyed via CLASS or fingerspelling. No dedicated verified production. | 2026-10-13 |
+| job | asl | Lifeprint documents #JOB as a lexicalized fingerspelling with video only; no text production retrievable. The alternative (sign WORK while mouthing "job") duplicates the existing WORK entry. Not added. | 2026-10-13 |
+| process | asl | Lifeprint documents PROCESS/procedure/progress as video-only; no text production could be retrieved or cross-checked. Not guessed. | 2026-10-13 |
+| teen | asl | No dedicated sign page found on Lifeprint; "teen" is typically fingerspelled or conveyed via context/age signs. No verifiable standalone production. | 2026-10-13 |
+| stock | asl | Lifeprint Lesson 49 (financial vocabulary) lists it only as fingerspelled S-T-O-C-K; no dedicated sign production found. | 2026-10-13 |
+| credit | asl | No dedicated sign page for "credit" alone; Lifeprint only documents the anachronistic CREDIT-CARD sign. Financial "credit" is typically fingerspelled. | 2026-10-13 |
+| point | asl | Pointing is grammatical deixis in ASL (Lifeprint Lesson 1), not a lexical sign; no dedicated "point" sign page found. | 2026-10-13 |
+| categories | asl | Singular "category" verified via the Lifeprint GROUP/CLUSTER sign, but no verified distinct plural production for "categories." | 2026-10-13 |
+| advanced | asl | No dedicated Lifeprint sign page found; "advanced" is typically fingerspelled or conveyed via context. | 2026-10-13 |
+| sales | asl | Plural of SELL; base sign exists but the plural production was not verified from a reputable source (plural/base-form). | 2026-10-13 |
+| english | asl | No Lifeprint sign page found for the English language; typically fingerspelled E-N-G-L-I-S-H. | 2026-10-13 |
+| left | asl | Lifeprint confirms a leftward-movement sign for LEFT exists, but the handshape was not verifiable from a reputable text source. | 2026-10-13 |
+| estate | asl | No dedicated sign page found; "estate" (real estate) is typically fingerspelled. | 2026-10-13 |
+| conditions | asl | No dedicated sign page found; typically fingerspelled C-O-N-D-I-T-I-O-N-S. | 2026-10-13 |
+| windows | asl | Singular WINDOW verified (ASLU workbook: trace the outline with index fingertips) but the plural production was not verified from a reputable source. | 2026-10-13 |
+| photos | asl | Plural of PHOTO; base sign exists but the plural production was not verified from a reputable source (plural/base-form). | 2026-10-13 |
+| thread | asl | No dedicated sign page found; typically fingerspelled T-H-R-E-A-D. | 2026-10-13 |
+| note | asl | No dedicated Lifeprint sign page found; "note" is typically fingerspelled or conveyed via WRITE + context. | 2026-10-13 |
+| page | bsl | SignBSL lists "page" with video only (University of Wolverhampton ICT vocabulary); british-sign.co.uk has no page and no reputable written BSL handshape description was found. Needs video review. | 2026-10-13 |
+| search | bsl | SignBSL has ICT entries with video only; no reputable written BSL handshape description found. Needs video review. | 2026-10-13 |
+| site | bsl | SignBSL ICT vocabulary has a "site" entry with video only; no reputable written BSL handshape description found. Needs video review. | 2026-10-13 |
+| out | bsl | SignBSL lists "out" (University of Bristol / Deaf Studies Trust) with video only; no reputable written BSL handshape description found. Needs video review. | 2026-10-13 |
+| any | bsl | SignBSL has related entries with video only; no reputable written BSL handshape description found for "any". Needs video review. | 2026-10-13 |
+| contact | bsl | No reputable written BSL handshape description found (british-sign.co.uk and BrightBSL have no page; SignBSL video-only). Needs video review. | 2026-10-13 |
+| business | bsl | SignBSL has entries with video only; no reputable written BSL handshape description found. Needs video review. | 2026-10-13 |
+| web | bsl | SignBSL ICT vocabulary has a "web" entry with video only; no reputable written BSL handshape description found. Needs video review. | 2026-10-13 |
+| online | bsl | SignBSL ICT vocabulary has entries with video only; no reputable written BSL handshape description found. Needs video review. | 2026-10-13 |
+| first | bsl | No reputable written BSL handshape description found for ordinal "first" (british-sign.co.uk and BrightBSL have no page; NHS healthcare BSL list names ordinals without describing the form). Needs tutor/video review. | 2026-10-13 |
+| some | bsl | SignBSL has related entries (e.g. "somewhere") with video only; no reputable written BSL handshape description found for "some". Needs video review. | 2026-10-13 |
+| date | bsl | No reputable written BSL handshape description found (SignBSL phrase pages such as "when is your date of birth" are video only). Needs video review. | 2026-10-13 |
+| back | bsl | No reputable written BSL handshape description found (british-sign.co.uk and BrightBSL have no page; only unreliable sources). Needs tutor/video review. | 2026-10-13 |
+| top | bsl | No reputable written BSL handshape description found; only unreliable or content-farm sources. Needs video review. | 2026-10-13 |
+| list | bsl | SignBSL lists "list" (University of Bristol / Deaf Studies Trust and QIA ICT dictionary) with video only; no reputable written BSL handshape description found. Needs video review. | 2026-10-13 |
+| state | bsl | No reputable written BSL handshape description found; US-state concepts have no standard BSL equivalent in accessible sources. Needs tutor/video review. | 2026-10-13 |
+| email | bsl | SignBSL lists "email"/"e-mail" (University of Bristol / Deaf Studies Trust, University of Wolverhampton, QIA ICT dictionary) with video only; no reputable written BSL handshape description found. Needs video review. | 2026-10-13 |
