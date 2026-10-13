@@ -420,3 +420,67 @@ Do NOT add these to the dictionary without resolving the noted issue.
 | database | asl | Lifeprint database page is video-only with no production text; typically fingerspelled. | 2026-10-13 |
 | says | asl | No Lifeprint page for says (404); singular "say" page is a stub with no production text — inflection production not verifiable. | 2026-10-13 |
 | official | asl | Lifeprint official page is video-only with no production text; no other reputable text source found. | 2026-10-13 |
+| land | asl | Lifeprint land page is an empty template stub with all production fields blank; the "dirt" page says PROPERTY/LAND is signed on video only, with no production text. | 2026-10-13 |
+| done | asl | Duplicate concept of the existing "finished" entry — Lifeprint glosses FINISH as "have done" / "all done!", and the "done" sign page itself is a stub with no production text. | 2026-10-13 |
+| window | asl | Lifeprint window page describes only the motion (dominant hand up-then-down, base hand still) with no handshape description; handshape cannot be verified from text. | 2026-10-13 |
+| region | asl | Lifeprint region page is an empty template stub with all production fields blank. | 2026-10-13 |
+| record | asl | Lifeprint says "the right sign depends on your meaning" — distinct signs for make-a-note-of, video-record, set-a-new-record, and vinyl record; no single production for the bare word. | 2026-10-13 |
+| direct | asl | Lifeprint direct page is video-only with no production text. | 2026-10-13 |
+| conference | asl | Lifeprint conference page is an empty template stub with all production fields blank. | 2026-10-13 |
+| environment | asl | Lifeprint environment page describes glosses and palm-orientation variants but gives no handshape or movement production text — video/image only. | 2026-10-13 |
+| records | asl | No Lifeprint sign page exists for records (404); plural production of the (already multi-sense) "record" is not verifiable from text. | 2026-10-13 |
+| district | asl | Lifeprint district page is video-only with no production text. | 2026-10-13 |
+| calendar | asl | Lifeprint calendar page (initialized and depictive versions) is video-only with no production text. | 2026-10-13 |
+| costs | asl | No Lifeprint sign page exists for costs (404); singular "cost" page has production text, but the plural inflection is not verifiable — plural entry skipped per mission rules. | 2026-10-13 |
+| style | asl | Lifeprint style page is an empty template stub with all production fields blank. | 2026-10-13 |
+| statement | asl | Lifeprint statement page is an empty template stub with all production fields blank. | 2026-10-13 |
+| update | asl | Lifeprint update page is video-only with no production text. | 2026-10-13 |
+| parts | asl | No Lifeprint production found for parts; typically fingerspelled — plural production not verifiable. | 2026-10-13 |
+| ever | asl | Lifeprint teaches "have you ever..." using the PAST sign; no distinct EVER production documented. | 2026-10-13 |
+| miles | asl | Lifeprint lists MILES as lexicalized fingerspelling only; no sign production documented. | 2026-10-13 |
+| sound | asl | No distinct SOUND production on Lifeprint; the concept is handled by HEAR/NOISE — not guessable. | 2026-10-13 |
+| resource | asl | No Lifeprint sign for resource found; typically fingerspelled. | 2026-10-13 |
+| present | asl | Lifeprint grant page documents GIVE-[bestow] as 'gift' but gives no text production of the X-handshape variant — movement not verifiable. | 2026-10-13 |
+| applications | asl | No Lifeprint production found for applications; typically fingerspelled — plural production not verifiable. | 2026-10-13 |
+| works | asl | Ambiguous (verb "functions" vs noun "the works"); "work" already in dictionary — no distinct verified production. | 2026-10-13 |
+| material | asl | No Lifeprint sign page for material found; typically fingerspelled. | 2026-10-13 |
+| written | asl | No distinct WRITTEN production verified; expressed via WRITE (already in dictionary) or fingerspelling. | 2026-10-13 |
+| federal | asl | Fingerspelled per Lifeprint lesson vocabulary; no sign production documented. | 2026-10-13 |
+| hosting | asl | No Lifeprint production found for hosting; modern term, typically fingerspelled. | 2026-10-13 |
+| tickets | asl | Lifeprint lesson vocab glosses TICKET as [give-ticket] with no standalone production description — plural production not verifiable. | 2026-10-13 |
+| thing | asl | Lifeprint references the THING sign but no accessible page gives its production — not guessable. | 2026-10-13 |
+| centre | asl | British spelling of existing "center" dictionary entry; same production — adding it would duplicate the entry. | 2026-10-13 |
+| requirements | asl | Plural noun; no Lifeprint REQUIREMENTS sign page with a text production found — typically fingerspelled or signed NEED. | 2026-10-13 |
+| finance | asl | No Lifeprint FINANCE sign page with a text production found — typically fingerspelled. | 2026-10-13 |
+| minutes | asl | Plural of MINUTE (in the dictionary); Lifeprint's MINUTE page gives the singular production only — no distinct MINUTES citation production verified. | 2026-10-13 |
+| mark | asl | Ambiguous (mark/grade a paper vs make a mark); no Lifeprint sign page with a text production for either sense found. | 2026-10-13 |
+| third | asl | Ordinal; no Lifeprint THIRD sign page with a text production found — typically fingerspelled or signed THREE. | 2026-10-13 |
+| gifts | asl | Plural; Lifeprint's GRANT page glosses the X-handshape GIVE sign as gift (noun), but no distinct GIFTS plural citation production verified. | 2026-10-13 |
+| reading | asl | Gerund of READ (in the dictionary); no dedicated READING sign page with a text production found on Lifeprint. | 2026-10-13 |
+| topics | asl | Plural; no Lifeprint TOPIC sign page found — a Lifeprint grammar note treats "topic" as a contextual reading of the QUOTES sign, not a citation sign. | 2026-10-13 |
+| tips | asl | Ambiguous (advice vs gratuity); no Lifeprint sign page with a text production for either sense found. | 2026-10-13 |
+| plus | asl | No Lifeprint PLUS sign page with a text production found — typically fingerspelled or drawn in the air. | 2026-10-13 |
+| auto | asl | Ambiguous (automatic vs automobile); no Lifeprint AUTO sign page found — the automobile sense is signed CAR (in the dictionary). | 2026-10-13 |
+| cover | asl | Ambiguous (conceal vs book cover vs cover version); no Lifeprint sign page with a text production matching a clear sense found. | 2026-10-13 |
+| edit | asl | No Lifeprint EDIT sign page with a text production found. | 2026-10-13 |
+| videos | asl | Plural; no Lifeprint VIDEO sign page with a text production found — typically signed MOVIE/watch (in the dictionary). | 2026-10-13 |
+| percent | asl | Lifeprint lesson 40 lists PERCENT and its percentages page describes its arcing movement, but no Lifeprint sign page with a full text production was found. | 2026-10-13 |
+| function | asl | Lifeprint function.htm has video/images only, no text production description — not verifiable. | 2026-10-13 |
+| fact | asl | Lifeprint fact.htm is an empty stub with no production described — not verifiable. | 2026-10-13 |
+| unit | asl | Lifeprint unit.htm is an empty stub with no production described — not verifiable. | 2026-10-13 |
+| getting | asl | Would duplicate the existing GET entry's claw-grab production; -ing forms get no distinct citation sign. | 2026-10-13 |
+| global | asl | Would duplicate the existing WORLD entry (Lifeprint's GLOBAL/ALL-OVER-THE-WORLD variation is video-only; the text production is the WORLD sign already in the dictionary). | 2026-10-13 |
+| tech | asl | Batch 006 already NEEDS-REVIEWed "technology" (Lifeprint: tech signs evolve, many Deaf signers prefer to fingerspell tech concepts); no stable citation sign for the abbreviation. | 2026-10-13 |
+| economic | asl | No Lifeprint sign page found; only fingerspelling-quiz hits — typically fingerspelled, no citation sign verified. | 2026-10-13 |
+| player | asl | Lifeprint player.htm is an empty stub with no production described — not verifiable. | 2026-10-13 |
+| projects | asl | Plural of PROJECT; Lifeprint project.htm is video-only with no text production described — plural production unverified. | 2026-10-13 |
+| lyrics | asl | Plural of LYRIC; Lifeprint lyric.htm is an empty stub with no production described — not verifiable. | 2026-10-13 |
+| submit | asl | Lifeprint submit.htm is an empty stub with no production described — not verifiable. | 2026-10-13 |
+| amount | asl | Lifeprint amount.htm describes only a classifier (amount you could hold in your hand), not an established sign — no citation sign verified. | 2026-10-13 |
+| included | asl | Lifeprint include.htm is video-only with no text production described — not verifiable. | 2026-10-13 |
+| though | asl | Lifeprint though.htm is an empty stub with no production described — not verifiable. | 2026-10-13 |
+| bank | asl | Lifeprint documents only the lexicalized fingerspelling #BANK (B-N-K); precedent (park, guide, jobs, job) — lexicalized-fs-only words are not added. | 2026-10-13 |
+| risk | asl | Lifeprint risk.htm shows only fingerspelled R-I-S-K images (the DEADLINE note is contextual metaphor, not a citation sign) — no citation production. | 2026-10-13 |
+| thanks | asl | Lifeprint Lesson 01 lists fs-THANKS (fingerspelled); no distinct citation sign, and would duplicate the existing THANK-YOU concept. | 2026-10-13 |
+| everything | asl | Lifeprint everything.htm is video-only with no text production described — not verifiable. | 2026-10-13 |
+| deals | asl | Plural of DEAL; no Lifeprint deal.htm page (404), no citation production verified. | 2026-10-13 |
