@@ -325,3 +325,27 @@ Do NOT add these to the dictionary without resolving the noted issue.
 | example | asl | Lifeprint: EXAMPLE = double-motion SHOW, but the SHOW production page is image/video-only with no text description; cannot verify production textually. Per the "feedback" batch precedent. | 2026-10-13 |
 | age | asl | Lifeprint's age page is video-only with only indirect handshape evidence; secondary sources conflict on the handshape (G vs S). Exact production not verifiable. | 2026-10-13 |
 | road | asl | Lifeprint: ROAD is the same production as STREET, WAY, and PATH (STREET already in the dictionary) — not a separate citation sign. Per the "going"/GO batch precedent. | 2026-10-13 |
+| poker | asl | No Lifeprint sign page exists (poker.htm 404); no reputable text production found for the card-game sign. | 2026-10-13 |
+| status | asl | No Lifeprint sign page exists (status.htm 404); no dedicated citation sign verified — typically fingerspelled or context-dependent. | 2026-10-13 |
+| browse | asl | Lifeprint's browse.htm sign page is an empty placeholder; no text production description found on any reputable source. | 2026-10-13 |
+| issue | asl | Lifeprint's issue.htm sign page is an empty placeholder; no text production description found on any reputable source. | 2026-10-13 |
+| range | asl | Lifeprint's range.htm page (glossed BETWEEN-[in-the-range-of]) is video-only with no text production description. | 2026-10-13 |
+| war | asl | Lifeprint's war.htm sign page is an empty placeholder; no text production description found on any reputable source. | 2026-10-13 |
+| court | asl | Lifeprint's court.htm sign page is video-only with no text production description. | 2026-10-13 |
+| audio | asl | Lifeprint's audio.htm sign page is an empty placeholder; no text production description found on any reputable source. | 2026-10-13 |
+| given | asl | Same production as GIVE (already in the dictionary) — the directional verb covers gave/given (e.g. he-GIVE-me); not a separate citation sign. Per the "going"/GO batch precedent. | 2026-10-13 |
+| files | asl | Plural of FILE (batch 006 found no clear citation sign; Lifeprint vocab list names file without a production description); no distinct verified plural production. | 2026-10-13 |
+| event | asl | Lifeprint's event.htm sign page is video-only with no text production description. | 2026-10-13 |
+| release | asl | Lifeprint's release.htm sign page is an empty placeholder; no text production description found on any reputable source. | 2026-10-13 |
+| needs | asl | Plural of NEED; no verified distinct plural production found (mission rule: plural entries only with a verified distinct production). | 2026-10-13 |
+| cards | asl | Plural of CARD; no verified distinct plural production found. | 2026-10-13 |
+| areas | asl | Plural of AREA; no verified distinct plural production found. | 2026-10-13 |
+| problems | asl | Plural of PROBLEM; Handspeak documents the base sign but no verified distinct plural production. | 2026-10-13 |
+| making | asl | -ing form; verified production is identical to the existing MAKE entry (stacked fists twist) — writing it would duplicate. | 2026-10-13 |
+| analysis | asl | No text production found from any reputable source (Lifeprint / Handspeak / university materials). | 2026-10-13 |
+| possible | asl | Handspeak dictionary page is video-only with no text production description. | 2026-10-13 |
+| professional | asl | Handspeak lists the sign as video-only (PRO page "related signs"); no verified text production for the adjective form. | 2026-10-13 |
+| yet | asl | Handspeak YET/NOT-YET page is video-only with no text production description; the bare adverb sense is not documented in Lifeprint's signing notes. | 2026-10-13 |
+| space | asl | Only a fingerspelled variant (S-P-A-C-E) found for "empty place or gap"; no verified lexical sign production. | 2026-10-13 |
+| committee | asl | No text production found from any reputable source. | 2026-10-13 |
+| hand | asl | Lifeprint documents only HANDS (plural: pinkie-edge wrist-slice, two-handed); no verified singular citation sign from a text source. | 2026-10-13 |
