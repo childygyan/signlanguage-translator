@@ -801,3 +801,53 @@ Do NOT add these to the dictionary without resolving the noted issue.
 | programme | asl | British spelling variant; no distinct citation sign verified — likely fingerspelled or signed as PROGRAM. | 2026-10-13 |
 | joined | asl | Past-tense inflection; Lifeprint glosses JOIN (join, link together) via video only, no textual production. | 2026-10-13 |
 | input | asl | No distinct citation sign verified; computer-input sense likely fingerspelled, which could not be verified. | 2026-10-13 |
+| strategy | asl | No established citation sign found on Lifeprint or Handspeak; English gloss likely fingerspelled or periphrased — cannot verify a lexical sign, skipping rather than guessing. | 2026-10-13 |
+| valid | asl | No Lifeprint dictionary page or other reputable source for a citation sign for "valid"; only casual mentions of validity in prose — skipping rather than guessing. | 2026-10-13 |
+| bin | asl | No Lifeprint dictionary page for "bin"; closest established signs are GARBAGE/TRASH — skipping rather than guessing. | 2026-10-13 |
+| modern | asl | No Lifeprint dictionary page or reputable text description for a citation sign for "modern" — skipping rather than guessing. | 2026-10-13 |
+| grand | asl | Lifeprint's grandson/granddaughter pages say the standard rendering is fingerspelled G-R-A-N-D (or the FANCY sign for "grand as in fancy"); no distinct established sign for "grand" — skipping. | 2026-10-13 |
+| charge | asl | No verified citation sign found on Lifeprint or Handspeak for "charge" alone (handspeak only documents the phrase "take charge"); senses (cost/accusation) differ — skipping rather than guessing. | 2026-10-13 |
+| units | asl | Plural; no verified production found for "units" on reputable sources; "unit" itself has no Lifeprint page — skipping rather than guessing. | 2026-10-13 |
+| instead | asl | No Lifeprint dictionary page or reputable text description for a citation sign for "instead" — skipping rather than guessing. | 2026-10-13 |
+| normal | asl | Lifeprint documents the movement (clockwise spiral up, then drop down) but no text source confirms the handshape; one external source describes a different "usual/regular" sign — conflicting, so skipping. | 2026-10-13 |
+| wrote | asl | No distinct citation sign for the past-tense inflection of WRITE found on Lifeprint or reputable sources; typically signed WRITE with context — skipping per rule (no distinct established sign). | 2026-10-13 |
+| enterprise | asl | No Lifeprint dictionary page or reputable source for a citation sign for "enterprise" — skipping rather than guessing. | 2026-10-13 |
+| ships | asl | Plural; Lifeprint documents only SHIP-(old_sailing_ship) as a frozen lexicalized classifier with no text description of the plural production — skipping rather than guessing. | 2026-10-13 |
+| educational | asl | No Lifeprint dictionary page for "education"/"educational"; concept is signed via TEACH-family signs contextually — no distinct established citation sign — skipping. | 2026-10-13 |
+| leading | asl | No Lifeprint dictionary page or reputable source for a citation sign for "leading" (verb inflection of LEAD) — skipping rather than guessing. | 2026-10-13 |
+| fitness | asl | No verified production; Lifeprint teaches EXERCISE (lifting-weights motion) but has no FITNESS page — will not substitute the exercise sign. | 2026-10-13 |
+| opinion | asl | No dedicated Lifeprint sign page and no accessible production description from a reputable source — will not guess. | 2026-10-13 |
+| abstract | asl | Listed in the Handspeak wordlist but no production description verified from a reputable source — will not guess. | 2026-10-13 |
+| uses | asl | Plural production not verifiable; Lifeprint teaches USE (U-hand brushing) but no plural-specific production was found. | 2026-10-13 |
+| output | asl | No distinct citation sign verified; STEM-term senses often fingerspelled, which could not be verified from a reputable source. | 2026-10-13 |
+| funds | asl | Plural production not verifiable; no dedicated FUNDS production found — concept overlaps MONEY but no verified mapping. | 2026-10-13 |
+| greater | asl | No dedicated sign verified; comparative sense is expressed via MORE/THAN in ASL, not a distinct GREATER sign. | 2026-10-13 |
+| likely | asl | No dedicated sign verified; concept is expressed via MAYBE/PROBABLY in ASL, not a distinct LIKELY sign. | 2026-10-13 |
+| develop | asl | Video-only listings (signasl.org/ASLCore); no textual production description verified from a reputable source — will not guess. | 2026-10-13 |
+| employees | asl | Plural production not verifiable; no dedicated EMPLOYEES production found in Lifeprint or reputable dictionaries. | 2026-10-13 |
+| artists | asl | Plural production not verifiable; Handspeak documents the singular ARTIST only. | 2026-10-13 |
+| alternative | asl | Listed in the Handspeak wordlist but no production description verified from a reputable source — will not guess. | 2026-10-13 |
+| processing | asl | No verified production; Lifeprint medical-signing text mentions the concept but no dedicated PROCESSING sign page was found. | 2026-10-13 |
+| resolution | asl | Listed in the Handspeak wordlist but no production description verified from a reputable source — will not guess. | 2026-10-13 |
+| publication | asl | Lifeprint confirms PRINTER-[print, publish, newspaper] (publish uses single movement of the PRINT sign), but the production description of PRINT itself was not located — describing it would be guessing. | 2026-10-13 |
+| pass | asl | Ambiguous across meanings (pass a class, pass by, pass away as euphemism); Lifeprint only references PASS in passing with no verified standalone production. | 2026-10-13 |
+| contains | asl | No reputable source found describing a standalone CONTAINS production. | 2026-10-13 |
+| multi | asl | No verified sign found on Lifeprint; likely expressed via MANY or context — needs expert verification. | 2026-10-13 |
+| republic | asl | Appears only as an interpreted phrase on Lifeprint's Pledge of Allegiance page (REPUBLIC rendered via GOVERNMENT/FLAG/REPRESENT in context); no verified standalone production. | 2026-10-13 |
+| fees | asl | No standalone FEE sign verified from a reputable source; likely signed as MONEY + context — needs verification. | 2026-10-13 |
+| components | asl | No dictionary entry found on Lifeprint or other reputable sources. | 2026-10-13 |
+| completed | asl | Past-tense inflection with no distinct established citation sign separate from FINISH; per mission rules, inflection-only words are skipped. | 2026-10-13 |
+| skin | asl | Listed in Lifeprint's advanced-signs index but no verified production description found. | 2026-10-13 |
+| graphics | asl | No verified sign found from any reputable source. | 2026-10-13 |
+| ads | asl | ADVERTISE exists on Signing Savvy (synonyms AD/ADVERTISEMENT), but production was not verified from Lifeprint or another reputable source. | 2026-10-13 |
+| expected | asl | Past-tense inflection of EXPECT; the Lifeprint EXPECT page is video-only with no textual production verified — ASL uses the same sign across tenses, so no distinct citation sign exists. | 2026-10-13 |
+| organizations | asl | Plural production not verifiable; Handspeak documents ORGANIZE (verb) and GROUP, but no textual production for the plural noun ORGANIZATIONS was found. | 2026-10-13 |
+| filter | asl | Lifeprint FILTER page is video-only; no textual production verified on Lifeprint or reputable ASL dictionaries. | 2026-10-13 |
+| mailing | asl | Progressive inflection; Lifeprint documents MAIL (noun, letter) and SEND (verb, to mail) but no distinct MAILING production was verified. | 2026-10-13 |
+| vehicle | asl | Lifeprint VEHICLE page is video-only; no distinct lexical sign verified — vehicle appears only as the CL:3 classifier, which is not a distinct citation sign for the noun. | 2026-10-13 |
+| consider | asl | Lifeprint CONSIDER page is video-only; no verified textual production found on Lifeprint, Handspeak, or other reputable ASL dictionaries. | 2026-10-13 |
+| panel | asl | Lifeprint PANEL page documents only a video-only court-jury version; no textual production verified. | 2026-10-13 |
+| buying | asl | Progressive inflection of BUY; no distinct citation sign verified — ASL uses BUY with aspect inflection. | 2026-10-13 |
+| proposed | asl | Past-tense inflection; no distinct citation sign verified — ASL uses PROPOSE without tense marking. | 2026-10-13 |
+| default | asl | Lifeprint states signers generally just spell DEFAULT; no distinct citation sign verified — likely fingerspelled, which could not be verified. | 2026-10-13 |
+| boys | asl | Plural production not verifiable; Lifeprint documents singular BOY (video-only) but no plural-specific textual production was found. | 2026-10-13 |
