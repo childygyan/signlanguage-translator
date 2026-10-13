@@ -1083,3 +1083,23 @@ Do NOT add these to the dictionary without resolving the noted issue.
 | initial | asl | Lifeprint page documents no production (empty entry); no reputable textual source found — unverifiable without guessing. | 2026-10-13 |
 | label | asl | Lifeprint page is video-only (LABEL / brand glosses) with no textual production; insufficient to verify handshape and motion for written steps without guessing. | 2026-10-13 |
 | thinking | asl | Dictionary already has "think" — identical production (THINK: index finger touches forehead, per Lifeprint). No distinct citation sign for the gerund form. | 2026-10-13 |
+| recommend | asl | Existing entry "Recommended" already documents this exact sign (Lifeprint's RECOMMEND = open hands offering, same as SUGGEST/OFFER); no distinct citation sign for the base form "recommend" is verifiable. | 2026-10-13 |
+| league | asl | Handspeak has a LEAGUE entry but provides video only with no textual production description; no reputable source (Lifeprint, Handspeak text, university or public-health materials) gives a verifiable handshape/location/movement description. | 2026-10-13 |
+| provider | asl | No verifiable sign found. Only non-reputable video listings (signasl.org/SMARTSign, no production description); nothing from Lifeprint, Handspeak, or university/public-health ASL materials. | 2026-10-13 |
+| optional | asl | No verifiable sign found from any reputable source (Lifeprint, Handspeak, university or public-health ASL materials). | 2026-10-13 |
+| manufacturing | asl | No verifiable sign found. Handspeak lists an INDUSTRY entry but provides video only with no textual production description; nothing from Lifeprint or university/public-health materials. | 2026-10-13 |
+| sections | asl | Plural form; no verified production for SECTION/sections from any reputable source (Lifeprint, Handspeak, university or public-health ASL materials). | 2026-10-13 |
+| effort | asl | No Lifeprint production page found; no reputable textual source for the sign's handshape and motion — unverifiable without guessing. | 2026-10-13 |
+| phase | asl | Lifeprint phase page exists but is video-only ("phase-[TIME+span-of-time]") with no textual production; insufficient to verify handshape and motion for written steps. | 2026-10-13 |
+| fields | asl | Plural form with no verified distinct production. Lifeprint field page describes the concept ("area of land") but its production images have no textual description — would be guessing. | 2026-10-13 |
+| bag | asl | Per Lifeprint: "most of the time the concept of 'bag' is just spelled: B-A-G" — there is no standard citation sign; the manual depiction shown is discouraged by the source. The translator's fingerspelling fallback already handles this. | 2026-10-13 |
+| fantasy | asl | Lifeprint fantasy page documents no production (empty entry); no reputable textual source found — unverifiable without guessing. | 2026-10-13 |
+| letters | asl | Plural form with no verified distinct production. Lifeprint documents the LETTER (mail) sign but no citation production for the plural form — would be guessing. | 2026-10-13 |
+| context | asl | Lifeprint confirms "quite a few different signs" exist and its own page is video-only with no textual production; unverifiable without guessing. | 2026-10-13 |
+| foot | asl | Dictionary already has "feet" — identical production (FEET: point down at one foot, then sweep to point at the other, per Lifeprint). No distinct citation sign for the singular form. | 2026-10-13 |
+| continued | asl | No distinct citation sign. ASL marks past tense with a separate FINISH/past marker; dictionary already has "continue" covering the base concept. | 2026-10-13 |
+| apparel | asl | No citation sign found on Lifeprint; concept is signed as CLOTHES/CLOTHING or fingerspelled — no verifiable production for "apparel" itself. | 2026-10-13 |
+| generally | asl | No citation sign found on Lifeprint; English adverb with no established ASL sign — unverifiable without guessing. | 2026-10-13 |
+| mass | asl | No citation sign found on Lifeprint; used only via context (e.g., "Body Mass Index" is spelled BMI) — no verifiable production. | 2026-10-13 |
+| crime | asl | No established citation sign found (Lifeprint documents CHARGED-with-a-crime / accused, not CRIME; community discussion confirms no agreed standalone sign) — unverifiable without guessing. | 2026-10-13 |
+| techniques | asl | No citation sign found on Lifeprint; abstract plural typically fingerspelled or signed as SKILL/METHOD — no verifiable production. | 2026-10-13 |
