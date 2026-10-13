@@ -153,3 +153,46 @@ Do NOT add these to the dictionary without resolving the noted issue.
 | month | bsl | SignBSL lists "month" but with video only; no reputable written BSL handshape description found. Needs video review. | 2026-10-13 |
 | often | bsl | SignBSL has "often" videos only; no reputable written BSL handshape description found. Needs video review. | 2026-10-13 |
 | holiday | bsl | Documented 10–12 regional BSL variants for "holiday" (RNID/Action on Hearing Loss "Learning BSL" leaflet) with no standard written form. Needs tutor/video review to pick the most widely taught variant. | 2026-10-13 |
+| personal | asl | No dedicated sign page found on Lifeprint; the concept is conveyed by context or fingerspelling. No verifiable standalone production. | 2026-10-13 |
+| including | asl | No dedicated sign page found; typically fingerspelled I-N-C-L-U-D-I-N-G or conveyed via context. No reputable text production found. | 2026-10-13 |
+| guide | asl | Lifeprint only documents the lexicalized fingerspelled #GUIDE (as in TV Guide); the "person who guides" sign was not verifiable. | 2026-10-13 |
+| directory | asl | No dedicated sign page found on Lifeprint or reputable cross-check sources. No verifiable production. | 2026-10-13 |
+| location | asl | No dedicated Lifeprint sign page found; concept varies (place/where/context). No verifiable production. | 2026-10-13 |
+| text | asl | No dedicated sign page found on Lifeprint; text-message/technology signs are typically fingerspelled or tech-specific. No verifiable production. | 2026-10-13 |
+| small | asl | Lifeprint references a SMALL sign page but its text production could not be retrieved; the exact handshape/movement was not verifiable. Not guessed. | 2026-10-13 |
+| rating | asl | Typically fingerspelled R-A-T-I-N-G; no dedicated sign page found. No verifiable standalone production. | 2026-10-13 |
+| rate | asl | Typically fingerspelled R-A-T-E; no dedicated sign page found. No verifiable standalone production. | 2026-10-13 |
+| return | asl | Ambiguous concept (go back / come back / give back) with no single verifiable citation production from a reputable source. | 2026-10-13 |
+| students | asl | Plural of student; base sign exists but the plural production was not verified from a reputable source (plural/base-form). | 2026-10-13 |
+| shopping | asl | Only video-only descriptions found; no reputable text production description verified. | 2026-10-13 |
+| account | asl | Handspeak documents it as fingerspelling only (with an A-hand palm variant); no verified standalone Lifeprint citation sign. | 2026-10-13 |
+| times | asl | Plural of time; plural production not verifiable (number incorporation varies) — plural/base-form skip. | 2026-10-13 |
+| sites | asl | Typically fingerspelled S-I-T-E-S; no dedicated sign page found. No verifiable standalone production. | 2026-10-13 |
+| level | asl | No dedicated Lifeprint sign page found; production not verifiable from a reputable source. | 2026-10-13 |
+| digital | asl | Lifeprint notes technology signs evolve and many Deaf signers prefer to fingerspell tech concepts; no stable production verified. | 2026-10-13 |
+| profile | asl | Typically fingerspelled P-R-O-F-I-L-E; no dedicated sign page found. No verifiable standalone production. | 2026-10-13 |
+| form | asl | No standard ASL citation sign; F-O-R-M is fingerspelled. | 2026-10-13 |
+| events | asl | Plural form; no Lifeprint page for EVENT and no verified text production found. | 2026-10-13 |
+| hours | asl | Plural form; ASL expresses this via number incorporation or HOUR repetition, not a standalone citation sign — no verified production. | 2026-10-13 |
+| image | asl | Handspeak lists IMAGE under PICTURE's related signs, but no reputable text production of the PICTURE sign itself was found (Lifeprint teaches it in Lesson 15 with video only). | 2026-10-13 |
+| department | asl | No standard ASL citation sign found on Lifeprint; concept is fingerspelled or expressed via OFFICE/BUSINESS. | 2026-10-13 |
+| title | asl | Lifeprint glosses ABOUT with "title" among its meanings, but no dedicated sign page or text production for TITLE was found; semantic fit uncertain. | 2026-10-13 |
+| description | asl | No standard ASL citation sign; concept is fingerspelled or expressed via EXPLAIN/DESCRIBE. | 2026-10-13 |
+| insurance | asl | No standard ASL citation sign found on Lifeprint; concept is fingerspelled. | 2026-10-13 |
+| another | asl | Lifeprint covers ANOTHER in Vocabulary Expansion Series 61 (video only) — no text description of the production found from any reputable source. | 2026-10-13 |
+| property | asl | No standard ASL citation sign found on Lifeprint; concept is fingerspelled or expressed via related signs. | 2026-10-13 |
+| quality | asl | No standard ASL citation sign found on Lifeprint; concept is fingerspelled or expressed via GOOD/BAD variations. | 2026-10-13 |
+| every | asl | Lifeprint confirms the sign exists (animated gif, two versions) but gives no text production; secondary sources disagree on palm orientation and movement. | 2026-10-13 |
+| listing | asl | No standard ASL citation sign found on Lifeprint; concept is fingerspelled. | 2026-10-13 |
+| content | asl | No standard ASL citation sign found on Lifeprint; too abstract for a citation sign. | 2026-10-13 |
+| country | asl | Lifeprint's countries page shows flat-hand and Y-hand versions but provides no text production (images/video only); could not verify from another reputable text source. | 2026-10-13 |
+| private | asl | No standard ASL citation sign found on Lifeprint; concept is expressed via SECRET or fingerspelling, with uncertain semantic fit. | 2026-10-13 |
+| sometimes | bsl | SignBSL (Univ. of Bristol / Deaf Studies Trust) lists "sometimes" with video only; no reputable written BSL handshape description found (BrightBSL has no "sometimes" page). Needs video review by a qualified BSL signer. | 2026-10-13 |
+| hot | bsl | SignBSL has "hot" videos only; every written handshape description found was ASL-labelled (claw hand out from the mouth) or from an unreliable source. No reputable written BSL description. Needs video review. | 2026-10-13 |
+| river | bsl | Scottish Sensory Centre BSL geography glossary has a "river" video only; no reputable written BSL handshape description found. Needs video review. | 2026-10-13 |
+| sea | bsl | No reputable written BSL handshape description found (SignBSL video only). Needs video review. | 2026-10-13 |
+| tree | bsl | Only text source found was howtosayguide.com, which is excluded as unreliable (internally contradictory variants, ASL contamination). Needs video review. | 2026-10-13 |
+| beautiful | bsl | Only text source found was howtosayguide.com (excluded as unreliable); other hits were content farms or ASL-labelled. Needs video review. | 2026-10-13 |
+| cool | bsl | SignBSL has "cool" videos only; all written handshape descriptions found were ASL (cool-in-temperature and cool-as-in-trendy variants). No reputable written BSL description. Needs video review. | 2026-10-13 |
+| mountain | bsl | No reputable written BSL handshape description found (SignBSL video only). Needs video review. | 2026-10-13 |
+| forest | bsl | SignBSL lists "forest"/"woodland" with video only; no reputable written BSL handshape description found. Needs video review. | 2026-10-13 |
