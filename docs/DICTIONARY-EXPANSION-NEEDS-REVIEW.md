@@ -548,3 +548,71 @@ Do NOT add these to the dictionary without resolving the noted issue.
 | advertise | asl | Lifeprint advertise page is empty; no verified production found. | 2026-10-13 |
 | kingdom | asl | Lifeprint kingdom page is empty; no verified production found. | 2026-10-13 |
 | base | asl | Lifeprint base page is empty; no verified production found. | 2026-10-13 |
+| near | asl | Lifeprint's NEAR page gives no textual production (video only); only a questioner's email mentions handshapes, with no Dr. Bill description. | 2026-10-13 |
+| environmental | asl | No verified textual production from Lifeprint or Handspeak; adjective form with no established citation sign found. | 2026-10-13 |
+| thought | asl | Lifeprint states THOUGHT is typically just THINK + context, with no distinct standard sign; "think" already exists in the dictionary. | 2026-10-13 |
+| stuff | asl | No verified production from a reputable textual source on Lifeprint or Handspeak. | 2026-10-13 |
+| storage | asl | Lifeprint notes SAVE covers "storage" in context; "save" already exists in the dictionary (duplicate concept). | 2026-10-13 |
+| loans | asl | Plural; no distinct verified plural production (mission precedent: countries, effects, standards). | 2026-10-13 |
+| shoes | asl | Plural; no distinct verified plural production (mission precedent). | 2026-10-13 |
+| entry | asl | No distinct verified noun production; "enter" already exists in the dictionary and the noun/verb pair was not verified as distinct. | 2026-10-13 |
+| nature | asl | Lifeprint confirms NATURE is an established sign (used in the NATIVE-AMERICAN discussion) but gives no textual production; none found on Handspeak either. | 2026-10-13 |
+| orders | asl | Plural; no distinct verified plural production (mission precedent). | 2026-10-13 |
+| availability | asl | Meaning-dependent: Lifeprint Lesson 56 maps it to EMPTY?, BORROW, MEET WHEN?, SINGLE, etc. by context; no single established sign. | 2026-10-13 |
+| summary | asl | Lifeprint references only a video for CONDENSE/SUMMARIZE; signasl is video-only; no textual production found. | 2026-10-13 |
+| turn | asl | Handspeak states there is no exact word-for-word translation; meaning-dependent (rotate / change direction / take turn / become / send away). | 2026-10-13 |
+| growth | asl | Only the verb GROW has verified production (Handspeak); no distinct verified production for the noun "growth" (cf. "loss" precedent). | 2026-10-13 |
+| notes | asl | Plural; no distinct verified plural production (mission precedent). | 2026-10-13 |
+| agency | asl | Video-only (signasl, LearnHowToSign); no textual production from a reputable source found. | 2026-10-13 |
+| although | asl | Lifeprint sign page is video-only with no extractable text; sign is meaning-dependent (like "along") with no single verified citation form. | 2026-10-13 |
+| drug | asl | No reputable text description of the ASL DRUG production found; Handspeak medication pages cover the MEDICINE (take-pill) verb, not DRUG. | 2026-10-13 |
+| western | asl | No verified distinct citation sign; the cowboy-hat sign means "cowboy," not "western," and the adjective sense has no attested form. | 2026-10-13 |
+| force | asl | Attested as a directional verb (Lifeprint confirms FORCE exists) but no reputable text description of the production found. | 2026-10-13 |
+| employment | asl | No verified distinct noun sign; HIRE covers "give someone a job," with no attested citation form for "employment" as a state. | 2026-10-13 |
+| overall | asl | No verified distinct citation sign for the "in general / taken as a whole" sense found. | 2026-10-13 |
+| commission | asl | No verified citation sign; only the unrelated "click rate = percentage" sense is textually attested (Handspeak). | 2026-10-13 |
+| package | asl | No reputable text description of the ASL PACKAGE production found. | 2026-10-13 |
+| contents | asl | No verified citation sign; plural — no verified plural production. | 2026-10-13 |
+| players | asl | No reputable text description found; plural — no verified plural production. | 2026-10-13 |
+| engine | asl | No verified noun production found; only the verb phrase "start up (engine)" is textually attested (Handspeak). | 2026-10-13 |
+| port | asl | Only the nautical "left side of a ship" (larboard) sense found; no verified sign for the seaport/harbor sense. | 2026-10-13 |
+| supplies | asl | Only video sources (SMARTSign via signasl.org) with no text description of the production; plural. | 2026-10-13 |
+| album | asl | Only video sources (SMARTSign/ASL Search via signasl.org) with no text description of the production. | 2026-10-13 |
+| bar | asl | No clear standard citation sign for one sense (establishment vs. exam); ambiguous — skipped per task instructions. | 2026-10-13 |
+| institute | asl | No reputable text description of the ASL INSTITUTE production found. | 2026-10-13 |
+| views | asl | Plural; no distinct verified plural production in ASL — per batch rules, plural entry requires verified production. | 2026-10-13 |
+| plans | asl | Lifeprint verifies the singular PLAN sign (flat 5-hands sweeping side to side), but no distinct plural production; per batch rules, plural entry requires verified production. | 2026-10-13 |
+| double | asl | No verified production found on Lifeprint or other reputable sources; Lifeprint mentions "double" only as a movement inflection, not as a standalone sign. | 2026-10-13 |
+| screen | asl | Lifeprint screen page is empty; no verified production found. | 2026-10-13 |
+| types | asl | Plural; no distinct verified plural production found — per batch rules, plural entry requires verified production. | 2026-10-13 |
+| sponsored | asl | Lifeprint sponsor page is empty; no verified production found (concept is expressed via SUPPORT). | 2026-10-13 |
+| lines | asl | Plural; no distinct verified plural production found — per batch rules, plural entry requires verified production. | 2026-10-13 |
+| electronic | asl | No Lifeprint sign page exists (404); Lifeprint notes tech signs vary and many Deaf prefer fingerspelling tech concepts. | 2026-10-13 |
+| benefits | asl | Plural; no distinct verified plural production found — per batch rules, plural entry requires verified production. | 2026-10-13 |
+| needed | asl | Inflected past form of NEED (already in the dictionary); no separate sign — ASL marks tense through context, not a distinct production. | 2026-10-13 |
+| held | asl | Inflected past form of HOLD; no distinct verified production found. | 2026-10-13 |
+| condition | asl | Lifeprint condition page is empty; no verified production found. | 2026-10-13 |
+| effective | asl | No Lifeprint sign page exists (404); no verified production found. | 2026-10-13 |
+| organization | asl | Lifeprint organization page has video only, no textual production description; handshape and movement could not be verified in words. | 2026-10-13 |
+| effect | asl | Lifeprint effect page is empty; no verified production found. | 2026-10-13 |
+| asked | asl | Inflected past form of ASK (already in the dictionary); no separate sign — ASL marks tense through context, not a distinct production. | 2026-10-13 |
+| mind | asl | Lifeprint glosses the THINK sign as covering 'mind' (THINK-[brain, mind, think-about, wonder]) but gives no distinct production for the noun; the dictionary's 'think' entry already teaches this sign. | 2026-10-13 |
+| selection | asl | Lifeprint's CHOOSE family ('take hold of your choice and pull it toward yourself') covers 'select'; no distinct production; the dictionary's 'choose' entry already teaches this sign. | 2026-10-13 |
+| casino | asl | No verified production found on Lifeprint or other reputable textual sources. | 2026-10-13 |
+| tour | asl | Lifeprint glosses TRAVEL as covering 'tour' but gives no textual production (video/images only); the dictionary's 'travel' entry already teaches this sign. | 2026-10-13 |
+| menu | asl | No Lifeprint production found; only an unattested FOOD+BOOK compound from a single YouTube creator, not a reputable source. | 2026-10-13 |
+| volume | asl | No Lifeprint production; meaning is ambiguous (LOUD vs. HOW-MUCH-as-volume) and sources do not converge on one sign. | 2026-10-13 |
+| cross | asl | Ambiguous English (angry vs. cross-over vs. crucifix); no verified standalone production from a reputable source. | 2026-10-13 |
+| anyone | asl | Lifeprint uses the gloss ANYONE in lesson materials but gives no textual production of the sign. | 2026-10-13 |
+| mortgage | asl | No verified production found on Lifeprint or other reputable textual sources. | 2026-10-13 |
+| silver | asl | Lifeprint confirms the location ('gold and silver come off the ear') but gives no textual handshape or movement description. | 2026-10-13 |
+| corporation | asl | No verified production found on Lifeprint or other reputable textual sources. | 2026-10-13 |
+| inside | asl | Lifeprint confirms the IN sign done twice with a smaller second motion means 'inside', but gives no textual production of the IN sign itself. | 2026-10-13 |
+| solution | asl | No verified production found on Lifeprint or other reputable textual sources. | 2026-10-13 |
+| mature | asl | No Lifeprint production found; only an unrelated South African Sign Language listing. | 2026-10-13 |
+| role | asl | No verified production; Lifeprint only documents 'role shift', a grammar term for a different concept. | 2026-10-13 |
+| weeks | asl | No distinct plural production; Lifeprint verifies number incorporation (2-WEEKS, 3-WEEKS) and repeated movement meaning 'weekly/every week'. | 2026-10-13 |
+| addition | asl | No Lifeprint production found; SigningSavvy lists synonyms but exposes no accessible production text. | 2026-10-13 |
+| came | asl | ASL does not inflect COME for past tense; Lifeprint's tense materials show past time via context or PAST/FINISH markers; the dictionary's 'come' entry covers this. | 2026-10-13 |
+| supply | asl | No verified production found on Lifeprint or other reputable textual sources. | 2026-10-13 |
+| certain | asl | No reputable source ties the English word 'certain' to a distinct production; ASL uses the SURE family, already covered by the dictionary's 'sure' entry. | 2026-10-13 |
