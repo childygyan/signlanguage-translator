@@ -851,3 +851,56 @@ Do NOT add these to the dictionary without resolving the noted issue.
 | proposed | asl | Past-tense inflection; no distinct citation sign verified — ASL uses PROPOSE without tense marking. | 2026-10-13 |
 | default | asl | Lifeprint states signers generally just spell DEFAULT; no distinct citation sign verified — likely fingerspelled, which could not be verified. | 2026-10-13 |
 | boys | asl | Plural production not verifiable; Lifeprint documents singular BOY (video-only) but no plural-specific textual production was found. | 2026-10-13 |
+| deep | asl | No textual production verified on Lifeprint or Handspeak; no distinct citation sign found — DEEP is often shown via classifiers/inflections rather than a dictionary sign. | 2026-10-13 |
+| otherwise | asl | No distinct citation sign verified on Lifeprint or Handspeak; the concept is usually handled by OR/ELSE or by restructuring the sentence — no verified production for OTHERWISE. | 2026-10-13 |
+| allows | asl | Third-person inflection of ALLOW; Lifeprint teaches ALLOW-[permit] (Lesson 37) but the page is video-only with no textual production verified — ASL uses the same citation sign across inflections, so no distinct sign exists. | 2026-10-13 |
+| reported | asl | Past-tense inflection; Lifeprint Lesson 31 folds "report" into ANSWER-[order, report, respond] but no textual production verified — ASL uses the uninflected sign, so no distinct REPORTED sign exists. | 2026-10-13 |
+| hit | asl | No textual production verified — Lifeprint's HIT page is video-only ("occur / strike / commence" gloss) and Handspeak's HIT entry is video-only; the plain directional strike verb has no verified written description. | 2026-10-13 |
+| transportation | asl | Lifeprint lists TRANSPORTATION in its fingerspelling proficiency diagnostics as a long word recognized by fingerspelling; no distinct citation sign verified — Handspeak's TRANSPORTATION entry is video-only. | 2026-10-13 |
+| pool | asl | Lifeprint's fingerspelling materials list POOL among commonly fingerspelled words; no textual production of a distinct sign verified on Lifeprint or Handspeak. | 2026-10-13 |
+| mini | asl | No distinct citation sign verified on Lifeprint or Handspeak; likely fingerspelled or signed as SMALL — no verified production found. | 2026-10-13 |
+| disclaimer | asl | No distinct citation sign verified; no Lifeprint or Handspeak production found — likely fingerspelled, which could not be verified. | 2026-10-13 |
+| authors | asl | Plural production not verifiable; no textual production for the plural AUTHOR(S) was found on Lifeprint or Handspeak. | 2026-10-13 |
+| boards | asl | Plural production not verifiable; no plural-specific textual production for BOARDS was found — a plural fingerspell (-S) could not be verified as the convention. | 2026-10-13 |
+| parties | asl | Plural production not verifiable; no plural-specific textual production for PARTIES found on Lifeprint or Handspeak. | 2026-10-13 |
+| membership | asl | No distinct citation sign verified; Lifeprint teaches OF/MEMBER via CONNECT but no distinct MEMBERSHIP production was verified. | 2026-10-13 |
+| mission | asl | No textual production verified; signasl/Handspeak list MISSION as video-only with no written production description. | 2026-10-13 |
+| string | asl | No textual production verified; signasl lists STRING only as English-definition stubs with no video or production description. | 2026-10-13 |
+| modified | asl | Past-tense inflection; no distinct citation sign verified — ASL uses MODIFY/CHANGE uninflected across tenses, so no distinct MODIFIED sign exists. | 2026-10-13 |
+| born | asl | No distinct citation sign: 'born' uses the BIRTH sign (Lifeprint birth.gif) plus tense/time context — no separate established sign for BORN alone. | 2026-10-13 |
+| released | asl | Concept maps to FREE/RELEASE per Lifeprint ('no longer being bound or captive') but no primary text citation of the production was found to verify against. | 2026-10-13 |
+| internal | asl | No dedicated citation for the generic sense; Lifeprint's related sign is specifically 'internalize/include-within-self' (autism page) — not the same meaning. | 2026-10-13 |
+| goods | asl | Plural production not verifiable; no plural-specific textual production for GOODS found on Lifeprint or Handspeak. | 2026-10-13 |
+| unless | asl | No dedicated citation production; commonly expressed via IF + NOT or fingerspelled U-N-L-E-S-S — could not verify an established sign. | 2026-10-13 |
+| detailed | asl | No dedicated citation production found on Lifeprint or Handspeak. | 2026-10-13 |
+| target | asl | No dedicated citation production; Lifeprint only documents the Target retail-store idiom/pun, not the general sense. | 2026-10-13 |
+| except | asl | No dedicated citation production found on Lifeprint or Handspeak. | 2026-10-13 |
+| maintenance | asl | No dedicated citation production found on Lifeprint or Handspeak. | 2026-10-13 |
+| functions | asl | Plural production not verifiable; no plural-specific textual production for FUNCTIONS found on Lifeprint or Handspeak. | 2026-10-13 |
+| brands | asl | Plural production not verifiable; no plural-specific textual production for BRANDS found on Lifeprint or Handspeak. | 2026-10-13 |
+| places | asl | Lifeprint's "places" page covers cities/states/countries only; "place" cross-refers to AREA, and no verified standalone production exists for the plural noun. | 2026-10-13 |
+| trademarks | asl | No Lifeprint page and no reputable text source describing a citation sign; fingerspelled only. | 2026-10-13 |
+| battery | asl | Lifeprint lists battery as battery-[ELECTRICITY+context] (Lesson 08) and its technology page gives BATTERY = ELECTRIC + context — no standalone citation sign. | 2026-10-13 |
+| youth | asl | No Lifeprint YOUTH page; YOUNG exists but covers the adjective, not the noun "youth". | 2026-10-13 |
+| submitted | asl | Past-tense inflection; no Lifeprint SUBMIT page and no distinct established citation sign. | 2026-10-13 |
+| keywords | asl | No Lifeprint page and no reputable text source describing a citation sign; fingerspelled only. | 2026-10-13 |
+| medium | asl | Lifeprint medium.htm is video-only with three context-specific versions (mm, drink) and no text description of production. | 2026-10-13 |
+| television | asl | Lifeprint's TV page states the concept is expressed by fingerspelling T and V; television.htm is video-only with no text description. Fingerspell-only per batch convention. | 2026-10-13 |
+| core | asl | No Lifeprint page (only ENCORE) and no reputable text source describing a citation sign; fingerspelled only. | 2026-10-13 |
+| purposes | asl | Lifeprint confirms the MEANING/PURPOSE sign ("FORK-[V-hand-twist-version]") but its pages give video/images only, with no text description of production — insufficient to write accurate steps. | 2026-10-13 |
+| throughout | asl | No Lifeprint page and no reputable text source describing a citation sign; fingerspelled only. | 2026-10-13 |
+| sets | asl | No Lifeprint SETS page and no verified production for the plural form. | 2026-10-13 |
+| itself | asl | Lifeprint "itself" page is a video-only stub with no written production; cannot verify a distinct sign from any reputable text source. | 2026-10-13 |
+| defined | asl | No Lifeprint page exists for "defined" and the "define" page is a video-only stub; no written production verified from any reputable source. | 2026-10-13 |
+| papers | asl | Plural of PAPER (existing entry). Lifeprint describes only the singular PAPER production; no verified plural production. | 2026-10-13 |
+| awards | asl | Plural form. Lifeprint "award" page is a video-only stub ("AWARD / statue / trophy") with no written production, and no verified plural production. | 2026-10-13 |
+| studio | asl | No Lifeprint page (404); no verified production found in reputable sources. | 2026-10-13 |
+| device | asl | Lifeprint "device" page is a video-only stub with no written production; cannot verify. | 2026-10-13 |
+| established | asl | Past-tense inflection. Lifeprint has the ESTABLISH sign (A-handshapes, flag-into-soil motion) but no distinct verified past-tense citation sign. | 2026-10-13 |
+| answers | asl | Plural of ANSWER (already in dictionary). Lifeprint "answer" page has no written production; no verified plural production. | 2026-10-13 |
+| remote | asl | Lifeprint "remote" page is a video-only stub with no written production; cannot verify a distinct sign. | 2026-10-13 |
+| programming | asl | Lifeprint notes the PROGRAM sign is used for "programming" sentences, but the PROGRAM page gives no written production (images/video only); cannot verify. | 2026-10-13 |
+| external | asl | Lifeprint's OUTSIDE page lists "exterior; external" as an adjective sense but provides no written production for that version; cannot verify. | 2026-10-13 |
+| regarding | asl | No Lifeprint page (404); no verified production found in reputable sources. | 2026-10-13 |
+| instructions | asl | Lifeprint "instructions" page is a video-only stub with no written production; cannot verify. | 2026-10-13 |
+| offered | asl | Past-tense inflection. Lifeprint has the OFFER sign (palm-up flat hands arcing forward like laying an offer on the table) but no distinct verified past-tense citation sign. | 2026-10-13 |
