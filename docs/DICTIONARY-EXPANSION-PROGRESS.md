@@ -25,3 +25,5 @@
 | 005 | bsl | 20 (before→monday + 10 months; after, november, month, often, holiday skipped as NEEDS-REVIEW) | ✅ merged, validated, typecheck+build clean (394 pages), deployed, live verified | see push | ASL 259 / BSL 118 |
 | 007 | asl | 12 (since→little; 34 skipped as NEEDS-REVIEW incl. plurals, fingerspell-only, ambiguous) | ✅ merged, validated, typecheck+build clean (422 pages), spot-check passed, deployed, live verified | see push | ASL 271 / BSL 118 |
 | 006 | bsl | 16 (soon→wind; sometimes, hot, river, sea, tree, beautiful, cool, mountain, forest skipped as NEEDS-REVIEW) | ✅ merged, validated, typecheck+build clean (422 pages), deployed, live verified | see push | ASL 271 / BSL 134 |
+| 008 | asl | 18 (save→gay; 30 skipped as NEEDS-REVIEW incl. plurals, fingerspell-only, ambiguous) | ✅ merged, validated, typecheck+build clean (448 pages), spot-check passed, deployed, live verified | see push | ASL 289 / BSL 134 |
+| 007 | bsl | 8 (cold→two; 17 skipped as NEEDS-REVIEW — video-only or no written description) | ✅ merged, validated, typecheck+build clean (448 pages), deployed, live verified | see push | ASL 289 / BSL 142 |
