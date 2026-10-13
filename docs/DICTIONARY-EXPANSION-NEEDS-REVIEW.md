@@ -484,3 +484,67 @@ Do NOT add these to the dictionary without resolving the noted issue.
 | thanks | asl | Lifeprint Lesson 01 lists fs-THANKS (fingerspelled); no distinct citation sign, and would duplicate the existing THANK-YOU concept. | 2026-10-13 |
 | everything | asl | Lifeprint everything.htm is video-only with no text production described — not verifiable. | 2026-10-13 |
 | deals | asl | Plural of DEAL; no Lifeprint deal.htm page (404), no citation production verified. | 2026-10-13 |
+| production | asl | No Lifeprint sign page exists for production (404); no reputable source found for a standalone production sign. | 2026-10-13 |
+| commercial | asl | Lifeprint commercial page is an empty template stub with all production fields blank. | 2026-10-13 |
+| advertising | asl | No Lifeprint sign page for advertising (404); the "advertise" page is also an empty template stub. | 2026-10-13 |
+| received | asl | No Lifeprint sign page for received (404); no production text found from a reputable source. | 2026-10-13 |
+| treatment | asl | Lifeprint treatment page is an empty template stub; medical-signing materials list only "version: HELP" and "version: TAKE-CARE-OF" with no single verifiable production. | 2026-10-13 |
+| newsletter | asl | Lifeprint newsletter page is an empty template stub with all production fields blank. | 2026-10-13 |
+| archives | asl | No Lifeprint sign page for archives (404); the "archive" page is an empty template stub. | 2026-10-13 |
+| points | asl | Lifeprint point page describes the sports/gaming POINT/POINTS movement but gives no handshape text (images only); handshape cannot be verified from text. | 2026-10-13 |
+| knowledge | asl | Lifeprint knowledge page is an empty template stub with all production fields blank. | 2026-10-13 |
+| magazine | asl | Lifeprint magazine page is an empty template stub; lesson notes mention SUBSCRIBE for magazine subscriptions but give no production for MAGAZINE itself. | 2026-10-13 |
+| error | asl | Lifeprint error page is an empty template stub with all production fields blank. | 2026-10-13 |
+| camera | asl | Lifeprint camera page is an empty stub; the photography page confirms CAMERA shares the take-a-picture sign but gives no production text (images only). | 2026-10-13 |
+| toys | asl | No Lifeprint sign page for toys (404); Lifeprint Lesson 05 explicitly recommends fingerspelling (fs)-TOY/(fs)-TOYS and gives no production for the sign itself. | 2026-10-13 |
+| registered | asl | Lifeprint registered page is an empty template stub; Lesson 22 lists REGISTER with two versions but no production text. | 2026-10-13 |
+| words | asl | No verifiable production for the plural WORDS from any reputable source; per mission rules plural entries are written only with verified production. | 2026-10-13 |
+| golf | asl | Lifeprint golf.htm is video-only (no text production or stills) — not verifiable. | 2026-10-13 |
+| receive | asl | Lifeprint receive.htm is an empty stub with no production described — not verifiable. | 2026-10-13 |
+| domain | asl | Lifeprint domain.htm is an empty stub with no production described — not verifiable. | 2026-10-13 |
+| methods | asl | No Lifeprint methods.htm page (404); plural production unverified. | 2026-10-13 |
+| makes | asl | No Lifeprint page (404); inflection of MAKE (already in dictionary) with no distinct citation sign. | 2026-10-13 |
+| protection | asl | Lifeprint protection.htm is video-only with no text production described — not verifiable. | 2026-10-13 |
+| policies | asl | No Lifeprint page (404); plural production unverified. | 2026-10-13 |
+| wide | asl | Lifeprint wide.htm is an empty stub with no production described — not verifiable. | 2026-10-13 |
+| beauty | asl | Lifeprint beauty.htm is an empty stub with no production described — not verifiable. | 2026-10-13 |
+| position | asl | Lifeprint position.htm is an empty stub with no production described — not verifiable. | 2026-10-13 |
+| taken | asl | No Lifeprint taken.htm page (404); no citation sign verified. | 2026-10-13 |
+| sort | asl | Lifeprint sort.htm is an empty stub with no production described — not verifiable. | 2026-10-13 |
+| listings | asl | No Lifeprint page (404); plural of LISTING, production unverified. | 2026-10-13 |
+| models | asl | No Lifeprint page (404); plural of MODEL, production unverified. | 2026-10-13 |
+| known | asl | No Lifeprint page (404); would duplicate the existing KNOW concept. | 2026-10-13 |
+| cases | asl | No Lifeprint page (404); plural of CASE, production unverified. | 2026-10-13 |
+| engineering | asl | No Lifeprint page (404); no citation sign verified. | 2026-10-13 |
+| simple | asl | Lifeprint simple.htm is image-only with no text production and points to EASY, which is already in the dictionary; no distinct verifiable production. | 2026-10-13 |
+| quick | asl | Lifeprint quick.htm is image-only with no text production and points to FAST, which is already in the dictionary; the described snap variant is a gesture, not a distinct citation sign. | 2026-10-13 |
+| wireless | asl | No Lifeprint sign page exists (404); only video-content hits, no text-verifiable production from a reputable source. | 2026-10-13 |
+| license | asl | Lifeprint license.htm is an empty stub with no production described — not verifiable. | 2026-10-13 |
+| whole | asl | Lifeprint whole.htm is an empty stub with no production described — not verifiable. | 2026-10-13 |
+| annual | asl | Lifeprint annual.htm is video-only with no text production described — not verifiable. | 2026-10-13 |
+| published | asl | No Lifeprint sign page found; no text-verifiable production from a reputable source. | 2026-10-13 |
+| basic | asl | Lifeprint basic.htm is video-only with no text production described — not verifiable. | 2026-10-13 |
+| shows | asl | Plural of SHOW; Lifeprint show.htm describes production via images only, no text description — plural production unverified. | 2026-10-13 |
+| corporate | asl | No Lifeprint sign page found (404); typically fingerspelled — no distinct citation sign verified. | 2026-10-13 |
+| method | asl | No Lifeprint sign page found; no text-verifiable production from a reputable source. | 2026-10-13 |
+| purchase | asl | Lifeprint lists it under the same gloss family as BUY (Lesson 22 vocabulary), which is already in the dictionary; no distinct citation sign. | 2026-10-13 |
+| customers | asl | Lifeprint customer.htm is an empty stub with no production described — plural production unverified. | 2026-10-13 |
+| active | asl | Lifeprint describes the DO/DOING production but specifies no handshape or palm orientation — writing full steps would require guessing. | 2026-10-13 |
+| response | asl | Lifeprint notes the sign ANSWER is sometimes interpreted as "response"; ANSWER is already in the dictionary — no distinct citation sign. | 2026-10-13 |
+| hardware | asl | Lifeprint hardware.htm is video-only with no text production described — not verifiable. | 2026-10-13 |
+| figure | asl | Lifeprint figure.htm is an empty stub with no production described — not verifiable. | 2026-10-13 |
+| materials | asl | No Lifeprint sign page found (404); plural of MATERIAL — plural production unverified. | 2026-10-13 |
+| designed | asl | Lifeprint confirms a DESIGN-initialized version exists but gives no textual production (video only); past-tense form not verifiable from a reputable source. | 2026-10-13 |
+| along | asl | Lifeprint states there is no single strong sign for this concept; it is meaning-dependent (PROCEED / DURING / ACCOMPANY). No entry written. | 2026-10-13 |
+| among | asl | Lifeprint confirms INCLUDE / among ("included among") but gives no textual production (video only); Handspeak has no textual description either. | 2026-10-13 |
+| death | asl | Could not verify production from a reputable textual source. Lifeprint's DEAD page covers euphemisms but not the sign's production; other web sources disagree (flat hand across throat vs. hand moving down from chin vs. B-handshapes). | 2026-10-13 |
+| countries | asl | Lifeprint verifies the singular COUNTRY sign (flat-hand rub / Y-hand versions) but no distinct plural production; per batch rules, plural entry requires verified production. | 2026-10-13 |
+| loss | asl | Lifeprint verifies only the verb forms LOSE / LOST (misplaced object; lost a competition); no distinct verified production for the noun "loss". | 2026-10-13 |
+| brand | asl | Lifeprint glosses LABEL / labeled / brand / branded together but gives no textual production (video only). | 2026-10-13 |
+| discount | asl | Lifeprint discount page is empty; no verified production found. | 2026-10-13 |
+| higher | asl | No dedicated Lifeprint page; the comparative combination (HIGH + -ER affix) was not verified as an established combined form. | 2026-10-13 |
+| effects | asl | Lifeprint effect page is empty; no verified production found (plural would also need verified plural production per batch rules). | 2026-10-13 |
+| standards | asl | Lifeprint standard page is empty; no verified production found (plural would also need verified plural production per batch rules). | 2026-10-13 |
+| advertise | asl | Lifeprint advertise page is empty; no verified production found. | 2026-10-13 |
+| kingdom | asl | Lifeprint kingdom page is empty; no verified production found. | 2026-10-13 |
+| base | asl | Lifeprint base page is empty; no verified production found. | 2026-10-13 |
