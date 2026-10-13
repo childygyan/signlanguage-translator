@@ -298,3 +298,30 @@ Do NOT add these to the dictionary without resolving the noted issue.
 | full | bsl | Ambiguous (full container vs. complete). No reputable written BSL handshape description found. Needs tutor/video review. | 2026-10-13 |
 | map | bsl | No reputable written BSL handshape description found for "map". Needs tutor/video review. | 2026-10-13 |
 | program | bsl | Ambiguous (TV program vs. computer program). No reputable written BSL handshape description found for either sense. Needs tutor/video review. | 2026-10-13 |
+| mobile | asl | No verifiable Lifeprint production for the MOBILE DEVICE sign; Lifeprint's own cell-phone page notes many signers just spell it. Fingerspell-only. | 2026-10-13 |
+| got | asl | No distinct ASL sign — Lifeprint's request-a-sign list shows it still unposted; meaning is contextual (have/get/receive/need). | 2026-10-13 |
+| blog | asl | No verifiable Lifeprint citation sign; tech word — fingerspell B-L-O-G per Lifeprint's tech-signing guidance. | 2026-10-13 |
+| payment | asl | No Lifeprint production text found for PAYMENT as distinct from PAY (existing entry). Do not guess the variant. | 2026-10-13 |
+| equipment | asl | No verifiable Lifeprint citation sign; tech word — likely fingerspelled E-Q-U-I-P-M-E-N-T. | 2026-10-13 |
+| login | asl | No verifiable Lifeprint citation sign; tech word — fingerspell L-O-G-I-N per Lifeprint's tech-signing guidance. | 2026-10-13 |
+| let | asl | Lifeprint glosses LET = ALLOW, but no verifiable production text for the ALLOW sign was found. | 2026-10-13 |
+| programs | asl | Lifeprint lists PROGRAM in lesson 6 vocabulary but no verifiable production text; plural production unverifiable. | 2026-10-13 |
+| stores | asl | Lifeprint teaches STORE but no production text on a Lifeprint page (only a third-party OCR compilation and videos); plural production unverifiable. | 2026-10-13 |
+| side | asl | Lifeprint teaches SIDE (lesson 34) but no verifiable production text found. | 2026-10-13 |
+| act | asl | Lifeprint glosses THEATER-[act, actor, drama, play, show] but no verifiable production text for the THEATER sign. | 2026-10-13 |
+| problem | asl | No verifiable Lifeprint production text found for the PROBLEM sign. | 2026-10-13 |
+| memory | asl | No verifiable Lifeprint production text for the MEMORY noun (only REMEMBER, which already exists, and FORGET). | 2026-10-13 |
+| performance | asl | No verifiable Lifeprint production text; 'show' as performance is taught via THEATER, whose production is also unverified. | 2026-10-13 |
+| quote | asl | Only ambiguous glossing found (Lifeprint classifier lesson 'TOPIC = subject = quote'); no verifiable citation sign. | 2026-10-13 |
+| options | asl | Lifeprint's option.htm sign page is an empty placeholder; no text production description found on any reputable source. | 2026-10-13 |
+| create | asl | Lifeprint: the verb "create" is signed exactly as MAKE (already in the dictionary) — present-meaning aspect, not a separate citation sign. Per the "going"/GO batch precedent. | 2026-10-13 |
+| rates | asl | Lifeprint: "There is no one size fits all sign in regard to rate" — meaning-dependent (APR spelled, price/cost vs flow differ); no dedicated citation sign. | 2026-10-13 |
+| girls | asl | Plural of GIRL (already in the dictionary); no distinct verified plural production found (Lifeprint uses GIRL even in plural sentences). | 2026-10-13 |
+| changes | asl | Plural of CHANGE (already in the dictionary); no distinct verified plural production found on any reputable source. | 2026-10-13 |
+| club | asl | Lifeprint lists fs-CLUB (fingerspelled) for the organization sense; no standalone citation sign verified. | 2026-10-13 |
+| gift | asl | Lifeprint's gift.htm sign page is an empty placeholder; no text production description found on any reputable source. | 2026-10-13 |
+| activities | asl | No Lifeprint sign page exists for "activity"/"activities"; no verified standalone production found on any reputable source. | 2026-10-13 |
+| latest | asl | Same production as LAST (already in the dictionary) — not a separate citation sign. Per the "going"/GO batch precedent. | 2026-10-13 |
+| example | asl | Lifeprint: EXAMPLE = double-motion SHOW, but the SHOW production page is image/video-only with no text description; cannot verify production textually. Per the "feedback" batch precedent. | 2026-10-13 |
+| age | asl | Lifeprint's age page is video-only with only indirect handshape evidence; secondary sources conflict on the handshape (G vs S). Exact production not verifiable. | 2026-10-13 |
+| road | asl | Lifeprint: ROAD is the same production as STREET, WAY, and PATH (STREET already in the dictionary) — not a separate citation sign. Per the "going"/GO batch precedent. | 2026-10-13 |
