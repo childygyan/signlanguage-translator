@@ -673,3 +673,68 @@ Do NOT add these to the dictionary without resolving the noted issue.
 | super | asl | No reputable production source found. | 2026-10-13 |
 | matter | asl | Ambiguous across 'problem', 'substance', and "it doesn't matter"; no verified production for the bare word. | 2026-10-13 |
 | custom | asl | No reputable production source found; likely fingerspelled or expressed via TRADITION, neither verifiable. | 2026-10-13 |
+| almost | asl | Lifeprint has a citation page but gives no text description of the production (images only); it glosses ALMOST as the EASY sign with a single motion, and no Lifeprint text description of the EASY production could be found. | 2026-10-13 |
+| took | asl | No distinct citation sign exists — ASL marks past tense with the TAKE sign plus a time marker (PAST/FINISH), so there is no dedicated production to describe. | 2026-10-13 |
+| located | asl | No Lifeprint sign page or text description of a production for LOCATED could be found. | 2026-10-13 |
+| multiple | asl | No Lifeprint sign page or text description of a production for MULTIPLE could be found. | 2026-10-13 |
+| distribution | asl | Signing Savvy lists DISTRIBUTE (as in "pass out") but its production text is paywalled; no reputable text description exists, and the abstract noun "distribution" has no verified single production. | 2026-10-13 |
+| editor | asl | No Lifeprint EDIT/EDITOR sign page or text description of a production could be found. | 2026-10-13 |
+| industrial | asl | No Lifeprint INDUSTRY sign page; Handspeak has a video only, with no text description of the production. | 2026-10-13 |
+| cause | asl | Lifeprint references "the CAUSE sign" (e.g., in the MAKE and verbs-of-cause-and-effect discussions) but no Lifeprint text description of its handshape/production could be found. | 2026-10-13 |
+| potential | asl | No Lifeprint sign page or text description of a production for POTENTIAL could be found. | 2026-10-13 |
+| featured | asl | Lifeprint's FEATURES-[index-list-version] covers "features/attributes/they (referenced things)", not the adjective "featured" (highlighted) — no verified production for this sense. | 2026-10-13 |
+| rooms | asl | Plural: the singular ROOM (flat-to-bent-hands BOX sign) is verified on Lifeprint, but no verified production for the plural "rooms" could be found. | 2026-10-13 |
+| communications | asl | Plural: no verified production for COMMUNICATION(S) could be found — Lifeprint's talk page references a COMMUNICATE sign but gives no text description of its production. | 2026-10-13 |
+| primary | asl | No dedicated sign found on Lifeprint; Lesson 15 glosses only MAIN (profession/major), with no production for 'primary' itself. | 2026-10-13 |
+| cancer | asl | Lifeprint references a traditional "gobble up" sign for CANCER, but no textual production of handshape/location/movement was found to verify. | 2026-10-13 |
+| reason | asl | Lifeprint uses REASON (e.g. [what]-REASON?, REASON-[rhetorical]) but provides no textual production to verify. | 2026-10-13 |
+| browser | asl | No sign found on Lifeprint or other reputable source; fingerspelling could not be verified as the community standard. | 2026-10-13 |
+| foundation | asl | No Lifeprint sign page or production found; the noun sense has no verified production. | 2026-10-13 |
+| voice | asl | Lifeprint's talk page documents TALK-(speaking) with voice, but no standalone VOICE production was textually verified. | 2026-10-13 |
+| friendly | asl | Lifeprint Lesson 19 lists FRIENDLY-[pleasant, cheerful] but gives no production; no other reputable textual source found. | 2026-10-13 |
+| schedule | asl | No textual production found on Lifeprint; lesson vocab uses SCHEDULE without describing its production. | 2026-10-13 |
+| documents | asl | No Lifeprint page or production found; the plural production could not be verified. | 2026-10-13 |
+| communication | asl | Lifeprint: COMMUNICATION is initialized with C hands and based on TALK-WITH, but TALK-WITH's production was not textually verified. | 2026-10-13 |
+| purpose | asl | Lifeprint glosses MEANING-[purpose], but the MEANING production itself could not be textually verified. | 2026-10-13 |
+| feature | asl | No reputable production source found. | 2026-10-13 |
+| police | asl | Conflicting variants in available sources (thumb-on-forehead vs C-hand-on-chest vs thumb-on-chest); Lifeprint's own production not textually verified. | 2026-10-13 |
+| everyone | asl | No textual production found; SigningSavvy entry is members-only with no public description. | 2026-10-13 |
+| independent | asl | Lifeprint teaches INDEPENDENT via the SAVE sign in high context, but its production could not be textually verified. | 2026-10-13 |
+| approach | asl | No Lifeprint sign page or production found for the verb or noun sense. | 2026-10-13 |
+| cameras | asl | Lifeprint describes CAMERA conceptually (old-style camera held to the eye) but no textual handshape/movement production was found. | 2026-10-13 |
+| physical | asl | No reputable production source found. | 2026-10-13 |
+| operating | asl | No Lifeprint sign page or lesson text describes an ASL OPERATE sign; the concept is expressed through specific verbs (RUN-machine, USE) and cannot be verified from a reputable text source. | 2026-10-13 |
+| maps | asl | No text-described Lifeprint MAP sign found; the plural would be expressed via reduplication or specific map types, and no reputable text source documents the production. | 2026-10-13 |
+| deal | asl | Ambiguous English (deal cards vs negotiate a deal); no single citation sign verifiable from Lifeprint or other reputable text sources. | 2026-10-13 |
+| ratings | asl | Plural; no verified ASL RATING sign found in Lifeprint or other reputable text sources. | 2026-10-13 |
+| forms | asl | Plural and ambiguous (document forms vs shapes); no verified citation sign from Lifeprint or other reputable text sources. | 2026-10-13 |
+| glass | asl | Lifeprint documents "cup or glass" only as a lexicalized classifier with no dedicated text description of a GLASS sign, and the material sense conflicts across sources. | 2026-10-13 |
+| wanted | asl | Past-tense inflection of WANT with no distinct established citation sign; per batch instruction, entry requires a distinct production. | 2026-10-13 |
+| developed | asl | Past-tense inflection; no distinct established citation sign for DEVELOPED verifiable from Lifeprint or other reputable text sources. | 2026-10-13 |
+| thank | asl | Identical production to the existing "thank-you" entry (flat hand moving forward from the chin); no distinct production verifiable, so entry would duplicate an existing sign. | 2026-10-13 |
+| safe | asl | Lifeprint documents SAVE/safe only via video with no text description; third-party descriptions disagree (S-hands pulling apart vs fists crossed on chest vs flat-hand enclosure), so the production cannot be verified from one reputable text source. | 2026-10-13 |
+| unique | asl | No Lifeprint page or other reputable text source describing the ASL UNIQUE sign could be found. | 2026-10-13 |
+| survey | asl | No Lifeprint text description found; the only dictionary entry (SigningSavvy) has its description behind a membership wall, so the production cannot be verified from a reputable text source. | 2026-10-13 |
+| prior | asl | No verified ASL PRIOR sign in Lifeprint or other reputable text sources; the concept is typically expressed with PAST or BEFORE. | 2026-10-13 |
+| feed | asl | Lifeprint feed.htm has video only with no text description of the movement, and no other reputable text source describing the ASL FEED sign could be found. | 2026-10-13 |
+| sources | asl | Plural; no verified ASL SOURCE sign found in Lifeprint or other reputable text sources. | 2026-10-13 |
+| population | asl | No verified ASL POPULATION sign in Lifeprint or other reputable text sources; the word is typically fingerspelled. | 2026-10-13 |
+| sport | asl | No general ASL SPORT noun sign verifiable; Lifeprint documents specific sports individually (e.g. fencing-sport) rather than a general "sport" sign. | 2026-10-13 |
+| regular | asl | Lifeprint glosses a REGULAR/appropriate/proper sign but gives no textual production; no other reputable source describes it. | 2026-10-13 |
+| secure | asl | No distinct citation sign verified; the safe sense is expressed via SAVE/FREE and one low-quality source compounds two signs. | 2026-10-13 |
+| navigation | asl | No reputable production source found; likely fingerspelled, which could not be verified. | 2026-10-13 |
+| operations | asl | Plural production not verifiable; WORK is already in the dictionary and no plural-specific source was found. | 2026-10-13 |
+| therefore | asl | No distinct sign verified; ASL expresses the conjunction via SO — no separate THEREFORE production found on Lifeprint or Handspeak. | 2026-10-13 |
+| station | asl | Lifeprint documents GAS-STATION and train-station as classifier-based descriptions; no distinct textual production for bare 'station'. | 2026-10-13 |
+| round | asl | Shape sense is expressed via classifiers and a circle-tracing depiction; no verified lexical production for the bare adjective. | 2026-10-13 |
+| option | asl | Handspeak lists OPTION only as a related sign of CHOICE with no production; no verified textual description found. | 2026-10-13 |
+| master | asl | No distinct citation sign verified for the verb sense ('master a skill'); likely expressed via SKILL, not verified. | 2026-10-13 |
+| valley | asl | Lifeprint uses fingerspelled V-A-L-L-E-Y for the word; no distinct sign verified. | 2026-10-13 |
+| recently | asl | No distinct citation sign verified; ASL expresses recency with time markers and no separate RECENTLY production was found. | 2026-10-13 |
+| probably | asl | No distinct sign verified; no Lifeprint page and no Handspeak entry with a textual production. | 2026-10-13 |
+| rentals | asl | Plural production not verifiable; the singular RENT production was not found on Lifeprint or Handspeak. | 2026-10-13 |
+| built | asl | Past-tense inflection; no distinct citation sign verified — ASL uses BUILD/FINISH which does not match the word form. | 2026-10-13 |
+| publications | asl | Plural production not verifiable; Lifeprint documents PUBLISH/PRINT but no plural-specific production. | 2026-10-13 |
+| worldwide | asl | No verified production; WORLD is in the dictionary and no reputable WORLD-WIDE production was found. | 2026-10-13 |
+| improve | asl | Lifeprint lists IMPROVE in lesson vocabulary but describes it via video only; no verified textual production found. | 2026-10-13 |
+| connection | asl | Lifeprint glosses a CONNECT sign (join, link together) but shows the production via video only; no textual description to verify against. | 2026-10-13 |
