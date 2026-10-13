@@ -44,5 +44,6 @@
 | 022 | asl | 29 (aid→complex; 57 skipped as NEEDS-REVIEW) | ✅ merged, validated, typecheck+build clean (748 pages), spot-check passed, deployed, live verified | see push | ASL 586 / BSL 144 |
 | 023 | asl | 18 (galleries→resort; 58 skipped as NEEDS-REVIEW — 023a wrote zero entries, all unverifiable) | ✅ merged, validated, typecheck+build clean (766 pages), spot-check passed, deployed, live verified | see push | ASL 604 / BSL 144 |
 | 024 | asl | 24 (facility→scott; 64 skipped as NEEDS-REVIEW) | ✅ merged, validated, typecheck+build clean (790 pages), spot-check passed, deployed, live verified | see push | ASL 628 / BSL 144 |
+| 025 | asl | 12 (llc→rd; 20 skipped as NEEDS-REVIEW — clean word list exhausted 1625/1625) | ✅ merged, validated, typecheck+build clean (802 pages), spot-check passed, deployed, live verified | see push | ASL 640 / BSL 144 |
 
 > **BSL stretch goal — PAUSED after batch 008.** BSL grew 47 → 144 (3×). Further BSL batches on abstract vocabulary yield ~2/25 with repeat skip patterns; BSL text sources for this tier are exhausted. All worker capacity now goes to the priority target: ASL 1000+.
