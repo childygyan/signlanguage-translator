@@ -1019,3 +1019,67 @@ Do NOT add these to the dictionary without resolving the noted issue.
 | cells | asl | No Lifeprint page for the plural form; no verifiable distinct production — unverifiable without guessing. | 2026-10-13 |
 | module | asl | No Lifeprint page (404); no reputable source found for a production — unverifiable without guessing. | 2026-10-13 |
 | resort | asl | Handspeak and signasl list it video-only with no textual production; no Lifeprint page — cannot verify handshape/motion for written steps. | 2026-10-13 |
+| facility | asl | No textual production found on Lifeprint or other reputable sources; unverifiable. | 2026-10-13 |
+| random | asl | Only video-only listings (signasl.org); no reputable textual production. | 2026-10-13 |
+| certificate | asl | Sources disagree — one commercial site gives a two-flat-hands production while Signing Savvy's handshape data points to a C handshape; cannot resolve. | 2026-10-13 |
+| motion | asl | No production found on Lifeprint or other reputable sources. | 2026-10-13 |
+| fashion | asl | Only low-quality auto-generated text descriptions; conflicts with verified style sign; unverifiable. | 2026-10-13 |
+| directions | asl | Lifeprint lesson 23 lists EXPLAIN-[describe, directions] but gives no verified production of EXPLAIN used as "directions". | 2026-10-13 |
+| visitors | asl | Lifeprint defines VISITOR as VISIT + PERSON but provides no textual production of the base sign VISIT; plural form unverified. | 2026-10-13 |
+| documentation | asl | No verified production for DOCUMENT/documentation found on reputable sources. | 2026-10-13 |
+| calls | asl | CALL is verified on Lifeprint (Y hand at the side of the head), but the plural "calls" production is not verified. | 2026-10-13 |
+| whose | asl | Lifeprint demonstrates the concept as WHO plus a possessive (e.g. "CAR FRONT? WHO?"); no dedicated WHOSE sign verified. | 2026-10-13 |
+| coverage | asl | No verified distinct sign; only appears as an English synonym of the INSURANCE sign. | 2026-10-13 |
+| chance | asl | No reliable textual production; only video-only lucky-family signs found. | 2026-10-13 |
+| vision | asl | No verified production found on reputable sources. | 2026-10-13 |
+| clients | asl | No verified textual production of CLIENT/customer found on reputable sources. | 2026-10-13 |
+| automotive | asl | No Lifeprint page for "automotive" (404); the "automobile" page is video-only. No verified written production found. | 2026-10-13 |
+| naked | asl | Lifeprint page is video-only ("NAKED (empty body version)") with no written production; Handspeak is video-only too. Cannot verify handshape/motion without guessing. | 2026-10-13 |
+| sold | asl | Past-tense inflection of SELL. Lifeprint's SELL page is video-only; no distinct verified past-tense citation sign exists. | 2026-10-13 |
+| communities | asl | Plural form. Lifeprint COMMUNITY page is video-only; no verified distinct plural production found. | 2026-10-13 |
+| clinical | asl | No Lifeprint page (404); no verified production found in reputable sources. | 2026-10-13 |
+| situation | asl | Lifeprint page documents no production; no reputable text source found describing the sign — unverifiable without guessing. | 2026-10-13 |
+| sciences | asl | Plural of SCIENCE (base sign verified on Lifeprint — A hands pouring like test tubes); no verified distinct plural production. | 2026-10-13 |
+| markets | asl | Plural form. Lifeprint MARKET page documents no production; no verified distinct plural production found. | 2026-10-13 |
+| lowest | asl | Superlative form of LOW. Lifeprint documents LOW (amount/height versions) but no distinct verified "lowest" citation sign exists. | 2026-10-13 |
+| highly | asl | Adverb form. Lifeprint's HIGH page describes only an initialized version with minimal written production; no established "highly" citation sign found. | 2026-10-13 |
+| publishing | asl | Progressive/nominal form. Lifeprint PUBLISH page documents no production; no verified citation sign found. | 2026-10-13 |
+| developing | asl | Progressive inflection of DEVELOP (base sign verified on Lifeprint — upward-slope chart motion); no distinct verified progressive citation sign exists. | 2026-10-13 |
+| lives | asl | 3rd-person verb / plural noun of LIVE (base verified on Lifeprint); no distinct verified production for the inflected form. | 2026-10-13 |
+| currency | asl | Lifeprint CURRENCY page documents no production; no verified distinct "currency" sign found (concept is signed as MONEY, not in dictionary). | 2026-10-13 |
+| leather | asl | Lifeprint page is video-only with no written production; cannot verify handshape/motion without guessing. | 2026-10-13 |
+| palm | asl | No Lifeprint page for "palm" (404); no verified production found for the body-part sense in a reputable text source. | 2026-10-13 |
+| announcements | asl | Plural form. Base ANNOUNCE verified (Lifeprint "to make a formal declaration"; TEP Religious Signing describes the mouth-to-outward index-finger production), but no distinct verified plural production exists. | 2026-10-13 |
+| historical | asl | No Lifeprint sign page found. Lesson 38 teaches HISTORY as video vocabulary only; no verified textual production for "historical" as a distinct form. | 2026-10-13 |
+| stone | asl | Lesson 34 teaches ROCK/stone as video vocabulary (two versions) with no textual production description; forum posts are not reputable sources. | 2026-10-13 |
+| commerce | asl | No Lifeprint sign page found; no verified textual production from Lifeprint, Handspeak, or university materials. | 2026-10-13 |
+| ringtones | asl | No Lifeprint sign page found. Lifeprint tech-sign guidance notes many tech concepts are fingerspelled and unstandardized. | 2026-10-13 |
+| perhaps | asl | No Lifeprint sign page found. Lifeprint's index glosses MAYBE as "may, might" only — no verified production for "perhaps" specifically. | 2026-10-13 |
+| persons | asl | Plural. No verified production for plural "persons" found — it would be PERSON plus a quantifier, not a distinct citation sign. | 2026-10-13 |
+| scientific | asl | No Lifeprint sign page found; no distinct verified production for the adjective form (SCIENCE exists as a separate dictionary entry). | 2026-10-13 |
+| satellite | asl | No Lifeprint ASL sign page found; only a BSL dictionary entry located, which is a different language. | 2026-10-13 |
+| fit | asl | No Lifeprint sign page found; no verified textual production from Lifeprint, Handspeak, or university materials. | 2026-10-13 |
+| tests | asl | Plural. TEST exists in the dictionary; no verified distinct production for the plural "tests". | 2026-10-13 |
+| accounts | asl | No Lifeprint sign page found; no verified textual production from Lifeprint, Handspeak, or university materials. | 2026-10-13 |
+| amateur | asl | No Lifeprint sign page found; no verified textual production from Lifeprint, Handspeak, or university materials. | 2026-10-13 |
+| met | asl | Past-tense inflection of MEET. No distinct established citation sign exists — it would be MEET plus a temporal marker, not a separate sign. | 2026-10-13 |
+| particularly | asl | No Lifeprint sign page found; no verified textual production from Lifeprint, Handspeak, or university materials. | 2026-10-13 |
+| factors | asl | Plural. Lifeprint medical lesson 8 carries only a gloss shorthand ("factors-[THING/INFLUENCE/...]"), not a verifiable standalone production. | 2026-10-13 |
+| settings | asl | Plural. No Lifeprint sign page found; no verified textual production for the plural form. | 2026-10-13 |
+| buyer | asl | Lifeprint's GUEST page confirms BUYER is used to mean "customer" but gives no textual production description; no other reputable text source located. | 2026-10-13 |
+| easily | asl | Dictionary already has "easy" — identical production (EASY: right hand brushes up twice along stationary left fingers, per Lifeprint). No distinct citation sign for the adverb form. | 2026-10-13 |
+| oral | asl | Lifeprint page exists but is video-only with just a "word-of-mouth / spoken or mouthed" gloss; insufficient to verify handshape and motion for written steps without guessing. | 2026-10-13 |
+| poster | asl | Lifeprint page documents no production (empty entry); no reputable textual source found — unverifiable without guessing. | 2026-10-13 |
+| edge | asl | Lifeprint page documents no production (empty entry); no reputable textual source found — unverifiable without guessing. | 2026-10-13 |
+| functional | asl | No Lifeprint page (404); no reputable source found for a production — unverifiable without guessing. | 2026-10-13 |
+| root | asl | Lifeprint page documents no production (empty entry); no reputable textual source found — unverifiable without guessing. | 2026-10-13 |
+| closed | asl | Dictionary already has "close" — identical production (CLOSE-[shut] described in the existing entry). No distinct citation sign. | 2026-10-13 |
+| holidays | asl | Dictionary already has "holiday" — identical production (HOLIDAY: poke upper chest twice with thumb tips of relaxed 5-hands, per Lifeprint). No distinct citation sign for the plural form. | 2026-10-13 |
+| balance | asl | Lifeprint page is video-only with no textual production; insufficient to verify handshape and motion for written steps without guessing. | 2026-10-13 |
+| monitoring | asl | No distinct citation production for the -ing form. Lifeprint's MONITOR (observe) is image/video-only with no textual production; dictionary has no "monitor" entry. | 2026-10-13 |
+| replies | asl | Lifeprint page for "reply" documents no production (empty entry); no verifiable distinct production for the plural form — unverifiable without guessing. | 2026-10-13 |
+| shot | asl | Lifeprint page documents no production (empty entry); no reputable textual source found — unverifiable without guessing. | 2026-10-13 |
+| architecture | asl | Lifeprint page documents no production (empty entry); no reputable textual source found — unverifiable without guessing. | 2026-10-13 |
+| initial | asl | Lifeprint page documents no production (empty entry); no reputable textual source found — unverifiable without guessing. | 2026-10-13 |
+| label | asl | Lifeprint page is video-only (LABEL / brand glosses) with no textual production; insufficient to verify handshape and motion for written steps without guessing. | 2026-10-13 |
+| thinking | asl | Dictionary already has "think" — identical production (THINK: index finger touches forehead, per Lifeprint). No distinct citation sign for the gerund form. | 2026-10-13 |
