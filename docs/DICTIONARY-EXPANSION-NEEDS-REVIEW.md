@@ -116,3 +116,40 @@ Do NOT add these to the dictionary without resolving the noted issue.
 | stand | bsl | No textual BSL description found in any consulted source; british-sign.co.uk and brightbsl.co.uk have no entry, and BSL SignBank/signbsl are video-only. | 2026-10-13 |
 | clean | bsl | No textual BSL description found in any consulted source; british-sign.co.uk and brightbsl.co.uk have no entry, and BSL SignBank/signbsl are video-only. | 2026-10-13 |
 | listen | bsl | Described only in a Commanding Hands video blurb as the 'take it in' handshape at the ears — no written handshape/location/movement description in any reputable text source. | 2026-10-13 |
+| index | asl | No citation sign found; typically fingerspelled I-N-D-E-X. No reputable text production description found. | 2026-10-13 |
+| women | asl | Plural of woman; base already in dictionary (Lifeprint glosses WOMEN under the WOMAN sign — no distinct plural production). | 2026-10-13 |
+| file | asl | No clear citation sign; Lifeprint's Signs of Hope vocab list names file (noun/verb) without a production description; no reputable text production found. | 2026-10-13 |
+| link | asl | Handspeak LINK entry is video-only with no text production description; no reputable text production found. | 2026-10-13 |
+| technology | asl | No citation sign; Lifeprint notes technology signs evolve and many Deaf signers prefer to fingerspell tech concepts. No stable production verified. | 2026-10-13 |
+| case | asl | No clear citation sign; typically fingerspelled or context-dependent. No reputable text production description found. | 2026-10-13 |
+| project | asl | No clear citation sign; no reputable text production description found. | 2026-10-13 |
+| pages | asl | Plural of page; base already in dictionary — plural production not separately verifiable. | 2026-10-13 |
+| version | asl | No citation sign; typically fingerspelled V-E-R-S-I-O-N. No reputable text production found. | 2026-10-13 |
+| section | asl | No clear citation sign; no reputable text production description found. | 2026-10-13 |
+| found | asl | Same production as find — the FIND sign used with past-tense time context; find already in dictionary. | 2026-10-13 |
+| sports | asl | No clear citation sign; Handspeak SPORT entry has no text production; the concept is signed with GAME (added this batch) or specific sport names. | 2026-10-13 |
+| related | asl | No clear citation sign; no reputable text production description found. | 2026-10-13 |
+| security | asl | No distinct citation sign verified; aslbloom's "Secure" describes the SAFE sign, not a separate production. | 2026-10-13 |
+| county | asl | No standalone production verified; Handspeak only notes a Y-hand COUNTRY variant "sometimes used for county" — no full description. | 2026-10-13 |
+| members | asl | No clear citation sign; typically fingerspelled M-E-M-B-E-R-S. No reputable text production description found. | 2026-10-13 |
+| while | asl | No clear citation sign; often expressed with SAME-TIME or fingerspelled W-H-I-L-E. No reputable text production found. | 2026-10-13 |
+| network | asl | Lifeprint only notes its older INTERNET sign may serve "world wide network", but gives no text production for it (images only) — cannot describe without guessing. | 2026-10-13 |
+| systems | asl | Plural form; no verifiable text production for the base sign "system" found on Lifeprint (only mentioned as an initialized-sign example). | 2026-10-13 |
+| place | asl | No reputable text description of the ASL production found on Lifeprint. | 2026-10-13 |
+| following | asl | No text-verified production for FOLLOW found (Lifeprint discusses the sign generally but no pages-signs page with production details). | 2026-10-13 |
+| without | asl | No reputable text description of the ASL production found on Lifeprint. | 2026-10-13 |
+| per | asl | No verifiable citation sign (PERCENT exists as a different word; "per" alone is expressed through fingerspelling or other signs). | 2026-10-13 |
+| north | asl | Lifeprint confirms an upward movement (real-world orientation) but does not text-verify the handshape; entry would require guessing. | 2026-10-13 |
+| resources | asl | No reputable text description of the ASL production found; too abstract for a citation sign. | 2026-10-13 |
+| posts | asl | Lifeprint's POST sign means "put up a poster/bulletin-board" — does not cover social-media posts; no verifiable production for the intended meaning. | 2026-10-13 |
+| media | asl | No reputable citation sign found on Lifeprint; typically fingerspelled or expressed via related signs. | 2026-10-13 |
+| pictures | asl | Lifeprint signing notes describe only the casual variant (pinkie side of dominant hand onto non-dominant flat palm); no full citation-form production verified. | 2026-10-13 |
+| size | asl | No standalone citation sign verified on Lifeprint (size is shown with classifiers/BIG-SMALL variations). | 2026-10-13 |
+| art | asl | Lifeprint maps "art → see DRAW" but no pages-signs page for DRAW with a text production was found. | 2026-10-13 |
+| total | asl | Lifeprint maps ALTOGETHER = total/sum (Lessons 23/59) but no text production description of the sign was found. | 2026-10-13 |
+| control | asl | Lifeprint maps CONTROL-MANAGE (Lesson 21) and notes the reins etymology, but no text production description of the sign was found. | 2026-10-13 |
+| after | bsl | No textual BSL description found from a reputable source (SignBSL has a video only; british-sign.co.uk and BrightBSL have no "after" page). Needs video review by a qualified BSL signer before an entry can be written. | 2026-10-13 |
+| november | bsl | BSL month convention is fingerspelling and the pattern (Nov) is near-certain, but no BSL text source found confirming the fingerspelled form for November specifically (BrightBSL has no November page; SignBSL November video page unconfirmed). Skipped per never-guess rule. | 2026-10-13 |
+| month | bsl | SignBSL lists "month" but with video only; no reputable written BSL handshape description found. Needs video review. | 2026-10-13 |
+| often | bsl | SignBSL has "often" videos only; no reputable written BSL handshape description found. Needs video review. | 2026-10-13 |
+| holiday | bsl | Documented 10–12 regional BSL variants for "holiday" (RNID/Action on Hearing Loss "Learning BSL" leaflet) with no standard written form. Needs tutor/video review to pick the most widely taught variant. | 2026-10-13 |
