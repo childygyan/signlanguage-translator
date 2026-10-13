@@ -14,3 +14,5 @@
 | 001 | asl | 48 (number→brown; story, letter skipped as NEEDS-REVIEW) | ✅ merged, validated, typecheck+build clean (169 pages), spot-check passed, deployed, live verified | db52a101 | ASL 105 / BSL 47 |
 | 002 | asl | 45 (pink→day; mean, say, build, hope, hold skipped as NEEDS-REVIEW) | ✅ merged, validated, typecheck+build clean (214 pages), spot-check passed, deployed, live verified | see push | ASL 150 / BSL 47 |
 | 001 | bsl | 17 (number→woman; history, class, college, test, study, word, answer, grade skipped as NEEDS-REVIEW) | ✅ merged, validated, typecheck+build clean (231 pages), deployed, live verified | see push | ASL 150 / BSL 64 |
+| 003 | asl | 46 (after→hot; garden, lake, usually, park skipped as NEEDS-REVIEW) | ✅ merged, validated, typecheck+build clean (296 pages), spot-check passed ("The fall colors are beautiful" → SIGN:Fall), deployed, live verified | see push | ASL 196 / BSL 64 |
+| 002 | bsl | 19 (son→brown; apple, restaurant, white, color skipped as NEEDS-REVIEW) | ✅ merged, validated, typecheck+build clean (296 pages), deployed, live verified | see push | ASL 196 / BSL 83 |
