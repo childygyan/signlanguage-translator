@@ -12,3 +12,4 @@
 | Batch | Lang | Words | Result | Commit | Live count |
 |-------|------|-------|--------|--------|------------|
 | 001 | asl | 48 (number→brown; story, letter skipped as NEEDS-REVIEW) | ✅ merged, validated, typecheck+build clean (169 pages), spot-check passed, deployed, live verified | db52a101 | ASL 105 / BSL 47 |
+| 002 | asl | 45 (pink→day; mean, say, build, hope, hold skipped as NEEDS-REVIEW) | ✅ merged, validated, typecheck+build clean (214 pages), spot-check passed, deployed, live verified | see push | ASL 150 / BSL 47 |

@@ -13,3 +13,11 @@ Do NOT add these to the dictionary without resolving the noted issue.
 | build | asl | No Lifeprint text description; dictionary descriptions paywalled; video-only sources without text cross-check. | 2026-10-13 |
 | hope | asl | Three meaning-dependent variants (bent-five flutter, crossed fingers, two-fingers-as-eyes); no single confirmed citation form. | 2026-10-13 |
 | hold | asl | No reputable text description found; meaning-dependent (hold object vs. hold-on/wait). | 2026-10-13 |
+| history | bsl | BSL SignBank attests the sign but no reputable source gives a text description of the production (handshape/location/movement). | 2026-10-13 |
+| class | bsl | Sources describe "classroom" (compound) rather than standalone "class"; no verified distinct BSL CLASS production found. | 2026-10-13 |
+| college | bsl | No reputable BSL text description of the production found. | 2026-10-13 |
+| test | bsl | BSL SignBank attests TEST but gives no text production description; no other reputable text source. | 2026-10-13 |
+| study | bsl | BSL SignBank lists four regional variants with no text descriptions — conflict unresolvable without guessing. | 2026-10-13 |
+| word | bsl | No reputable BSL text description of the production found. | 2026-10-13 |
+| answer | bsl | No reputable BSL text description of the production found. | 2026-10-13 |
+| grade | bsl | No verified BSL description for the school-mark sense. | 2026-10-13 |
