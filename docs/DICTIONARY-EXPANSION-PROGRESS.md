@@ -6,6 +6,7 @@
 - Format spec: `docs/DICTIONARY-EXPANSION-FORMAT.md`
 - Validator: `scripts/validate-signs.py`
 - Skipped/unverifiable: `docs/DICTIONARY-EXPANSION-NEEDS-REVIEW.md`
+- Deliberately fingerspelling-only (no sign attempted): single letters c,e,s,x,n,b,t,d,m,r,p,f,l,w,o,g,h,v,k,y,j,u,q,z (fingerspelling IS the correct behavior); web-noise/proper-noun tokens pm, jan, united, ebay, dvd, tv, faq, ok, hi.
 
 ## Batch log
 
