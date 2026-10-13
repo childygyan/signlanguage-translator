@@ -30,5 +30,6 @@
 | 009 | asl | 13 (live→street; 32 skipped as NEEDS-REVIEW incl. plurals, stubs, fingerspell-only) | ✅ merged, validated, typecheck+build clean (463 pages), spot-check passed, deployed, live verified | see push | ASL 302 / BSL 142 |
 | 008 | bsl | 2 (good, best; 23 skipped as NEEDS-REVIEW) — FINAL BSL batch: text-source pool for abstract vocabulary exhausted | ✅ merged, validated, typecheck+build clean (463 pages), deployed, live verified | see push | ASL 302 / BSL 144 |
 | 010 | asl | 21 (tax→password; 27 skipped as NEEDS-REVIEW incl. plurals, stubs, tech words) | ✅ merged, validated, typecheck+build clean (484 pages), spot-check passed, deployed, live verified | see push | ASL 323 / BSL 144 |
+| 011 | asl | 15 (hard→interest; 24 skipped as NEEDS-REVIEW incl. plurals, stubs, video-only) | ✅ merged, validated, typecheck+build clean (499 pages), spot-check passed, deployed, live verified | see push | ASL 338 / BSL 144 |
 
 > **BSL stretch goal — PAUSED after batch 008.** BSL grew 47 → 144 (3×). Further BSL batches on abstract vocabulary yield ~2/25 with repeat skip patterns; BSL text sources for this tier are exhausted. All worker capacity now goes to the priority target: ASL 1000+.
