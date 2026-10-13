@@ -34,5 +34,6 @@
 | 012 | asl | 14 (keep→agreement; 32 skipped as NEEDS-REVIEW incl. duplicates of existing signs, stubs, video-only) | ✅ merged, validated, typecheck+build clean (513 pages), spot-check passed, deployed, live verified | see push | ASL 352 / BSL 144 |
 | 013 | asl | 7 (sure→past; 39 skipped as NEEDS-REVIEW — 85% skip rate, abstract tail thinning) | ✅ merged, validated, typecheck+build clean (520 pages), spot-check passed, deployed, live verified | see push | ASL 359 / BSL 144 |
 | 014 | asl | 24 (average→subscribe; 64 skipped as NEEDS-REVIEW) | ✅ merged, validated, typecheck+build clean (544 pages), spot-check passed, deployed, live verified | see push | ASL 383 / BSL 144 |
+| 015 | asl | 25 (various→base; 64 skipped as NEEDS-REVIEW) | ✅ merged, validated, typecheck+build clean (569 pages), spot-check passed, deployed, live verified | see push | ASL 408 / BSL 144 |
 
 > **BSL stretch goal — PAUSED after batch 008.** BSL grew 47 → 144 (3×). Further BSL batches on abstract vocabulary yield ~2/25 with repeat skip patterns; BSL text sources for this tier are exhausted. All worker capacity now goes to the priority target: ASL 1000+.
