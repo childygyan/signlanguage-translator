@@ -961,3 +961,61 @@ Do NOT add these to the dictionary without resolving the noted issue.
 | hits | asl | Plural of "hit" (not in dictionary). No established "hit" sign found on Lifeprint or other reputable sources; no verified production. | 2026-10-13 |
 | zone | asl | No Lifeprint sign page for "zone" (404) and no verified production found in reputable sources; "Deaf zone" is a cultural concept, not a distinct sign. | 2026-10-13 |
 | complex | asl | Concept confirmed on Lifeprint as COMPLICATED (Lesson 50: "COMPLICATED complex intricate") but no written production verified; cannot write steps without guessing. | 2026-10-13 |
+| galleries | asl | Plural of GALLERY. Lifeprint's gallery page exists but carries no written production (empty page); no verified distinct plural production found. | 2026-10-13 |
+| references | asl | No Lifeprint page for "reference(s)" (404); no verified production found in reputable text sources. | 2026-10-13 |
+| die | asl | Lifeprint's die page shows video/frame images only, with no written production. The two-hand version is identical to the existing DEAD entry; the common one-hand variant's physical production cannot be verified from text. | 2026-10-13 |
+| presented | asl | Past-tense inflection. No Lifeprint page for "present" or "presented"; no distinct verified past-tense citation sign exists. | 2026-10-13 |
+| flat | asl | Lifeprint explicitly states the sign for "flat" has many context-dependent interpretations (flat long object, flat surface, flat tire) — there is no single verifiable citation sign. | 2026-10-13 |
+| flow | asl | Lifeprint's flow page is empty (no production). The concept is expressed via classifiers/movement description (e.g., describing a river's flow), not a standalone citation sign. | 2026-10-13 |
+| agencies | asl | Plural of AGENCY. Lifeprint's agency page exists but carries no written production (empty page); no verified distinct plural production found. | 2026-10-13 |
+| literature | asl | Lifeprint's literature page shows only a "[L-I-T]" notation plus video, with no written production; cannot write steps without guessing. | 2026-10-13 |
+| respective | asl | No Lifeprint page for "respective" (404); no verified production found in reputable text sources. | 2026-10-13 |
+| setting | asl | No Lifeprint page for "setting" (404); English meaning ambiguous (location vs. adjustment); no verified production found. | 2026-10-13 |
+| scale | asl | No Lifeprint page for "scale" (404); multiple distinct meanings (weighing scale vs. size/extent); no verified production found. | 2026-10-13 |
+| economy | asl | Lifeprint's economy page is video-only with no written production; cannot write steps without guessing. | 2026-10-13 |
+| highest | asl | No citation sign. ASL superlatives are produced spatially/grammatically (raised brow + HIGH); covered by the existing "high" entry. | 2026-10-13 |
+| helpful | asl | No Lifeprint page for "helpful" (404); the concept uses HELP adjectivally — no distinct verified citation sign found in reputable text sources. | 2026-10-13 |
+| monthly | asl | Lifeprint's monthly page is video-only with no written production; cannot write steps without guessing. | 2026-10-13 |
+| critical | asl | No Lifeprint page for "critical" (404); no verified production found in reputable text sources. | 2026-10-13 |
+| frame | asl | Lifeprint covers only FRAME-[computer-window, a monitor, a screen] (video-only); no general written production for "frame" verified. | 2026-10-13 |
+| musical | asl | No Lifeprint page for "musical" (404); no verified production found beyond the existing MUSIC entry. | 2026-10-13 |
+| definition | asl | Lifeprint's definition page is empty with no written production; the word is fingerspelled in practice. | 2026-10-13 |
+| networking | asl | No Lifeprint sign page and no verified production found on other reputable ASL teaching sources; the concept is typically fingerspelled or signed contextually (CONNECT, NETWORK). | 2026-10-13 |
+| employee | asl | No Lifeprint page and no verified production from reputable sources; the related WORK/WORKER signs were found but no distinct verified EMPLOYEE production. | 2026-10-13 |
+| chief | asl | No Lifeprint page and no verified production from reputable sources; meaning ambiguous between job title and tribal-chief contexts. | 2026-10-13 |
+| gives | asl | 3rd-person form of GIVE (already in dictionary). Same production as "give"; ASL marks tense with time words, so no distinct verified production exists. Covered by "give". | 2026-10-13 |
+| bottom | asl | Lifeprint Lesson 34 teaches BOTTOM as fingerspelled ("how do you sign B-O-T-T-O-M?"); no established citation sign production verified. | 2026-10-13 |
+| magazines | asl | No Lifeprint sign page and no verified production found on reputable sources; plural production unverified. | 2026-10-13 |
+| packages | asl | No Lifeprint sign page and no verified production found on reputable sources; plural production unverified. | 2026-10-13 |
+| detail | asl | No Lifeprint sign page and no verified production found on reputable sources. | 2026-10-13 |
+| laws | asl | Singular LAW verified (L hand onto flat palm, Lifeprint), but no verified distinct plural production; skipping per the plural-entry rule. | 2026-10-13 |
+| changed | asl | Past-tense form of CHANGE (already in dictionary). Same production as "change"; ASL marks past with time words, so no distinct verified production exists. Covered by "change". | 2026-10-13 |
+| heard | asl | Past-tense form of HEAR (already in dictionary). Same production as "hear" (double-tap on the ear); no distinct verified production exists. Covered by "hear". | 2026-10-13 |
+| individuals | asl | Singular maps to the PERSON/AGENT sign (Lifeprint), but no verified distinct plural production for "individuals"; skipping per the plural-entry rule. | 2026-10-13 |
+| royal | asl | No Lifeprint sign page and no verified production found on reputable sources. | 2026-10-13 |
+| switch | asl | Meaning ambiguous (light switch vs. swap/change); no verified production found on Lifeprint or other reputable sources. | 2026-10-13 |
+| largest | asl | No Lifeprint sign page and no verified production found on reputable sources; superlatives are typically shown by modifying the BIG sign in context. | 2026-10-13 |
+| titles | asl | Plural. No verified production for plural "titles" found. Lifeprint has no TITLE page; no established citation sign for the plural form. | 2026-10-13 |
+| relevant | asl | No Lifeprint sign page found. Handspeak search returned no RELEVANT entry with a verified textual production; no university/public-health textual description located. | 2026-10-13 |
+| guidelines | asl | No Lifeprint GUIDELINE/GUIDELINES page found; no verified textual production from Lifeprint, Handspeak, or university materials. | 2026-10-13 |
+| justice | asl | No Lifeprint sign page found. Handspeak JUSTICE page (word/5474) is video-only with no textual production description; no reputable text source confirms the production. | 2026-10-13 |
+| applied | asl | Past-tense inflection of APPLY. Lifeprint documents APPLY (apply-for and apply-to versions) but no distinct established citation sign for "applied" — it would be APPLY plus a temporal marker, not a separate sign. | 2026-10-13 |
+| installation | asl | No Lifeprint sign page found; no verified textual production from Handspeak, Signing Savvy, or university materials. | 2026-10-13 |
+| described | asl | Past-tense inflection of DESCRIBE. Lifeprint glosses DESCRIBE under EXPLAIN (no distinct DESCRIBE citation sign); "described" would be the base sign plus temporal marker, not a distinct sign. | 2026-10-13 |
+| demand | asl | No Lifeprint sign page found. Signing Savvy has only a video entry; no verified textual production from Lifeprint, Handspeak, or university materials. | 2026-10-13 |
+| suite | asl | No Lifeprint sign page found; no verified textual production from Handspeak, Signing Savvy, or university materials. | 2026-10-13 |
+| advance | asl | No Lifeprint sign page found; no verified textual production from Handspeak or university materials. | 2026-10-13 |
+| skip | asl | Lifeprint skip.htm page exists but carries no production text (video-only stub). No other reputable textual production description found. | 2026-10-13 |
+| diet | asl | Lifeprint diet.htm page exists but is video-only (plain DIET + initialized DIET videos, no production text). Handspeak DIET page (word/5819) also video-only with no textual production description. | 2026-10-13 |
+| auction | asl | Lifeprint page exists but is video-only with just a "hands-going-up / raising-hands" gloss; insufficient to verify handshape and motion for written steps without guessing. | 2026-10-13 |
+| gear | asl | Lifeprint page documents no production (empty entry); meaning ambiguous between equipment and mechanical gear — unverifiable without guessing. | 2026-10-13 |
+| difference | asl | Lifeprint page documents no production (empty entry); no verifiable distinct production (dictionary already has "different"). | 2026-10-13 |
+| piece | asl | Lifeprint page documents no production (empty entry); unverifiable without guessing. | 2026-10-13 |
+| sheet | asl | Lifeprint page documents no production (empty entry); unverifiable without guessing. | 2026-10-13 |
+| firm | asl | Lifeprint page documents no production (empty entry); meaning ambiguous between solid/sturdy and a business firm — unverifiable without guessing. | 2026-10-13 |
+| regulations | asl | No Lifeprint page or production found; dictionary already has "rules". WA courts interpreter glossary compounds GOVERNMENT+RULES but that is not a distinct verified citation sign. | 2026-10-13 |
+| elements | asl | No Lifeprint page (404); no reputable source found for a production — unverifiable without guessing. | 2026-10-13 |
+| species | asl | Lifeprint page documents no production (empty entry); unverifiable without guessing. | 2026-10-13 |
+| cells | asl | No Lifeprint page for the plural form; no verifiable distinct production — unverifiable without guessing. | 2026-10-13 |
+| module | asl | No Lifeprint page (404); no reputable source found for a production — unverifiable without guessing. | 2026-10-13 |
+| resort | asl | Handspeak and signasl list it video-only with no textual production; no Lifeprint page — cannot verify handshape/motion for written steps. | 2026-10-13 |
