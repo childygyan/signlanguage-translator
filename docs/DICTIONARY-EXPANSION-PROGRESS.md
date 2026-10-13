@@ -37,5 +37,6 @@
 | 015 | asl | 25 (various→base; 64 skipped as NEEDS-REVIEW) | ✅ merged, validated, typecheck+build clean (569 pages), spot-check passed, deployed, live verified | see push | ASL 408 / BSL 144 |
 | 016 | asl | 21 (near→certain; 68 skipped as NEEDS-REVIEW) | ✅ merged, validated, typecheck+build clean (590 pages), spot-check passed, deployed, live verified | see push | ASL 429 / BSL 144 |
 | 017 | asl | 28 (usr→virginia; 57 skipped as NEEDS-REVIEW) | ✅ merged, validated, typecheck+build clean (618 pages), spot-check passed, deployed, live verified | see push | ASL 457 / BSL 144 |
+| 018 | asl | 15 (almost→connection; 65 skipped as NEEDS-REVIEW) | ✅ merged, validated, typecheck+build clean (633 pages), spot-check passed, deployed, live verified | see push | ASL 472 / BSL 144 |
 
 > **BSL stretch goal — PAUSED after batch 008.** BSL grew 47 → 144 (3×). Further BSL batches on abstract vocabulary yield ~2/25 with repeat skip patterns; BSL text sources for this tier are exhausted. All worker capacity now goes to the priority target: ASL 1000+.
