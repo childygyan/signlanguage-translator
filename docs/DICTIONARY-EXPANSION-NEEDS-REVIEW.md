@@ -243,3 +243,58 @@ Do NOT add these to the dictionary without resolving the noted issue.
 | list | bsl | SignBSL lists "list" (University of Bristol / Deaf Studies Trust and QIA ICT dictionary) with video only; no reputable written BSL handshape description found. Needs video review. | 2026-10-13 |
 | state | bsl | No reputable written BSL handshape description found; US-state concepts have no standard BSL equivalent in accessible sources. Needs tutor/video review. | 2026-10-13 |
 | email | bsl | SignBSL lists "email"/"e-mail" (University of Bristol / Deaf Studies Trust, University of Wolverhampton, QIA ICT dictionary) with video only; no reputable written BSL handshape description found. Needs video review. | 2026-10-13 |
+| large | asl | Lifeprint's LARGE page is a near-stub that reuses the BIG gif; no distinct verified production — entering it would duplicate the existing BIG entry. | 2026-10-13 |
+| gallery | asl | Lifeprint gallery page is a stub with no production text; no other reputable text source found. | 2026-10-13 |
+| market | asl | Lifeprint market page is a stub with no production text; no other reputable text source found. | 2026-10-13 |
+| however | asl | Lifeprint however page is a stub with no production text; typically fingerspelled or conveyed contextually. | 2026-10-13 |
+| action | asl | Lifeprint action page is video-only with no production text; no other reputable text source found. | 2026-10-13 |
+| series | asl | Lifeprint series page is a stub with no production text; no other reputable text source found. | 2026-10-13 |
+| model | asl | Lifeprint model page references a "take-picture" version by video only, no production text; ambiguous between senses. | 2026-10-13 |
+| features | asl | No Lifeprint sign page exists for features/feature (404); plural production not verifiable. | 2026-10-13 |
+| air | asl | No dedicated standalone sign — Lifeprint: "generally I just spell it"; other meanings are contextual (WIND, SPREAD, depiction). Fingerspell-only. | 2026-10-13 |
+| industry | asl | Lifeprint industry page is a stub with no production text; no other reputable text source found. | 2026-10-13 |
+| plan | asl | Movement verified from Lifeprint (two hands sweep left-to-right) but the handshape is video-only with no reputable text description; not guessable. | 2026-10-13 |
+| human | asl | Lifeprint human page is a stub with only an initialized H video version and no production text. | 2026-10-13 |
+| provided | asl | No Lifeprint page for provided (404); singular "provide" page is a stub with no production text. | 2026-10-13 |
+| required | asl | No Lifeprint page for required (404); singular "require" page is a stub with no production text. | 2026-10-13 |
+| accessories | asl | No Lifeprint sign page exists for accessories/accessory (404); plural production not verifiable. | 2026-10-13 |
+| forums | asl | No Lifeprint sign page exists for forums/forum (404); plural production not verifiable. | 2026-10-13 |
+| questions | asl | No dedicated Lifeprint sign page (404); the singular QUESTION already exists in the dictionary and no distinct verified plural production was found. | 2026-10-13 |
+| going | asl | Same production as GO (already in the dictionary) — present-progressive aspect, not a separate citation sign. Per the "found"/FIND batch precedent. | 2026-10-13 |
+| medical | asl | Lifeprint's medical.htm sign page is an empty placeholder; no text production description found on any reputable source. | 2026-10-13 |
+| server | asl | Lifeprint's server.htm sign page is an empty placeholder; the tech sense is typically fingerspelled S-E-R-V-E-R. No verifiable production. | 2026-10-13 |
+| application | asl | Lifeprint's application.htm sign page is an empty placeholder; the noun sense is typically fingerspelled. No verifiable standalone production. | 2026-10-13 |
+| cart | asl | Lifeprint's cart.htm sign page is an empty placeholder; the wagon page covers only horse-drawn carts. No verifiable shopping-cart production. | 2026-10-13 |
+| articles | asl | Plural of ARTICLE, which already exists in the dictionary; the plural production was not verified from a reputable source (plural/base-form). | 2026-10-13 |
+| feedback | asl | Lifeprint's feedback page is video-only (FEEDBACK-[index/S-loose-5-hand-version]) with no text production description; typically fingerspelled. | 2026-10-13 |
+| looking | asl | Same production as LOOK (already in the dictionary) — present-progressive aspect, not a separate citation sign. Per the "found"/FIND batch precedent. | 2026-10-13 |
+| issues | asl | Plural form; no distinct verified ASL production for "issues" found on any reputable source. | 2026-10-13 |
+| users | asl | Typically fingerspelled U-S-E-R-S; no citation sign found (same finding as "user" in batch 008a). | 2026-10-13 |
+| comment | asl | Lifeprint's comment.htm sign page is an empty placeholder. No verifiable standalone production. | 2026-10-13 |
+| financial | asl | No dedicated Lifeprint sign page (404); the concept is conveyed via MONEY, with no distinct verified production. | 2026-10-13 |
+| things | asl | Plural form; no verifiable text production for the base sign "thing" found on Lifeprint or reputable cross-check sources. | 2026-10-13 |
+| working | asl | Same production as WORK (already in the dictionary) — present-progressive aspect, not a separate citation sign. Per the "found"/FIND batch precedent. | 2026-10-13 |
+| standard | asl | Lifeprint's standard.htm sign page is an empty placeholder. No verifiable standalone production. | 2026-10-13 |
+| support | bsl | BSL SignBank confirms a support/backing/aid sign (encouragement-3, supporter-3) but only video/phonology-code forms are accessible; no reputable written BSL handshape description found. Needs video review. | 2026-10-13 |
+| message | bsl | SignBSL lists "message" (Wolverhampton, signon, Nathanael Farley) with video only; no reputable written BSL handshape description found. Needs video review. | 2026-10-13 |
+| software | bsl | No BSL dictionary entry or written description found in reputable sources; technical terms without an established sign are fingerspelled in BSL. Fingerspell-only candidate. | 2026-10-13 |
+| video | bsl | SignBSL lists "video" (Bristol signstation, signmonkey, GP NHS, Nathanael Farley) with video only; no reputable written BSL handshape description found. Needs video review. | 2026-10-13 |
+| well | bsl | BSL SignBank confirms a well/good/excellent sign (well-5) but only video/phonology-code forms are accessible; no reputable written BSL handshape description found. Needs video review. | 2026-10-13 |
+| rights | bsl | No reputable BSL sign or written handshape description found for "rights" (human-rights sense). Needs tutor/video review. | 2026-10-13 |
+| public | bsl | BSL SignBank confirms a public/announce/publicise sign (public-1) but only video/phonology-code forms are accessible; no reputable written BSL handshape description found. Needs video review. | 2026-10-13 |
+| books | bsl | Plural of "book" (already in dictionary). No verified production for the plural form; BSL does not mark plurals morphologically, so likely signed as "book" — not a distinct entry. | 2026-10-13 |
+| high | bsl | SignBSL lists "high" (Bristol signstation, signmonkey, signon) with video only; no reputable written BSL handshape description found. Needs video review. | 2026-10-13 |
+| review | bsl | SignBSL lists "review" (Bristol signstation, Wolverhampton, GP NHS, Nathanael Farley) with video only; no reputable written BSL handshape description found. Needs video review. | 2026-10-13 |
+| years | bsl | Plural of "year" (already in dictionary). No verified production for a distinct plural sign; BSL does not mark plurals morphologically — not a distinct entry. | 2026-10-13 |
+| order | bsl | Ambiguous (place an order vs. give an order). BSL SignBank "public-1" carries keyword "order" only in the announce/decree sense; no written description for either everyday sense. Needs tutor/video review. | 2026-10-13 |
+| items | bsl | No standard BSL sign or reputable written description found for "items". Needs tutor/video review. | 2026-10-13 |
+| company | bsl | No reputable written BSL handshape description found (only ASL sources and SignBSL ICT pages that are video-only). Needs tutor/video review. | 2026-10-13 |
+| group | bsl | SignBSL lists "group" (Bristol signstation, SSC, signmonkey, signon, GP NHS, Nathanael Farley) with video only; no reputable written BSL handshape description found. Needs video review. | 2026-10-13 |
+| user | bsl | No BSL dictionary entry or written description found; technical terms without an established sign are fingerspelled in BSL. Fingerspell-only candidate. | 2026-10-13 |
+| set | bsl | Ambiguous (a set of things vs. to set down). No reputable written BSL handshape description found for the everyday sense. Needs tutor/video review. | 2026-10-13 |
+| research | bsl | SignBSL lists "research" (Wolverhampton, GP NHS; shares sign with "search") with video only; no reputable written BSL handshape description found. Needs video review. | 2026-10-13 |
+| university | bsl | SignBSL "educational institution" page shows "Sorry, no video found for this word"; no reputable written BSL handshape description found. Needs tutor/video review. | 2026-10-13 |
+| mail | bsl | SignBSL "mail service"/"mailing" pages show "Sorry, no video found for this word"; no reputable written BSL handshape description found. Needs tutor/video review. | 2026-10-13 |
+| full | bsl | Ambiguous (full container vs. complete). No reputable written BSL handshape description found. Needs tutor/video review. | 2026-10-13 |
+| map | bsl | No reputable written BSL handshape description found for "map". Needs tutor/video review. | 2026-10-13 |
+| program | bsl | Ambiguous (TV program vs. computer program). No reputable written BSL handshape description found for either sense. Needs tutor/video review. | 2026-10-13 |
