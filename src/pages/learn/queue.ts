@@ -77,13 +77,6 @@ export interface QueuedArticle {
 
 export const QUEUE: QueuedArticle[] = [
   {
-    slug: "introduce-yourself-in-asl",
-    title: "How to Introduce Yourself in ASL",
-    description:
-      "A complete beginner's introduction in ASL: signing your name, where you're from, and the classic 'what is your name' exchange — phrase by phrase.",
-    datePublished: "2026-10-13",
-  },
-  {
     slug: "bsl-numbers-1-to-5",
     title: "BSL Numbers 1 to 5: How to Count on Your Fingers",
     description:

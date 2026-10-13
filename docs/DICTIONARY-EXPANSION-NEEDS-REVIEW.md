@@ -904,3 +904,60 @@ Do NOT add these to the dictionary without resolving the noted issue.
 | regarding | asl | No Lifeprint page (404); no verified production found in reputable sources. | 2026-10-13 |
 | instructions | asl | Lifeprint "instructions" page is a video-only stub with no written production; cannot verify. | 2026-10-13 |
 | offered | asl | Past-tense inflection. Lifeprint has the OFFER sign (palm-up flat hands arcing forward like laying an offer on the table) but no distinct verified past-tense citation sign. | 2026-10-13 |
+| surface | asl | No distinct citation sign with textual production verified; only a passing mention in Lifeprint's Native American page (circular movement) — insufficient to write accurate steps. | 2026-10-13 |
+| visual | asl | No citation sign found on Lifeprint or Handspeak; likely fingerspelled V-I-S-U-A-L, which could not be verified. | 2026-10-13 |
+| host | asl | Lifeprint Lesson 60 states the concept is expressed via a variety of signs (TAKE-up/adopt, SUPPORT/sponsor, OFFER, RESPONSIBLE) with no single distinct HOST production verified. | 2026-10-13 |
+| variety | asl | Lifeprint Lesson 56 glosses VARIOUS-[diverse-variety] but no textual production of the sign was found — video-only. | 2026-10-13 |
+| teachers | asl | Plural production not verifiable; teacher exists in the dictionary but no verified plural production for TEACHERS was found on Lifeprint or Handspeak. | 2026-10-13 |
+| manual | asl | No distinct citation sign verified on Lifeprint or Handspeak; no textual production found. | 2026-10-13 |
+| block | asl | Lifeprint's block page states BLOCKS-(toy) has no widely established ASL sign and is often just spelled or described; the modified-BOX production is not a settled citation sign. | 2026-10-13 |
+| subjects | asl | Plural production not verifiable; no plural-specific textual production for SUBJECTS was found on Lifeprint or Handspeak. | 2026-10-13 |
+| agents | asl | Plural production not verifiable; the AGENT (PERSON-suffix) sign exists in the dictionary but no verified plural production for AGENTS was found. | 2026-10-13 |
+| increased | asl | Past-tense inflection; Lifeprint teaches INCREASE (Lesson 24) but ASL uses the uninflected sign across tenses — no distinct INCREASED sign exists. | 2026-10-13 |
+| repair | asl | No textual production verified — Lifeprint's repair/fix materials are video-only (Automotive Repair Signing) and SigningSavvy's MEND is fingerspelled. | 2026-10-13 |
+| civil | asl | No distinct citation sign verified on Lifeprint or Handspeak; no textual production found. | 2026-10-13 |
+| understanding | asl | No distinct citation sign for the noun verified; the concept is conveyed with the UNDERSTAND sign, which already exists in the dictionary. | 2026-10-13 |
+| songs | asl | Lifeprint Lesson 29 glosses MUSIC-[song]/SONGS but no textual production of the MUSIC/SONG sign was found — video-only. | 2026-10-13 |
+| fixed | asl | Past-tense inflection; Lifeprint teaches F-I-X fingerspelled in lessons and FIX video-only — no distinct FIXED sign exists. | 2026-10-13 |
+| wrong | asl | No textual production verified on Lifeprint; the WRONG-[mistake, accident] gloss appears in Lesson 13 vocab but the production is video-only. | 2026-10-13 |
+| hands | asl | Plural production not verifiable; Lifeprint's pain page references the HAND sign only in passing (spell H-A-N-D as fallback) — no verified production for the plural HANDS. | 2026-10-13 |
+| associates | asl | Plural production not verifiable; no textual production for ASSOCIATES was found on Lifeprint or Handspeak. | 2026-10-13 |
+| updates | asl | Plural noun (news/new versions) with no citation sign; Lifeprint has no update page and ASL conveys it via NEW INFO contextually or fingerspelling. | 2026-10-13 |
+| desktop | asl | No standard citation sign; Deaf signers fingerspell D-E-S-K-T-O-P or compound DESK + COMPUTER. No verified production. | 2026-10-13 |
+| classes | asl | Plural of CLASS (already in src/data/signs.json); no verified distinct plural production. | 2026-10-13 |
+| gets | asl | Highly polysemous verb (receive/obtain/become); no single citation sign. | 2026-10-13 |
+| sector | asl | Business jargon; no citation sign on Lifeprint or reputable dictionaries. | 2026-10-13 |
+| capacity | asl | Polysemous (capability/volume/amount); no verified citation sign. | 2026-10-13 |
+| requires | asl | Verb inflection of REQUIRE (already in src/data/signs.json); same sign, no new entry needed. | 2026-10-13 |
+| fat | asl | Lifeprint confirms FAT-[obese] (Lesson 20, parameters nonmanual marker) but no Lifeprint page gives the manual production in text; cannot verify without guessing. | 2026-10-13 |
+| fully | asl | Adverb form of full/complete; COMPLETE already in src/data/signs.json and no verified distinct sign for "fully". | 2026-10-13 |
+| electric | asl | Lifeprint lists ELECTRICITY-[electric/battery] (Lesson 8) but no text page gives the manual production; cannot verify without guessing. | 2026-10-13 |
+| saw | asl | Ambiguous (see-past vs cutting tool); no clear standard citation sign verifiable for one sense — skipped per batch instructions. | 2026-10-13 |
+| instruments | asl | Plural noun with no verified citation production found. | 2026-10-13 |
+| quotes | asl | Lifeprint lists QUOTE (Lesson 56, "title topic subject") but no text page gives the manual production; cannot verify without guessing. | 2026-10-13 |
+| officer | asl | POLICE listed in Lifeprint Lesson 15 vocab, but only low-quality SEO-spam pages describe the production; no reputable textual source verified. | 2026-10-13 |
+| driver | asl | Lifeprint teaches DRIVER (Lesson 5/16 review) but no Lifeprint text page gives its production; compounding DRIVE + agent marker would be constructing a sign, not citing one. | 2026-10-13 |
+| businesses | asl | Plural of BUSINESS (already in src/data/signs.json); no verified distinct plural production. | 2026-10-13 |
+| unknown | asl | No citation sign; conveyed contextually via DON'T-KNOW/NOT-KNOW (Lifeprint mentions "unknown whereabouts" only as a gloss of LOST/LOSE). | 2026-10-13 |
+| showing | asl | Present-participle inflection of SHOW. Lifeprint documents only the base verb SHOW (directional sign, Lesson 22); no distinct established citation sign for "showing" found — Signing Savvy has no SHOWING entry. | 2026-10-13 |
+| benefit | asl | No verified production found. Lifeprint has no usable page (video-only stub); only one weak source (aslbloom gloss ADVANTAGE/Benefit) — not corroborated by Lifeprint, university, or public-health materials. | 2026-10-13 |
+| funding | asl | No Lifeprint page content (video-only stub); no Signing Savvy or Handspeak entry found; no verified production. | 2026-10-13 |
+| devices | asl | Plural. No verified DEVICE production found in Lifeprint, Signing Savvy, or Handspeak; no verified plural production. | 2026-10-13 |
+| traditional | asl | No Lifeprint page (404); no Signing Savvy or Handspeak entry found; no source confirms a dedicated sign or fingerspelling. | 2026-10-13 |
+| watches | asl | Plural/3rd-person verb of WATCH (already in dictionary). No verified distinct plural production found on Lifeprint or other reputable text sources. | 2026-10-13 |
+| beyond | asl | No Lifeprint page for "beyond" (404); concept is conveyed spatially or via MORE-THAN ("above and beyond") but no distinct verified "beyond" sign found. | 2026-10-13 |
+| goes | asl | 3rd-person verb of GO (already in dictionary). No distinct verified production; covered by "go". | 2026-10-13 |
+| families | asl | Plural of FAMILY (already in dictionary). No verified distinct plural production found on Lifeprint or other reputable text sources. | 2026-10-13 |
+| led | asl | Past-tense of LEAD (already in dictionary). No distinct verified past-tense citation sign; covered by "lead". | 2026-10-13 |
+| museum | asl | Lifeprint's states page references a MUSEUM sign (used for Montana) but provides no written production (video only); cannot verify. | 2026-10-13 |
+| themselves | asl | Reflexive pronoun. ASL reflexives are produced contextually (SELF + pointing); no distinct verified "themselves" citation sign found. | 2026-10-13 |
+| fan | asl | Ambiguous English word (admirer vs. cooling device). No verified sign found on Lifeprint or other reputable sources; meaning must be disambiguated first. | 2026-10-13 |
+| transport | asl | Handspeak lists TRANSPORTATION/TRANSPORT but with video only and no written production; no Lifeprint page. Cannot verify production from a reputable text source. | 2026-10-13 |
+| blogs | asl | Plural of "blog". No established "blog" sign found on Lifeprint or other reputable sources (no base sign verified either). | 2026-10-13 |
+| evaluation | asl | No Lifeprint sign page for "evaluation"; only video-only dictionary listings (one math-specific). No established citation sign verified. | 2026-10-13 |
+| accepted | asl | Past-tense inflection. Lifeprint teaches ACCEPT (Lesson 24; APPROVE-[ACCEPT] version) but no distinct verified past-tense citation sign exists. | 2026-10-13 |
+| former | asl | No distinct sign. Lifeprint glosses "former" as PAST-[former] (Lesson 32 practice sentence); covered by the existing "past" entry. | 2026-10-13 |
+| implementation | asl | No Lifeprint page (404) and no verified production found in reputable sources; abstract noun with no established citation sign. | 2026-10-13 |
+| hits | asl | Plural of "hit" (not in dictionary). No established "hit" sign found on Lifeprint or other reputable sources; no verified production. | 2026-10-13 |
+| zone | asl | No Lifeprint sign page for "zone" (404) and no verified production found in reputable sources; "Deaf zone" is a cultural concept, not a distinct sign. | 2026-10-13 |
+| complex | asl | Concept confirmed on Lifeprint as COMPLICATED (Lesson 50: "COMPLICATED complex intricate") but no written production verified; cannot write steps without guessing. | 2026-10-13 |
