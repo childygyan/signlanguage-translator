@@ -381,3 +381,42 @@ Do NOT add these to the dictionary without resolving the noted issue.
 | least | asl | Lifeprint's LEAST page only covers the phrase "at least" (signed as LAST + shrug); no standalone LEAST sign | 2026-10-13 |
 | society | asl | Lifeprint page is empty; no verified production found | 2026-10-13 |
 | months | asl | Base sign MONTH is fully verified on Lifeprint, but a bare plural "months" is not a distinct sign — quantity is expressed by incorporating numbers (e.g. SIX MONTHS) or repeating for "monthly/every month" | 2026-10-13 |
+| log | asl | Ambiguous (journal/logbook vs wood log vs logarithm); no Lifeprint sign page with a text production found — typically fingerspelled. | 2026-10-13 |
+| friends | asl | Plural of FRIEND (in the dictionary); ASL marks plurality with quantifiers or reduplication, no distinct FRIENDS citation production verified. | 2026-10-13 |
+| trade | asl | Lifeprint's exchange.htm references TRADE as a "more straightforward" version but gives no text production for TRADE itself — not verifiable. | 2026-10-13 |
+| edition | asl | No Lifeprint sign page found; typically fingerspelled or signed VERSION — no dedicated citation sign verified. | 2026-10-13 |
+| cars | asl | Plural of CAR (in the dictionary); no distinct CARS citation production verified. | 2026-10-13 |
+| messages | asl | No Lifeprint MESSAGE sign page with a text production description found. | 2026-10-13 |
+| marketing | asl | No Lifeprint sign page with a text production description found. | 2026-10-13 |
+| further | asl | No Lifeprint sign page with a text production description found. | 2026-10-13 |
+| updated | asl | No Lifeprint UPDATE sign page with a text production description found. | 2026-10-13 |
+| association | asl | No dedicated sign page found; concept signed via GROUP/ORGANIZATION or fingerspelled — no citation sign verified. | 2026-10-13 |
+| having | asl | Would share the HAVE production, but no reputable text production of HAVE found (ASLDeafined's Have.pdf is video-based) — not verifiable. | 2026-10-13 |
+| provides | asl | No dedicated PROVIDE sign page found; concept signed with GIVE/OFFER — no citation sign verified. | 2026-10-13 |
+| already | asl | Lifeprint's temporal-adverbs material glosses "already" as FINISH or PAST — no distinct citation sign exists. | 2026-10-13 |
+| studies | asl | Plural of STUDY (in the dictionary); no distinct STUDIES citation production verified. | 2026-10-13 |
+| common | asl | No dedicated sign page found; concept signed via SAME/USUAL — no citation sign verified. | 2026-10-13 |
+| specific | asl | No dedicated sign page found; typically fingerspelled — no citation sign verified. | 2026-10-13 |
+| several | asl | Lifeprint's FEW page notes SEVERAL ≈ FEW with a larger movement, but the page is video-only with no text production description — not verifiable. | 2026-10-13 |
+| living | asl | Same production as the existing LIVE entry (one big upward push of the A fists) — duplicates an existing entry. | 2026-10-13 |
+| collection | asl | Lifeprint collection page is video-only with no production text; related "collect" page also a stub. | 2026-10-13 |
+| called | asl | No Lifeprint sign page exists for called (404); typically fingerspelled or conveyed contextually as NAME. | 2026-10-13 |
+| arts | asl | No Lifeprint page for arts (404); singular "art" page is video-only with no production text — plural production not verifiable. | 2026-10-13 |
+| lot | asl | Lifeprint lot page is an empty template stub with all production fields blank and no production text. | 2026-10-13 |
+| display | asl | Lifeprint display page is video-only with no production text; related "show" page also a stub (gloss only). | 2026-10-13 |
+| limited | asl | No Lifeprint page for limited (404); singular "limit" page is a stub with no production text. | 2026-10-13 |
+| powered | asl | No Lifeprint sign page exists for powered (404); concept typically fingerspelled (see existing POWER entry). | 2026-10-13 |
+| solutions | asl | No Lifeprint sign page exists for solutions (404); singular "solution" page is a stub with no production text — plural production not verifiable. | 2026-10-13 |
+| means | asl | No Lifeprint page for means (404); singular "mean" page covers only MEAN-[cruel, opposite-of-nice], a different sense — typically fingerspelled. | 2026-10-13 |
+| director | asl | Lifeprint director page is video-only with no production text; no other reputable text source found. | 2026-10-13 |
+| daily | asl | Lifeprint daily page is video-only with no production text; web sources disagree (one AI-generated source says 1-handshape circles, one video source says A-handshape on jawline) — conflict cannot be resolved from text. | 2026-10-13 |
+| natural | asl | Lifeprint natural page is video-only with no production text; no other reputable text source found. | 2026-10-13 |
+| whether | asl | Lifeprint whether page is video-only with no production text; typically fingerspelled. | 2026-10-13 |
+| due | asl | Lifeprint due page is video-only with no production text; typically fingerspelled. | 2026-10-13 |
+| electronics | asl | No Lifeprint sign page exists for electronics (404); related "electric" page is a stub with no production text — typically fingerspelled. | 2026-10-13 |
+| upon | asl | Lifeprint upon page is video-only with no production text; typically fingerspelled or conveyed contextually. | 2026-10-13 |
+| period | asl | Lifeprint period page is video-only with no production text; ambiguous between punctuation sense and time-period sense — not resolvable from text. | 2026-10-13 |
+| planning | asl | No Lifeprint page for planning (404); singular "plan" page is a stub with movement only and no handshape description (per batch 009a) — not guessable. | 2026-10-13 |
+| database | asl | Lifeprint database page is video-only with no production text; typically fingerspelled. | 2026-10-13 |
+| says | asl | No Lifeprint page for says (404); singular "say" page is a stub with no production text — inflection production not verifiable. | 2026-10-13 |
+| official | asl | Lifeprint official page is video-only with no production text; no other reputable text source found. | 2026-10-13 |
