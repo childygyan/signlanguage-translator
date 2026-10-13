@@ -349,3 +349,35 @@ Do NOT add these to the dictionary without resolving the noted issue.
 | space | asl | Only a fingerspelled variant (S-P-A-C-E) found for "empty place or gap"; no verified lexical sign production. | 2026-10-13 |
 | committee | asl | No text production found from any reputable source. | 2026-10-13 |
 | hand | asl | Lifeprint documents only HANDS (plural: pinkie-edge wrist-slice, two-handed); no verified singular citation sign from a text source. | 2026-10-13 |
+| schools | asl | Same production as SCHOOL (already in the dictionary; Lifeprint's school sign is itself a double-clap) — no distinct plural citation sign verified. | 2026-10-13 |
+| million | asl | Lifeprint's million.htm sign page is video-only with no text production description; no reputable text production found. | 2026-10-13 |
+| added | asl | Same production as ADD (past tense is marked by context/FINISH in ASL, not a separate citation sign) — per the "given"/GIVE batch precedent. | 2026-10-13 |
+| reference | asl | No Lifeprint sign page exists (reference.htm 404); no reputable text production found — typically fingerspelled. | 2026-10-13 |
+| companies | asl | No Lifeprint sign page with a text production description found; no reputable text production verified. | 2026-10-13 |
+| listed | asl | Same production as LIST (already in the dictionary) — the verb form is covered by the existing LIST entry — per the "given"/GIVE batch precedent. | 2026-10-13 |
+| learning | asl | Same production as LEARN (already in the dictionary); the noun use is signed the same way — per the "given"/GIVE batch precedent. | 2026-10-13 |
+| energy | asl | Lifeprint's energy.htm sign page is video-only; the only text description found appears to gloss the sign POWER instead — sources conflict, not resolved. | 2026-10-13 |
+| delivery | asl | No Lifeprint sign page with a text production description found; concept is usually expressed with BRING/GIVE classifiers — no dedicated citation sign verified. | 2026-10-13 |
+| term | asl | Lifeprint's term.htm sign page is video-only with no text production description; word is ambiguous (school term vs terminology). | 2026-10-13 |
+| film | asl | Same production as MOVIE (already in the dictionary; Lifeprint describes MOVIE as the camera-cranking twist production) — not a separate citation sign. | 2026-10-13 |
+| stories | asl | No Lifeprint sign page with a text production description found; no distinct plural citation sign verified. | 2026-10-13 |
+| computers | asl | Same production as COMPUTER (already in the dictionary) — no distinct plural citation sign verified. | 2026-10-13 |
+| reports | asl | No Lifeprint sign page with a text production description found; no reputable text production verified. | 2026-10-13 |
+| journal | asl | No Lifeprint sign page with a text production description found; no reputable text production found — typically fingerspelled. | 2026-10-13 |
+| central | asl | Lifeprint page exists but carries no video or production description; no distinct sign verified beyond the existing CENTER sign | 2026-10-13 |
+| images | asl | No textual production of the plural form found. Handspeak documents a plural video (images.mp4, "different movement") but the video could not be fetched for verification | 2026-10-13 |
+| original | asl | No dedicated ORIGINAL sign page found on Lifeprint or Handspeak; concept is expressed via context/FIRST-type signs — not verified as a standalone sign | 2026-10-13 |
+| radio | asl | Lifeprint page exists but is empty (no video or production description); no verified textual production found | 2026-10-13 |
+| until | asl | Lifeprint page is a placeholder with no production info; no verified standalone ASL sign found (concept is typically fingerspelled or expressed via context) | 2026-10-13 |
+| cell | asl | Lifeprint page is empty; ASL has multiple regional variations for CELLPHONE and the word is ambiguous (biological cell vs phone) — no single verified production | 2026-10-13 |
+| council | asl | Lifeprint page is empty; no verified production found | 2026-10-13 |
+| away | asl | Lifeprint explicitly states there is no single widely accepted sign for "away" — it is expressed via context; the page's "shoo" gesture is a dismissive gesture, not a dictionary sign | 2026-10-13 |
+| includes | asl | Lifeprint confirms an INCLUDE/INVOLVED sign exists but provides only video, no textual production description; could not verify handshape/movement in text | 2026-10-13 |
+| track | asl | Lifeprint page is empty; no verified production found | 2026-10-13 |
+| archive | asl | Lifeprint page is empty; no dedicated ARCHIVE sign verified | 2026-10-13 |
+| others | asl | Base sign OTHER is verified on Lifeprint ("10"-like handshape, single arching motion), but no distinct plural production for OTHERS was verified | 2026-10-13 |
+| entertainment | asl | No dedicated ENTERTAINMENT sign page on Lifeprint; concept is signed via FUN-type signs — no verified standalone entry | 2026-10-13 |
+| format | asl | No Lifeprint page (404); concept is expressed via context — no verified standalone sign | 2026-10-13 |
+| least | asl | Lifeprint's LEAST page only covers the phrase "at least" (signed as LAST + shrug); no standalone LEAST sign | 2026-10-13 |
+| society | asl | Lifeprint page is empty; no verified production found | 2026-10-13 |
+| months | asl | Base sign MONTH is fully verified on Lifeprint, but a bare plural "months" is not a distinct sign — quantity is expressed by incorporating numbers (e.g. SIX MONTHS) or repeating for "monthly/every month" | 2026-10-13 |
