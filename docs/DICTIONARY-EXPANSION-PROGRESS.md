@@ -27,3 +27,7 @@
 | 006 | bsl | 16 (soon→wind; sometimes, hot, river, sea, tree, beautiful, cool, mountain, forest skipped as NEEDS-REVIEW) | ✅ merged, validated, typecheck+build clean (422 pages), deployed, live verified | see push | ASL 271 / BSL 134 |
 | 008 | asl | 18 (save→gay; 30 skipped as NEEDS-REVIEW incl. plurals, fingerspell-only, ambiguous) | ✅ merged, validated, typecheck+build clean (448 pages), spot-check passed, deployed, live verified | see push | ASL 289 / BSL 134 |
 | 007 | bsl | 8 (cold→two; 17 skipped as NEEDS-REVIEW — video-only or no written description) | ✅ merged, validated, typecheck+build clean (448 pages), deployed, live verified | see push | ASL 289 / BSL 142 |
+| 009 | asl | 13 (live→street; 32 skipped as NEEDS-REVIEW incl. plurals, stubs, fingerspell-only) | ✅ merged, validated, typecheck+build clean (463 pages), spot-check passed, deployed, live verified | see push | ASL 302 / BSL 142 |
+| 008 | bsl | 2 (good, best; 23 skipped as NEEDS-REVIEW) — FINAL BSL batch: text-source pool for abstract vocabulary exhausted | ✅ merged, validated, typecheck+build clean (463 pages), deployed, live verified | see push | ASL 302 / BSL 144 |
+
+> **BSL stretch goal — PAUSED after batch 008.** BSL grew 47 → 144 (3×). Further BSL batches on abstract vocabulary yield ~2/25 with repeat skip patterns; BSL text sources for this tier are exhausted. All worker capacity now goes to the priority target: ASL 1000+.
