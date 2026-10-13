@@ -21,3 +21,11 @@ Do NOT add these to the dictionary without resolving the noted issue.
 | word | bsl | No reputable BSL text description of the production found. | 2026-10-13 |
 | answer | bsl | No reputable BSL text description of the production found. | 2026-10-13 |
 | grade | bsl | No verified BSL description for the school-mark sense. | 2026-10-13 |
+| garden | asl | Lifeprint garden page empty; only SEO-spam sources describe an ASL GARDEN production. | 2026-10-13 |
+| lake | asl | Lifeprint lake page empty; only a classifier production on video, no text description of the lexical sign. | 2026-10-13 |
+| usually | asl | Lifeprint "usually" page empty; lessons gloss it as MOST TIME / TEND-to / HABIT with no production described. | 2026-10-13 |
+| park | asl | Lifeprint lists PARK among words commonly done via lexicalized fingerspelling; no verified citation sign. | 2026-10-13 |
+| apple | bsl | Only Makaton descriptions found; no reputable BSL text source for the BSL APPLE production. | 2026-10-13 |
+| restaurant | bsl | No reputable BSL text production description; not in british-sign.co.uk or brightbsl.co.uk. | 2026-10-13 |
+| white | bsl | brightbsl.co.uk gives only a fragment ("middle finger to thumb", no location/movement). | 2026-10-13 |
+| color | bsl | SignBank/signbsl attest via video only; no text description of the production. | 2026-10-13 |
