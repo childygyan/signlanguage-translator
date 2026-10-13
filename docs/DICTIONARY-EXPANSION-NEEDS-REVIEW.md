@@ -60,3 +60,59 @@ Do NOT add these to the dictionary without resolving the noted issue.
 | take | bsl | Likely directional/classifier verb; no fixed citation form verifiable from text. | 2026-10-13 |
 | give | bsl | Directional/agreement verb in BSL; no fixed citation form. | 2026-10-13 |
 | look | bsl | No textual source distinguishes LOOK's production from SEE; refused to guess. | 2026-10-13 |
+| products | asl | Plural form; no verifiable citation sign for the plural, and no reputable text production for base "product" either. | 2026-10-13 |
+| product | asl | No reputable text description of the ASL production found (handspeak/Boise State/Lifeprint searches returned nothing usable). | 2026-10-13 |
+| data | asl | No reputable text description of the ASL production found. | 2026-10-13 |
+| system | asl | No reputable text description of the ASL production found. | 2026-10-13 |
+| post | asl | Ambiguous (mail a letter vs. publish online); no single verified citation form. | 2026-10-13 |
+| add | asl | Lifeprint has animated gifs (add/ag/plus variants) but no verifiable text production description. | 2026-10-13 |
+| policy | asl | No reputable text description of the ASL production found. | 2026-10-13 |
+| available | asl | No reputable text description of the ASL production found. | 2026-10-13 |
+| message | asl | No reputable text description of the ASL production found (handspeak search returned adjacent pages only). | 2026-10-13 |
+| software | asl | No reputable text description of the ASL production found. | 2026-10-13 |
+| video | asl | No verifiable text production; handspeak handshape chart notes only that "video-recording" uses a 5-half handshape. | 2026-10-13 |
+| well | asl | Ambiguous (good/well vs. water well); sources describe different signs for different senses. | 2026-10-13 |
+| rights | asl | Plural/unclear meaning; handspeak documents only "right, birthright" — no verified RIGHTS production. | 2026-10-13 |
+| public | asl | No reputable text description of the ASL production found. | 2026-10-13 |
+| books | asl | Plural form; base sign BOOK already exists in the dictionary. | 2026-10-13 |
+| review | asl | No reputable text description of the ASL production found. | 2026-10-13 |
+| years | asl | Plural form; base sign YEAR already exists in the dictionary. | 2026-10-13 |
+| order | asl | Ambiguous (command vs. purchase/restaurant order); no single verified citation form. | 2026-10-13 |
+| items | asl | No citation sign found; typically fingerspelled I-T-E-M-S. Plural production not verifiable from a reputable source. | 2026-10-13 |
+| company | asl | SigningSavvy entry is video-only with its text description behind a member login; no reputable text production description found. | 2026-10-13 |
+| group | asl | Lifeprint Lesson 42 describes a non-initialized GROUP variant (loose-5/claw handshapes) only in passing with no full production; no clear standalone citation form verified. | 2026-10-13 |
+| user | asl | No citation sign found; typically fingerspelled U-S-E-R. | 2026-10-13 |
+| set | asl | Lifeprint mentions ESTABLISH-[set-up] as vocab with video only; no text production description found for a citation sign. | 2026-10-13 |
+| general | asl | No clear citation sign; Handspeak lists GENERAL only as a related sign of PREVALENT, not as the same sign. | 2026-10-13 |
+| research | asl | Lifeprint Lesson 56 lists research-[INVESTIGATE] and research-[Research] as vocab with videos only; no text production description found. | 2026-10-13 |
+| full | asl | Handspeak notes FULL depends on stomach-full vs container-full and gives only a 1910 description; no clear modern citation production verified. | 2026-10-13 |
+| map | asl | Video-dictionary entries (signasl.org) are video-only; no reputable text production description found. | 2026-10-13 |
+| reviews | asl | No citation sign found; typically fingerspelled R-E-V-I-E-W-S. Plural production not verifiable. | 2026-10-13 |
+| program | asl | Lifeprint Lesson 56 lists PROGRAM as vocab with video only; no text production description found. | 2026-10-13 |
+| life | asl | Handspeak LIFE page is video-only and SigningSavvy's text description is member-locked; only user-generated sources (answers.com) describe the L-hand production. | 2026-10-13 |
+| games | asl | GAME itself is verifiable (Handspeak: both "10" hands tap twice, thumbs facing each other), but the plural "games" production is not verifiable — plurals are written only with a verified production. | 2026-10-13 |
+| days | asl | Plural production not verifiable from a reputable source. | 2026-10-13 |
+| management | asl | Handspeak MANAGE page is video-only; Lifeprint's anachronistic page gives only the iconic basis (holding horse reins), not a full production. | 2026-10-13 |
+| part | asl | SigningSavvy lists PART as fingerspell-only; no citation sign exists. | 2026-10-13 |
+| hotel | asl | Lifeprint's anachronistic page describes the iconic basis (attention flags out front) but no text production; no other reputable text source found. | 2026-10-13 |
+| item | asl | No citation sign found; typically fingerspelled I-T-E-M. | 2026-10-13 |
+| international | asl | SigningSavvy entry is video-only; no reputable text production description found. | 2026-10-13 |
+| try | bsl | BSL SignBank/signbsl attest TRY via video only (SignStation try, try-2); british-sign.co.uk and brightbsl.co.uk carry no text description of the production. | 2026-10-13 |
+| tell | bsl | Video-only attestation (SignStation tell, signmonkey, gpnhs); no textual BSL description found; the glossed sense ("direct with authority") also suggests an agreement-verb construction with no fixed citation form. | 2026-10-13 |
+| close | bsl | Video-only attestation (SignStation close, close-2); neither british-sign.co.uk nor brightbsl.co.uk gives a text description of the production. | 2026-10-13 |
+| drive | bsl | BSL linguistics literature (The Linguistics of BSL) confirms DRIVE inflects for manner/direction (e.g. DRIVE-CASUALLY-FOR-A-LONG-TIME) with placement — no fixed citation form; no textual dictionary description found. | 2026-10-13 |
+| talk | bsl | Video-only attestation (Nathanael Farley, Kerri Sims); no reputable BSL text source describes the production. | 2026-10-13 |
+| watch | bsl | Described only in a Commanding Hands video blurb as the 'take it in' handshape at the eyes — no written handshape/location/movement description in any reputable text source. | 2026-10-13 |
+| remember | bsl | No textual BSL description found in any consulted source; british-sign.co.uk and brightbsl.co.uk have no entry, and BSL SignBank/signbsl are video-only. | 2026-10-13 |
+| build | bsl | No textual BSL description found in any consulted source; british-sign.co.uk and brightbsl.co.uk have no entry, and BSL SignBank/signbsl are video-only. | 2026-10-13 |
+| believe | bsl | No textual BSL description found in any consulted source; british-sign.co.uk and brightbsl.co.uk have no entry, and BSL SignBank/signbsl are video-only. | 2026-10-13 |
+| wish | bsl | No textual BSL description found in any consulted source; british-sign.co.uk and brightbsl.co.uk have no entry, and BSL SignBank/signbsl are video-only. | 2026-10-13 |
+| move | bsl | brightbsl describes a two-handed classifier production ('move both hands in the direction of where you want to move something') — directional, no fixed citation form; skipped per the agreement-verb rule. | 2026-10-13 |
+| win | bsl | No textual BSL description found in any consulted source; british-sign.co.uk and brightbsl.co.uk have no entry, and BSL SignBank/signbsl are video-only. | 2026-10-13 |
+| hold | bsl | No textual BSL description found in any consulted source; british-sign.co.uk and brightbsl.co.uk have no entry, and BSL SignBank/signbsl are video-only. | 2026-10-13 |
+| bring | bsl | Likely a directional/agreement verb in BSL (bring X to person); no textual BSL description of a fixed citation form found. | 2026-10-13 |
+| break | bsl | british-sign.co.uk's BREAK page documents only the rest/break-time sense ('a period of time when something stops'), not the 'shatter' verb — including it under "Break" would mislead. | 2026-10-13 |
+| dance | bsl | No textual BSL description found in any consulted source; british-sign.co.uk and brightbsl.co.uk have no entry, and BSL SignBank/signbsl are video-only. | 2026-10-13 |
+| stand | bsl | No textual BSL description found in any consulted source; british-sign.co.uk and brightbsl.co.uk have no entry, and BSL SignBank/signbsl are video-only. | 2026-10-13 |
+| clean | bsl | No textual BSL description found in any consulted source; british-sign.co.uk and brightbsl.co.uk have no entry, and BSL SignBank/signbsl are video-only. | 2026-10-13 |
+| listen | bsl | Described only in a Commanding Hands video blurb as the 'take it in' handshape at the ears — no written handshape/location/movement description in any reputable text source. | 2026-10-13 |
