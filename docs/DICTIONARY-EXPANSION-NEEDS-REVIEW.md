@@ -10,16 +10,16 @@ Do NOT add these to the dictionary without resolving the noted issue.
 | letter | asl | Lifeprint shows two versions and its own author expresses reservations about using either for the alphabet-letter sense; no firmly verified distinct sign for the classroom sense. | 2026-10-13 |
 | mean | asl | ASLBloom describes a 5-hand claw palm-down with no location; a second source describes index-finger-to-chin. Sources conflict. | 2026-10-13 |
 | say | asl | Only "tap chin twice beneath lower lip" found, no handshape or palm orientation; no Lifeprint text source. Too incomplete. | 2026-10-13 |
-| build | asl | No Lifeprint text description; dictionary descriptions paywalled; video-only sources without text cross-check. | 2026-10-13 |
+| build | asl | RESOLVED via video pass 2026-10-14 — entry added (batch-v01-asl-resolutions.md has source URLs) | 2026-10-13 |
 | hope | asl | Three meaning-dependent variants (bent-five flutter, crossed fingers, two-fingers-as-eyes); no single confirmed citation form. | 2026-10-13 |
 | hold | asl | No reputable text description found; meaning-dependent (hold object vs. hold-on/wait). | 2026-10-13 |
-| history | bsl | BSL SignBank attests the sign but no reputable source gives a text description of the production (handshape/location/movement). | 2026-10-13 |
+| history | bsl | RESOLVED via video pass 2026-10-14 — entry added (batch-v01/v02/v03-bsl-resolutions.md has source URLs) | 2026-10-13 |
 | class | bsl | Sources describe "classroom" (compound) rather than standalone "class"; no verified distinct BSL CLASS production found. | 2026-10-13 |
-| college | bsl | No reputable BSL text description of the production found. | 2026-10-13 |
-| test | bsl | BSL SignBank attests TEST but gives no text production description; no other reputable text source. | 2026-10-13 |
+| college | bsl | RESOLVED via video pass 2026-10-14 — entry added (batch-v01/v02/v03-bsl-resolutions.md has source URLs) | 2026-10-13 |
+| test | bsl | RESOLVED via video pass 2026-10-14 — entry added (batch-v01/v02/v03-bsl-resolutions.md has source URLs) | 2026-10-13 |
 | study | bsl | BSL SignBank lists four regional variants with no text descriptions — conflict unresolvable without guessing. | 2026-10-13 |
-| word | bsl | No reputable BSL text description of the production found. | 2026-10-13 |
-| answer | bsl | No reputable BSL text description of the production found. | 2026-10-13 |
+| word | bsl | RESOLVED via video pass 2026-10-14 — entry added (batch-v01/v02/v03-bsl-resolutions.md has source URLs) | 2026-10-13 |
+| answer | bsl | RESOLVED via video pass 2026-10-14 — entry added (batch-v01/v02/v03-bsl-resolutions.md has source URLs) | 2026-10-13 |
 | grade | bsl | No verified BSL description for the school-mark sense. | 2026-10-13 |
 | garden | asl | Lifeprint garden page empty; only SEO-spam sources describe an ASL GARDEN production. | 2026-10-13 |
 | lake | asl | Lifeprint lake page empty; only a classifier production on video, no text description of the lexical sign. | 2026-10-13 |
@@ -28,8 +28,8 @@ Do NOT add these to the dictionary without resolving the noted issue.
 | apple | bsl | Only Makaton descriptions found; no reputable BSL text source for the BSL APPLE production. | 2026-10-13 |
 | restaurant | bsl | No reputable BSL text production description; not in british-sign.co.uk or brightbsl.co.uk. | 2026-10-13 |
 | white | bsl | brightbsl.co.uk gives only a fragment ("middle finger to thumb", no location/movement). | 2026-10-13 |
-| color | bsl | SignBank/signbsl attest via video only; no text description of the production. | 2026-10-13 |
-| earth | asl | handspeak video-only; Lifeprint glosses without production description; only SEO-spam mirrors otherwise. | 2026-10-13 |
+| color | bsl | RESOLVED via video pass 2026-10-14 — entry added (batch-v01/v02/v03-bsl-resolutions.md has source URLs) | 2026-10-13 |
+| earth | asl | RESOLVED via video pass 2026-10-14 — entry added (batch-v01-asl-resolutions.md has source URLs) | 2026-10-13 |
 | hill | asl | Lifeprint treats HILL as depictive, not a citation sign; only one weak single source. | 2026-10-13 |
 | free | asl | handspeak glosses "free of charge" as NONE/NOTHING; no standalone sign exists. | 2026-10-13 |
 | information | asl | handspeak lists only INFORM (verb); Lifeprint mentions INFORMATION with no production described. | 2026-10-13 |
@@ -46,17 +46,17 @@ Do NOT add these to the dictionary without resolving the noted issue.
 | these | asl | Lifeprint page empty; plural demonstratives expressed by pointing/indexing. | 2026-10-13 |
 | health | asl | Lifeprint health/healthy pages empty; no text source describes the production. | 2026-10-13 |
 | used | asl | No citation sign: "used to" = PAST, "be used to" = HABIT — tense via adverbs. | 2026-10-13 |
-| buy | bsl | Video-only (Commanding Hands YouTube); no reputable textual BSL description. | 2026-10-13 |
-| sell | bsl | Video-only (Commanding Hands YouTube); no reputable textual BSL description. | 2026-10-13 |
-| travel | bsl | Video-only (BSL SignBank, signbsl/University of Bristol). | 2026-10-13 |
+| buy | bsl | RESOLVED via video pass 2026-10-14 — entry added (batch-v01/v02/v03-bsl-resolutions.md has source URLs) | 2026-10-13 |
+| sell | bsl | RESOLVED via video pass 2026-10-14 — entry added (batch-v01/v02/v03-bsl-resolutions.md has source URLs) | 2026-10-13 |
+| travel | bsl | RESOLVED via video pass 2026-10-14 — entry added (batch-v01/v02/v03-bsl-resolutions.md has source URLs) | 2026-10-13 |
 | use | bsl | No text dictionary carries it; SignBank/signbsl video-only. | 2026-10-13 |
-| get | bsl | No text dictionary carries it; SignBank/signbsl video-only. | 2026-10-13 |
-| find | bsl | No text dictionary carries it; SignBank/signbsl video-only. | 2026-10-13 |
-| make | bsl | No text dictionary carries it; SignBank/signbsl video-only. | 2026-10-13 |
-| open | bsl | No text dictionary carries it; SignBank/signbsl video-only. | 2026-10-13 |
-| call | bsl | No text dictionary carries it; SignBank/signbsl video-only. | 2026-10-13 |
-| say | bsl | No text dictionary carries it; SignBank/signbsl video-only. | 2026-10-13 |
-| pay | bsl | No text dictionary carries it; SignBank/signbsl video-only. | 2026-10-13 |
+| get | bsl | RESOLVED via video pass 2026-10-14 — entry added (batch-v01/v02/v03-bsl-resolutions.md has source URLs) | 2026-10-13 |
+| find | bsl | RESOLVED via video pass 2026-10-14 — entry added (batch-v01/v02/v03-bsl-resolutions.md has source URLs) | 2026-10-13 |
+| make | bsl | RESOLVED via video pass 2026-10-14 — entry added (batch-v01/v02/v03-bsl-resolutions.md has source URLs) | 2026-10-13 |
+| open | bsl | RESOLVED via video pass 2026-10-14 — entry added (batch-v01/v02/v03-bsl-resolutions.md has source URLs) | 2026-10-13 |
+| call | bsl | RESOLVED via video pass 2026-10-14 — entry added (batch-v01/v02/v03-bsl-resolutions.md has source URLs) | 2026-10-13 |
+| say | bsl | RESOLVED via video pass 2026-10-14 — entry added (batch-v01/v02/v03-bsl-resolutions.md has source URLs) | 2026-10-13 |
+| pay | bsl | RESOLVED via video pass 2026-10-14 — entry added (batch-v01/v02/v03-bsl-resolutions.md has source URLs) | 2026-10-13 |
 | take | bsl | Likely directional/classifier verb; no fixed citation form verifiable from text. | 2026-10-13 |
 | give | bsl | Directional/agreement verb in BSL; no fixed citation form. | 2026-10-13 |
 | look | bsl | No textual source distinguishes LOOK's production from SEE; refused to guess. | 2026-10-13 |
@@ -99,22 +99,22 @@ Do NOT add these to the dictionary without resolving the noted issue.
 | international | asl | SigningSavvy entry is video-only; no reputable text production description found. | 2026-10-13 |
 | try | bsl | BSL SignBank/signbsl attest TRY via video only (SignStation try, try-2); british-sign.co.uk and brightbsl.co.uk carry no text description of the production. | 2026-10-13 |
 | tell | bsl | Video-only attestation (SignStation tell, signmonkey, gpnhs); no textual BSL description found; the glossed sense ("direct with authority") also suggests an agreement-verb construction with no fixed citation form. | 2026-10-13 |
-| close | bsl | Video-only attestation (SignStation close, close-2); neither british-sign.co.uk nor brightbsl.co.uk gives a text description of the production. | 2026-10-13 |
+| close | bsl | RESOLVED via video pass 2026-10-14 — entry added (batch-v01/v02/v03-bsl-resolutions.md has source URLs) | 2026-10-13 |
 | drive | bsl | BSL linguistics literature (The Linguistics of BSL) confirms DRIVE inflects for manner/direction (e.g. DRIVE-CASUALLY-FOR-A-LONG-TIME) with placement — no fixed citation form; no textual dictionary description found. | 2026-10-13 |
 | talk | bsl | Video-only attestation (Nathanael Farley, Kerri Sims); no reputable BSL text source describes the production. | 2026-10-13 |
 | watch | bsl | Described only in a Commanding Hands video blurb as the 'take it in' handshape at the eyes — no written handshape/location/movement description in any reputable text source. | 2026-10-13 |
-| remember | bsl | No textual BSL description found in any consulted source; british-sign.co.uk and brightbsl.co.uk have no entry, and BSL SignBank/signbsl are video-only. | 2026-10-13 |
-| build | bsl | No textual BSL description found in any consulted source; british-sign.co.uk and brightbsl.co.uk have no entry, and BSL SignBank/signbsl are video-only. | 2026-10-13 |
+| remember | bsl | RESOLVED via video pass 2026-10-14 — entry added (batch-v01/v02/v03-bsl-resolutions.md has source URLs) | 2026-10-13 |
+| build | bsl | RESOLVED via video pass 2026-10-14 — entry added (batch-v01/v02/v03-bsl-resolutions.md has source URLs) | 2026-10-13 |
 | believe | bsl | No textual BSL description found in any consulted source; british-sign.co.uk and brightbsl.co.uk have no entry, and BSL SignBank/signbsl are video-only. | 2026-10-13 |
 | wish | bsl | No textual BSL description found in any consulted source; british-sign.co.uk and brightbsl.co.uk have no entry, and BSL SignBank/signbsl are video-only. | 2026-10-13 |
 | move | bsl | brightbsl describes a two-handed classifier production ('move both hands in the direction of where you want to move something') — directional, no fixed citation form; skipped per the agreement-verb rule. | 2026-10-13 |
-| win | bsl | No textual BSL description found in any consulted source; british-sign.co.uk and brightbsl.co.uk have no entry, and BSL SignBank/signbsl are video-only. | 2026-10-13 |
-| hold | bsl | No textual BSL description found in any consulted source; british-sign.co.uk and brightbsl.co.uk have no entry, and BSL SignBank/signbsl are video-only. | 2026-10-13 |
+| win | bsl | RESOLVED via video pass 2026-10-14 — entry added (batch-v01/v02/v03-bsl-resolutions.md has source URLs) | 2026-10-13 |
+| hold | bsl | RESOLVED via video pass 2026-10-14 — entry added (batch-v01/v02/v03-bsl-resolutions.md has source URLs) | 2026-10-13 |
 | bring | bsl | Likely a directional/agreement verb in BSL (bring X to person); no textual BSL description of a fixed citation form found. | 2026-10-13 |
 | break | bsl | british-sign.co.uk's BREAK page documents only the rest/break-time sense ('a period of time when something stops'), not the 'shatter' verb — including it under "Break" would mislead. | 2026-10-13 |
-| dance | bsl | No textual BSL description found in any consulted source; british-sign.co.uk and brightbsl.co.uk have no entry, and BSL SignBank/signbsl are video-only. | 2026-10-13 |
-| stand | bsl | No textual BSL description found in any consulted source; british-sign.co.uk and brightbsl.co.uk have no entry, and BSL SignBank/signbsl are video-only. | 2026-10-13 |
-| clean | bsl | No textual BSL description found in any consulted source; british-sign.co.uk and brightbsl.co.uk have no entry, and BSL SignBank/signbsl are video-only. | 2026-10-13 |
+| dance | bsl | RESOLVED via video pass 2026-10-14 — entry added (batch-v01/v02/v03-bsl-resolutions.md has source URLs) | 2026-10-13 |
+| stand | bsl | RESOLVED via video pass 2026-10-14 — entry added (batch-v01/v02/v03-bsl-resolutions.md has source URLs) | 2026-10-13 |
+| clean | bsl | RESOLVED via video pass 2026-10-14 — entry added (batch-v01/v02/v03-bsl-resolutions.md has source URLs) | 2026-10-13 |
 | listen | bsl | Described only in a Commanding Hands video blurb as the 'take it in' handshape at the ears — no written handshape/location/movement description in any reputable text source. | 2026-10-13 |
 | index | asl | No citation sign found; typically fingerspelled I-N-D-E-X. No reputable text production description found. | 2026-10-13 |
 | women | asl | Plural of woman; base already in dictionary (Lifeprint glosses WOMEN under the WOMAN sign — no distinct plural production). | 2026-10-13 |
@@ -148,9 +148,9 @@ Do NOT add these to the dictionary without resolving the noted issue.
 | art | asl | Lifeprint maps "art → see DRAW" but no pages-signs page for DRAW with a text production was found. | 2026-10-13 |
 | total | asl | Lifeprint maps ALTOGETHER = total/sum (Lessons 23/59) but no text production description of the sign was found. | 2026-10-13 |
 | control | asl | Lifeprint maps CONTROL-MANAGE (Lesson 21) and notes the reins etymology, but no text production description of the sign was found. | 2026-10-13 |
-| after | bsl | No textual BSL description found from a reputable source (SignBSL has a video only; british-sign.co.uk and BrightBSL have no "after" page). Needs video review by a qualified BSL signer before an entry can be written. | 2026-10-13 |
+| after | bsl | RESOLVED via video pass 2026-10-14 — entry added (batch-v01/v02/v03-bsl-resolutions.md has source URLs) | 2026-10-13 |
 | november | bsl | BSL month convention is fingerspelling and the pattern (Nov) is near-certain, but no BSL text source found confirming the fingerspelled form for November specifically (BrightBSL has no November page; SignBSL November video page unconfirmed). Skipped per never-guess rule. | 2026-10-13 |
-| month | bsl | SignBSL lists "month" but with video only; no reputable written BSL handshape description found. Needs video review. | 2026-10-13 |
+| month | bsl | RESOLVED via video pass 2026-10-14 — entry added (batch-v01/v02/v03-bsl-resolutions.md has source URLs) | 2026-10-13 |
 | often | bsl | SignBSL has "often" videos only; no reputable written BSL handshape description found. Needs video review. | 2026-10-13 |
 | holiday | bsl | Documented 10–12 regional BSL variants for "holiday" (RNID/Action on Hearing Loss "Learning BSL" leaflet) with no standard written form. Needs tutor/video review to pick the most widely taught variant. | 2026-10-13 |
 | personal | asl | No dedicated sign page found on Lifeprint; the concept is conveyed by context or fingerspelling. No verifiable standalone production. | 2026-10-13 |
@@ -189,12 +189,12 @@ Do NOT add these to the dictionary without resolving the noted issue.
 | private | asl | No standard ASL citation sign found on Lifeprint; concept is expressed via SECRET or fingerspelling, with uncertain semantic fit. | 2026-10-13 |
 | sometimes | bsl | SignBSL (Univ. of Bristol / Deaf Studies Trust) lists "sometimes" with video only; no reputable written BSL handshape description found (BrightBSL has no "sometimes" page). Needs video review by a qualified BSL signer. | 2026-10-13 |
 | hot | bsl | SignBSL has "hot" videos only; every written handshape description found was ASL-labelled (claw hand out from the mouth) or from an unreliable source. No reputable written BSL description. Needs video review. | 2026-10-13 |
-| river | bsl | Scottish Sensory Centre BSL geography glossary has a "river" video only; no reputable written BSL handshape description found. Needs video review. | 2026-10-13 |
-| sea | bsl | No reputable written BSL handshape description found (SignBSL video only). Needs video review. | 2026-10-13 |
+| river | bsl | RESOLVED via video pass 2026-10-14 — entry added (batch-v01/v02/v03-bsl-resolutions.md has source URLs) | 2026-10-13 |
+| sea | bsl | RESOLVED via video pass 2026-10-14 — entry added (batch-v01/v02/v03-bsl-resolutions.md has source URLs) | 2026-10-13 |
 | tree | bsl | Only text source found was howtosayguide.com, which is excluded as unreliable (internally contradictory variants, ASL contamination). Needs video review. | 2026-10-13 |
 | beautiful | bsl | Only text source found was howtosayguide.com (excluded as unreliable); other hits were content farms or ASL-labelled. Needs video review. | 2026-10-13 |
 | cool | bsl | SignBSL has "cool" videos only; all written handshape descriptions found were ASL (cool-in-temperature and cool-as-in-trendy variants). No reputable written BSL description. Needs video review. | 2026-10-13 |
-| mountain | bsl | No reputable written BSL handshape description found (SignBSL video only). Needs video review. | 2026-10-13 |
+| mountain | bsl | RESOLVED via video pass 2026-10-14 — entry added (batch-v01/v02/v03-bsl-resolutions.md has source URLs) | 2026-10-13 |
 | forest | bsl | SignBSL lists "forest"/"woodland" with video only; no reputable written BSL handshape description found. Needs video review. | 2026-10-13 |
 | tools | asl | Lifeprint states there is no widely accepted sign for TOOL — the concept is fingerspelled. No verified standalone production for the plural. | 2026-10-13 |
 | reply | asl | Lifeprint has only an empty placeholder page for REPLY; the concept is conveyed via ANSWER/respond or fingerspelling. No dedicated verified production. | 2026-10-13 |
