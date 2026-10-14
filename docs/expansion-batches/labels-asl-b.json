@@ -1,0 +1,1934 @@
+{
+  "additional": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Additional"
+  },
+  "password": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Password"
+  },
+  "hard": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Hard"
+  },
+  "four": {
+    "pos": [
+      "other"
+    ],
+    "word": "Four"
+  },
+  "easy": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Easy"
+  },
+  "building": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Building"
+  },
+  "seller": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Seller"
+  },
+  "offer": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Offer"
+  },
+  "result": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Result"
+  },
+  "groups": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Groups"
+  },
+  "request": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Request"
+  },
+  "picture": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Picture"
+  },
+  "major": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Major"
+  },
+  "future": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Future"
+  },
+  "meeting": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Meeting"
+  },
+  "become": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Become"
+  },
+  "interest": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Interest"
+  },
+  "keep": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Keep"
+  },
+  "enter": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Enter"
+  },
+  "share": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Share"
+  },
+  "similar": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Similar"
+  },
+  "put": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Put"
+  },
+  "popular": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Popular"
+  },
+  "welcome": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Welcome"
+  },
+  "president": {
+    "pos": [
+      "noun"
+    ],
+    "word": "President"
+  },
+  "notice": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Notice"
+  },
+  "head": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Head"
+  },
+  "self": {
+    "pos": [
+      "other"
+    ],
+    "word": "Self"
+  },
+  "discussion": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Discussion"
+  },
+  "once": {
+    "pos": [
+      "other"
+    ],
+    "word": "Once"
+  },
+  "agreement": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Agreement"
+  },
+  "sure": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Sure"
+  },
+  "able": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Able"
+  },
+  "fun": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Fun"
+  },
+  "safety": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Safety"
+  },
+  "past": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Past"
+  },
+  "short": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Short"
+  },
+  "five": {
+    "pos": [
+      "other"
+    ],
+    "word": "Five"
+  },
+  "average": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Average"
+  },
+  "technical": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Technical"
+  },
+  "island": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Island"
+  },
+  "front": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Front"
+  },
+  "ago": {
+    "pos": [
+      "other"
+    ],
+    "word": "Ago"
+  },
+  "adult": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Adult"
+  },
+  "rules": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Rules"
+  },
+  "bill": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Bill"
+  },
+  "either": {
+    "pos": [
+      "other"
+    ],
+    "word": "Either"
+  },
+  "document": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Document"
+  },
+  "downloads": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Downloads"
+  },
+  "final": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Final"
+  },
+  "cheap": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Cheap"
+  },
+  "true": {
+    "pos": [
+      "adj"
+    ],
+    "word": "True"
+  },
+  "bad": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Bad"
+  },
+  "together": {
+    "pos": [
+      "other"
+    ],
+    "word": "Together"
+  },
+  "else": {
+    "pos": [
+      "other"
+    ],
+    "word": "Else"
+  },
+  "individual": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Individual"
+  },
+  "kids": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Kids"
+  },
+  "rock": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Rock"
+  },
+  "fast": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Fast"
+  },
+  "meet": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Meet"
+  },
+  "far": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Far"
+  },
+  "subscribe": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Subscribe"
+  },
+  "heart": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Heart"
+  },
+  "various": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Various"
+  },
+  "weight": {
+    "pos": [
+      "noun",
+      "verb"
+    ],
+    "word": "Weight"
+  },
+  "town": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Town"
+  },
+  "construction": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Construction"
+  },
+  "currently": {
+    "pos": [
+      "other"
+    ],
+    "word": "Currently"
+  },
+  "clear": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Clear"
+  },
+  "chapter": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Chapter"
+  },
+  "loan": {
+    "pos": [
+      "noun",
+      "verb"
+    ],
+    "word": "Loan"
+  },
+  "manager": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Manager"
+  },
+  "half": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Half"
+  },
+  "step": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Step"
+  },
+  "church": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Church"
+  },
+  "none": {
+    "pos": [
+      "other"
+    ],
+    "word": "None"
+  },
+  "practice": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Practice"
+  },
+  "chat": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Chat"
+  },
+  "enough": {
+    "pos": [
+      "other"
+    ],
+    "word": "Enough"
+  },
+  "writing": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Writing"
+  },
+  "speed": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Speed"
+  },
+  "face": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Face"
+  },
+  "oil": {
+    "pos": [
+      "other"
+    ],
+    "word": "Oil"
+  },
+  "bit": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Bit"
+  },
+  "increase": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Increase"
+  },
+  "created": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Created"
+  },
+  "political": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Political"
+  },
+  "stay": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Stay"
+  },
+  "king": {
+    "pos": [
+      "noun"
+    ],
+    "word": "King"
+  },
+  "activity": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Activity"
+  },
+  "copy": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Copy"
+  },
+  "cash": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Cash"
+  },
+  "income": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Income"
+  },
+  "regional": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Regional"
+  },
+  "seen": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Seen"
+  },
+  "started": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Started"
+  },
+  "administration": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Administration"
+  },
+  "exchange": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Exchange"
+  },
+  "continue": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Continue"
+  },
+  "season": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Season"
+  },
+  "someone": {
+    "pos": [
+      "other"
+    ],
+    "word": "Someone"
+  },
+  "apply": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Apply"
+  },
+  "across": {
+    "pos": [
+      "other"
+    ],
+    "word": "Across"
+  },
+  "printer": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Printer"
+  },
+  "anything": {
+    "pos": [
+      "other"
+    ],
+    "word": "Anything"
+  },
+  "lost": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Lost"
+  },
+  "nothing": {
+    "pos": [
+      "other"
+    ],
+    "word": "Nothing"
+  },
+  "rather": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Rather"
+  },
+  "six": {
+    "pos": [
+      "other"
+    ],
+    "word": "Six"
+  },
+  "fine": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Fine"
+  },
+  "advice": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Advice"
+  },
+  "military": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Military"
+  },
+  "clothing": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Clothing"
+  },
+  "necessary": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Necessary"
+  },
+  "decision": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Decision"
+  },
+  "huge": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Huge"
+  },
+  "middle": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Middle"
+  },
+  "sellers": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Sellers"
+  },
+  "taking": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Taking"
+  },
+  "division": {
+    "pos": [
+      "noun",
+      "verb"
+    ],
+    "word": "Division"
+  },
+  "coming": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Coming"
+  },
+  "lesbian": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Lesbian"
+  },
+  "machine": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Machine"
+  },
+  "follow": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Follow"
+  },
+  "christmas": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Christmas"
+  },
+  "choice": {
+    "pos": [
+      "noun",
+      "verb"
+    ],
+    "word": "Choice"
+  },
+  "registration": {
+    "pos": [
+      "noun",
+      "verb"
+    ],
+    "word": "Registration"
+  },
+  "starting": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Starting"
+  },
+  "lead": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Lead"
+  },
+  "airport": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Airport"
+  },
+  "artist": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Artist"
+  },
+  "furniture": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Furniture"
+  },
+  "degree": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Degree"
+  },
+  "button": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Button"
+  },
+  "male": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Male"
+  },
+  "ideas": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Ideas"
+  },
+  "female": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Female"
+  },
+  "responsible": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Responsible"
+  },
+  "associated": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Associated"
+  },
+  "focus": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Focus"
+  },
+  "bed": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Bed"
+  },
+  "numbers": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Numbers"
+  },
+  "tool": {
+    "pos": [
+      "other"
+    ],
+    "word": "Tool"
+  },
+  "comes": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Comes"
+  },
+  "medicine": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Medicine"
+  },
+  "telephone": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Telephone"
+  },
+  "ready": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Ready"
+  },
+  "simply": {
+    "pos": [
+      "other"
+    ],
+    "word": "Simply"
+  },
+  "evidence": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Evidence"
+  },
+  "favorite": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Favorite"
+  },
+  "blood": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Blood"
+  },
+  "hall": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Hall"
+  },
+  "kitchen": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Kitchen"
+  },
+  "transfer": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Transfer"
+  },
+  "strong": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Strong"
+  },
+  "ground": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Ground"
+  },
+  "perfect": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Perfect"
+  },
+  "hair": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Hair"
+  },
+  "wall": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Wall"
+  },
+  "success": {
+    "pos": [
+      "noun",
+      "verb"
+    ],
+    "word": "Success"
+  },
+  "maximum": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Maximum"
+  },
+  "owner": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Owner"
+  },
+  "guides": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Guides"
+  },
+  "restaurants": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Restaurants"
+  },
+  "wine": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Wine"
+  },
+  "flowers": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Flowers"
+  },
+  "stars": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Stars"
+  },
+  "lists": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Lists"
+  },
+  "useful": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Useful"
+  },
+  "rule": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Rule"
+  },
+  "traffic": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Traffic"
+  },
+  "feet": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Feet"
+  },
+  "agent": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Agent"
+  },
+  "senior": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Senior"
+  },
+  "teaching": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Teaching"
+  },
+  "door": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Door"
+  },
+  "testing": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Testing"
+  },
+  "trial": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Trial"
+  },
+  "entire": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Entire"
+  },
+  "metal": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Metal"
+  },
+  "positive": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Positive"
+  },
+  "football": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Football"
+  },
+  "responsibility": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Responsibility"
+  },
+  "guest": {
+    "pos": [
+      "other"
+    ],
+    "word": "Guest"
+  },
+  "seems": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Seems"
+  },
+  "relations": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Relations"
+  },
+  "trust": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Trust"
+  },
+  "session": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Session"
+  },
+  "photography": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Photography"
+  },
+  "vacation": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Vacation"
+  },
+  "century": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Century"
+  },
+  "academic": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Academic"
+  },
+  "assistance": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Assistance"
+  },
+  "behind": {
+    "pos": [
+      "other"
+    ],
+    "word": "Behind"
+  },
+  "floor": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Floor"
+  },
+  "longer": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Longer"
+  },
+  "northern": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Northern"
+  },
+  "pop": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Pop"
+  },
+  "match": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Match"
+  },
+  "ring": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Ring"
+  },
+  "require": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Require"
+  },
+  "dating": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Dating"
+  },
+  "outdoor": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Outdoor"
+  },
+  "protein": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Protein"
+  },
+  "plant": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Plant"
+  },
+  "rest": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Rest"
+  },
+  "eye": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Eye"
+  },
+  "sense": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Sense"
+  },
+  "faculty": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Faculty"
+  },
+  "politics": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Politics"
+  },
+  "partner": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Partner"
+  },
+  "pack": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Pack"
+  },
+  "stage": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Stage"
+  },
+  "recommended": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Recommended"
+  },
+  "race": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Race"
+  },
+  "approved": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Approved"
+  },
+  "background": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Background"
+  },
+  "character": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Character"
+  },
+  "ability": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Ability"
+  },
+  "maybe": {
+    "pos": [
+      "other"
+    ],
+    "word": "Maybe"
+  },
+  "moving": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Moving"
+  },
+  "pretty": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Pretty"
+  },
+  "southern": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Southern"
+  },
+  "yourself": {
+    "pos": [
+      "other"
+    ],
+    "word": "Yourself"
+  },
+  "pressure": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Pressure"
+  },
+  "debt": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Debt"
+  },
+  "wood": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Wood"
+  },
+  "interested": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Interested"
+  },
+  "enjoy": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Enjoy"
+  },
+  "remove": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Remove"
+  },
+  "playing": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Playing"
+  },
+  "fee": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Fee"
+  },
+  "reader": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Reader"
+  },
+  "virtual": {
+    "pos": [
+      "other"
+    ],
+    "word": "Virtual"
+  },
+  "rent": {
+    "pos": [
+      "other"
+    ],
+    "word": "Rent"
+  },
+  "theory": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Theory"
+  },
+  "aid": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Aid"
+  },
+  "minimum": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Minimum"
+  },
+  "fair": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Fair"
+  },
+  "steel": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Steel"
+  },
+  "beginning": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Beginning"
+  },
+  "finally": {
+    "pos": [
+      "other"
+    ],
+    "word": "Finally"
+  },
+  "dead": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Dead"
+  },
+  "respect": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Respect"
+  },
+  "trip": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Trip"
+  },
+  "worth": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Worth"
+  },
+  "procedures": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Procedures"
+  },
+  "poor": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Poor"
+  },
+  "eyes": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Eyes"
+  },
+  "relationship": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Relationship"
+  },
+  "workers": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Workers"
+  },
+  "farm": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Farm"
+  },
+  "peace": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Peace"
+  },
+  "campus": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Campus"
+  },
+  "creative": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Creative"
+  },
+  "coast": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Coast"
+  },
+  "specified": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Specified"
+  },
+  "progress": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Progress"
+  },
+  "grant": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Grant"
+  },
+  "agree": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Agree"
+  },
+  "fiction": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Fiction"
+  },
+  "hear": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Hear"
+  },
+  "interesting": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Interesting"
+  },
+  "ten": {
+    "pos": [
+      "other"
+    ],
+    "word": "Ten"
+  },
+  "careers": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Careers"
+  },
+  "secretary": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Secretary"
+  },
+  "path": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Path"
+  },
+  "begin": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Begin"
+  },
+  "guy": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Guy"
+  },
+  "connect": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Connect"
+  },
+  "basket": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Basket"
+  },
+  "weekly": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Weekly"
+  },
+  "attention": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Attention"
+  },
+  "square": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Square"
+  },
+  "army": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Army"
+  },
+  "allowed": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Allowed"
+  },
+  "correct": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Correct"
+  },
+  "nation": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Nation"
+  },
+  "selling": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Selling"
+  },
+  "lots": {
+    "pos": [
+      "other"
+    ],
+    "word": "Lots"
+  },
+  "seven": {
+    "pos": [
+      "other"
+    ],
+    "word": "Seven"
+  },
+  "older": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Older"
+  },
+  "jump": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Jump"
+  },
+  "monitor": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Monitor"
+  },
+  "minister": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Minister"
+  },
+  "pricing": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Pricing"
+  },
+  "trading": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Trading"
+  },
+  "giving": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Giving"
+  },
+  "ball": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Ball"
+  },
+  "looks": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Looks"
+  },
+  "couple": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Couple"
+  },
+  "ending": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Ending"
+  },
+  "actions": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Actions"
+  },
+  "discuss": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Discuss"
+  },
+  "accept": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Accept"
+  },
+  "goal": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Goal"
+  },
+  "successful": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Successful"
+  },
+  "appear": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Appear"
+  },
+  "emergency": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Emergency"
+  },
+  "determine": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Determine"
+  },
+  "temperature": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Temperature"
+  },
+  "patient": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Patient"
+  },
+  "actual": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Actual"
+  },
+  "difficult": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Difficult"
+  },
+  "village": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Village"
+  },
+  "cultural": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Cultural"
+  },
+  "graduate": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Graduate"
+  },
+  "chair": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Chair"
+  },
+  "bus": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Bus"
+  },
+  "waste": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Waste"
+  },
+  "dictionary": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Dictionary"
+  },
+  "accounting": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Accounting"
+  },
+  "fishing": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Fishing"
+  },
+  "motor": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Motor"
+  },
+  "professor": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Professor"
+  },
+  "install": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Install"
+  },
+  "shirt": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Shirt"
+  },
+  "count": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Count"
+  },
+  "breast": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Breast"
+  },
+  "build": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Build"
+  },
+  "earth": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Earth"
+  }
+}

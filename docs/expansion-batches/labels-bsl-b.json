@@ -1,0 +1,519 @@
+{
+  "see": {
+    "pos": [
+      "verb"
+    ],
+    "word": "See"
+  },
+  "work": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Work"
+  },
+  "think": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Think"
+  },
+  "start": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Start"
+  },
+  "play": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Play"
+  },
+  "run": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Run"
+  },
+  "ask": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Ask"
+  },
+  "choose": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Choose"
+  },
+  "cut": {
+    "pos": [
+      "noun",
+      "verb"
+    ],
+    "word": "Cut"
+  },
+  "day": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Day"
+  },
+  "year": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Year"
+  },
+  "january": {
+    "pos": [
+      "noun"
+    ],
+    "word": "January"
+  },
+  "before": {
+    "pos": [
+      "other"
+    ],
+    "word": "Before"
+  },
+  "today": {
+    "pos": [
+      "other"
+    ],
+    "word": "Today"
+  },
+  "december": {
+    "pos": [
+      "noun"
+    ],
+    "word": "December"
+  },
+  "week": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Week"
+  },
+  "june": {
+    "pos": [
+      "noun"
+    ],
+    "word": "June"
+  },
+  "october": {
+    "pos": [
+      "noun"
+    ],
+    "word": "October"
+  },
+  "march": {
+    "pos": [
+      "noun"
+    ],
+    "word": "March"
+  },
+  "september": {
+    "pos": [
+      "noun"
+    ],
+    "word": "September"
+  },
+  "july": {
+    "pos": [
+      "noun"
+    ],
+    "word": "July"
+  },
+  "again": {
+    "pos": [
+      "other"
+    ],
+    "word": "Again"
+  },
+  "april": {
+    "pos": [
+      "noun"
+    ],
+    "word": "April"
+  },
+  "never": {
+    "pos": [
+      "other"
+    ],
+    "word": "Never"
+  },
+  "august": {
+    "pos": [
+      "noun"
+    ],
+    "word": "August"
+  },
+  "february": {
+    "pos": [
+      "noun"
+    ],
+    "word": "February"
+  },
+  "always": {
+    "pos": [
+      "other"
+    ],
+    "word": "Always"
+  },
+  "early": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Early"
+  },
+  "friday": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Friday"
+  },
+  "later": {
+    "pos": [
+      "other"
+    ],
+    "word": "Later"
+  },
+  "monday": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Monday"
+  },
+  "soon": {
+    "pos": [
+      "other"
+    ],
+    "word": "Soon"
+  },
+  "sunday": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Sunday"
+  },
+  "hour": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Hour"
+  },
+  "tuesday": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Tuesday"
+  },
+  "saturday": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Saturday"
+  },
+  "thursday": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Thursday"
+  },
+  "wednesday": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Wednesday"
+  },
+  "summer": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Summer"
+  },
+  "late": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Late"
+  },
+  "spring": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Spring"
+  },
+  "winter": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Winter"
+  },
+  "minute": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Minute"
+  },
+  "world": {
+    "pos": [
+      "noun"
+    ],
+    "word": "World"
+  },
+  "fire": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Fire"
+  },
+  "dark": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Dark"
+  },
+  "wind": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Wind"
+  },
+  "cold": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Cold"
+  },
+  "home": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Home"
+  },
+  "music": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Music"
+  },
+  "last": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Last"
+  },
+  "next": {
+    "pos": [
+      "other"
+    ],
+    "word": "Next"
+  },
+  "name": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Name"
+  },
+  "me": {
+    "pos": [
+      "other"
+    ],
+    "word": "Me"
+  },
+  "two": {
+    "pos": [
+      "other"
+    ],
+    "word": "Two"
+  },
+  "good": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Good"
+  },
+  "best": {
+    "pos": [
+      "adj"
+    ],
+    "word": "Best"
+  },
+  "history": {
+    "pos": [
+      "noun"
+    ],
+    "word": "History"
+  },
+  "college": {
+    "pos": [
+      "noun"
+    ],
+    "word": "College"
+  },
+  "test": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Test"
+  },
+  "word": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Word"
+  },
+  "answer": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Answer"
+  },
+  "color": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Color"
+  },
+  "buy": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Buy"
+  },
+  "sell": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Sell"
+  },
+  "travel": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Travel"
+  },
+  "get": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Get"
+  },
+  "find": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Find"
+  },
+  "make": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Make"
+  },
+  "open": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Open"
+  },
+  "call": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Call"
+  },
+  "say": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Say"
+  },
+  "pay": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Pay"
+  },
+  "close": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Close"
+  },
+  "remember": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Remember"
+  },
+  "build": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Build"
+  },
+  "win": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Win"
+  },
+  "hold": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Hold"
+  },
+  "dance": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Dance"
+  },
+  "stand": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Stand"
+  },
+  "clean": {
+    "pos": [
+      "verb"
+    ],
+    "word": "Clean"
+  },
+  "after": {
+    "pos": [
+      "other"
+    ],
+    "word": "After"
+  },
+  "month": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Month"
+  },
+  "river": {
+    "pos": [
+      "noun"
+    ],
+    "word": "River"
+  },
+  "sea": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Sea"
+  },
+  "mountain": {
+    "pos": [
+      "noun"
+    ],
+    "word": "Mountain"
+  }
+}
