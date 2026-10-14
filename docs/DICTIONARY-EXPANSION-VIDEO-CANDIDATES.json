@@ -1,0 +1,232 @@
+[
+ {
+  "word": "story",
+  "lang": "asl",
+  "reason": "Lifeprint story page has no text description of the movement (video only); no other reputable text source describing the ASL STORY sign found."
+ },
+ {
+  "word": "build",
+  "lang": "asl",
+  "reason": "No Lifeprint text description; dictionary descriptions paywalled; video-only sources without text cross-check."
+ },
+ {
+  "word": "hold",
+  "lang": "asl",
+  "reason": "No reputable text description found; meaning-dependent (hold object vs. hold-on/wait)."
+ },
+ {
+  "word": "history",
+  "lang": "bsl",
+  "reason": "BSL SignBank attests the sign but no reputable source gives a text description of the production (handshape/location/movement)."
+ },
+ {
+  "word": "college",
+  "lang": "bsl",
+  "reason": "No reputable BSL text description of the production found."
+ },
+ {
+  "word": "test",
+  "lang": "bsl",
+  "reason": "BSL SignBank attests TEST but gives no text production description; no other reputable text source."
+ },
+ {
+  "word": "study",
+  "lang": "bsl",
+  "reason": "BSL SignBank lists four regional variants with no text descriptions \u2014 conflict unresolvable without guessing."
+ },
+ {
+  "word": "word",
+  "lang": "bsl",
+  "reason": "No reputable BSL text description of the production found."
+ },
+ {
+  "word": "answer",
+  "lang": "bsl",
+  "reason": "No reputable BSL text description of the production found."
+ },
+ {
+  "word": "lake",
+  "lang": "asl",
+  "reason": "Lifeprint lake page empty; only a classifier production on video, no text description of the lexical sign."
+ },
+ {
+  "word": "color",
+  "lang": "bsl",
+  "reason": "SignBank/signbsl attest via video only; no text description of the production."
+ },
+ {
+  "word": "earth",
+  "lang": "asl",
+  "reason": "handspeak video-only; Lifeprint glosses without production description; only SEO-spam mirrors otherwise."
+ },
+ {
+  "word": "buy",
+  "lang": "bsl",
+  "reason": "Video-only (Commanding Hands YouTube); no reputable textual BSL description."
+ },
+ {
+  "word": "sell",
+  "lang": "bsl",
+  "reason": "Video-only (Commanding Hands YouTube); no reputable textual BSL description."
+ },
+ {
+  "word": "travel",
+  "lang": "bsl",
+  "reason": "Video-only (BSL SignBank, signbsl/University of Bristol)."
+ },
+ {
+  "word": "use",
+  "lang": "bsl",
+  "reason": "No text dictionary carries it; SignBank/signbsl video-only."
+ },
+ {
+  "word": "get",
+  "lang": "bsl",
+  "reason": "No text dictionary carries it; SignBank/signbsl video-only."
+ },
+ {
+  "word": "find",
+  "lang": "bsl",
+  "reason": "No text dictionary carries it; SignBank/signbsl video-only."
+ },
+ {
+  "word": "make",
+  "lang": "bsl",
+  "reason": "No text dictionary carries it; SignBank/signbsl video-only."
+ },
+ {
+  "word": "open",
+  "lang": "bsl",
+  "reason": "No text dictionary carries it; SignBank/signbsl video-only."
+ },
+ {
+  "word": "call",
+  "lang": "bsl",
+  "reason": "No text dictionary carries it; SignBank/signbsl video-only."
+ },
+ {
+  "word": "say",
+  "lang": "bsl",
+  "reason": "No text dictionary carries it; SignBank/signbsl video-only."
+ },
+ {
+  "word": "pay",
+  "lang": "bsl",
+  "reason": "No text dictionary carries it; SignBank/signbsl video-only."
+ },
+ {
+  "word": "look",
+  "lang": "bsl",
+  "reason": "No textual source distinguishes LOOK's production from SEE; refused to guess."
+ },
+ {
+  "word": "try",
+  "lang": "bsl",
+  "reason": "BSL SignBank/signbsl attest TRY via video only (SignStation try, try-2); british-sign.co.uk and brightbsl.co.uk carry no text description of the production."
+ },
+ {
+  "word": "tell",
+  "lang": "bsl",
+  "reason": "Video-only attestation (SignStation tell, signmonkey, gpnhs); no textual BSL description found; the glossed sense (\"direct with authority\") also suggests an agreement-verb construction with no fixed citation form."
+ },
+ {
+  "word": "close",
+  "lang": "bsl",
+  "reason": "Video-only attestation (SignStation close, close-2); neither british-sign.co.uk nor brightbsl.co.uk gives a text description of the production."
+ },
+ {
+  "word": "drive",
+  "lang": "bsl",
+  "reason": "BSL linguistics literature (The Linguistics of BSL) confirms DRIVE inflects for manner/direction (e.g. DRIVE-CASUALLY-FOR-A-LONG-TIME) with placement \u2014 no fixed citation form; no textual dictionary description found."
+ },
+ {
+  "word": "talk",
+  "lang": "bsl",
+  "reason": "Video-only attestation (Nathanael Farley, Kerri Sims); no reputable BSL text source describes the production."
+ },
+ {
+  "word": "remember",
+  "lang": "bsl",
+  "reason": "No textual BSL description found in any consulted source; british-sign.co.uk and brightbsl.co.uk have no entry, and BSL SignBank/signbsl are video-only."
+ },
+ {
+  "word": "build",
+  "lang": "bsl",
+  "reason": "No textual BSL description found in any consulted source; british-sign.co.uk and brightbsl.co.uk have no entry, and BSL SignBank/signbsl are video-only."
+ },
+ {
+  "word": "believe",
+  "lang": "bsl",
+  "reason": "No textual BSL description found in any consulted source; british-sign.co.uk and brightbsl.co.uk have no entry, and BSL SignBank/signbsl are video-only."
+ },
+ {
+  "word": "wish",
+  "lang": "bsl",
+  "reason": "No textual BSL description found in any consulted source; british-sign.co.uk and brightbsl.co.uk have no entry, and BSL SignBank/signbsl are video-only."
+ },
+ {
+  "word": "win",
+  "lang": "bsl",
+  "reason": "No textual BSL description found in any consulted source; british-sign.co.uk and brightbsl.co.uk have no entry, and BSL SignBank/signbsl are video-only."
+ },
+ {
+  "word": "hold",
+  "lang": "bsl",
+  "reason": "No textual BSL description found in any consulted source; british-sign.co.uk and brightbsl.co.uk have no entry, and BSL SignBank/signbsl are video-only."
+ },
+ {
+  "word": "bring",
+  "lang": "bsl",
+  "reason": "Likely a directional/agreement verb in BSL (bring X to person); no textual BSL description of a fixed citation form found."
+ },
+ {
+  "word": "dance",
+  "lang": "bsl",
+  "reason": "No textual BSL description found in any consulted source; british-sign.co.uk and brightbsl.co.uk have no entry, and BSL SignBank/signbsl are video-only."
+ },
+ {
+  "word": "stand",
+  "lang": "bsl",
+  "reason": "No textual BSL description found in any consulted source; british-sign.co.uk and brightbsl.co.uk have no entry, and BSL SignBank/signbsl are video-only."
+ },
+ {
+  "word": "clean",
+  "lang": "bsl",
+  "reason": "No textual BSL description found in any consulted source; british-sign.co.uk and brightbsl.co.uk have no entry, and BSL SignBank/signbsl are video-only."
+ },
+ {
+  "word": "after",
+  "lang": "bsl",
+  "reason": "No textual BSL description found from a reputable source (SignBSL has a video only; british-sign.co.uk and BrightBSL have no \"after\" page). Needs video review by a qualified BSL signer before an entry can be written."
+ },
+ {
+  "word": "month",
+  "lang": "bsl",
+  "reason": "SignBSL lists \"month\" but with video only; no reputable written BSL handshape description found. Needs video review."
+ },
+ {
+  "word": "sometimes",
+  "lang": "bsl",
+  "reason": "SignBSL (Univ. of Bristol / Deaf Studies Trust) lists \"sometimes\" with video only; no reputable written BSL handshape description found (BrightBSL has no \"sometimes\" page). Needs video review by a qualified BSL signer."
+ },
+ {
+  "word": "river",
+  "lang": "bsl",
+  "reason": "Scottish Sensory Centre BSL geography glossary has a \"river\" video only; no reputable written BSL handshape description found. Needs video review."
+ },
+ {
+  "word": "sea",
+  "lang": "bsl",
+  "reason": "No reputable written BSL handshape description found (SignBSL video only). Needs video review."
+ },
+ {
+  "word": "mountain",
+  "lang": "bsl",
+  "reason": "No reputable written BSL handshape description found (SignBSL video only). Needs video review."
+ },
+ {
+  "word": "forest",
+  "lang": "bsl",
+  "reason": "SignBSL lists \"forest\"/\"woodland\" with video only; no reputable written BSL handshape description found. Needs video review."
+ }
+]
