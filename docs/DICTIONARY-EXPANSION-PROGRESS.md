@@ -47,3 +47,8 @@
 | 025 | asl | 12 (llc→rd; 20 skipped as NEEDS-REVIEW — clean word list exhausted 1625/1625) | ✅ merged, validated, typecheck+build clean (802 pages), spot-check passed, deployed, live verified | see push | ASL 640 / BSL 144 |
 
 > **BSL stretch goal — PAUSED after batch 008.** BSL grew 47 → 144 (3×). Further BSL batches on abstract vocabulary yield ~2/25 with repeat skip patterns; BSL text sources for this tier are exhausted. All worker capacity now goes to the priority target: ASL 1000+.
+
+## Inflectional-variants pass (2026-10-14)
+| Batch | Lang | Words | Result | Live count |
+|-------|------|-------|--------|------------|
+| infl-bsl-01+02 | bsl | +162 | validator OK, build 995pp, PUSH OK, deploy 94ac5124, live 335 verified | BSL 173→335 |

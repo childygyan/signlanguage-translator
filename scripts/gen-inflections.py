@@ -27,6 +27,7 @@ DENYLIST = {
     "oxen", "better", "best", "worse", "worst", "less", "least", "more",
     "most", "left",  # direction vs past-of-leave
     "saw",  # kept OUT by default: tool-noun ambiguity; reviewer may allow
+    "seed",  # not the past of "see" (which is "saw", denylisted)
 }
 
 # Curated irregular past tense -> base verb. Only used when the base verb is
@@ -66,12 +67,17 @@ def plural(word: str) -> str | None:
 
 # Common CVC verbs where the final consonant doubles before -ing/-ed
 # (run -> running). Curated to avoid false doubling (visit -> visiting).
+# "cut" excluded: its past is "cut" (no -ed form exists).
 DOUBLING_VERBS = {
-    "run", "swim", "get", "sit", "cut", "hit", "plan", "stop", "drop",
+    "run", "swim", "get", "sit", "hit", "plan", "stop", "drop",
     "shop", "chat", "clap", "grab", "hug", "jog", "nod", "pat", "rub",
     "ship", "skip", "slip", "snap", "spin", "spot", "step", "stir",
     "tap", "trap", "trip", "wrap", "beg", "dig", "drag", "grin",
 }
+
+# Bases with an irregular past: never generate the regular -ed for these
+# (the IRREGULAR_PAST map supplies the correct form instead).
+IRREGULAR_BASES = set(IRREGULAR_PAST.values())
 
 
 def verb_forms(word: str) -> list[str]:
@@ -82,17 +88,22 @@ def verb_forms(word: str) -> list[str]:
         forms.append(third)
     if w in DOUBLING_VERBS:
         forms.append(w + w[-1] + "ing")
-        forms.append(w + w[-1] + "ed")
+        if w not in IRREGULAR_BASES:
+            forms.append(w + w[-1] + "ed")
         return [f for f in forms if f not in DENYLIST]
-    # -ing: drop silent e, else +ing (skip consonant-doubling cases)
+    # -ing: drop silent e, else +ing (skip consonant-doubling cases).
+    # "y" counts as a vowel for the CVC check (play -> playing, not *playying).
+    cvc = r"[^aeiouy][aeiou][^aeiouy]$"
     if re.search(r"[^aeiou]e$", w) and not w.endswith("ee"):
         forms.append(w[:-1] + "ing")
-    elif not re.search(r"[^aeiou][aeiou][^aeiou]$", w):
+    elif not re.search(cvc, w):
         forms.append(w + "ing")
-    # -ed: drop silent e, else +ed (regular only)
-    if w.endswith("e"):
+    # -ed: drop silent e, else +ed (regular only; irregular bases use the map)
+    if w in IRREGULAR_BASES:
+        pass
+    elif w.endswith("e"):
         forms.append(w + "d")
-    elif not re.search(r"[^aeiou][aeiou][^aeiou]$", w):
+    elif not re.search(cvc, w):
         forms.append(w + "ed")
     return [f for f in forms if f not in DENYLIST]
 

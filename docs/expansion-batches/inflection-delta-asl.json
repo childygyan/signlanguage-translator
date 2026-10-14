@@ -1,0 +1,142 @@
+[
+ {
+  "slug": "buying",
+  "word": "Buying",
+  "category": "basics",
+  "steps": [
+   "Touch your dominant thumb to your fingertips to make a flattened O handshape.",
+   "Hold your non-dominant hand flat in front of you, palm facing up.",
+   "Set the flattened O onto the open palm, then slide it forward and off the hand.",
+   "Keep the moving hand's palm angled down as it brushes along and leaves the base palm.",
+   "Face the direction of the seller, since the forward motion shows money changing hands."
+  ],
+  "tip": "\u201cBuying\u201d is signed with the base BUY sign \u2014 ASL/BSL marks ongoing action on the sign, not with a separate word.",
+  "related": [
+   "sell",
+   "pay",
+   "food"
+  ],
+  "base_slug": "buy",
+  "inflection_kind": "progressive"
+ },
+ {
+  "slug": "enjoyed",
+  "word": "Enjoyed",
+  "category": "feelings",
+  "steps": [
+   "Shape both hands into flat open hands with fingertips together, like the starting position of the PLEASE sign.",
+   "Place your right flat hand on your upper chest and your left flat hand on your belly, an inch or two out from your body.",
+   "Circle both hands at the same time in opposite directions, with the right hand looping clockwise and the left hand counterclockwise.",
+   "Angle your palms inward toward your torso so the fingertips of each hand point toward the other hand.",
+   "Wear a warm, content smile while signing, since the sign conveys pleasure and delight."
+  ],
+  "tip": "Past form of \u201cEnjoy\u201d \u2014 signed with the base sign; time is shown separately, not on the verb.",
+  "related": [
+   "feel",
+   "happy",
+   "love"
+  ],
+  "base_slug": "enjoy",
+  "inflection_kind": "past"
+ },
+ {
+  "slug": "enjoying",
+  "word": "Enjoying",
+  "category": "feelings",
+  "steps": [
+   "Shape both hands into flat open hands with fingertips together, like the starting position of the PLEASE sign.",
+   "Place your right flat hand on your upper chest and your left flat hand on your belly, an inch or two out from your body.",
+   "Circle both hands at the same time in opposite directions, with the right hand looping clockwise and the left hand counterclockwise.",
+   "Angle your palms inward toward your torso so the fingertips of each hand point toward the other hand.",
+   "Wear a warm, content smile while signing, since the sign conveys pleasure and delight."
+  ],
+  "tip": "\u201cEnjoying\u201d is signed with the base ENJOY sign \u2014 ASL/BSL marks ongoing action on the sign, not with a separate word.",
+  "related": [
+   "feel",
+   "happy",
+   "love"
+  ],
+  "base_slug": "enjoy",
+  "inflection_kind": "progressive"
+ },
+ {
+  "slug": "paying",
+  "word": "Paying",
+  "category": "basics",
+  "steps": [
+   "Hold your non-dominant hand flat in front of you with the palm facing up.",
+   "Touch the tip of your dominant index finger to the center of the open palm.",
+   "Flick the index finger forward off the palm toward the person being paid.",
+   "Keep the moving finger's palm facing sideways during the flick.",
+   "Aim the flick at the recipient and keep your expression matter-of-fact."
+  ],
+  "tip": "\u201cPaying\u201d is signed with the base PAY sign \u2014 ASL/BSL marks ongoing action on the sign, not with a separate word.",
+  "related": [
+   "buy",
+   "sell",
+   "give"
+  ],
+  "base_slug": "pay",
+  "inflection_kind": "progressive"
+ },
+ {
+  "slug": "played",
+  "word": "Played",
+  "category": "basics",
+  "steps": [
+   "Make Y handshapes with both hands, thumbs and pinkies extended.",
+   "Hold both Y-hands in front of your chest, a few inches apart.",
+   "Twist both wrists back and forth in a playful alternating shake.",
+   "Keep the palms facing toward each other through the whole shake.",
+   "Smile and look lively, since PLAY always carries a fun feeling."
+  ],
+  "tip": "Past form of \u201cPlay\u201d \u2014 signed with the base sign; time is shown separately, not on the verb.",
+  "related": [
+   "happy",
+   "run",
+   "dog"
+  ],
+  "base_slug": "play",
+  "inflection_kind": "past"
+ },
+ {
+  "slug": "stayed",
+  "word": "Stayed",
+  "category": "everyday",
+  "steps": [
+   "Form a Y-handshape with your dominant hand by stretching your thumb and pinkie wide while folding the middle fingers down.",
+   "Raise the hand to chest height in front of you with the palm facing down.",
+   "Press the hand firmly downward in one short, decisive stroke, as if pinning something in place.",
+   "Hold the Y-handshape rigid the whole time, keeping the thumb and pinkie fully extended.",
+   "Repeat the downward press with both hands together when you want extra emphasis.",
+   "Keep a firm, settled expression \u2014 this is a command to hold position, not a question."
+  ],
+  "tip": "Past form of \u201cStay\u201d \u2014 signed with the base sign; time is shown separately, not on the verb.",
+  "related": [
+   "home",
+   "stop"
+  ],
+  "base_slug": "stay",
+  "inflection_kind": "past"
+ },
+ {
+  "slug": "staying",
+  "word": "Staying",
+  "category": "everyday",
+  "steps": [
+   "Form a Y-handshape with your dominant hand by stretching your thumb and pinkie wide while folding the middle fingers down.",
+   "Raise the hand to chest height in front of you with the palm facing down.",
+   "Press the hand firmly downward in one short, decisive stroke, as if pinning something in place.",
+   "Hold the Y-handshape rigid the whole time, keeping the thumb and pinkie fully extended.",
+   "Repeat the downward press with both hands together when you want extra emphasis.",
+   "Keep a firm, settled expression \u2014 this is a command to hold position, not a question."
+  ],
+  "tip": "\u201cStaying\u201d is signed with the base STAY sign \u2014 ASL/BSL marks ongoing action on the sign, not with a separate word.",
+  "related": [
+   "home",
+   "stop"
+  ],
+  "base_slug": "stay",
+  "inflection_kind": "progressive"
+ }
+]
