@@ -76,20 +76,7 @@ export interface QueuedArticle {
 }
 
 export const QUEUE: QueuedArticle[] = [
-  {
-    slug: "bsl-numbers-1-to-5",
-    title: "BSL Numbers 1 to 5: How to Count on Your Fingers",
-    description:
-      "Learn the BSL number signs 1–5 with clear handshape descriptions, how they differ from ASL numbers, and why 0 and 6–10 vary by region.",
-    datePublished: "2026-10-14",
-  },
-  {
-    slug: "how-to-sign-how-are-you-everyday-phrases",
-    title: "How to Sign \u2018How Are You?\u2019 + 10 Everyday ASL & BSL Phrases",
-    description:
-      "Learn to sign \u2018How are you?\u2019 in ASL and BSL, plus 10 everyday phrases for greetings, politeness and small talk \u2014 each linked to step-by-step sign guides.",
-    datePublished: "2026-10-15",
-  },
+  
   {
     slug: "facial-expressions-in-sign-language",
     title: "Facial Expressions in Sign Language: Your Face Is Grammar (ASL & BSL)",

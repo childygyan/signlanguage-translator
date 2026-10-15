@@ -52,3 +52,5 @@
 | Batch | Lang | Words | Result | Live count |
 |-------|------|-------|--------|------------|
 | infl-bsl-01+02 | bsl | +162 | validator OK, build 995pp, PUSH OK, deploy 94ac5124, live 335 verified | BSL 173→335 |
+| infl-asl-01..05 | asl | +479 | 478 approved -6 invalid +7 delta; validator OK; build 1474pp; PUSH OK; deploy 741300eb; live 1121 verified | ASL 642→1121 |
+| infl-bsl-03 | bsl | +5 | delta (fixed generator); validator OK; build 1479pp; PUSH OK; deploy 04b218ad; live 340 verified | BSL 335→340 |
