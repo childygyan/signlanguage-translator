@@ -78,13 +78,6 @@ export interface QueuedArticle {
 export const QUEUE: QueuedArticle[] = [
   
   {
-    slug: "facial-expressions-in-sign-language",
-    title: "Facial Expressions in Sign Language: Your Face Is Grammar (ASL & BSL)",
-    description:
-      "In ASL and BSL your face carries meaning — questions, negation, and intensity all live in facial expressions. What beginners must learn beyond the hands.",
-    datePublished: "2026-10-16",
-  },
-  {
     slug: "how-to-sign-thank-you-sorry-please",
     title: "How to Sign Thank You, Sorry and Please (ASL & BSL)",
     description:
