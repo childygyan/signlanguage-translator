@@ -78,13 +78,6 @@ export interface QueuedArticle {
 export const QUEUE: QueuedArticle[] = [
   
   {
-    slug: "how-to-sign-thank-you-sorry-please",
-    title: "How to Sign Thank You, Sorry and Please (ASL & BSL)",
-    description:
-      "The three politeness signs every learner needs in both ASL and BSL — step-by-step instructions, the shared BSL please/thank-you form, and when to use each.",
-    datePublished: "2026-10-17",
-  },
-  {
     slug: "fingerspelling-tips-for-beginners",
     title: "Fingerspelling Tips for Beginners (Including Double Letters)",
     description:
