@@ -76,14 +76,6 @@ export interface QueuedArticle {
 }
 
 export const QUEUE: QueuedArticle[] = [
-  
-  {
-    slug: "fingerspelling-tips-for-beginners",
-    title: "Fingerspelling Tips for Beginners (Including Double Letters)",
-    description:
-      "Seven practical rules for clear fingerspelling in ASL and BSL: rhythm, hand position, double letters, when to fingerspell at all — and the mistakes to avoid.",
-    datePublished: "2026-10-18",
-  },
   {
     slug: "is-sign-language-universal",
     title: "Is Sign Language Universal? ASL, BSL and 300+ Sign Languages",
