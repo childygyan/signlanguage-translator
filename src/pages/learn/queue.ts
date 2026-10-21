@@ -77,24 +77,17 @@ export interface QueuedArticle {
 
 export const QUEUE: QueuedArticle[] = [
   {
-    slug: "is-sign-language-universal",
-    title: "Is Sign Language Universal? ASL, BSL and 300+ Sign Languages",
-    description:
-      "No — there is no single universal sign language. How ASL, BSL and 300+ other sign languages relate, why they differ, and what that means for learners.",
-    datePublished: "2026-10-19",
-  },
-  {
     slug: "asl-numbers-0-to-10",
     title: "ASL Numbers 0\u201310: How to Count on Your Fingers",
     description:
       "Learn ASL numbers 0 to 10 with clear handshape descriptions and images: how to count on your fingers, how ASL numbers differ from BSL, and practice tips.",
-    datePublished: "2026-10-20",
+    datePublished: "2026-10-24",
   },
   {
     slug: "asl-beginner-learning-roadmap",
     title: "Your First 30 Days Learning ASL: A Beginner Roadmap",
     description:
       "A practical 30-day plan for ASL beginners: what to learn each week, which signs first, how to practise daily, and when to find a Deaf instructor.",
-    datePublished: "2026-10-21",
+    datePublished: "2026-10-27",
   },
 ];
