@@ -77,13 +77,6 @@ export interface QueuedArticle {
 
 export const QUEUE: QueuedArticle[] = [
   {
-    slug: "asl-numbers-0-to-10",
-    title: "ASL Numbers 0\u201310: How to Count on Your Fingers",
-    description:
-      "Learn ASL numbers 0 to 10 with clear handshape descriptions and images: how to count on your fingers, how ASL numbers differ from BSL, and practice tips.",
-    datePublished: "2026-10-24",
-  },
-  {
     slug: "asl-beginner-learning-roadmap",
     title: "Your First 30 Days Learning ASL: A Beginner Roadmap",
     description:
