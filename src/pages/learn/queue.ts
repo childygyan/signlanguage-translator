@@ -75,12 +75,4 @@ export interface QueuedArticle {
   datePublished: string; // YYYY-MM-DD, honest publish day
 }
 
-export const QUEUE: QueuedArticle[] = [
-  {
-    slug: "asl-beginner-learning-roadmap",
-    title: "Your First 30 Days Learning ASL: A Beginner Roadmap",
-    description:
-      "A practical 30-day plan for ASL beginners: what to learn each week, which signs first, how to practise daily, and when to find a Deaf instructor.",
-    datePublished: "2026-10-27",
-  },
-];
+export const QUEUE: QueuedArticle[] = [];
